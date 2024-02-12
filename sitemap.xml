@@ -1,0 +1,5670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  
+    
+    
+  
+
+  
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/access-management-terminology-unified.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-terminology.html</loc>
+        
+      
+      <lastmod>2022-08-26T15:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-tokens-create.html</loc>
+        
+      
+      <lastmod>2022-08-31T15:26:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-tokens-edit.html</loc>
+        
+      
+      <lastmod>2022-08-31T15:26:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-tokens-revoke.html</loc>
+        
+      
+      <lastmod>2022-08-31T15:26:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-tokens.html</loc>
+        
+      
+      <lastmod>2022-08-31T15:26:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/access-management-with-directory-services-unified.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-with-directory-services.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/access-management-with-local-user-roles-unified.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-with-local-user-roles.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/access-management-with-saml.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/access-management-with-saml.html</loc>
+        
+      
+      <lastmod>2023-06-16T18:46:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/san-getstarted/access-sam.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/access-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/actions-you-can-perform-on-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/activate-controller-software-and-firmware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/activate-or-suspend-snapshot-schedule.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/activate-pending-firmware.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-alert-email-addresses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/add-capacity-to-a-pool-or-volume-group.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-community-names-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/add-directory-server-unified.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-directory-server.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/add-member-volumes-to-a-snapshot-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-on-feature-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-syslog-servers-for-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/add-to-workload.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-trap-destinations-for-snmp-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/add-user-names-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/administrator-password-protection-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/administrator-password-protection.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/alerts-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/allow-remote-login.html</loc>
+        
+      
+      <lastmod>2022-10-11T17:14:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/assign-hot-spares-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/assign-hot-spares-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/assign-volumes.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/asynchronous-mirror-status.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/asynchronous-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/automatic-load-balancing-overview.html</loc>
+        
+      
+      <lastmod>2022-05-09T12:11:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/automatic-versus-manual-host-creation.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/automatic-versus-manual-pool-creation.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/autosupport-feature-overview.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/back-up-security-key.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/cache-settings-and-performance.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/cancel-pending-snapshot-image.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/cancel-snapshot-image-rollback.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/capacity-for-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/capacity-terminology.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/certificate-terminology-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/certificate-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/change-admin-password-unified.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-allocated-capacity-limit-for-a-thin-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-cache-settings-for-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-cache-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-configuration-settings-for-a-pool.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-configuration-settings-for-a-volume-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-controller-ownership-of-a-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-default-host-type.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-host-port-identifiers-for-a-host.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/change-local-user-passwords-settings-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-local-user-passwords-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-media-scan-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/change-mirror-consistency-group-role-to-primary-or-secondary.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/change-passwords-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-passwords.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/change-role-between-volumes-in-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-saml-role-mappings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/change-saml-role-mappings.html</loc>
+        
+      
+      <lastmod>2023-05-11T16:53:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/change-security-key.html</loc>
+        
+      
+      <lastmod>2022-05-09T11:57:15+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-settings-for-a-volume.html</loc>
+        
+      
+      <lastmod>2023-06-16T18:46:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/change-shelf-ids.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-ssd-cache-settings.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/change-storage-array-passwords.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/change-synchronization-settings-for-a-mirror-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/change-synchronization-settings-for-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-reserved-capacity-settings-for-a-consistency-group-member-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-reserved-capacity-settings-for-a-mirrored-pair-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-group.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-reserved-capacity-settings-for-a-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-settings-for-a-host-cluster.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-settings-for-a-host.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-settings-for-a-snapshot-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-settings-for-a-snapshot-schedule.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-the-settings-for-a-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/change-view-order-of-shelves.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/change-workload-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/check-volume-redundancy.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/clear-staged-os-software.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/clear-storage-array-configuration.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/collect-configuration-data.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/collect-i-o-path-statistics.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/collect-support-data-manually.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/comparison-between-thick-volumes-and-thin-volumes.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/complete-mirrored-pair-for-primary-volumes-created-on-legacy-system.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/configure-autosupport-delivery-method.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-dns-server-addresses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-iscsi-authentication.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-iscsi-ports-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-iscsi-ports-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-iser-over-infiniband-ports-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-iser-over-infiniband-ports-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-login-banner.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-mail-server-and-recipients-for-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-management-ports.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-ntp-server-addresses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-nvme-over-infiniband-ports-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-nvme-over-infiniband-ports-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/configure-nvme-over-roce-ports-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-nvme-over-roce-ports-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-saml.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/configure-saml.html</loc>
+        
+      
+      <lastmod>2023-05-12T14:16:29+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-snmp-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-snmp-mib-variables.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-alerts.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/configure-syslog-server-for-audit-logs.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/considerations-for-assigning-ip-addresses.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/considerations-for-discovering-arrays.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/consolidate-volume-group-free-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/controller-states.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/convert-a-snapshot-volume-to-read-write-mode.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/copy-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/copy-volume-function.html</loc>
+        
+      
+      <lastmod>2023-06-16T18:55:31+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/copy-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/create-asynchronous-mirrored-pair-um.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-external-security-key.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-host-automatically.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-host-cluster.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-host-manually.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/create-internal-security-key.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-pool-automatically.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-pool-manually.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-snapshot-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-snapshot-image.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-ssd-cache.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/create-storage-array-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/create-synchronous-mirrored-pair-um.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-volume-group.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-volumes.html</loc>
+        
+      
+      <lastmod>2022-05-09T17:23:50+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/create-workloads.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/data-integrity-and-data-security-for-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/deactivate-asynchronous-mirroring.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/deactivate-synchronous-mirroring.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/decide-to-use-a-pool-or-volume-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/decrease-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/default-host-operating-system-type.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/define-log-policies.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/delete-alert-email-addresses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/delete-events-from-the-audit-log.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-host-or-host-cluster.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/delete-mirror-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-pool-or-volume-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-snapshot-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-snapshot-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-snapshot-image.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-snapshot-schedule.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/delete-storage-array-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/delete-syslog-servers-for-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/delete-trap-destinations.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/delete-trusted-certificates-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/delete-trusted-certificates.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/delete-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/disable-autosupport-maintenance-window.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/disable-resource-provisioning-on-existing-volumes.html</loc>
+        
+      
+      <lastmod>2022-05-11T21:16:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/disable-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/discover-multiple-arrays.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/discover-single-array.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/download-cli.html</loc>
+        
+      
+      <lastmod>2022-10-11T17:14:38+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/drive-security-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/drive-states.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/early-versions.html</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-alert-email-addresses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-community-names-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/edit-directory-server-settings-unified.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-directory-server-settings.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-key-management-server-settings.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-mail-server-for-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-storage-array-name.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-syslog-server-settings-for-audit-log-records.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-syslog-servers-for-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/edit-user-names-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/enable-autosupport-maintenance-window.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-certificate-revocation-checking.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-feature-pack.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-iscsi-discovery-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/enable-or-disable-autosupport-features.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-or-disable-legacy-management-interface.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-or-disable-resource-provisioning-for-new-volumes.html</loc>
+        
+      
+      <lastmod>2022-05-11T21:16:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/enable-premium-feature.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/enable-security.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/end-iscsi-session-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/end-iscsi-session-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/erase-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/export-certificates-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/export-import-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/export-key-management-certificates.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/export-saml-service-provider-files.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/export-saml-service-provider-files.html</loc>
+        
+      
+      <lastmod>2023-05-11T16:53:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/fail-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/hardware-page-overview.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/hardware-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/home-page.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/host-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/hot-spare-drives.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/how-access-management-works-unified.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-access-management-works.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-add-on-features-work.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-alerts-work.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/how-asynchronous-mirroring-works.html</loc>
+        
+      
+      <lastmod>2023-04-17T13:37:59+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-certificates-work-sam.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/how-certificates-work-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/how-do-i-configure-my-dhcp-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-i-create-chap-secrets.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-i-match-the-host-ports-to-a-host.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-does-my-selected-workload-impact-volume-creation.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-does-providing-this-information-help-create-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/how-import-settings-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-pools-and-volume-groups-work.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-reserved-capacity-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-security-key-management-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-snapshot-storage-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-ssd-cache-works.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/how-synchronous-mirroring-works.html</loc>
+        
+      
+      <lastmod>2023-04-17T13:37:59+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/how-the-drive-security-feature-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/how-upgrades-work.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-volumes-are-assigned-to-hosts-and-host-clusters.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-volumes-work.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/how-workloads-work.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/import-alert-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/import-array-certificates-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/import-autosupport-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/import-directory-services-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/import-storage-configuration-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/import-system-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/import-trusted-certificates-for-controllers-acting-as-client.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/increase-capacity-of-a-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/increase-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/increase-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/system-manager/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/unified-manager/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/</loc>
+        
+      
+      <lastmod>2023-01-03T19:30:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/</loc>
+        
+      
+      <lastmod>2024-02-09T15:11:39+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/initialize-format-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/initialize-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/san-getstarted/install-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/interpret-performance-data.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/known-issues.html</loc>
+        
+      
+      <lastmod>2023-07-27T19:13:37+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/launch-considerations.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/launch-system-manager.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/legal-notices.html</loc>
+        
+      
+      <lastmod>2023-07-28T19:41:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/limit-the-drive-view.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/san-getstarted/login-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/manage-application-workloads.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/manage-repository.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/manage-session-timeouts-sam.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/manage-session-timeouts-unified.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/maximum-number-of-luns.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/mirroring-configuration-workflow.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/mirroring-overview.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/mirroring-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/monitor-thin-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/nvme-overview.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/obtain-a-feature-key-file.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/operations-in-progress.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/overview-access-management-um.html</loc>
+        
+      
+      <lastmod>2023-05-11T16:53:08+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-access-management.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-alerts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/overview-certificates-um.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-certificates.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-drive-security.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/overview-event-log.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/overview-hardware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-hosts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/overview-import-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/overview-interface-sam.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/overview-interface-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/overview-manage-groups.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/overview-mirroring-async.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/overview-mirroring-sync.html</loc>
+        
+      
+      <lastmod>2022-06-20T14:27:55+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/overview-mirroring-um.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-performance.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-pools-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-remote-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/overview-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-snapshots.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/overview-storage-arrays.html</loc>
+        
+      
+      <lastmod>2022-05-27T13:04:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/overview-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/overview-upgrade-center-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/overview-upgrade-center.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/overview-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/perform-pre-upgrade-health-check.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/performance-graphs-guidelines.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/performance-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/permissions-for-mapped-roles-unified.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/permissions-for-mapped-roles.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/place-controller-in-service-mode.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/place-controller-offline.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/place-controller-online.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/problem-notification.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/re-create-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/re-enable-drive-ports.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/re-synchronize-mirror-consistency-group-manually.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/reconstruct-drive-manually.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/recover-from-problems-using-recovery-guru.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/redistribute-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/remove-capacity-from-a-pool-or-ssd-cache.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/remove-community-name-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/remove-directory-server-unified.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/remove-directory-server.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/remove-member-volumes-from-a-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/remove-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/remove-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/remove-storage-arrays-from-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/remove-synchronous-mirror-relationship.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/remove-user-for-snmp-traps.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/rename-storage-array-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/replace-drive-logically-hardware.html</loc>
+        
+      
+      <lastmod>2022-09-08T16:27:27+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/replace-drive-logically-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/requirements-and-guidelines-for-snapshots.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/requirements-for-replicating-storage-configurations.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/requirements-for-using-asynchronous-mirroring.html</loc>
+        
+      
+      <lastmod>2023-05-17T19:26:49+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/requirements-for-using-mirroring.html</loc>
+        
+      
+      <lastmod>2023-05-17T19:26:49+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/requirements-for-using-synchronous-mirroring.html</loc>
+        
+      
+      <lastmod>2023-04-17T13:37:59+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/reset-management-certificates-unified.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/reset-management-certificates.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/reset-reboot-controller.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/resolve-untrusted-certificates-certificate-page.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/resume-snapshot-image-rollback.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/retrieve-health-image.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/retrieve-recovery-support-files.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/retrieve-trace-buffers.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/role-change-of-a-mirror-consistency-group.html</loc>
+        
+      
+      <lastmod>2023-04-26T13:08:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/role-change-of-volumes-in-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-how-remote-storage-works.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-import-remote-storage.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-manage-progress-of-remote-volume-import.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-modify-connection-settings-for-remote-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-remote-storage-requirements.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-remote-storage-volume-requirements.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-remove-remote-storage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html</loc>
+        
+      
+      <lastmod>2022-05-25T18:37:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/rtv-why-dont-i-see-all-my-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/san-getstarted/santricity-overview.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/save-storage-array-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/schedule-autosupport-dispatches.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/schedule-snapshot-images.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity//search.html</loc>
+        
+      
+      <lastmod>2024-02-12T14:33:31+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/send-autosupport-dispatches.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/set-automatic-load-balancing.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/set-default-time-frame-for-performance-graphs.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/set-default-units-for-capacity-values.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/set-host-connectivity-reporting.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/setup-wizard-overview.html</loc>
+        
+      
+      <lastmod>2022-09-16T15:57:40+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/show-or-hide-component-status.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/snapshot-rollback.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/snapshot-schedules-and-snapshot-consistency-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/snapshot-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/snapshot-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/solid-state-disks-ssds.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/ssd-cache-and-volumes.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/ssd-cache-restrictions.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:40:02+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/start-snapshot-image-rollback-for-base-volume.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/start-snapshot-image-rollback-for-consistency-group-member-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/storage-array-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/storage-array-status.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/san-getstarted/supported-browsers-os.html</loc>
+        
+      
+      <lastmod>2023-04-26T15:18:34+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-admin/supported-browsers-unified.html</loc>
+        
+      
+      <lastmod>2023-04-26T15:18:34+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/suspend-and-resume-synchronization-for-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/suspend-or-resume-mirror-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/switch-between-front-and-back-views.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/switch-from-external-to-internal-key-management.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/synchronize-storage-array-clocks.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/synchronous-mirroring-status.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/synchronous-mirroring-terminology.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/take-action-on-a-copy-volume-operation.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/take-recovery-action-on-storage-array-status.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/test-communication-for-mirror-consistency-groups.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/test-communication-for-synchronous-mirroring.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/thin-volume-monitoring.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/turn-on-drive-locator-light.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/turn-on-locator-lights-in-a-pool-volume-group-or-ssd-cache.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/turn-on-shelf-locator-light.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/turn-on-storage-array-locator-lights.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/types-of-copy-volume-operations.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/unassign-hot-spares.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/unassign-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/unlock-drives-using-an-external-security-key.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/unlock-drives-using-an-internal-security-key.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/update-battery-learn-cycles.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/update-remote-ip-address.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/upgrade-considerations.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/upgrade-controller-firmware.html</loc>
+        
+      
+      <lastmod>2023-07-28T19:41:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-controller-software-and-firmware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-drive-firmware.html</loc>
+        
+      
+      <lastmod>2022-05-09T11:57:15+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/use-ca-signed-certificate-um.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-controllers.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/validate-security-key.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/view-and-act-on-operations-in-progress.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/view-and-save-performance-data-tabular.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-audit-log-activity.html</loc>
+        
+      
+      <lastmod>2022-08-26T15:11:16+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-autosupport-log.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-autosupport-status.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/view-certificates-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/view-controller-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/view-drive-status-and-settings.html</loc>
+        
+      
+      <lastmod>2022-08-17T16:45:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-events-using-the-event-log.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/view-hardware-components.html</loc>
+        
+      
+      <lastmod>2023-07-24T15:58:37+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-imported-certificates.html</loc>
+        
+      
+      <lastmod>2022-08-17T15:57:47+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-sessions-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-iscsi-sessions-system.html</loc>
+        
+      
+      <lastmod>2023-07-21T19:38:18+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-iscsi-statistics-packages-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iser-over-infiniband-statistics-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-iser-over-infiniband-statistics-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/view-local-user-roles-unified.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-local-user-roles.html</loc>
+        
+      
+      <lastmod>2022-04-29T17:40:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-nvme-over-fabrics-statistics-support.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/view-nvme-over-fabrics-statistics-system.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/view-performance-data-graphical.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/view-shelf-component-status-and-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/view-snapshot-image-settings.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-software-and-firmware-inventory.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/view-ssd-cache-statistics.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-storage-array-information.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-storage-array-profile.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/view-storage-hierarchy.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-unreadable-sectors-log.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/view-unsynchronized-data-amount-between-mirror-consistency-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/volume-ownership-async.html</loc>
+        
+      
+      <lastmod>2023-04-26T12:39:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/volume-ownership-sync.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/volume-terminology.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-are-battery-learn-cycles.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-are-hbas-and-adapter-ports.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-are-hosts-and-host-clusters.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-are-icmp-ping-responses.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/what-are-the-keyboard-shortcuts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/what-are-the-local-users.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/what-are-the-supported-browsers.html</loc>
+        
+      
+      <lastmod>2023-04-26T15:18:34+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html</loc>
+        
+      
+      <lastmod>2022-05-11T19:51:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html</loc>
+        
+      
+      <lastmod>2023-05-12T14:16:29+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-do-the-autosupport-features-do.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-does-the-cpu-graph-show.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-does-the-headroom-graph-show.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-does-the-iops-graph-show.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-does-the-latency-graph-show.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-does-the-mib-s-graph-show.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-does-unreadable-sectors-data-show-me.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-happens-when-i-use-an-isns-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-if-alerts-are-disabled.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/what-if-i-dont-see-all-of-my-hosts.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-is-a-dhcp-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-is-a-health-image.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-hot-spare-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-pool.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-snapshot-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-snapshot-image.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-volume-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-a-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/what-is-a-workload.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-is-auto-negotiation.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-automatic-load-balancing.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-cache-block-size.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-cache-flushing.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-is-configuration-data.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-controller-cache.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-data-assurance.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-fde-fips-security.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-host-connectivity-reporting.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-optimization-capacity-pools.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-optimization-capacity-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-preferred-controller-ownership.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-is-preservation-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-read-write-accessibility.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-redundancy-check.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-reserved-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-resource-provisioning-capable.html</loc>
+        
+      
+      <lastmod>2022-05-11T19:51:35+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-security-capable-drive-security.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-segment-sizing.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-the-default-cluster.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-the-disabled-state.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-media-types-are-supported-for-a-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/what-raid-level-is-best-for-my-application.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/what-settings-will-be-imported.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/what-type-of-data-is-collected-through-autosupport.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/whats-new.html</loc>
+        
+      
+      <lastmod>2023-08-04T19:31:01+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/when-should-i-synchronize-storage-array-clocks.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-interface/where-can-i-find-more-information-about-display-preferences.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html</loc>
+        
+      
+      <lastmod>2022-05-19T13:35:13+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/where-do-i-get-the-network-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-are-capacity-alerts-important.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-are-some-drives-not-showing-up.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html</loc>
+        
+      
+      <lastmod>2023-06-16T18:46:30+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-arent-these-volumes-associated-with-a-workload.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html</loc>
+        
+      
+      <lastmod>2023-04-17T13:37:59+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-cant-i-delete-the-selected-workload.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-cant-i-increase-my-preservation-capacity.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-certificates/why-cant-i-log-in-unified.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-cant-i-log-in.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-do-i-need-to-define-a-pass-phrase.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-dont-i-see-all-my-volumes-um.html</loc>
+        
+      
+      <lastmod>2023-06-16T00:27:48+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-dont-i-see-all-of-my-storage-arrays.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-settings/why-is-it-important-to-record-security-key-information.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-use-snapshot-images.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/um-manage/why-would-i-change-this-percentage-um.html</loc>
+        
+      
+      <lastmod>2022-04-29T15:15:00+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-would-i-change-this-percentage.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-would-i-create-a-snapshot-consistency-group.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-would-i-disable-a-snapshot-volume.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/why-would-i-logically-replace-a-drive.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-would-i-need-to-create-a-host-cluster.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-would-i-suspend-a-snapshot-schedule.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/why-would-i-want-to-manually-configure-a-pool.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/work-with-copy-services.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/workflow-for-autosupport.html</loc>
+        
+      
+      <lastmod>2022-05-03T20:17:05+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-support/workflow-for-controller-software-and-firmware-upgrade.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/workflow-for-creating-hosts-and-assigning-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/workflow-for-creating-snapshot-images-and-snapshot-volumes.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:05:54+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-storage/workflow-for-creating-volumes.html</loc>
+        
+      
+      <lastmod>2022-05-12T20:31:11+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/workflow-for-mirroring-a-volume-asynchronously.html</loc>
+        
+      
+      <lastmod>2023-04-20T15:25:19+00:00</lastmod>
+      
+    </url>
+  
+    <url>
+      
+        <loc>https://docs.netapp.com/us-en/e-series-santricity/sm-mirroring/workflow-for-mirroring-a-volume-synchronously.html</loc>
+        
+      
+      <lastmod>2022-04-29T16:53:36+00:00</lastmod>
+      
+    </url>
+  
+
+  
+  
+</urlset>

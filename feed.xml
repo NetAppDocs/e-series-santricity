@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>e-series-santricity | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/us-en/e-series-santricity/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/us-en/e-series-santricity</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>en-us</language>
+    <ttl>60</ttl>
+    <pubDate>Mon, 12 Feb 2024 14:37:10 +0000</pubDate>
+    <lastBuildDate>Mon, 12 Feb 2024 14:37:10 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>What's new in SANtricity OS 11.80 (4 Aug 2023)</title>
+      <pubDate>Fri, 04 Aug 2023 19:31:01 +0000</pubDate>
+      <link>https://docs.netapp.com/us-en/e-series-santricity/whats-new.html?time=1691177461</link>
+      <guid isPermaLink="false">Fri, 04 Aug 2023 19:31:01 +0000</guid>
+      <description><![CDATA[ New features in SANtricity OS. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
