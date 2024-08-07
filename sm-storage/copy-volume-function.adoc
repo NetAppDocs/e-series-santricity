@@ -83,7 +83,7 @@ Snapshot base volume
 a|
 Yes
 a|
-No
+Yes
 a|
 No
 a|
@@ -91,9 +91,9 @@ Remote mirror primary volume
 a|
 Yes^3^
 a|
-No
-a|
 Yes
+a|
+No
 |===
 
 ^1^ The target volume must have a capacity equal or larger to the thin volume reported capacity.
