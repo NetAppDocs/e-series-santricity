@@ -2,7 +2,7 @@
 permalink: sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, delivery, method, autosupport,
-summary: "The AutoSupport feature supports the protocols HTTPS, HTTP, and SMTP for delivering AutoSupport dispatches to technical support."
+summary: "The AutoSupport feature supports the protocols HTTPS and SMTP for delivering AutoSupport dispatches to technical support."
 ---
 = How do I configure the delivery method for the AutoSupport feature?
 :experimental:
@@ -10,7 +10,7 @@ summary: "The AutoSupport feature supports the protocols HTTPS, HTTP, and SMTP f
 :imagesdir: ../media/
 
 [.lead]
-The AutoSupport feature supports the protocols HTTPS, HTTP, and SMTP for delivering AutoSupport dispatches to technical support.
+The AutoSupport feature supports the protocols HTTPS and SMTP for delivering AutoSupport dispatches to technical support.
 
 .Before you begin
 
@@ -22,12 +22,11 @@ The AutoSupport feature supports the protocols HTTPS, HTTP, and SMTP for deliver
 Review the different protocols:
 
 * *HTTPS* -- Allows you to connect directly to the destination technical support server using HTTPS. If you want to enable either AutoSupport OnDemand or Remote Diagnostics, the AutoSupport delivery method must be set to HTTPS.
-* *HTTP* -- Allows you to connect directly to the destination technical support server using HTTP.
 * *Email* -- Allows you to use an email server as the delivery method for sending AutoSupport dispatches.
 
 [NOTE]
 ====
-*Differences between the HTTPS/HTTP and Email methods*. The Email delivery method, which uses SMTP, has some important differences from the HTTPs and HTTP delivery methods. First, the size of the dispatches for the Email method are limited to 5MB, which means that some ASUP data collections will not be dispatched. Second, the AutoSupport OnDemand feature is available only on HTPP and HTTPS methods.
+*Differences between the HTTPS and Email methods*. The Email delivery method, which uses SMTP, has some important differences from the HTTPs delivery method. First, the size of the dispatches for the Email method are limited to 5MB, which means that some ASUP data collections will not be dispatched. Second, the AutoSupport OnDemand feature is available only on the HTTPS delivery method.
 ====
 
 .Steps
@@ -38,7 +37,7 @@ Review the different protocols:
 A dialog box appears, which lists the dispatch delivery methods.
 
 . Select the desired delivery method, and then select the parameters for that delivery method. Do one of the following:
- ** If you selected HTTPS or HTTP, select one of the following delivery parameters:
+ ** If you selected HTTPS, select one of the following delivery parameters:
   *** *Directly* -- This delivery parameter is the default selection. Choosing this option allows you to connect directly to the destination technical support system using the HTTPS or HTTP protocol.
   *** *Via Proxy server* -- Choosing this option allows you to specify the HTTP proxy server details required for establishing connection with the destination technical support system. You must specify the host address and port number. However, you only need to enter the host authentication details (user name and password) if required.
   *** *Via Proxy auto-configuration script (PAC)* -- Specify the location of a Proxy Auto-Configuration (PAC) Script file. A PAC file allows the system to automatically choose the appropriate proxy server for establishing a connection with the destination technical support system.

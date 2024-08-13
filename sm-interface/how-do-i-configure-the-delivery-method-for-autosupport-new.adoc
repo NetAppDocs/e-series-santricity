@@ -12,4 +12,4 @@ summary: "To access configuration tasks for AutoSupport delivery methods, go to 
 [.lead]
 To access configuration tasks for AutoSupport delivery methods, go to menu:Support[Support Center], and then click the *AutoSupport* tab.
 
-The following protocols are supported: HTTPS, HTTP, and SMTP.
+The following protocols are supported: HTTPS and SMTP.
