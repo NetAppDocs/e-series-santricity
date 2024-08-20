@@ -1,0 +1,34 @@
+---
+permalink: sm-hardware/automatic-drive-fw-upgrade.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, automatic, drive, firmware, upgrade,
+summary: "If a drive with down version firmware is detected in the storage array, System Manager will alert you through the Hardware page. You can then chose to upgrade the down version firmware from the Drive Firmware Downloads page or clear the down version firmware alert and continue to use the drive."
+---
+= Automatic drive firmware upgrade notification
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If a drive with down version firmware is detected in the storage array, System Manager will alert you through the Hardware page. You can then chose to upgrade the drive from the Drive Firmware Downloads page or clear the down version firmware alert and continue to use the drive. 
+
+.About this task 
+
+You can identify a single drive or multiple drives with down version firmware through the Hardware page.
+
+.Steps
+
+. Select *Hardware*
+. Under the *Drives* tab, drives with down version firmware are identifiable through an alert icon and hover text stating "Down Version Drive Firmware".
+.. To upgrade the drive with down version firmware, go to the https://mysupport.netapp.com/site/downloads/firmware/disk-drive-firmware[Drive Firmware Downloads^] page and download the appropriate drive firmware.
++ 
+NOTE: For more information on how to upgrade the drive firmware, see https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-drive-firmware.html[Upgrade drive firmware^].
+.. If you choose to ignore the alert and continue to use the drive with down version firmware in your storage array, you must first clear the alert message. 
+... Select the drive with down version firmware under the Drives tab, right-click and select *Clear Firmware Warning*.
++ 
+[CAUTION]
+====
+Usage of drives with down version firmware may lead to operational inconsistencies or data loss. 
+====
+
+
+

@@ -795,6 +795,8 @@ sidebar:
               url: "/sm-hardware/erase-drive.html"
             - title: Unlock or reset locked NVMe or FIPS drives
               url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+            - title: Automatic drive firmware upgrade notification
+              url: "/sm-hardware/automatic-drive-fw-upgrade.html"             
         - title: Manage hot spares
           entries:
             - title: Hot spare drive overview
