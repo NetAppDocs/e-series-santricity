@@ -29,6 +29,12 @@ The Storage Array option deletes some additional settings.
 |===
 |  | Volume| Storage Array
 a|
+Deactivates ARVM
+a|
+X
+a|
+X
+a|
 Deletes pools and volume groups
 a|
 X
