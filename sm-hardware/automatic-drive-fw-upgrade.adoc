@@ -23,7 +23,7 @@ You can identify a single drive or multiple drives with down version firmware th
 + 
 NOTE: For more information on how to upgrade the drive firmware, see https://docs.netapp.com/us-en/e-series-santricity/sm-support/upgrade-drive-firmware.html[Upgrade drive firmware^].
 .. If you choose to ignore the alert and continue to use the drive with down version firmware in your storage array, you must first clear the alert message. 
-... Select the drive with down version firmware under the Drives tab, right-click and select *Clear Firmware Warning*.
+... Locate the drive with down version firmware under the Drives tab, right-click and select *Clear Firmware Warning*.
 + 
 [CAUTION]
 ====
