@@ -11,4 +11,4 @@ summary: "The following figure illustrates how to configure host access."
 [.lead]
 The following figure illustrates how to configure host access.
 
-image::../media/sam1130-flw-hosts-create-host.gif[]
+image::../media/sam1130-flw-hosts-create-host.gif["Configure host workflow"]

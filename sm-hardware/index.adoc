@@ -7,3 +7,6 @@ summary: ''
 = SANtricity System Manager 11.8
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
+You can check component status on the Hardware page and perform some functions related to those components.

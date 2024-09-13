@@ -13,8 +13,8 @@ In System Manager, you can create snapshot images and snapshot volumes by follow
 
 == Workflow for creating snapshot images
 
-image::../media/sam1130-flw-snapshots-create-ss-images.gif[]
+image::../media/sam1130-flw-snapshots-create-ss-images.gif["Create snapshot images workflow"]
 
 == Workflow for creating snapshot volumes
 
-image::../media/sam1130-flw-snapshots-create-ss-volumes.gif[]
+image::../media/sam1130-flw-snapshots-create-ss-volumes.gif["Create snapshot volumes workflow"]

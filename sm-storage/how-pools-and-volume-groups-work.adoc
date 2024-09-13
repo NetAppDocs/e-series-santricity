@@ -18,7 +18,7 @@ Physical hardware is provisioned into logical components so that data can be org
 
 The pools and volume groups are the top-level units of storage in a storage array: they divide the capacity of drives into manageable divisions. Within these logical divisions are the individual volumes or LUNs where data is stored. The following figure illustrates this concept.
 
-image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif[]
+image::../media/sam1130-dwg-volumes-drive-structure-pools-and-volume-groups.gif["Pools and volume groups structure"]
 
 ^1^ Host LUNs;  ^2^ Volumes;  ^3^ Volume groups or pools;  ^4^ HDD or SSD drives
 

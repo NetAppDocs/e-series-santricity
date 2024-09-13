@@ -25,7 +25,7 @@ Asynchronous mirroring captures the state of the primary volume at a particular 
 
 There are four primary steps in an active asynchronous mirroring session.
 
-image::../media/sam-1130-dwg-async-mirroring-session.gif[]
+image::../media/sam-1130-dwg-async-mirroring-session.gif["Asynchronous mirroring session"]
 
 . A write operation first occurs on the primary volume's storage array.
 . The status of the operation is returned to the host.
