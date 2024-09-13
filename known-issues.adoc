@@ -6,7 +6,7 @@ summary: Known issues
 ---
 = Release notes
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 Release Notes are available outside this site. You will be prompted to log in using your NetApp Support Site credentials.
