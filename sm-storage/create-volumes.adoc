@@ -283,4 +283,4 @@ System Manager creates the new volumes in the selected pools and volume groups, 
 * Perform any operating system modifications necessary on the application host so that the applications can use the volume.
 * Run the operating system-specific utility (available from a third-party vendor), and then run the SMcli command `-identifyDevices` to correlate volume names with host storage array names.
 +
-The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on EF600, EF300, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
+The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on E4000, EF600, EF300, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .

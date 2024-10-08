@@ -1,118 +1,28 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: whats new, new features, SANtricity 11.80
+keywords: whats new, new features, SANtricity 11.90
 summary: New features in SANtricity OS.
 ---
-= What's new in SANtricity OS 11.80
+= What's new in SANtricity OS 11.90
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.8.
+The following table describes new features in SANtricity System Manager 11.9.
 
-== New features in Version 11.80.1R1
-
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
-a|Increased key size length of new self-signed and CA-signed management certificates.
-a|The management certificate key size length for SANtricity System Manager and Unified Manager applications self-signed certificate have been modified from 2048 to 3072 bits. The change applies to newly generated self-signed and CA-signed certificates from the SANtricity applications. The key length is fixed and is not affected by the default key size definitions in NVSRAM. 
-
-|===
-
-== New features in Version 11.80.1
+== New features in Version 11.90
 
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
 
-a|`-identifyDevices` parameter
-a|A new `-identifyDevices` parameter is now available in the SMcli. This new parameter allows you to look for all SCSI native block devices that are associated with your Storage Arrays. For more information, see https://docs.netapp.com/us-en/e-series-cli/get-started/downloadable-smcli-parameters.html#identify-Devices[Downloadable SMcli command line parameters^].
+a|New storage system model – E4000
+a|This release introduces the E4000 low-cost storage system. The E4000 supports 12 and 60 drives and a single host interface card (HIC) per controller. The supported host interface cards include iSCSI, Fibre Channel, and SAS. E4000 storage systems and other E-Series storage systems can be viewed and managed in Unified Manager.
 
-a|Ethernet Kernel Statistics 
-a|A new Ethernet Kernel Statistics option is now available under the View iSCSI Statistics Packages page in System Manager. This new option allows you to view statistics for platform kernel drivers of the iSCSI device. For more information, see https://docs.netapp.com/us-en/e-series-santricity/sm-support/view-iscsi-statistics-packages-support.html[View iSCSI Statistics Packages^].
-
-a|Added ability to block IP addresses through REST API endpoint
-a|Users can now block specific IP addresses through the Settings endpoint (`/devmgr/v2/settings`). Once configured through the Settings endpoint, only IP addresses specified through a whitelist can communicate with the storage device. This new feature supports IPv4 and IPv6 address lists.
-
-a|vCenter Storage plugin
-a|The vCenter Storage plugin has been updated for compatibility with the E-Series 11.80.1 release.
-
-a|Web Services Proxy 
-a|The Web Services Proxy has been updated to version 6.1 for compatibility with the E-Series 11.80.1 release.
-
-|===
-
-== New features in Version 11.80
-
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
-
-a|Enhanced Volume Parity Scan
-a|Volume parity scan can now be launched as a background process either via the REST API or via CLI. The resulting parity scan will run in the background as long as is required to complete the scan operation. Scan operations will survive controller reboots and failover operations.  
-
-a|SAML Support for Unified Manager 
-a|Unified Manager now supports SAML (Security Assertion Markup Language). Once SAML is enabled for Unified Manager, users must use multi factor authentication against the identity provider in order to interact with the user interface. Note that once SAML is enabled on Unified Manager, the REST API cannot be used without going through the IdP to authenticate requests.  
-
-a|Auto Configuration Feature 
-a|Now supports the ability to set the volume block size parameter to use with the Auto Configuration feature for initial array setup. This feature is available in the CLI only as a "blockSize" parameter.  
-
-a|Controller Firmware Cryptographic Signing 
-a|Controller firmware is cryptographically signed. Signatures are checked during initial download and at each controller boot. No end user impact expected. Signatures are backed by a CA issued Extended Validation certificate.  
-
-a|Drive Firmware Cryptographic Signing 
-a|Drive firmware is cryptographically signed. Signatures are checked during initial download and backed by a CA issued Extended Validation certificate. Drive firmware content is now delivered as a ZIP file, which contains the older non-signed firmware as well as the new signed firmware. The user must chose the appropriate file based on the release version of code that is running on the target system.  
-
-a|External Key Server Management - Certificate Key Size 
-a|The new default certificate key size is 3072 bits (from 2048). Key sizes up to 4096 bits are supported. An NVSRAM bit must be changed in order to support the non-default key sizes.  
-
-Key size selection values are as follows:
- 
-* DEFAULT = 0
-* LENGTH 2048 = 1
-* LENGTH 3072 = 2
-* LENGTH 4096 = 3
- 
-To change key size to 4096 via the SMcli:
-
-`set controller[b] globalnvsrambyte[0xc0]=3;`
-`set controller[a] globalnvsrambyte[0xc0]=3;`
-
-Interrogate the key size: 
-
-`show allcontrollers globalnvsrambyte[0xc0];`
-
-
-a|Disk Pool Improvements
-a|Disk pools created with controllers running 11.80 or above will be _Version 1_ pools as opposed to _Version 0_ pools. A downgrade operation is restricted when a _Version 1_ disk pool exists.
- 
-The version of a disk pool can be identified in the storage array profile.
-
-a|System Manager and Unified Manager will not launch unless minimum browser requirements are met
-a|A minimum version of the browser is required before either System Manager or Unified Manager will launch. The following are the minimum supported versions:
-
-* Firefox minimum version 80 
-* Chrome minimum version 89 
-* Edge minimum version 90 
-* Safari minimum version 14 
-
-a|Support for FIPS 140-3 NVMe SSD drives 
-a|Netapp certified FIPS 140-3 NVMe SSD drives are now supported. They will be correctly identified as such in the storage array profile and in System Manager.  
-
-a|Support for SSD Read cache on EF300 and EF600
-a|SSD Read cache is now supported on EF300 and EF600 controllers using HDD with a SAS expansion.  
-
-a|Support for iSCSI and Fibre Channel asynchronous remote mirroring on EF300 and EF600
-a|Asynchronous remote mirroring (ARVM) is now supported on EF300 and EF600 controllers with NVMe and SAS based volumes. 
-
-a|Support EF300 and EF600 without drives on the base tray
-a|EF300 and EF600 controller configurations without NVMe drives on the base tray is now supported. 
-
-a|USB ports disabled for all platforms
-a|USB ports are now disabled on all platforms. 
+a|Automatic drive firmware upgrade notification 
+a|A new upgrade alert is now generated whenever a drive with down version firmware is detected in your storage array. For more information, see https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/automatic-drive-fw-upgrade.html[Automatic drive firmware upgrade notification^].
 
 |===
 
