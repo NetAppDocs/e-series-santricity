@@ -22,6 +22,13 @@ As your storage requirements for a volume change, you can use the Copy Volume fu
 * Change to drives using new technologies for higher performance.
 * Change a thin volume to a thick volume.
 
+Copy source and target volumes must have the same reported host-addressable/logical block sizes (sector size).
+
+Reported volume block sizes are:
+
+* *Native block size* – Volume’s block size match drive block size, either 512 or 4K.
+* *Emulated 512 block size* - Drives are 4K but the reported block size is 512.
+
 == Change a thin volume to a thick volume
 
 If you want to change a thin volume to a thick volume, use the Copy Volume operation to create a copy of the thin volume. The target of a Copy Volume operation is always a thick volume.
