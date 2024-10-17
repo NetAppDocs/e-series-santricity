@@ -1,9 +1,9 @@
 ---
 permalink: um-admin/index.html
 sidebar: sidebar
-keywords: santricity, unified, manager 6
-summary: "SANtricity Unified Manager 6"
+keywords: santricity, unified, manager 7
+summary: "SANtricity Unified Manager 7"
 ---
-= SANtricity Unified Manager 6
+= SANtricity Unified Manager 7
 :icons: font
 :imagesdir: ../media/

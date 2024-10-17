@@ -4,6 +4,6 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= SANtricity Unified Manager 6
+= SANtricity Unified Manager 7
 :icons: font
 :imagesdir: ../media/
