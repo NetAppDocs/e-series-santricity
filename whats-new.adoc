@@ -21,8 +21,5 @@ The following table describes new features in SANtricity System Manager 11.9.
 a|New storage system model – E4000
 a|This release introduces the E4000 low-cost storage system. The E4000 supports 12 and 60 drives and a single host interface card (HIC) per controller. The supported host interface cards include iSCSI, Fibre Channel, and SAS. E4000 storage systems and other E-Series storage systems can be viewed and managed in Unified Manager.
 
-a|Automatic drive firmware upgrade notification 
-a|A new upgrade alert is now generated whenever a drive with down version firmware is detected in your storage array. For more information, see https://docs.netapp.com/us-en/e-series-santricity/sm-hardware/automatic-drive-fw-upgrade.html[Automatic drive firmware upgrade notification^].
-
 |===
 
