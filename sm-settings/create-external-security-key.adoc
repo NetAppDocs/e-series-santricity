@@ -55,7 +55,8 @@ The Create External Security Key dialog box opens.
 NOTE: Only a single key server is used at a time. If the storage array cannot reach the primary key server, the array will contact the backup key server. Be aware that you must maintain parity across both servers; failure to do so may result in errors.
 
  ** *Select client certificate* -- Click the first *Browse* button to select the certificate file for the storage array's controllers.
- ** *Select key management server's server certificate* -- Click the second *Browse* button to select the certificate file for the key management server. You can choose a root, intermediate, or server certificate for the key management server.
+ ** *Select private key file* -- If needed, click the second *Browse* button to select an externally generated certificate file for the storage array's controllers.  
+ ** *Select key management server's server certificate* -- Click the third *Browse* button to select the certificate file for the key management server. You can choose a root, intermediate, or server certificate for the key management server.
 . Click *Next*.
 . Under *Create/Backup Key*, you can create a backup key for security purposes.
  ** (Recommended) To create a backup key, keep the checkbox selected, and then enter and confirm a pass phrase. The value can have between 8 and 32 characters, and must include each of the following:
