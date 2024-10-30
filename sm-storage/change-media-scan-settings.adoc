@@ -23,8 +23,6 @@ Understand the following:
 For example, redundancy information is available in optimal RAID 5 volumes, or in RAID 6 volumes that are optimal or only have one drive failed. If the unrecoverable error cannot be repaired using redundancy information, the data block will be added to the unreadable sector log. Both correctable and uncorrectable medium errors are reported to the event log.
 +
 If the redundancy check finds an inconsistency between data and the redundancy information, it is reported to the event log.
-
-NOTE: The default media scan period is set at 120 days. 
  
 .About this task
 
