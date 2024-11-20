@@ -38,7 +38,7 @@ A dialog box appears, which lists the dispatch delivery methods.
 
 . Select the desired delivery method, and then select the parameters for that delivery method. Do one of the following:
  ** If you selected HTTPS, select one of the following delivery parameters:
-  *** *Directly* -- This delivery parameter is the default selection. Choosing this option allows you to connect directly to the destination technical support system using the HTTPS or HTTP protocol.
+  *** *Directly* -- This delivery parameter is the default selection. Choosing this option allows you to connect directly to the destination technical support system using the HTTPS protocol.
   *** *Via Proxy server* -- Choosing this option allows you to specify the HTTP proxy server details required for establishing connection with the destination technical support system. You must specify the host address and port number. However, you only need to enter the host authentication details (user name and password) if required.
   *** *Via Proxy auto-configuration script (PAC)* -- Specify the location of a Proxy Auto-Configuration (PAC) Script file. A PAC file allows the system to automatically choose the appropriate proxy server for establishing a connection with the destination technical support system.
  ** If you selected Email, enter the following information:
