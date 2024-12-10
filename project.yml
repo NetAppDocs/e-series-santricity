@@ -14,8 +14,6 @@ settings:
       url: /e-series-santricity-118
     - version-number: "11.7"
       url: /e-series-santricity-117
-    - version-number: "11.6"
-      url: /e-series-santricity-116
 sidebar:
   entries:
   - title: SANtricity 11.9 docs
