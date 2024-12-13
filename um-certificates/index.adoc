@@ -7,3 +7,6 @@ summary: ''
 = SANtricity Unified Manager 7
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
+Certificate Management allows you to create certificate signing requests (CSRs), import certificates, and manage existing certificates.
