@@ -24,12 +24,14 @@ Authenticating between the controllers and a key management server is a two-step
 
 You must first generate a certificate signing request (CSR) file, and then use the CSR to request a signed client certificate from a certificate authority (CA) that is trusted by the key management server. You can also create and download a client certificate from the key management server using the downloaded CSR file. A client certificate validates the storage array's controllers, so the key management server can trust their Key Management Interoperability Protocol (KMIP) requests.
 
+NOTE: CSR files generated externally through private and public key pairs can be imported through the Create External Security Key dialog. For more information on importing an externally generated CSR file, see https://docs.netapp.com/us-en/e-series-santricity/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html#step-2-import-certificates-for-the-key-management-server[Step 2: Import certificates for the key management server].
+
 .Steps
 
 . Select menu:Settings[Certificates].
 . From the Key Management tab, select *Complete CSR*.
 . Enter the following information:
-  ** *Common name* -- A name that identifies this CSR, such as the storage array name, which will be displayed in the certificate files.
+  ** *Common name* -- A name that identifies the client. It is common practice to match what is in the common name with the KMS server’s requirements for client certificate naming conventions. The common name typically helps the KMS identify the client’s certificate when it is presented during a handshake.
   ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
   ** *Organizational unit (optional)* -- The division of your organization that is handling the certificate.
   ** *City/Locality* -- The city or locality where your organization is located.
@@ -39,7 +41,9 @@ You must first generate a certificate signing request (CSR) file, and then use t
 +
 A CSR file is saved to your local system.
 
-. Request a signed client certificate from a CA that is trusted by the key management server.
+. Request a signed client certificate from the CA that is trusted by the key management server.
++
+NOTE: It is common for the key management server to have a facility that generates signed certificates directly, as it functions as its own CA.
 
 . When you have a client certificate, go to <<Step 2: Import certificates for the key management server>>.
 
@@ -66,6 +70,10 @@ A dialog box opens for importing the certificate files.
 . Next to *Select client certificate*, click the *Browse* button to select the client certificate file for the storage array's controllers.
 +
 The file name displays in the dialog box.
+
+. If you generated a certificate file externally using a private and public key pair, click the *Browse* button next to *Select private key file* to select the certificate file for the storage array's controllers.
++
+The file name displays in the dialog box. 
 
 . Next to *Select key management server's server certificate*, click the *Browse* button to select the server certificate file for your key management server. You can choose a root, intermediate, or server certificate for the key management server.
 +

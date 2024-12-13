@@ -1,6 +1,6 @@
 ---
 settings:
-  name: "SANtricity 11.8"
+  name: "SANtricity 11.9"
   internal:
     pdf_enabled: true
   prod:
@@ -8,15 +8,15 @@ settings:
     harmony_enabled: true
   rss_page: "whats-new.html"
   versions:
-    - version-number: "11.8"
+    - version-number: "11.9"
       url: /e-series-santricity
+    - version-number: "11.8"
+      url: /e-series-santricity-118
     - version-number: "11.7"
       url: /e-series-santricity-117
-    - version-number: "11.6"
-      url: /e-series-santricity-116
 sidebar:
   entries:
-  - title: SANtricity 11.8 docs
+  - title: SANtricity 11.9 docs
     url: "/index.html"
   - title: Release notes
     entries:
@@ -794,7 +794,7 @@ sidebar:
             - title: Erase drives
               url: "/sm-hardware/erase-drive.html"
             - title: Unlock or reset locked NVMe or FIPS drives
-              url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"
+              url: "/sm-hardware/unlock-or-reset-a-locked-nvme-drive.html"        
         - title: Manage hot spares
           entries:
             - title: Hot spare drive overview

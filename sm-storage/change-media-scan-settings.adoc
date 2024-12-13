@@ -24,6 +24,8 @@ For example, redundancy information is available in optimal RAID 5 volumes, or i
 +
 If the redundancy check finds an inconsistency between data and the redundancy information, it is reported to the event log.
 
+NOTE: The default media scan period is set at 120 days. 
+
 .About this task
 
 Media scans detect and repair media errors on disk blocks that are infrequently read by applications. This can prevent data loss in the event of a drive failure, as data for failed drives is reconstructed using redundancy information and data from other drives in the volume group or pool.

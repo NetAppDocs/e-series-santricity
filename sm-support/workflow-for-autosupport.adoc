@@ -11,4 +11,4 @@ summary: "In SANtricity System Manager, you configure the AutoSupport feature by
 [.lead]
 In System Manager, you configure the AutoSupport feature by following these steps.
 
-image::../media/sam1130-flw-support-asup-setup.gif[]
+image::../media/sam1130-flw-support-asup-setup.gif["Autosupport workflow"]

@@ -42,4 +42,4 @@ The copy option allows faster drive recovery than reconstruction and reduces the
 
 . Confirm that you want to fail the drive.
 +
-After the drive has failed, wait at least 30 seconds before you remove it.
+After the drive has failed, wait at least 60 seconds before you remove it.

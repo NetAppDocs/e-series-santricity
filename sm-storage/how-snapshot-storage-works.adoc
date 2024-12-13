@@ -23,7 +23,7 @@ As snapshots are created, the Snapshots feature stores image data as follows:
 * When a snapshot image is created, it exactly matches the base volume. The Snapshots feature uses copy-on-write technology. After the snapshot is taken, the first write to any block or set of blocks on the base volume causes the original data to be copied to the reserved capacity before writing the new data to the base volume.
 * Subsequent snapshots include only changed data blocks. Before data is overwritten on the base volume, the Snapshots feature uses its copy-on-write technology to save the required images of the affected sectors to the snapshot reserved capacity.
 +
-image::../media/sam1130-dwg-snapshots-cow-overview.gif[]
+image::../media/sam1130-dwg-snapshots-cow-overview.gif["Snapshot overview"]
 
 ^1^ Base volume (physical disk capacity);  ^2^ Snapshots (logical disk capacity);  ^3^ Reserved capacity (physical disk capacity)
 

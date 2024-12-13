@@ -26,5 +26,5 @@ You create a snapshot consistency group when you want to make sure snapshot imag
 
 The volumes included in a snapshot consistency group are called member volumes. When you add a volume to a consistency group, System Manager automatically creates new reserved capacity that corresponds to that member volume. You can define a schedule to automatically create a snapshot image of each member volume.
 
-image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif[]
+image::../media/sam1130-dwg-snapshots-consistency-groups-overview.gif["Snapshot consistency group overview"]
 ^1^ Reserved capacity;  ^2^ Member volume;  ^3^ Consistency group snapshot images

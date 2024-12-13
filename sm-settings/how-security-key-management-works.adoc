@@ -39,6 +39,7 @@ External keys are maintained on a separate key management server, using a Key Ma
  .. First, you complete and download a client Certificate Signing Request (CSR). Go to menu:Settings[Certificates > Key Management > Complete CSR].
  .. Next, you request a signed client certificate from a CA that is trusted by the key management server. (You can also create and download a client certificate from the key management server using the CSR file.)
  .. Once you have a client certificate file, copy that file to the host where you are accessing System Manager.
+ .. Alternatively, you can generate a certificate signing request externally using a private and public key pair.
 . Retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
 . Create an external key, which involves defining the IP address of the key management server and the port number used for KMIP communications. During this process, you also load certificate files. To create an external key, go to menu:Settings[System > Security key management > Create External Key].
 

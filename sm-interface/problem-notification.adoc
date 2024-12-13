@@ -19,19 +19,19 @@ System Manager uses these icons to indicate the status of the storage array and 
 |===
 | Icon| Description
 a|
-image:../media/sam1130-ss-icon-status-success.gif[]
+image:../media/sam1130-ss-icon-status-success.gif["Optimal"]
 a|
 Optimal
 a|
-image:../media/sam1130-ss-icon-status-failure.gif[]
+image:../media/sam1130-ss-icon-status-failure.gif["Non-optimal or failed"]
 a|
 Non-optimal or failed
 a|
-image:../media/sam1130-ss-icon-status-service.gif[]
+image:../media/sam1130-ss-icon-status-service.gif["Needs attention or fixing"]
 a|
 Needs attention or fixing
 a|
-image:../media/sam1130-ss-icon-status-caution.gif[]
+image:../media/sam1130-ss-icon-status-caution.gif["Caution"]
 a|
 Caution
 |===

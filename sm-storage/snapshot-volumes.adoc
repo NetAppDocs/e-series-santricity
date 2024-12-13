@@ -15,5 +15,5 @@ When you create a snapshot volume, you can designate it as __read-onl__y or _rea
 
 When you create read-only snapshot volumes, you do not need to add reserved capacity. When you create read-write snapshot volumes, you must add reserved capacity to provide write-access.
 
-image::../media/sam1130-dwg-snapshots-volumes-overview.gif[]
+image::../media/sam1130-dwg-snapshots-volumes-overview.gif["Snapshot volumes overview"]
 ^1^ Base volume;  ^2^ Host;  ^3^ Read-only snapshot volume;  ^4^ Read-write snapshot volume;  ^5^ Reserved capacity

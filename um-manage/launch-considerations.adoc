@@ -18,4 +18,4 @@ To access System Manager, you must have:
 * One of the array models listed here: link:https://docs.netapp.com/us-en/e-series/getting-started/learn-hardware-concept.html[E-Series hardware overview^]
 * An out-of-band connection to a network management client with a web browser.
 
-image::../media/single2800.gif[]
+image::../media/single2800.gif["Out-of-band connection to network management client with a web browser."]

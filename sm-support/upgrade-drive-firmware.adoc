@@ -24,10 +24,6 @@ You can upgrade your drives firmware to make sure you have all the latest featur
 
 . Select menu:Support[Upgrade Center].
 . Download the new files from the Support site to your management client.
- .. Under Drive Firmware upgrade, click *NetApp Support*.
- .. On the NetApp Support web site, click the *Downloads* tab.
- .. Select *Disk Drive & Firmware Matrix*.
- .. Follow the remaining instructions.
 . Under Drive Firmware upgrade, click *Begin Upgrade*.
 +
 A dialog box appears, which lists the drive firmware files currently in use.

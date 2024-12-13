@@ -24,4 +24,4 @@ For example, if you are connecting eight different hosts to the storage array, a
 * If the majority of the connected hosts have a mix of different operating systems, change the host type to Factory Default.
 +
 For example, if you are connecting eight different hosts to the storage array, and two of those hosts are running a Windows operating system, three are running a VMware operating system, and another three are running a Linux operating system, you must select Factory Default as the default host operating system type.
-====
+
