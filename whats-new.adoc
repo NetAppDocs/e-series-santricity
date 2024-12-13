@@ -7,7 +7,7 @@ summary: New features in SANtricity OS.
 = What's new in SANtricity OS 11.90
 :experimental:
 :icons: font
-:imagesdir: ../media/
+:imagesdir: ./media/
 
 [.lead]
 The following table describes new features in SANtricity System Manager 11.9.

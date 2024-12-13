@@ -7,3 +7,6 @@ summary: "SANtricity Unified Manager 7"
 = SANtricity Unified Manager 7
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
+Unified Manager is a web-based interface that allows you to manage multiple storage arrays in a single view.
