@@ -11,4 +11,4 @@ summary: "In SANtricity System Manager, you can upgrade the controller software 
 [.lead]
 In SANtricity System Manager, you can upgrade the controller software and firmware by following these steps.
 
-image::../media/sam1130-flw-firmware-upgrade.gif[]
+image::../media/sam1130-flw-firmware-upgrade.gif["Controller software and firmware upgrade workflow"]

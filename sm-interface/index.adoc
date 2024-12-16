@@ -2,8 +2,11 @@
 permalink: sm-interface/index.html
 sidebar: sidebar
 keywords: santricity, system, manager,
-summary: "SANtricity System Manager 11.7"
+summary: "SANtricity System Manager 11.9"
 ---
-= SANtricity System Manager 11.8
+= SANtricity System Manager 11.9
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
+System Manager is a web-based interface that allows you to manage a storage array in a single view.

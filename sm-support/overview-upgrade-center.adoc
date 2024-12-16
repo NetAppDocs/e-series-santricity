@@ -25,7 +25,7 @@ Several storage array components contain software or hardware that you might wan
 * *IOM firmware* -- The I/O module (IOM) firmware manages the connection between a controller and a drive shelf. It also monitors the status of the components.
 * *Supervisor software* -- Supervisor software is the virtual machine on a controller in which the software runs.
 
-image::../media/sam1130-dwg-upgrade-firmware-locations.gif[]
+image::../media/sam1130-dwg-upgrade-firmware-locations.gif["Upgrade firmware locations"]
 
 ^1^ Controller shelf; ^2^ Drive shelf; ^3^ Software, controller firmware, controller NVSRAM, supervisor software; ^4^ Drive firmware; ^5^ IOM firmware; ^6^ Drive firmware
 

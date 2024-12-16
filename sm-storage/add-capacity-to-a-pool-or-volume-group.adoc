@@ -23,7 +23,7 @@ The expansion causes additional free capacity to be included in the pool or volu
 * The maximum number of volumes allowed in a pool depends on the storage system model:
  ** 2,048 volumes (EF600 and E5700 series)
  ** 1,024 volumes (EF300)
- ** 512 volumes (E2800 series)
+ ** 512 volumes (E4000 and E2800 series)
 * If the pool or volume group contains all secure-capable drives, add only drives that are secure-capable to continue to use the encryption abilities of the secure-capable drives.
 +
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.

@@ -20,7 +20,7 @@ Learn more:
 * link:certificate-terminology.html[Certificate terminology]
 
 == How do I configure signed certificates?
-You first generate a signing request from System Manager, and then send the file to a CA. Once the CA returns the certificate files, you import them using System Manager.
+You can generate a signing request from System Manager or externally using a private and public key pair. The signing request is sent to a CA to generate the certificate files. Once the CA returns the certificate files, you import them using System Manager. 
 
 Learn more:
 

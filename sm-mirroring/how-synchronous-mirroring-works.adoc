@@ -28,7 +28,7 @@ A synchronous mirroring relationship consists of a primary volume and a secondar
 
 The synchronous mirroring configuration process involves configuring volumes into pairs. After you create a mirrored pair, which consists of a primary volume on one storage array and a secondary volume on another storage array, you can start synchronous mirroring. The steps in synchronous mirroring are depicted below.
 
-image::../media/sam-1130-dwg-sync-mirroring-session.gif[]
+image::../media/sam-1130-dwg-sync-mirroring-session.gif["Synchronous mirroring session"]
 
 . A write comes in from the host.
 . The write is committed to the primary volume, propagated to the remote system, and then committed to the secondary volume.

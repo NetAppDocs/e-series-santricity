@@ -1,5 +1,5 @@
 ---
-permalink: sm-settings/view-iscsi-statistics-packages-system.html
+permalink: sm-settings/view-iscsi-statistics-packages.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, statistics, packages,
 summary: "You can view data about the iSCSI connections to your storage array."

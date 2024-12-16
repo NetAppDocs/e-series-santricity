@@ -4,6 +4,9 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= SANtricity Unified Manager 6
+= SANtricity Unified Manager 7
 :icons: font
 :imagesdir: ../media/
+
+[.lead]
+You can configure the settings used through the SANtricity Unified Manager.

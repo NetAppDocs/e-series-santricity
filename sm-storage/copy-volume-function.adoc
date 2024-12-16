@@ -26,8 +26,8 @@ Copy source and target volumes must have the same reported host-addressable/logi
 
 Reported volume block sizes are:
 
-* *Native block size* – Volume’s block size match drive block size, either 512 or 4K.
-* *Emulated 512 block size* - Drives are 4K but the reported block size is 512.
+* *Native block size* – volume’s block size match drive block size, either 512 or 4K.
+* *Emulated 512 block size* - drives are 4K but the reported block size is 512.
 
 == Change a thin volume to a thick volume
 

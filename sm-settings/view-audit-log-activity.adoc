@@ -62,7 +62,7 @@ Select *Delete* to open a dialog box that allows you to remove old events from t
 a|
 Show/hide columns
 a|
-Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif[] to select additional columns for display in the table.    Additional columns include:
+Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif["Show/Hide column"] to select additional columns for display in the table.    Additional columns include:
 
  ** *Method* -- The HTTP method (for example, POST, GET, DELETE, etc.).
  ** *CLI Command Executed* -- The CLI command (grammar) executed for Secure CLI requests.
@@ -77,11 +77,11 @@ Click the *Show/Hide* column icon image:../media/sam-1140-ss-access-columns.gif[
 a|
 Toggle column filters
 a|
-Click the *Toggle* icon image:../media/sam-1140-ss-access-toggle.gif[] to open filtering fields for each column.     Enter characters within a column field to limit events shown by those characters. Click the icon again to close the filtering fields.
+Click the *Toggle* icon image:../media/sam-1140-ss-access-toggle.gif["Toggle"] to open filtering fields for each column.     Enter characters within a column field to limit events shown by those characters. Click the icon again to close the filtering fields.
 a|
 Undo changes
 a|
-Click the *Undo* icon image:../media/sam-1140-ss-access-undo.gif[] to return the table to the default configuration.
+Click the *Undo* icon image:../media/sam-1140-ss-access-undo.gif["Undo"] to return the table to the default configuration.
 a|
 Export
 a|

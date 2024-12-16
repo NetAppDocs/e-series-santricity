@@ -18,7 +18,7 @@ To take snapshots of the base volume, you can create an instant image at any tim
 
 The following figure shows the relationship between snapshot objects and the base volume.
 
-image::../media/sam1130-dwg-snapshots-images-overview.gif[]
+image::../media/sam1130-dwg-snapshots-images-overview.gif["Snapshot objects and base volume"]
 
 ^1^ Base volume;  ^2^ Snapshot objects in the group (images and reserved capacity);  ^3^ Reserved capacity for the snapshot group.
 
