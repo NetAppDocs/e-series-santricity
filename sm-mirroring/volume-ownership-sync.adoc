@@ -13,7 +13,7 @@ You can change the preferred controller owner in a mirrored pair.
 
 [NOTE]
 ====
-This feature is not available for synchronous mirroring on the EF600 or EF300 storage system.
+This feature is not available for synchronous mirroring on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 If the primary volume of the mirrored pair is owned by controller A, then the secondary volume will also be owned by controller A of the remote storage array. Changing the primary volume's owner will automatically change the owner of the secondary volume to ensure that both volumes are owned by the same controller. Current ownership changes on the primary side automatically propagate to corresponding current ownership changes on the secondary side.

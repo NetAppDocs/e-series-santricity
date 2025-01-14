@@ -22,7 +22,7 @@ If you plan to configure mirroring, keep the following requirements in mind.
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage array.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage array.
 ====
 
 * You must have two storage arrays.

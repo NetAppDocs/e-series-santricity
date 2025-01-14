@@ -13,7 +13,7 @@ You can change the role between volumes in a mirrored pair. You can do this by d
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage system.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 Review the following information about the role change operation:

@@ -13,7 +13,7 @@ Mirroring is configured in the Unified Manager interface.
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage array.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage array.
 ====
 
 

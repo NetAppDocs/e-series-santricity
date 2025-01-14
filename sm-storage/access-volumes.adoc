@@ -17,14 +17,11 @@ The access volume is used in the following instance:
 +
 [NOTE]
 ====
-In-band management is not available for EF600 or EF300 storage systems.
+In-band management using the Access volume is not available for E4000, EF600/EF600C, or EF300/EF300C storage systems.
 ====
 
 An access volume is automatically created the first time you assign a volume to a host. For example, if you assign Volume_1 and Volume_2 to a host, when you view results of that assignment, you see three volumes (Volume_1, Volume_2, and Access).
 
 If you are not automatically creating hosts or managing a storage array in-band with the CLI, you do not need the access volume, and you can free up the LUN by deleting the access volume. This action removes the volume-to-LUN assignment as well as any in-band management connections to the host.
 
-[NOTE]
-====
-The E4000 does not support in-band management using the Access volume.
-====
+

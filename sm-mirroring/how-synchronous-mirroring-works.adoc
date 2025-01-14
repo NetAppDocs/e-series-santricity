@@ -13,7 +13,7 @@ Synchronous mirroring replicates data volumes in real time to ensure continuous 
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage array.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage array.
 ====
 
 Synchronous mirroring achieves a recovery point objective (RPO) of zero lost data by having a copy of important data available if a disaster happens on one of the two storage arrays. The copy is identical to production data at every moment because each time a write is done to the primary volume, a write is done to the secondary volume. The host does not receive an acknowledgment that the write was successful until the secondary volume is successfully updated with the changes that were made on the primary volume.

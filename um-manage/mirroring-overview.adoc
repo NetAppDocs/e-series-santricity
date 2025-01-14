@@ -13,7 +13,7 @@ Unified Manager includes configuration options for the SANtricity mirroring feat
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage system.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 == Types of mirroring

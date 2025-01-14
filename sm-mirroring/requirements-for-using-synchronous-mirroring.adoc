@@ -24,7 +24,7 @@ To enable and configure mirroring between two arrays, you must use the Unified M
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF300 or EF600 storage array.
+Synchronous mirroring is not available on the EF300/EF300C or EF600/EF600C storage array.
 ====
 
 * You must have two storage arrays.

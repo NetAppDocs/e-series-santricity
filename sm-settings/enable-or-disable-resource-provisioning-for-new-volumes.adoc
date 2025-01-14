@@ -12,13 +12,13 @@ summary: "If you previously disabled the default feature for resource provisioni
 [.lead]
 If you previously disabled the default feature for resource provisioning, you can re-enable it for any new SSD volume groups or pools that you create. You can also disable the setting again.
 
-Resource provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process. All drive blocks assigned to the volume are deallocated (unmapped), which can improve SSD wear life and increase maximum write performance.
+Resource provisioning is a feature available in the EF300, EF300C, EF600, and EF600C storage arrays, which allows volumes to be put in use immediately with no background initialization process. All drive blocks assigned to the volume are deallocated (unmapped), which can improve SSD wear life and increase maximum write performance.
 
 NOTE: By default, resource provisioning is enabled on systems where the drives support DULBE.
 
 .Before you begin
 
-* You must have an EF300 or EF600 storage array.
+* You must have an EF300/EF300C or EF600/EF600C storage array.
 * You must have SSD volume groups or pools, where all the drives support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability.
 
 .About this task
