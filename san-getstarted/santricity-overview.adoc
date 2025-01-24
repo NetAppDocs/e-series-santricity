@@ -16,7 +16,7 @@ This site describes how to use the following SANtricity management interfaces:
 * System Manager -- a web-based interface used for managing an individual storage array in your network.
 * Unified Manager -- a web-based interface used for viewing and managing all storage arrays in your network.
 
-NOTE: EF600 and EF300 storage arrays do not support synchronous mirroring or thin volumes.
+NOTE: EF600/EF600C and EF300/EF300C storage arrays do not support synchronous mirroring or thin volumes.
 
 == SANtricity System Manager
 
