@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host detection
 summary: "If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected."
 ---
-= System Manager has not detected any hosts. What do I do?
+= SANtricity System Manager has not detected any hosts. What do I do?
 :experimental:
 :icons: font
 :imagesdir: ../media/

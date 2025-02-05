@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series,
 summary: 'You navigate the main interface to access System Manager features and tasks.'
 ---
-= System Manager interface overview
+= SANtricity System Manager interface overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-System Manager is a web-based interface that allows you to manage a storage array in a single view.
+SANtricity System Manager is a web-based interface that allows you to manage a storage array in a single view.
 
 == Home page
 The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.

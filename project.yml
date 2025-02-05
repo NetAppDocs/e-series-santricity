@@ -32,7 +32,7 @@ sidebar:
           url: "/san-getstarted/supported-browsers-os.html"
         - title: System Manager setup
           entries:
-          - title: Access System Manager
+          - title: Access SANtricity System Manager
             url: "/san-getstarted/access-sam.html"
           - title: Setup wizard overview
             url: "/sm-interface/setup-wizard-overview.html"
@@ -50,7 +50,7 @@ sidebar:
                 url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
               - title: How do I know if I should accept the recommended pool configuration?
                 url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-              - title: System Manager has not detected any hosts. What do I do?
+              - title: SANtricity System Manager has not detected any hosts. What do I do?
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
         - title: Unified Manager setup
           entries:
@@ -63,7 +63,7 @@ sidebar:
     entries:
       - title: Main interface
         entries:
-        - title: System Manager interface overview
+        - title: SANtricity System Manager interface overview
           url: "/sm-interface/overview-interface-sam.html"
         - title: View performance data
           entries:
