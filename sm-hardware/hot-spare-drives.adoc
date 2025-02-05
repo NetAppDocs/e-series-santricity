@@ -9,7 +9,7 @@ summary: "Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume g
 :imagesdir: ../media/
 
 [.lead]
-Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager.
+Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for SANtricity System Manager.
 
 They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a drive assigned as a hot spare.
 

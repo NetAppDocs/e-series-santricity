@@ -9,7 +9,7 @@ summary: "If you receive an error when attempting to log in to System Manager, r
 :imagesdir: ../media/
 
 [.lead]
-If you receive an error when attempting to log in to System Manager, review these possible causes.
+If you receive an error when attempting to log in to SANtricity System Manager, review these possible causes.
 
 Login errors to System Manager might occur for one of these reasons:
 
