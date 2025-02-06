@@ -10,7 +10,7 @@ summary: "System Manager automatically creates a default schedule for AutoSuppor
 :imagesdir: ../media/
 
 [.lead]
-System Manager automatically creates a default schedule for AutoSupport dispatches. If you prefer, you can specify your own schedule.
+SANtricity System Manager automatically creates a default schedule for AutoSupport dispatches. If you prefer, you can specify your own schedule.
 
 .Before you begin
 

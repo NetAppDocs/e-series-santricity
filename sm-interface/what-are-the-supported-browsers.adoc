@@ -9,6 +9,6 @@ summary: 'System Manager supports these browser versions.'
 :imagesdir: ../media/
 
 [.lead]
-System Manager supports these browser versions.
+SANtricity System Manager supports these browser versions.
 
 include::../_include/supported_browser_versions.adoc[]

@@ -9,7 +9,7 @@ summary: "You configure asynchronous or synchronous mirroring in Unified Manager
 :imagesdir: ../media/
 
 [.lead]
-You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations.
+You configure asynchronous or synchronous mirroring in Unified Manager, and then use SANtricity System Manager to manage synchronizations.
 
 == Asynchronous mirroring workflow
 

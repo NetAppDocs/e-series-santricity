@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager
 summary: "You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays."
 ---
-= Considerations for accessing System Manager
+= Considerations for accessing SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You select one or more storage arrays and use the Launch option to open System Manager when you want to configure and manage storage arrays.
+You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays.
 
 System Manager is an embedded application on the controllers, which is connected to the network through an Ethernet management port. It includes all array-based functions.
 
