@@ -85,8 +85,8 @@ System Manager may suggest a volume configuration based on the application or wo
 * The pools or volume groups must have sufficient free capacity.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF600 and E5700 series)
- ** 1,024 volumes (EF300)
+ ** 2,048 volumes (EF600, EF600C, and E5700 series)
+ ** 1,024 volumes (EF300 and EF300C)
  ** 512 volumes (E4000 and E2800 series)
 * To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
 +
