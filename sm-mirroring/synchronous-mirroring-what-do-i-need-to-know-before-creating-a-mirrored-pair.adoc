@@ -9,7 +9,7 @@ summary: "You configure mirrored pairs in the Unified Manager interface, and the
 :imagesdir: ../media/
 
 [.lead]
-You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in System Manager.
+You configure mirrored pairs in the Unified Manager interface, and then manage the pairs in SANtricity System Manager.
 
 Before creating a mirrored pair, follow these guidelines:
 

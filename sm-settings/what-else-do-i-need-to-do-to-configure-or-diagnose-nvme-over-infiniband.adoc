@@ -10,7 +10,7 @@ summary: "The following table lists the System Manager functions that you can us
 :imagesdir: ../media/
 
 [.lead]
-The following table lists the System Manager functions that you can use to configure and manage NVMe over InfiniBand sessions.
+The following table lists the SANtricity System Manager functions that you can use to configure and manage NVMe over InfiniBand sessions.
 
 [NOTE]
 ====

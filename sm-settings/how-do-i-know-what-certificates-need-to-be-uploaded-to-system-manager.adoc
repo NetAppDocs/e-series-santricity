@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, external, key, management,
 summary: "For external key management, you import two types of certificates for authentication between the storage array and the key management server so the two entities can trust each other."
 ---
-= How do I know what certificates need to be uploaded to System Manager for external key management?
+= How do I know what certificates need to be uploaded to SANtricity System Manager for external key management?
 :icons: font
 :imagesdir: ../media/
 

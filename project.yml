@@ -30,7 +30,7 @@ sidebar:
           url: "/san-getstarted/santricity-overview.html"
         - title: Supported browsers and OSs
           url: "/san-getstarted/supported-browsers-os.html"
-        - title: System Manager setup
+        - title: SANtricity System Manager setup
           entries:
           - title: Access SANtricity System Manager
             url: "/san-getstarted/access-sam.html"
@@ -58,7 +58,7 @@ sidebar:
             url: "/san-getstarted/install-um.html"
           - title: Access Unified Manager
             url: "/san-getstarted/login-um.html"
-  - title: System Manager
+  - title: SANtricity System Manager
     url: "/system-manager/index.html"
     entries:
       - title: Main interface
@@ -1151,7 +1151,7 @@ sidebar:
           entries:
           - title: Why does the Cannot Access Other Controller dialog box appear?
             url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-          - title: How do I know what certificates need to be uploaded to System Manager
+          - title: How do I know what certificates need to be uploaded to SANtricity System Manager
               for external key management?
             url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
           - title: What do I need to know about certificate revocation checking?
@@ -1280,7 +1280,7 @@ sidebar:
         entries:
         - title: Considerations for discovering arrays
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: Considerations for accessing System Manager
+        - title: Considerations for accessing SANtricity System Manager
           url: "/um-manage/launch-considerations.html"
       - title: Discover arrays
         entries:

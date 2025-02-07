@@ -9,4 +9,4 @@ summary: "SANtricity System Manager 11.9"
 :imagesdir: ../media/
 
 [.lead]
-System Manager is a web-based interface that allows you to manage a storage array in a single view.
+SANtricity System Manager is a web-based interface that allows you to manage a storage array in a single view.
