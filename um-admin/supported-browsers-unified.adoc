@@ -9,7 +9,7 @@ summary: "SANtricity Unified Manager can be accessed from several types of brows
 :imagesdir: ../media/
 
 [.lead]
-Unified Manager can be accessed from several types of browsers.
+SANtricity Unified Manager can be accessed from several types of browsers.
 
 The following browsers and versions are supported.
 

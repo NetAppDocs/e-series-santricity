@@ -8,7 +8,7 @@ indexpage:
        links:
          - title: SANtricity System Manager interface
            url: /sm-interface/overview-interface-sam.html"
-         - title: Unified Manager interface
+         - title: SANtricity Unified Manager interface
            url: /um-admin/overview-interface-unified.html
          - title: SANtricity software datasheet
            url: https://www.netapp.com/pdf.html?item=/media/7676-ds-3891.pdf

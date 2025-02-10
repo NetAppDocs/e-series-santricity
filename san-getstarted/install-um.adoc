@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Unified Manager installation
 summary: Overview of Unified Manager installation
 ---
-= Install Unified Manager
+= Install SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Unified Manager is included with the Web Services Proxy, which is a RESTful API server installed separately on a host system to manage NetApp E-Series storage systems.
+SANtricity Unified Manager is included with the Web Services Proxy, which is a RESTful API server installed separately on a host system to manage NetApp E-Series storage systems.
 
 To install the Web Services Proxy and Unified Manager, see the following instructions in the E-Series and SANtricity documentation center:
 

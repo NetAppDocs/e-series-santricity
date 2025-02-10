@@ -9,7 +9,7 @@ summary: "The RBAC (role-based access control) capabilities include pre-defined 
 :imagesdir: ../media/
 
 [.lead]
-The RBAC (role-based access control) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in Unified Manager.
+The RBAC (role-based access control) capabilities include pre-defined users with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity Unified Manager.
 
 The roles provide user access to tasks, as follows:
 

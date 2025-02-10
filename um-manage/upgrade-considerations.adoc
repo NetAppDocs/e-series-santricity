@@ -9,7 +9,7 @@ summary: "Before you use Unified Manager to upgrade multiple storage arrays, rev
 :imagesdir: ../media/
 
 [.lead]
-Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
+Before you use SANtricity Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning.
 
 == Current versions
 

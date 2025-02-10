@@ -9,7 +9,7 @@ summary: "Before Unified Manager can display and manage storage resources, it mu
 :imagesdir: ../media/
 
 [.lead]
-Before Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in your organization's network. You can discover multiple arrays or you can discover a single array.
+Before SANtricity Unified Manager can display and manage storage resources, it must discover the storage arrays you want to manage in your organization's network. You can discover multiple arrays or you can discover a single array.
 
 == Discovering multiple storage arrays
 
