@@ -52,11 +52,11 @@ sidebar:
                 url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
               - title: SANtricity System Manager has not detected any hosts. What do I do?
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-        - title: Unified Manager setup
+        - title: SANtricity Unified Manager setup
           entries:
-          - title: Install Unified Manager
+          - title: Install SANtricity Unified Manager
             url: "/san-getstarted/install-um.html"
-          - title: Access Unified Manager
+          - title: Access SANtricity Unified Manager
             url: "/san-getstarted/login-um.html"
   - title: SANtricity System Manager
     url: "/system-manager/index.html"
@@ -1257,12 +1257,12 @@ sidebar:
             - title: How do I choose which type of upgrade to perform?
               url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
 
-  - title: Unified Manager
+  - title: SANtricity Unified Manager
     url: "/unified-manager/index.html"
     entries:
     - title: Main interface
       entries:
-        - title: Unified Manager interface overview
+        - title: SANtricity Unified Manager interface overview
           url: "/um-admin/overview-interface-unified.html"
         - title: Supported browsers
           url: "/um-admin/supported-browsers-unified.html"
