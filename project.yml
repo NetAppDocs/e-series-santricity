@@ -1292,7 +1292,7 @@ sidebar:
         entries:
           - title: View array status
             url: "/um-manage/storage-array-status.html"
-          - title: Launch System Manager
+          - title: Manage an individual storage array
             url: "/um-manage/launch-system-manager.html"
           - title: Change array passwords
             url: "/um-admin/change-storage-array-passwords.html"
