@@ -10,7 +10,7 @@ summary: "The RBAC (role-based access control) capabilities enforced on the stor
 :imagesdir: ../media/
 
 [.lead]
-The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in System Manager.
+The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager.
 
 User profiles and mapped roles are accessible from menu:Settings[Access Management > Local User Roles] in the user interface of either System Manager.
 

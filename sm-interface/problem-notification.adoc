@@ -9,7 +9,7 @@ summary: "System Manager uses icons and several other methods to notify you that
 :imagesdir: ../media/
 
 [.lead]
-System Manager uses icons and several other methods to notify you that problems exist with the storage array.
+SANtricity System Manager uses icons and several other methods to notify you that problems exist with the storage array.
 
 == Icons
 

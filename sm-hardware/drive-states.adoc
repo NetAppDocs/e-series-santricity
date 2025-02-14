@@ -9,7 +9,7 @@ summary: "System Manager reports various states for drives."
 :imagesdir: ../media/
 
 [.lead]
-System Manager reports various states for drives.
+SANtricity System Manager reports various states for drives.
 
 == Accessibility states
 

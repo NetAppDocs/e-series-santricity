@@ -9,7 +9,7 @@ summary: "When you make certain changes in System Manager, such as switching the
 :imagesdir: ../media/
 
 [.lead]
-When you make certain changes in System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use.
+When you make certain changes in SANtricity System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use.
 
 == Management interface
 

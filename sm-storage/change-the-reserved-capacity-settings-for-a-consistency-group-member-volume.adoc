@@ -10,7 +10,7 @@ summary: "You can change the settings for a consistency group member volume to a
 :imagesdir: ../media/
 
 [.lead]
-You can change the settings for a consistency group member volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a member volume is nearing full and to change the policy to use when the reserved capacity reaches its maximum defined percentage.
+You can change the settings for a consistency group member volume to adjust the percentage point at which SANtricity System Manager sends an alert notification when the reserved capacity for a member volume is nearing full and to change the policy to use when the reserved capacity reaches its maximum defined percentage.
 
 .About this task
 

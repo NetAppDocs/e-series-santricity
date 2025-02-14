@@ -10,7 +10,7 @@ summary: "Pool creation is initiated automatically when System Manager detects u
 :imagesdir: ../media/
 
 [.lead]
-Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools.
+Pool creation is initiated automatically when SANtricity System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools.
 
 .Before you begin
 

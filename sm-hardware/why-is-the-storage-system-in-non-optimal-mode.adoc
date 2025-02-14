@@ -9,7 +9,7 @@ summary: "A storage system in non-optimal mode is due to an Invalid System Confi
 :imagesdir: ../media/
 
 [.lead]
-A storage system in non-optimal mode is due to an Invalid System Configuration state. Despite this state, normal I/O access to existing volumes is fully supported; however, System Manager will prohibit some operations.
+A storage system in non-optimal mode is due to an Invalid System Configuration state. Despite this state, normal I/O access to existing volumes is fully supported; however, SANtricity System Manager will prohibit some operations.
 
 A storage system might transition to Invalid System Configuration for one of these reasons:
 

@@ -10,7 +10,7 @@ summary: "You can configure System Manager to send storage array alerts by email
 :imagesdir: ../media/
 
 [.lead]
-You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages.
+You can configure SANtricity System Manager to send storage array alerts by email, SNMP traps, and syslog messages.
 
 == What are alerts?
 _Alerts_ notify administrators about important events that occur on the storage array. Events can include such issues as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller. All Critical events are considered "alertable," along with some Warning and Informational events.

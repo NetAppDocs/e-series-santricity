@@ -9,7 +9,7 @@ summary: "The Import Settings feature is a batch operation that loads configurat
 :imagesdir: ../media/
 
 [.lead]
-The Import Settings feature is a batch operation that loads configurations from one storage array to multiple storage arrays. The settings that are imported during this operation depend on how the source storage array is configured in System Manager.
+The Import Settings feature is a batch operation that loads configurations from one storage array to multiple storage arrays. The settings that are imported during this operation depend on how the source storage array is configured in SANtricity System Manager.
 
 The following settings can be imported to multiple storage arrays:
 

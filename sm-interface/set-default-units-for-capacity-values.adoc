@@ -10,7 +10,7 @@ summary: "System Manager can display capacity values in either gibibytes (GiB) o
 :imagesdir: ../media/
 
 [.lead]
-System Manager can display capacity values in either gibibytes (GiB) or tebibytes (TiB).
+SANtricity System Manager can display capacity values in either gibibytes (GiB) or tebibytes (TiB).
 
 Preferences are stored in the browser's local storage so all users can have their own settings.
 

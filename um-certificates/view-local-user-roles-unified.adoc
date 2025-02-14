@@ -9,7 +9,7 @@ summary: "From the Local User Roles tab, you can view the mappings of the users 
 :imagesdir: ../media/
 
 [.lead]
-From the Local User Roles tab, you can view the mappings of the users to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the Web Services Proxy for Unified Manager.
+From the Local User Roles tab, you can view the mappings of the users to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the Web Services Proxy for SANtricity Unified Manager.
 
 .Before you begin
 

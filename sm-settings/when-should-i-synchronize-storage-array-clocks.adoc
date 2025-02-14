@@ -9,7 +9,7 @@ summary: "You should manually synchronize the controller clocks in the storage a
 :imagesdir: ../media/
 
 [.lead]
-You should manually synchronize the controller clocks in the storage array if you notice that the time stamps shown in System Manager are not aligned with time stamps shown in your management client (the computer that is accessing System Manager through the browser). This task is only necessary if NTP (Network Time Protocol) is not enabled in System Manager.
+You should manually synchronize the controller clocks in the storage array if you notice that the time stamps shown in SANtricity System Manager are not aligned with time stamps shown in your management client (the computer that is accessing SANtricity System Manager through the browser). This task is only necessary if NTP (Network Time Protocol) is not enabled in SANtricity System Manager.
 
 [NOTE]
 ====

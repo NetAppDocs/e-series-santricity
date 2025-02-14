@@ -10,7 +10,7 @@ summary: "You can obtain and import CA-signed certificates for secure access to 
 :imagesdir: ../media/
 
 [.lead]
-You can obtain and import CA-signed certificates for secure access to the management system hosting Unified Manager.
+You can obtain and import CA-signed certificates for secure access to the management system hosting SANtricity Unified Manager.
 
 .Before you begin
 

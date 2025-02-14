@@ -9,7 +9,7 @@ summary: "Unified Manager includes configuration options for the SANtricity mirr
 :imagesdir: ../media/
 
 [.lead]
-Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection.
+SANtricity Unified Manager includes configuration options for the SANtricity mirroring features, which enable administrators to replicate data between two storage arrays for data protection.
 
 [NOTE]
 ====

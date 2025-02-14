@@ -9,7 +9,7 @@ summary: "To configure authentication for Access Management, you establish commu
 :imagesdir: ../media/
 
 [.lead]
-To configure authentication for Access Management, you establish communications between an LDAP server and the host running the Web Services Proxy for Unified Manager. You then map the LDAP user groups to the local user roles.
+To configure authentication for Access Management, you establish communications between an LDAP server and the host running the Web Services Proxy for SANtricity Unified Manager. You then map the LDAP user groups to the local user roles.
 
 .Before you begin
 

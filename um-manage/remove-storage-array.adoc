@@ -10,7 +10,7 @@ summary: "You can remove one or more storage arrays if you no longer want to man
 :imagesdir: ../media/
 
 [.lead]
-You can remove one or more storage arrays if you no longer want to manage it from Unified Manager.
+You can remove one or more storage arrays if you no longer want to manage it from SANtricity Unified Manager.
 
 .About this task
 

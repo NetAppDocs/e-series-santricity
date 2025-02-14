@@ -9,7 +9,7 @@ summary: "You can navigate around System Manager using the keyboard alone."
 :imagesdir: ../media/
 
 [.lead]
-You can navigate around System Manager using the keyboard alone.
+You can navigate around SANtricity System Manager using the keyboard alone.
 
 == Overall navigation
 

@@ -9,7 +9,7 @@ summary: "Administrators can use RBAC (role-based access control) capabilities e
 :imagesdir: ../media/
 
 [.lead]
-Administrators can use RBAC (role-based access control) capabilities enforced in Unified Manager. These capabilities are referred to as "local user roles."
+Administrators can use RBAC (role-based access control) capabilities enforced in SANtricity Unified Manager. These capabilities are referred to as "local user roles."
 
 == Configuration workflow
 
