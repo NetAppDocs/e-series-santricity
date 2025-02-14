@@ -9,7 +9,7 @@ summary: "System Manager sets limits for how many drives you can remove from a p
 :imagesdir: ../media/
 
 [.lead]
-System Manager sets limits for how many drives you can remove from a pool.
+SANtricity System Manager sets limits for how many drives you can remove from a pool.
 
 * You cannot reduce the number of drives in a pool to be less than 11 drives.
 * You cannot remove drives if there is not enough free capacity in the pool to contain the data from the removed drives when that data is redistributed to the remaining drives in the pool.

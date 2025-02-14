@@ -10,7 +10,7 @@ summary: "If Network Time Protocol (NTP) is not enabled, you can manually set th
 :imagesdir: ../media/
 
 [.lead]
-If Network Time Protocol (NTP) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client (the system used to run the browser that accesses System Manager).
+If Network Time Protocol (NTP) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client (the system used to run the browser that accesses SANtricity System Manager).
 
 .About this task
 

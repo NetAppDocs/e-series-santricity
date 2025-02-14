@@ -4,13 +4,13 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access System Manager
 summary: To access the System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
 ---
-= Access System Manager
+= Access SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-To access the System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
+To access the SANtricity System Manager user interface, you point a browser to the controller’s IP address. A setup wizard helps you get started with system configuration.
 
 .Before you begin
 

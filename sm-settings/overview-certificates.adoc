@@ -9,7 +9,7 @@ summary: "You can use System Manager to create Certificate Signing Requests (CSR
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates.
+You can use SANtricity System Manager to create Certificate Signing Requests (CSRs), import certificates, and manage existing certificates.
 
 == What are certificates?
 _Certificates_ are digital files that identify online entities, such as websites and servers, for secure communications on the internet. There are two types of certificates: a _signed certificate_ is validated by a certificate authority (CA) and a _self-signed certificate_ is validated by the owner of the entity instead of a third party.

@@ -9,6 +9,6 @@ summary: "When you identify applications, System Manager automatically recommend
 :imagesdir: ../media/
 
 [.lead]
-When you identify applications, System Manager automatically recommends a volume configuration that optimizes storage based on application type.
+When you identify applications, SANtricity System Manager automatically recommends a volume configuration that optimizes storage based on application type.
 
 Optimizing volumes by application can make data storage operations more efficient. Characteristics such as I/O type, segment size, controller ownership, and read and write cache are included in the volume configuration. In addition, you can view performance data by application and by workload to assess the latency, IOPS, and MiB/s of applications and their associated workloads.

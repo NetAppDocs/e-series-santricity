@@ -9,7 +9,7 @@ summary: "Unified Manager displays the status of each storage array that has bee
 :imagesdir: ../media/
 
 [.lead]
-Unified Manager displays the status of each storage array that has been discovered.
+SANtricity Unified Manager displays the status of each storage array that has been discovered.
 
 Go to the *Manage - All* page. From this page, you can view the status of the connection between the Web Services Proxy and that storage array.
 

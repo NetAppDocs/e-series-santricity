@@ -9,7 +9,7 @@ summary: "You can use Unified Manager to import settings from one storage array 
 :imagesdir: ../media/
 
 [.lead]
-You can use Unified Manager to import settings from one storage array to multiple storage arrays. The Import Settings feature is a batch operation that saves time when you need to configure multiple arrays in the network.
+You can use SANtricity Unified Manager to import settings from one storage array to multiple storage arrays. The Import Settings feature is a batch operation that saves time when you need to configure multiple arrays in the network.
 
 == Settings available for import
 

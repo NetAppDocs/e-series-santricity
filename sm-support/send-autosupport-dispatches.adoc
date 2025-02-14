@@ -10,7 +10,7 @@ summary: "System Manager allows you to send AutoSupport dispatches to technical 
 :imagesdir: ../media/
 
 [.lead]
-System Manager allows you to send AutoSupport dispatches to technical support, without waiting for a scheduled dispatch.
+SANtricity System Manager allows you to send AutoSupport dispatches to technical support, without waiting for a scheduled dispatch.
 
 .Before you begin
 

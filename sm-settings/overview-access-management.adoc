@@ -10,7 +10,7 @@ summary: "Access Management is a method of establishing user authentication in S
 :imagesdir: ../media/
 
 [.lead]
-Access Management is a method of establishing user authentication in System Manager.
+Access Management is a method of establishing user authentication in SANtricity System Manager.
 
 == What authentication methods are available?
 

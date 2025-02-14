@@ -9,7 +9,7 @@ summary: "You can use the Launch option to open the browser-based SANtricity Sys
 :imagesdir: ../media/
 
 [.lead]
-You can use the Launch option to open the browser-based System Manager for one or more storage arrays when you want to perform management operations.
+You can use the Launch option to open the browser-based SANtricity System Manager for one or more storage arrays when you want to perform management operations.
 
 .Steps
 

@@ -10,7 +10,7 @@ summary: "You can use Unified Manager to upgrade the SANtricity OS software on m
 :imagesdir: ../media/
 
 [.lead]
-You can use Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version.
+You can use SANtricity Unified Manager to upgrade the SANtricity OS software on multiple storage arrays of the same type to a newer version.
 
 == Upgrade workflow
 
