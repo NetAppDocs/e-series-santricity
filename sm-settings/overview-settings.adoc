@@ -10,7 +10,7 @@ summary: "You can configure System Manager for some general array settings and a
 :imagesdir: ../media/
 
 [.lead]
-You can configure System Manager for some general array settings and add-on features.
+You can configure SANtricity System Manager for some general array settings and add-on features.
 
 == What settings can I configure?
 

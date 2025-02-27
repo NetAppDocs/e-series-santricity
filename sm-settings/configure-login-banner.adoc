@@ -10,7 +10,7 @@ summary: "You can create a login banner that is presented to users before they e
 :imagesdir: ../media/
 
 [.lead]
-You can create a login banner that is presented to users before they establish sessions in System Manager. The banner can include an advisory notice and a consent message.
+You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message.
 
 .About this task
 

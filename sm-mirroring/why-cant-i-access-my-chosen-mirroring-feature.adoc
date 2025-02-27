@@ -9,7 +9,7 @@ summary: "Mirroring is configured in the Unified Manager interface."
 :imagesdir: ../media/
 
 [.lead]
-Mirroring is configured in the Unified Manager interface.
+Mirroring is configured in the SANtricity Unified Manager interface.
 
 [NOTE]
 ====

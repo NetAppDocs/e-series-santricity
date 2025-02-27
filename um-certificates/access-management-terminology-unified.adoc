@@ -9,7 +9,7 @@ summary: "Learn how the Access Management terms apply to SANtricity Unified Mana
 :imagesdir: ../media/
 
 [.lead]
-Learn how the Access Management terms apply to Unified Manager.
+Learn how the Access Management terms apply to SANtricity Unified Manager.
 
 [cols="25h,~",options="header"]
 |===

@@ -9,7 +9,7 @@ summary: "The Home page provides a dashboard view for the daily management of yo
 :imagesdir: ../media/
 
 [.lead]
-The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.
+The Home page provides a dashboard view for the daily management of your storage array. When you log into SANtricity System Manager, the Home page is the first screen displayed.
 
 The dashboard view comprises four summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
 

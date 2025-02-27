@@ -9,7 +9,7 @@ summary: "You can configure timeouts for SANtricity Unified Manager, so that use
 :imagesdir: ../media/
 
 [.lead]
-You can configure timeouts for Unified Manager, so that users inactive sessions are disconnected after a specified time.
+You can configure timeouts for SANtricity Unified Manager, so that users inactive sessions are disconnected after a specified time.
 
 .About this task
 

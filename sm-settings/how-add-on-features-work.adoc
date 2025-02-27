@@ -9,7 +9,7 @@ summary: "Add-ons are features that are not included in the standard configurati
 :imagesdir: ../media/
 
 [.lead]
-Add-ons are features that are not included in the standard configuration of System Manager and might require a key to enable. An add-on feature can be either a single premium feature or a bundled feature pack.
+Add-ons are features that are not included in the standard configuration of SANtricity System Manager and might require a key to enable. An add-on feature can be either a single premium feature or a bundled feature pack.
 
 The following steps provide an overview for enabling a premium feature or feature pack:
 

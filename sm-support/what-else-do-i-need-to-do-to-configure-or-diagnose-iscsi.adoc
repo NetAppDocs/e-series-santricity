@@ -10,7 +10,7 @@ summary: "iSCSI sessions can occur with hosts or remote storage arrays in an asy
 :imagesdir: ../media/
 
 [.lead]
-iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the System Manager functions that you can use to configure and manage these iSCSI sessions.
+iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the SANtricity System Manager functions that you can use to configure and manage these iSCSI sessions.
 
 [NOTE]
 ====

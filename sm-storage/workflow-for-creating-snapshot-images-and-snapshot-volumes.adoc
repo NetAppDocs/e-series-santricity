@@ -9,7 +9,7 @@ summary: "In System Manager, you can create snapshot images and snapshot volumes
 :imagesdir: ../media/
 
 [.lead]
-In System Manager, you can create snapshot images and snapshot volumes by following these steps.
+In SANtricity System Manager, you can create snapshot images and snapshot volumes by following these steps.
 
 == Workflow for creating snapshot images
 

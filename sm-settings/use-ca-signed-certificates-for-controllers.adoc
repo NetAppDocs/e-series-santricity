@@ -10,7 +10,7 @@ summary: "You can obtain CA-signed certificates for secure communications betwee
 :imagesdir: ../media/
 
 [.lead]
-You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing System Manager.
+You can obtain CA-signed certificates for secure communications between the controllers and the browser used for accessing SANtricity System Manager.
 
 .Before you begin
 

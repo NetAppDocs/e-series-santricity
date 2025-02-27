@@ -10,7 +10,7 @@ summary: "You can change the settings for a snapshot group to change its name, a
 :imagesdir: ../media/
 
 [.lead]
-You can change the settings for a snapshot group to change its name, auto-delete settings, the maximum number of allowed snapshot images, the percentage point at which System Manager sends a reserved capacity alert notification, or the policy to use when the reserved capacity reaches its maximum defined percentage.
+You can change the settings for a snapshot group to change its name, auto-delete settings, the maximum number of allowed snapshot images, the percentage point at which SANtricity System Manager sends a reserved capacity alert notification, or the policy to use when the reserved capacity reaches its maximum defined percentage.
 
 During the creation of a snapshot group, reserved capacity is created to store the data for all the snapshot images contained in the group.
 

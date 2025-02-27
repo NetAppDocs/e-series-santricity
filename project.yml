@@ -1,6 +1,6 @@
 ---
 settings:
-  name: "SANtricity 11.9"
+  name: "SANtricity software"
   internal:
     pdf_enabled: true
   prod:
@@ -16,7 +16,7 @@ settings:
       url: /e-series-santricity-117
 sidebar:
   entries:
-  - title: SANtricity 11.9 docs
+  - title: SANtricity software 11.9 docs
     url: "/index.html"
   - title: Release notes
     entries:
@@ -30,9 +30,9 @@ sidebar:
           url: "/san-getstarted/santricity-overview.html"
         - title: Supported browsers and OSs
           url: "/san-getstarted/supported-browsers-os.html"
-        - title: System Manager setup
+        - title: SANtricity System Manager setup
           entries:
-          - title: Access System Manager
+          - title: Access SANtricity System Manager
             url: "/san-getstarted/access-sam.html"
           - title: Setup wizard overview
             url: "/sm-interface/setup-wizard-overview.html"
@@ -50,20 +50,20 @@ sidebar:
                 url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
               - title: How do I know if I should accept the recommended pool configuration?
                 url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-              - title: System Manager has not detected any hosts. What do I do?
+              - title: SANtricity System Manager has not detected any hosts. What do I do?
                 url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
-        - title: Unified Manager setup
+        - title: SANtricity Unified Manager setup
           entries:
-          - title: Install Unified Manager
+          - title: Install SANtricity Unified Manager
             url: "/san-getstarted/install-um.html"
-          - title: Access Unified Manager
+          - title: Access SANtricity Unified Manager
             url: "/san-getstarted/login-um.html"
-  - title: System Manager
+  - title: SANtricity System Manager
     url: "/system-manager/index.html"
     entries:
       - title: Main interface
         entries:
-        - title: System Manager interface overview
+        - title: SANtricity System Manager interface overview
           url: "/sm-interface/overview-interface-sam.html"
         - title: View performance data
           entries:
@@ -1151,7 +1151,7 @@ sidebar:
           entries:
           - title: Why does the Cannot Access Other Controller dialog box appear?
             url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-          - title: How do I know what certificates need to be uploaded to System Manager
+          - title: How do I know what certificates need to be uploaded to SANtricity System Manager
               for external key management?
             url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
           - title: What do I need to know about certificate revocation checking?
@@ -1257,12 +1257,12 @@ sidebar:
             - title: How do I choose which type of upgrade to perform?
               url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
 
-  - title: Unified Manager
+  - title: SANtricity Unified Manager
     url: "/unified-manager/index.html"
     entries:
     - title: Main interface
       entries:
-        - title: Unified Manager interface overview
+        - title: SANtricity Unified Manager interface overview
           url: "/um-admin/overview-interface-unified.html"
         - title: Supported browsers
           url: "/um-admin/supported-browsers-unified.html"
@@ -1280,7 +1280,7 @@ sidebar:
         entries:
         - title: Considerations for discovering arrays
           url: "/um-manage/considerations-for-discovering-arrays.html"
-        - title: Considerations for accessing System Manager
+        - title: Considerations for accessing SANtricity System Manager
           url: "/um-manage/launch-considerations.html"
       - title: Discover arrays
         entries:
@@ -1292,7 +1292,7 @@ sidebar:
         entries:
           - title: View array status
             url: "/um-manage/storage-array-status.html"
-          - title: Launch System Manager
+          - title: Manage an individual storage array
             url: "/um-manage/launch-system-manager.html"
           - title: Change array passwords
             url: "/um-admin/change-storage-array-passwords.html"

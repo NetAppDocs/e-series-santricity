@@ -10,7 +10,7 @@ summary: "Technical support can use recovery support files to troubleshoot issue
 :imagesdir: ../media/
 
 [.lead]
-Technical support can use recovery support files to troubleshoot issues. System Manager automatically saves these files.
+Technical support can use recovery support files to troubleshoot issues. SANtricity System Manager automatically saves these files.
 
 .Before you begin
 

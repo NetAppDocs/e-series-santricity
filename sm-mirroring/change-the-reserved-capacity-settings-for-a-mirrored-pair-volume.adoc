@@ -10,7 +10,7 @@ summary: "You can change the settings for a mirrored pair volume to adjust the p
 :imagesdir: ../media/
 
 [.lead]
-You can change the settings for a mirrored pair volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a mirrored pair volume is nearing full.
+You can change the settings for a mirrored pair volume to adjust the percentage point at which SANtricity System Manager sends an alert notification when the reserved capacity for a mirrored pair volume is nearing full.
 
 .Steps
 

@@ -9,7 +9,7 @@ summary: "The Recovery Guru is a component of System Manager that diagnoses stor
 :imagesdir: ../media/
 
 [.lead]
-The Recovery Guru is a component of System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems.
+The Recovery Guru is a component of SANtricity System Manager that diagnoses storage array problems and recommends recovery procedures to fix the problems.
 
 .Steps
 

@@ -10,7 +10,7 @@ summary: "From System Manager you can download the command line interface (CLI) 
 :imagesdir: ../media/
 
 [.lead]
-From System Manager, you can download the command line interface (CLI) package.
+From SANtricity System Manager, you can download the command line interface (CLI) package.
 
 The CLI provides a text-based method for configuring and monitoring storage arrays. It communicates via https and uses the same syntax as the CLI available in the externally installed management software package. No key is required to download the CLI.
 

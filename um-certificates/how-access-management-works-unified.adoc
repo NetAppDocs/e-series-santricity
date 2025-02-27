@@ -9,7 +9,7 @@ summary: "Use Access Management to establish user authentication in SANtricity U
 :imagesdir: ../media/
 
 [.lead]
-Use Access Management to establish user authentication in Unified Manager.
+Use Access Management to establish user authentication in SANtricity Unified Manager.
 
 == Configuration workflow
 

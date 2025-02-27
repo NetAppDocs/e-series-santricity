@@ -10,7 +10,7 @@ summary: "If you created a primary volume on a legacy storage array that cannot 
 :imagesdir: ../media/
 
 [.lead]
-If you created a primary volume on a legacy storage array that cannot be managed by System Manager, you can create the secondary volume on this array with System Manager.
+If you created a primary volume on a legacy storage array that cannot be managed by SANtricity System Manager, you can create the secondary volume on this array with SANtricity System Manager.
 
 .About this task
 

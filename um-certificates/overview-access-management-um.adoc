@@ -9,7 +9,7 @@ summary: "Access Management is a method of configuring user authentication in SA
 :imagesdir: ../media/
 
 [.lead]
-Access Management is a method of configuring user authentication in Unified Manager.
+Access Management is a method of configuring user authentication in SANtricity Unified Manager.
 
 == What authentication methods are available?
 
