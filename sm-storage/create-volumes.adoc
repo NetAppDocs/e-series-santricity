@@ -85,8 +85,8 @@ System Manager may suggest a volume configuration based on the application or wo
 * The pools or volume groups must have sufficient free capacity.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF600 and E5700 series)
- ** 1,024 volumes (EF300)
+ ** 2,048 volumes (EF600, EF600C, and E5700 series)
+ ** 1,024 volumes (EF300 and EF300C)
  ** 512 volumes (E4000 and E2800 series)
 * To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
 +
@@ -283,4 +283,4 @@ System Manager creates the new volumes in the selected pools and volume groups, 
 * Perform any operating system modifications necessary on the application host so that the applications can use the volume.
 * Run the operating system-specific utility (available from a third-party vendor), and then run the SMcli command `-identifyDevices` to correlate volume names with host storage array names.
 +
-The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on E4000, EF600, EF300, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
+The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .

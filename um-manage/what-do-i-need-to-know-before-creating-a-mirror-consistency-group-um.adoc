@@ -29,5 +29,5 @@ Also be sure to meet the following requirements for storage arrays:
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage system.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====

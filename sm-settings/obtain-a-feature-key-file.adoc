@@ -26,8 +26,6 @@ This task describes how to gather required information for the feature, and then
 . In System Manager, locate the Feature Enable Identifier. Go to menu:Settings[System], and then scroll down to *Add-ons*. Look for the *Feature Enable Identifier*. Record the number for the Feature Enable Identifier.
 . Locate and record the code for feature activation. For features packs, this code is provided in the appropriate instructions for performing the conversion.
 +
-NetApp instructions are available from https://www.netapp.com/support-and-training/documentation/eseries-santricity/[NetApp E-Series Systems Documentation Center^].
-+
 For premium features, you can access the activation code from the Support site, as follows:
 
  .. Log in to https://mysupport.netapp.com/site/global/dashboard[NetApp Support^].

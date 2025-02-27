@@ -20,6 +20,8 @@ NOTE: By default, resource provisioning is enabled on systems where the drives s
 
 * You must have an EF300 or EF600 storage array.
 * You must have SSD volume groups or pools, where all the drives support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability.
++
+NOTE: DULBE is not supported on EF300C or EF600C storage arrays at this time. 
 
 .About this task
 

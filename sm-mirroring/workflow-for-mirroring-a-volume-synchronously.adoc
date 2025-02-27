@@ -13,7 +13,7 @@ You configure synchronous mirroring using the following workflow.
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 . Perform the initial configuration in Unified Manager:

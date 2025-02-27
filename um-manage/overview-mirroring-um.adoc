@@ -13,7 +13,7 @@ Use the mirroring features to replicate data between a local storage array and a
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600 or EF300 storage system.
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 == What is mirroring?

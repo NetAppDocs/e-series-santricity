@@ -16,7 +16,7 @@ You also can change the percentage point at which an alert (warning threshold ex
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 The system automatically expands the allocated capacity based on the allocated capacity limit. The allocated capacity limit allows you to limit the thin volume's automatic growth below the reported capacity. When the amount of data written gets close to the allocated capacity, you can change the allocated capacity limit.

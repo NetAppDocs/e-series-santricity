@@ -13,7 +13,7 @@ The Synchronous Mirroring feature provides online, real-time data replication be
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 == What is synchronous mirroring?

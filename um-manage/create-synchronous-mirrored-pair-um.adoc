@@ -14,7 +14,7 @@ To configure synchronous mirroring, you create a mirrored pair that includes a p
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 .Before you begin
