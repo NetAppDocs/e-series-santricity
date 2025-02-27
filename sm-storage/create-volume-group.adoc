@@ -115,7 +115,7 @@ Shows if shelf loss protection is available.     Shelf loss protection guarantee
 a|
 Drawer Loss Protection
 a|
-Shows if drawer loss protection is available, which is provided only if you are using a drive shelf that contains drawers.     Drawer loss protection guarantees accessibility to the data on the volumes in a volume group if a total loss of communication occurs with a single drawer in a drive shelf.
+Shows if drawer loss protection is available, which is provided only if you are using a drive shelf that contains drawers. Drawer loss protection guarantees accessibility to the data on the volumes in a volume group if a total loss of communication occurs with a single drawer in a drive shelf.
 a|
 Volume Block Sizes Supported (EF300 and EF600 only)
 a|

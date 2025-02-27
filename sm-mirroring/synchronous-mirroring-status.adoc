@@ -13,7 +13,7 @@ A synchronous mirrored pair's status indicates whether the data on the primary v
 
 [NOTE]
 ====
-This feature is not available on the EF600 or EF300 storage system.
+This feature is not available on the EF600/EF600C or EF300/EF300C storage system.
 ====
 
 Synchronous mirrored pairs can have one of the following statuses:

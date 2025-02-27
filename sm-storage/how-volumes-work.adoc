@@ -37,7 +37,7 @@ Thin provisioning helps to avoid wasted allocated capacity and can save business
 
 [NOTE]
 ====
-The EF600 and EF300 storage systems do not support thin provisioning.
+The EF600/EF600C and EF300/EF300C storage systems do not support thin provisioning.
 ====
 
 == Characteristics of volumes
