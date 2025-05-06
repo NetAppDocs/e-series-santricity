@@ -58,10 +58,10 @@ In addition, the following clients cannot access storage array services and reso
 * Enterprise Management Window (EMW)
 * Software Developer Kits (SDK) clients
 * In-band clients
+* Login using standard REST API endpoint
 
 === Limited connectivity with SAML enabled
 The following storage array features have limited connectivity with JSON Web Token authentication whenever SAML is enabled. 
 
 * Command-line interface (CLI)
 * HTTP Basic Authentication REST API clients
-* Login using standard REST API endpoint
