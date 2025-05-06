@@ -56,8 +56,12 @@ When SAML is enabled, users cannot discover or manage storage for that array fro
 In addition, the following clients cannot access storage array services and resources:
 
 * Enterprise Management Window (EMW)
-* Command-line interface (CLI)
 * Software Developer Kits (SDK) clients
 * In-band clients
+
+=== Limited connectivity with SAML enabled
+The following storage array features have limited connectivity with JSON Web Token authentication whenever SAML is enabled. 
+
+* Command-line interface (CLI)
 * HTTP Basic Authentication REST API clients
 * Login using standard REST API endpoint
