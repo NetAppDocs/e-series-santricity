@@ -22,8 +22,8 @@ a|Support for IOM12C and DCM3 SAS-3 shelves is now available for controller firm
 |===
 
 == New features in Version 11.90R2
-
-This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464[11.90 Release Notes].
+ 
+This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464[E-Series 11.90 Release Notes^].
 
 == New features in Version 11.90R1
 
