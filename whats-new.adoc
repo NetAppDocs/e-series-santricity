@@ -12,6 +12,15 @@ summary: New features in SANtricity OS.
 [.lead]
 The following table describes new features in SANtricity System Manager 11.9.
 
+== New features in Version 11.90R3
+
+[cols="35h,~",options="header"]
+|===
+|New feature |Description
+a|SANtricity OS Support for IOM12C and  DCM3
+a|Support for IOM12C and DCM3 SAS-3 shelves is now available for controller firmware 11.90R3 or above. The IOM12C and DCM3 shelves are replacements for the IOM12B and DCM2 shelves.   
+|===
+
 == New features in Version 11.90R2
  
 This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464[E-Series 11.90 Release Notes^].
