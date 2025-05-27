@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, alarm, alerts,
 summary: "Alerts notify administrators about important events that occur on the storage array. Alerts can be sent through email, SNMP traps, and syslog."
 ---
-= How alerts work
+= How alerts work in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

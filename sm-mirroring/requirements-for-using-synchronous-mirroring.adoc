@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, synchronous, mirroring,
 summary: "If you plan to use synchronous mirroring, keep the following requirements in mind."
 ---
-= Requirements for using synchronous mirroring
+= Requirements for using synchronous mirroring in SANtricity software
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirrored, pair,
 summary: "You can change the synchronization priority and resynchronization policy that the mirrored pair uses to complete the resynchronization operation after a communication interruption."
 ---
-= Change synchronization settings for a mirrored pair
+= Change synchronization settings for a mirrored pair in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

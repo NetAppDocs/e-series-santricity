@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information,
 summary: "From the Certificates page, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array."
 ---
-= View imported certificate information
+= View imported certificate information in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

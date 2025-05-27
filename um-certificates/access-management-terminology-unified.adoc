@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, terminology
 summary: "Learn how the Access Management terms apply to SANtricity Unified Manager."
 ---
-= Access Management terminology
+= Learn about SANtricity Unified Manager access management terminology
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, remove, storage, arrays, group
 summary: "You can remove one or more managed storage arrays from a group if you no longer want to manage it from a specific storage group."
 ---
-= Remove storage arrays from group
+= Remove storage arrays from a group in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

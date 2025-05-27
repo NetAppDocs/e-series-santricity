@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, asynchronous, mirroring,
 summary: "If you plan to use asynchronous mirroring, keep the following requirements in mind."
 ---
-= Requirements for using asynchronous mirroring
+= Requirements for using asynchronous mirroring in SANtricity software
 :experimental:
 :icons: font
 :imagesdir: ../media/

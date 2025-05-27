@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, settings, snapshot, volume
 summary: "You can change the settings for a snapshot volume or snapshot consistency group snapshot volume to rename it, enable or disable SSD caching, or change the host, host cluster, or logical unit number (LUN) assignment."
 ---
-= Change the volume settings for a snapshot volume
+= Change the volume settings for a snapshot volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

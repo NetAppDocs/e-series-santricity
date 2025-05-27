@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, storage, array, group
 summary: "You create storage groups, and then add storage arrays to the groups. The storage group defines which drives provide the storage that makes up the volume."
 ---
-= Configure storage array group
+= Configure a storage array group in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

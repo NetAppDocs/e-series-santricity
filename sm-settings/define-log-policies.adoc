@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, define, audit, log, policies,
 summary: 'You can change the overwrite policy and the types of events recorded in the audit log.'
 ---
-= Define audit log policies
+= Define audit log policies in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, terms
 summary: "Learn how the remote storage terms apply to your storage array."
 ---
-= Remote Storage terminology
+= Learn about Remote Storage terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, storage array, name,
 summary: "You can change the storage array name that appears in the title bar of SANtricity System Manager."
 ---
-= Edit storage array name
+= Edit storage array name in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

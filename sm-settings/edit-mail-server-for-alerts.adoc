@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, mail, server, alerts,
 summary: "You can change the mail server address and email sender address used for email alerts."
 ---
-= Edit mail server for alerts
+= Edit mail server for alerts in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

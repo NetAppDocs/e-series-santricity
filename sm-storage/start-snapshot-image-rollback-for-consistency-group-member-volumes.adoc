@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, snapshot, consistency, group, member, volumes
 summary: "You can perform a rollback operation to change the content of snapshot consistency group member volumes to match the content that is saved in a snapshot image."
 ---
-= Start snapshot image rollback for snapshot consistency group member volumes
+= Start snapshot image rollback for snapshot consistency group member volumes in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

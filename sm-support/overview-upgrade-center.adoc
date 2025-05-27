@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, center
 summary: "Use the Upgrade Center to download the latest software and firmware and upgrade your storage array for the latest features and bug fixes."
 ---
-= Upgrade Center overview
+= Learn about upgrading SANtricity software
 :experimental:
 :icons: font
 :imagesdir: ../media/

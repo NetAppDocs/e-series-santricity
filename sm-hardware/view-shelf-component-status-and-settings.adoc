@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, shelf, component, status, settings,
 summary: "The Hardware page provides status and settings for shelf components, including the power supplies, fans, and batteries."
 ---
-= View shelf component status and settings
+= View shelf component status and settings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

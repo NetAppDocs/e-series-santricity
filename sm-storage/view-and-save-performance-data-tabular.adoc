@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, save, tabular, performance,
 summary: "You can view and save performance graphs data in tabular format. This allows you to filter the data you want displayed."
 ---
-= View and save tabular performance data
+= View and save tabular performance data in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

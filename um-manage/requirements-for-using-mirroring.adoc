@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, using, mirroring
 summary: "If you plan to configure mirroring, keep the following requirements in mind."
 ---
-= Requirements for using mirroring
+= Requirements for using mirroring in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

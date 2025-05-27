@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, create tokens
 summary: "You can create access tokens, which are used to authenticate with the REST API or Command Line Interface in place of a username and password."
 ---
-= Create access tokens
+= Create access tokens in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

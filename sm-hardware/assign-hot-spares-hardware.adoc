@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, assign, hot, spares, raid,
 summary: "You can assign a hot spare as a standby drive for additional data protection in RAID 1, RAID 5, or RAID 6 volume groups. If a drive fails in one of these volume groups, the controller reconstructs data from the failed drive to the hot spare."
 ---
-= Assign hot spares
+= Assign hot spares in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

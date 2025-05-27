@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, volumes
 summary: "A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. Use this option only under the guidance of technical support. You can select one or more volumes to initialize."
 ---
-= Initialize volumes
+= Initialize volumes in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, front, back, views, shelves
 summary: "The Hardware page can show either the front view or the back view of the shelves."
 ---
-= Switch between front and back views
+= Show front and back views in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

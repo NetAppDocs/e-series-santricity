@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ca-signed, certificates, authentication, key, management, server,
 summary: "For secure communications between a key management server and the storage array controllers, you must configure the appropriate sets of certificates."
 ---
-= Use CA-signed certificates for authentication with a key management server
+= Use CA-signed certificates for authentication with a key management server  in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

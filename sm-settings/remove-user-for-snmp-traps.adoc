@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, users, snmpv3, traps,
 summary: "You can remove a user for SNMPv3 traps."
 ---
-= Remove users for SNMPv3 traps
+= Remove users for SNMPv3 traps in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, internal, security, key,
 summary: "To use the Drive Security feature, you can create an internal security key that is shared by the controllers and secure-capable drives in the storage array. Internal keys are maintained on the controller’s persistent memory."
 ---
-= Create internal security key
+= Create an internal security key in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

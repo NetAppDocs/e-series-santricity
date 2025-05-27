@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, switch, external, internal, key, management,
 summary: "You can change the management method for Drive Security from an external key server to the internal method used by the storage array. The security key previously defined for external key management is then used for internal key management."
 ---
-= Switch from external to internal key management
+= Switch from external to internal key management in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

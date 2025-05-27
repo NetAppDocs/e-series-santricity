@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes
 summary: "You can perform a number of different actions on a volume: increasing capacity, deleting, copying, initializing, redistributing, changing ownership, changing cache settings, and changing media scan settings."
 ---
-= Actions you can perform on volumes
+= Actions you can perform on volumes in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

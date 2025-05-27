@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, clear, staged, os, software
 summary: "You can remove staged OS software to ensure that a pending version is not inadvertently activated at a later time. Removing the staged OS software does not affect the current version that is running on the storage arrays."
 ---
-= Clear staged OS software
+= Clear staged OS software in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

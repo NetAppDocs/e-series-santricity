@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add-on, feature, terms
 summary: "Learn how the add-on feature terms apply to your storage array."
 ---
-= Add-on feature terminology
+= Learn about add-on feature terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

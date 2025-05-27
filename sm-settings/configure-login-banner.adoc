@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, login, banner,
 summary: "You can create a login banner that is presented to users before they establish sessions in SANtricity System Manager. The banner can include an advisory notice and a consent message."
 ---
-= Configure login banner
+= Configure login banner in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

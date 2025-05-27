@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes, assigned, hosts, clusters
 summary: "For a host or host cluster to send I/O to a volume, you must assign the volume to the host or host cluster."
 ---
-= How volumes are assigned to hosts and host clusters
+= How volumes are assigned to hosts and host clusters in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

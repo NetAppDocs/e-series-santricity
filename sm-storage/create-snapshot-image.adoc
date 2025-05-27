@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, snapshot, image
 summary: "You can manually create a snapshot image from a base volume or snapshot consistency group. This is also called an instant snapshot or instant image."
 ---
-= Create snapshot image
+= Create a snapshot image in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

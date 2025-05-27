@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, automatic, load, balancing,
 summary: "Automatic load balancing provides improved I/O resource management by reacting dynamically to load changes over time and automatically adjusting volume controller ownership to correct any load imbalance issues when workloads shift across the controllers."
 ---
-= Automatic load balancing overview
+= Learn about automatic load balancing in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

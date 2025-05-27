@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, host, host cluster
 summary: "You can delete a host or host cluster."
 ---
-= Delete host or host cluster
+= Delete a host or host cluster in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

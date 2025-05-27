@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, erase, drives, removal,
 summary: "You can use the Erase option to prepare an unassigned drive for removal from the system. This procedure permanently removes data, ensuring that the data cannot be read again."
 ---
-= Erase drives
+= Erase drives in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

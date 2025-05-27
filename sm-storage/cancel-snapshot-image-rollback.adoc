@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cancel, snapshot, image, rollback
 summary: "You can cancel an active rollback that is in progress (actively copying data), a pending rollback (in a pending queue awaiting resources to start), or a rollback that has been paused due to an error."
 ---
-= Cancel snapshot image rollback
+= Cancel snapshot image rollback in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

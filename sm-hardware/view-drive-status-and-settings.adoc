@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, drive, status, settings, media,
 summary: "You can view status and settings for the drives, such as the media type, interface type, and capacity."
 ---
-= View drive status and settings
+= View drive status and settings in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access volumes
 summary: "An access volume is a factory-configured volume on the storage array that is used for communication with the storage array and the host through the host I/O connection. The access volume requires a Logical Unit Number (LUN)."
 ---
-= Access volumes
+= Access volumes in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

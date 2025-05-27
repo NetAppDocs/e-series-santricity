@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, backup, security, key,
 summary: "After creating or changing a security key, you can create a backup copy of the key file in case the original gets corrupted."
 ---
-= Back up security key
+= Back up security keys in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

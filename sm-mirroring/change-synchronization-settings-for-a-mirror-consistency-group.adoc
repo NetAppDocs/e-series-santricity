@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, synchronization, settings, mirror, consistency, group,
 summary: "You can change the synchronization settings and warning thresholds that the mirror consistency group on the local storage array uses when data is initially synchronized or when data is re-synchronized during asynchronous mirroring operations."
 ---
-= Change synchronization settings for a mirror consistency group
+= Change synchronization settings for a mirror consistency group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

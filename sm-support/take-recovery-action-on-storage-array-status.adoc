@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, take, recovery, action, storage, array, status
 summary: "You can take action on your current storage array’s status by reviewing the unreadable sectors log, re-enabling drive ports and clearing the recovery mode."
 ---
-= Take recovery action on storage array status
+= Take recovery action on storage array status in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

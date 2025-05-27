@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, supported, browsers
 summary: "SANtricity Unified Manager can be accessed from several types of browsers."
 ---
-= Supported browsers
+= Supported browsers for SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

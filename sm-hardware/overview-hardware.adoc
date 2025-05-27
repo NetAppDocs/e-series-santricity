@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, page,
 summary: "You can check component status on the Hardware page and perform some functions related to those components."
 ---
-= Hardware component overview
+= View and manage hardware components in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

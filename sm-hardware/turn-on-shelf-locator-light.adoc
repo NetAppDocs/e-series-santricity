@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, shelf, locator, light, LED
 summary: "To find the physical location of a shelf shown on the Hardware page, you can turn on the shelf’s locator light."
 ---
-= Turn on shelf locator light
+= Turn on a shelf locator light in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

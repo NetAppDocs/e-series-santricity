@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, volume
 summary: "You can delete a snapshot volume or a snapshot consistency group snapshot volume that is no longer needed for backup or software application testing purposes."
 ---
-= Delete snapshot volume
+= Delete a snapshot volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

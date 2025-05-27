@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring,
 summary: "Asynchronous mirroring copies data volumes on demand or on a schedule, which minimizes or avoids downtime that might result from data corruption or loss."
 ---
-= How asynchronous mirroring works
+= How asynchronous mirroring works in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

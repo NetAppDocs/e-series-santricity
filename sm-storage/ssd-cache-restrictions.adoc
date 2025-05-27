@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, restrictions
 summary: "Learn about the restrictions when using SSD Cache on your storage array."
 ---
-= SSD Cache restrictions
+= Learn about SSD cache restrictions in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

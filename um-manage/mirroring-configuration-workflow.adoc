@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, mirroring, configuration, workflow
 summary: "You configure asynchronous or synchronous mirroring in Unified Manager, and then use System Manager to manage synchronizations."
 ---
-= Mirroring configuration workflow
+= Mirror SANtricity configuration workflows
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iscsi, sessions
 summary: "You can view detailed information about the iSCSI connections to your storage array. iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship."
 ---
-= View iSCSI sessions
+= View iSCSI sessions in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

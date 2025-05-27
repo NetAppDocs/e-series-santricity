@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, mirror, consistency group, primary, secondary
 summary: 'You can change the role between mirror consistency groups for administrative purposes or in the event of a disaster on the local storage array.'
 ---
-= Change mirror consistency group role to primary or secondary
+= Change the mirror consistency group role to primary or secondary in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

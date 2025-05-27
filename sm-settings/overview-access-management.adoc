@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access, management,
 summary: "Access Management is a method of establishing user authentication in SANtricity System Manager. Authentication methods include RBAC (role-based access control), Directory Services, and Security Assertion Markup Language (SAML) 2.0."
 ---
-= Access Management overview
+= Learn about access management in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

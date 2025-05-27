@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, group
 summary: "You delete a snapshot group when you want to permanently delete its data and remove it from the system. Deleting a snapshot group reclaims reserved capacity for reuse in the pool or volume group."
 ---
-= Delete snapshot group
+= Delete a snapshot group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

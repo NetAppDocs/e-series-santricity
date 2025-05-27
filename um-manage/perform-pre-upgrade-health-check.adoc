@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, perform, pre-upgrade, health, check
 summary: "A health check runs as part of the upgrade process, but you also can run a health check separately before you begin. The health check assesses components of the storage array to make sure that the upgrade can proceed."
 ---
-= Perform pre-upgrade health check
+= Perform a pre-upgrade health check in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, suspend, resume, synchronization, mirror, consistency, group,
 summary: "You can suspend or resume the synchronization of data on all mirrored pairs within a mirror consistency group, which is more efficient than suspending or resuming synchronization on individual mirrored pairs."
 ---
-= Suspend or resume synchronization for mirror consistency group
+= Suspend or resume synchronization for mirror consistency groups in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

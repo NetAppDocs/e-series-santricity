@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, snapshot, image, settings
 summary: "You can view the properties, status, reserved capacity, and associated objects assigned to each snapshot image."
 ---
-= View snapshot image settings
+= View snapshot image settings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

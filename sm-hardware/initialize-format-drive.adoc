@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, initialize, format, drive,
 summary: "If you move assigned drives from one storage array to another, you must initialize (format) the drives before they can be used in the new storage array."
 ---
-= Initialize (format) drive
+= Initialize (format) drives in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

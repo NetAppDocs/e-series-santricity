@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, operations in progress
 summary: "The Operations in Progress page allows you to view a list of long-running operations that are currently running or are in a suspended, stopped, or failed state. You can take action on certain types of operations."
 ---
-= Operations in progress page
+= Learn about the SANtricity System Manager operations in progress page
 :icons: font
 :imagesdir: ../media/
 

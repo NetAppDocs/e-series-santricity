@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, multiple, storage, arrays
 summary: "You discover multiple arrays to detect all storage arrays across the subnet where the management server resides and to automatically add the discovered arrays to your management domain."
 ---
-= Discover multiple storage arrays
+= Discover multiple storage arrays in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

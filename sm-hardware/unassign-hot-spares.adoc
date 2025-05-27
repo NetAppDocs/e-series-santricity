@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, hot, spare, unassign,
 summary: "You can change a hot spare back to an unassigned drive."
 ---
-= Unassign hot spares
+= Unassign hot spares in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

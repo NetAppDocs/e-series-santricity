@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, application, workloads, volume,
 summary: "When creating a volume, you select a workload to customize the storage array configuration for a specific application."
 ---
-= How workloads work
+= How workloads work in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

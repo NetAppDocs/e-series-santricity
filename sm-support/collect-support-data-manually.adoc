@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, support, data, manually
 summary: "You can gather various types of inventory, status, and performance data about your storage array in a single file. Technical support can use the file for troubleshooting and further analysis."
 ---
-= Collect support data manually
+= Collect support data manually in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

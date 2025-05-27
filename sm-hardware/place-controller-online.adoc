@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, online
 summary: "If a controller is in the offline state or in service mode, you can place it back online."
 ---
-= Place controller online
+= Place a controller online in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

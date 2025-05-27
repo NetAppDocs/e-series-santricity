@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, revoke tokens
 summary: "You can revoke all access tokens if you determine that a token has been compromised."
 ---
-= Revoke access tokens
+= Revoke access tokens in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

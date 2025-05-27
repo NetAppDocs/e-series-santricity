@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, ssd cache, statistics
 summary: "You can view statistics for the SSD Cache, such as reads, writes, cache hits, cache allocation percentage, and cache utilization percentage."
 ---
-= View SSD Cache statistics
+= View SSD Cache statistics in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

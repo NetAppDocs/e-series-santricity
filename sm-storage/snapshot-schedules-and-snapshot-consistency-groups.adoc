@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, schedules, snapshot, consistency groups
 summary: "Use schedules for collection of snapshot images, and use snapshot consistency groups to manage multiple base volumes."
 ---
-= Snapshot schedules and snapshot consistency groups
+= Learn about snapshot schedules and snapshot consistency groups in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

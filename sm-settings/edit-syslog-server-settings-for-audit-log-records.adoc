@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, syslog, server, settings, audit, log, records,
 summary: "You can change the settings for the syslog server used for archiving audit logs, and also upload a new Certificate Authority (CA) certificate for the server."
 ---
-= Edit syslog server settings for audit log records
+= Edit syslog server settings for audit log records in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

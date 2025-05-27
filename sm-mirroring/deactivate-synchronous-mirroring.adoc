@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, deactivate, synchronous, mirroring, adapter, host, bus,
 summary: "You can deactivate the Synchronous Mirroring feature on a storage array to re-establish normal use of host bus adapter (HBA) host port 4, which was reserved for mirror data transmission."
 ---
-= Deactivate synchronous mirroring
+= Deactivate synchronous mirroring in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

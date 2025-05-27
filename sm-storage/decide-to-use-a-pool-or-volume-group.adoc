@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pool, volume group
 summary: "You can create volumes using either a pool or a volume group. The best selection depends primarily on the key storage requirements such as the expected I/O workload, the performance requirements, and the data protection requirements."
 ---
-= Decide whether to use a pool or a volume group
+= Learn about pools and volume groups in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

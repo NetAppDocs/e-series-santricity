@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, mirror, consistency, groups,
 summary: "You can test the communication link to diagnose possible communication problems between the local storage array and the remote storage array associated with a mirror consistency group."
 ---
-= Test communication for mirror consistency groups
+= Test communication for mirror consistency groups in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hot, spare, drives, raid1, raid6, raid5
 summary: "Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups for System Manager. "
 ---
-= Hot spare drive overview
+= Learn about hot spare drives in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, login,
 summary: "Remote login lets users from outside of the local area network start an SSH session and change settings on the controller."
 ---
-= Configure remote login (SSH)
+= Configure remote login (SSH) in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

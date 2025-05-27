@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays
 summary: "To manage storage resources, you must first discover the storage arrays in the network."
 ---
-= Discovery overview
+= Learn about discovery in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

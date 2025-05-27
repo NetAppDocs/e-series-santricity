@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, autosupport, log
 summary: "The AutoSupport log provides information about status, dispatch history, and errors encountered during the delivery of AutoSupport dispatches."
 ---
-= View AutoSupport log
+= View AutoSupport log in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, autosupport, ASUP, maintenance window
 summary: "Disable the AutoSupport maintenance window to allow automatic ticket creation on error events. When AutoSupport maintenance window is disabled, the storage array will use AutoSupport to open a case with Support if there is an issue."
 ---
-= Disable AutoSupport maintenance window
+= Disable the AutoSupport maintenance window in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

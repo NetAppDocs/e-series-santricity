@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, saml, role, mappings,
 summary: "If you previously configured SAML for Access Management, you can change the role mappings between the IdP groups and the storage array’s predefined roles."
 ---
-= Change SAML role mappings
+= Change SAML role mappings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

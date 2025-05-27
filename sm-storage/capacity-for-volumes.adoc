@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity, volumes,
 summary: "The drives in your storage array provide the physical storage capacity for your data. Before you can begin storing data, you must configure the allocated capacity into logical components known as pools or volume groups. You use these storage objects to configure, store, maintain, and preserve data on your storage array."
 ---
-= How capacity is allocated for volumes
+= How capacity is allocated for volumes in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

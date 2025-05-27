@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, ownership, sync, change, preferred, controller, owner, mirrored, pair,
 summary: "You can change the preferred controller owner in a mirrored pair."
 ---
-= Volume ownership
+= Learn about volume ownership in synchronous mirroring in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, member volume, snapshot, consistency group
 summary: "You can remove a member volume from an existing snapshot consistency group."
 ---
-= Remove a member volume from a snapshot consistency group
+= Remove a member volume from a snapshot consistency group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

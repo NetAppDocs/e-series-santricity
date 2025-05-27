@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, volumes
 summary: "In SANtricity System Manager, you can create volumes by following these steps."
 ---
-= Workflow for creating volumes
+= How creating volumes works in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

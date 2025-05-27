@@ -5,7 +5,7 @@ keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, increase
 summary: "You can increase reserved capacity, which is the physically allocated capacity used for any copy service operation on a storage object.
 "
 ---
-= Increase reserved capacity
+= Increase reserved capacity in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/
