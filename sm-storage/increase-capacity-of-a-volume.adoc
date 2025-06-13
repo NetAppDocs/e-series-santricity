@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, increase, capacity, volume
 summary: "You can increase the reported capacity (the capacity reported to hosts) of a volume by using the free capacity that is available in the pool or volume group."
 ---
-= Increase capacity of a volume
+= Increase capacity of a volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

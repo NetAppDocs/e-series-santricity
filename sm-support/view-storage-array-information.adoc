@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, storage, array,
 summary: "You can view the storage array’s profile and the firmware versions for each component in the storage array."
 ---
-= View storage array information
+= View a storage array's information in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, battery, learn, cycles
 summary: "A learn cycle is an automatic cycle for calibrating the smart battery gauge. The cycles are scheduled to start automatically, at the same day and time, in 8-week intervals (per controller). If you want to set a different schedule, you can adjust the learn cycles."
 ---
-= Update battery learn cycles
+= Update battery learn cycles in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

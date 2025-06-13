@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, local, user, roles
 summary: "Administrators can use RBAC (role-based access control) capabilities enforced in SANtricity Unified Manager. These capabilities are referred to as local user roles."
 ---
-= Access Management with local user roles
+= Access management with local user roles in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, iscsi, authentication,
 summary: "For extra security in an iSCSI network, you can set authentication between controllers (targets) and hosts (initiators)."
 ---
-= Configure iSCSI authentication
+= Configure iSCSI authentication in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

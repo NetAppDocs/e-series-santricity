@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirror, status, consistency, group,
 summary: "The mirror status defines the state of mirror consistency groups and mirrored volume pairs."
 ---
-= Asynchronous mirror status
+= View asynchronous mirror status in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

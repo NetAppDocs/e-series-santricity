@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, session, timeouts
 summary: "You can configure timeouts for SANtricity Unified Manager, so that users’ inactive sessions are disconnected after a specified time."
 ---
-= Manage session timeouts
+= Manage session timeouts in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

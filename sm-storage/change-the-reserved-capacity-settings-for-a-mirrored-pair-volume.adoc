@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, mirrored pair volume
 summary: "You can change the settings for a mirrored pair volume to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a mirrored pair volume is nearing full."
 ---
-= Change the reserved capacity settings for a mirrored pair volume
+= Change the reserved capacity settings for a mirrored pair volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

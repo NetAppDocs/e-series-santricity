@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, edit, directory, server, settings, role, mappings
 summary: "If you previously configured a directory server in Access Management, you can change its settings at any time. Settings include the server connection information and the group-to-role mappings."
 ---
-= Edit directory server settings and role mappings
+= Edit directory server settings and role mappings in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

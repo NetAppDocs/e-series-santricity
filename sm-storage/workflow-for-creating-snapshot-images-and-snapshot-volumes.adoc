@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, create, snapshot, images, snapshot, volumes
 summary: "In System Manager, you can create snapshot images and snapshot volumes by following these steps."
 ---
-= Workflow for creating snapshot images and snapshot volumes
+= How creating snapshot images and snapshot volumes works in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

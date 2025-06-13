@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, convert, snapshot, volume, read-write mode
 summary: "You can convert a read-only snapshot volume or a snapshot consistency group snapshot volume to read-write mode if needed."
 ---
-= Convert snapshot volume to read-write mode
+= Convert snapshot volume to read-write mode in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

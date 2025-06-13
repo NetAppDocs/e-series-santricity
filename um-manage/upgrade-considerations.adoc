@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, considerations
 summary: "Before you use Unified Manager to upgrade multiple storage arrays, review the key considerations as part of your planning."
 ---
-= Upgrade considerations
+= Learn about upgrading multiple storage arrays with SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

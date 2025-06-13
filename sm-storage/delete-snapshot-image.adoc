@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, image
 summary: "You delete snapshot images to clean up the oldest snapshot image from a snapshot group or snapshot consistency group."
 ---
-= Delete snapshot image
+= Delete a snapshot image in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

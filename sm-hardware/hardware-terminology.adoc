@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, hardware, terms
 summary: "Learn how the hardware terms apply to your storage array."
 ---
-= Hardware terminology
+= Learn about hardware terminology used in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

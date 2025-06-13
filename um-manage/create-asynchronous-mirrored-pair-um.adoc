@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, asynchronous, mirrored, pair
 summary: "To configure asynchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
 ---
-= Create asynchronous mirrored pair
+= Create an asynchronous mirrored pair in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

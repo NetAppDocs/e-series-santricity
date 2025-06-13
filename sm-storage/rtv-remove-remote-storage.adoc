@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, remote, storage,
 summary: "After an import completes, you can remove a remote storage object if you no longer want data copied between the local and remote devices."
 ---
-= Remove remote storage object
+= Remove a remote storage object in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

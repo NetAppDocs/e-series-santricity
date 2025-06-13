@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, place, controller, offline,
 summary: "If you are instructed to do so, you can place a controller offline."
 ---
-= Place controller offline
+= Place a controller offline in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, security, terms,
 summary: "Learn how the Drive Security terms apply to your storage array."
 ---
-= Drive Security terminology
+= Learn about drive security terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

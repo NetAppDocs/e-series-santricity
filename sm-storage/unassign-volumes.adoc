@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unassign, volumes
 summary: "Unassign volumes from hosts or host clusters if you no longer need I/O access to that volume from the host or host cluster."
 ---
-= Unassign volumes
+= Unassign volumes in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

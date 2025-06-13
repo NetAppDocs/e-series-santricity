@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshots
 summary: "The Snapshot feature allows you to create point-in-time images of storage array volumes to use for backup or testing."
 ---
-= Snapshots overview
+= Learn about snapshots in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

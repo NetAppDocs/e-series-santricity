@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, drive, firmware
 summary: "You can upgrade your drives’ firmware to make sure you have all the latest features and bug fixes."
 ---
-= Upgrade drive firmware
+= Upgrade drive firmware in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

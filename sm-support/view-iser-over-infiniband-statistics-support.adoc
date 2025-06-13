@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, iser, over, infiniband, statistics
 summary: "If your storage array’s controller includes an iSER over InfiniBand port, you can view data about the host connections."
 ---
-= View iSER over InfiniBand statistics
+= View iSER over InfiniBand statistics in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance, terms
 summary: "Learn how the performance terms apply to your storage array."
 ---
-= Performance terminology
+= Learn about performance terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

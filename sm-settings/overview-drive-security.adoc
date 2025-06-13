@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, system, security, key, management,
 summary: "Security key management is available from the System page."
 ---
-= Drive Security overview
+= Learn about drive security in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

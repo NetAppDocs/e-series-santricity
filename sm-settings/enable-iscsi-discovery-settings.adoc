@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, iscsi, discovery, settings,
 summary: "You can enable settings related to the discovery of storage devices in an iSCSI network. "
 ---
-= Enable iSCSI discovery settings
+= Enable iSCSI discovery settings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

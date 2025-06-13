@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, syslog, server, audit, logs,
 summary: "If you want to archive audit logs onto an external syslog server, you can configure communications between that server and the storage array. After the connection is established, audit logs are automatically saved to the syslog server."
 ---
-= Configure syslog server for audit logs
+= Configure syslog server for audit logs in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

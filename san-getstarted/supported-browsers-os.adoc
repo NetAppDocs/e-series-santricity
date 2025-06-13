@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series,
 summary: SANtricity can be accessed from several types of browsers and operating systems.
 ---
-= Supported browsers and operating systems
+= SANtricity software browser and operating system support
 :icons: font
 :imagesdir: ../media/
 

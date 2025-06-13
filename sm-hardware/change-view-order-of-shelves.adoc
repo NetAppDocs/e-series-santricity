@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, view, order, shelves
 summary: "You can change the order of shelves displayed on the Hardware page to match the physical order of shelves in a cabinet."
 ---
-= Change view order of shelves
+= Change the view order of shelves in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

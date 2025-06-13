@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, cache, settings,
 summary: "For all volumes in the storage array, you can adjust the cache memory settings for flushing and block size."
 ---
-= Change cache settings for the storage array
+= Change storage array cache settings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

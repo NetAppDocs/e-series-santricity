@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca certificates, csr file,
 summary: "Certificates are digital files that identify online entities, such as websites and servers, for secure communications on the internet."
 ---
-= How certificates work
+= How certificates work in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, change, security, key,
 summary: "At any time, you can replace a security key with a new key. You might need to change a security key in cases where you have a potential security breach at your company and want to make sure unauthorized personnel cannot access the drives’ data."
 ---
-= Change security key
+= Change a security key in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

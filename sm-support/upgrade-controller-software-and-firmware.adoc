@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, upgrade, software, firmware
 summary: "You can upgrade your storage array’s software and, optionally, the IOM firmware and the nonvolatile static random access memory (NVSRAM) to make sure you have all the latest features and bug fixes."
 ---
-= Upgrade controller software and firmware
+= Upgrade controller software and firmware in SANtricity System Manager
 
 :experimental:
 :icons: font

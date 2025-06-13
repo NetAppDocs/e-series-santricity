@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, RVM, synchronous, mirroring, controllers,
 summary: "The Synchronous Mirroring feature provides online, real-time data replication between storage arrays over a remote distance."
 ---
-= Synchronous mirroring overview
+= Learn about synchronous mirroring in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, requirements, guidelines, snapshots
 summary: "When creating and using snapshots, review the following requirements and guidelines."
 ---
-= Requirements and guidelines for snapshots
+= Requirements and guidelines for snapshots in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

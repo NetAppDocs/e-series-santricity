@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, role, change, mirror, consistency, group, secondary, mirror, consistency, group,
 summary: "You can change the role between mirrored pairs in a mirror consistency group. You can do this by demoting the primary mirror consistency group to the secondary role, or by promoting the secondary mirror consistency group to the primary role."
 ---
-= Role change of a mirror consistency group
+= Change mirror consistency group roles in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

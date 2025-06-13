@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, trusted, certificates
 summary: "You can delete one or more certificates that are no longer needed, such as an expired certificate."
 ---
-= Delete trusted certificates
+= Delete trusted certificates in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity,System Manager, E-Series, validate, security, key,
 summary: "You can validate the security key to make sure it has not been corrupted and to verify that you have a correct pass phrase."
 ---
-= Validate security key
+= Validate security key in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

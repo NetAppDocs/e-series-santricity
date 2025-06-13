@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, directory, server,
 summary: "To break the connection between a directory server and the storage array, you can remove the server information from the Access Management page. You might want to perform this task if you configured a new server, and then want to remove the old one."
 ---
-= Remove directory server
+= Remove directory server in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

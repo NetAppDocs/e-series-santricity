@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, synchronous, mirror, relationship,
 summary: "You remove a mirrored pair to remove the mirror relationship from the primary volume on the local storage array and the secondary volume on the remote storage array."
 ---
-= Remove synchronous mirror relationship
+= Remove synchronous mirror relationships in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

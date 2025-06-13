@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, collect, i/o path, statistics
 summary: "You can save the I/O path statistics file and send it to technical support for analysis."
 ---
-= Collect I/O path statistics
+= Collect I/O path statistics in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

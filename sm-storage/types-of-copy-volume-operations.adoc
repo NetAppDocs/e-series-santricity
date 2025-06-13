@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume,
 summary: "You can perform either an offline Copy Volume operation or an online Copy Volume operation. An offline operation reads data from a source volume and copies it to a target volume. An online operation uses a snapshot volume as the source and copies its data to a target volume."
 ---
-= Types of Copy Volume operations
+= Learn about types of Copy Volume operations in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

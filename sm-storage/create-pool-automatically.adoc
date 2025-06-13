@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, pool, automatically
 summary: "Pool creation is initiated automatically when System Manager detects unassigned drives in the storage array. You can use automatic pool creation to easily configure all unassigned drives in the storage array into one pool and to add drives into existing pools."
 ---
-= Create pool automatically
+= Create a pool automatically in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, add, directory, server
 summary: "To configure authentication for Access Management, you establish communications between an LDAP server and the host running the Web Services Proxy for SANtricity Unified Manager. You then map the LDAP user groups to the local user roles."
 ---
-= Add directory server
+= Add directory server in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

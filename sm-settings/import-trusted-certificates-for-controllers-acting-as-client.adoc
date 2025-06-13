@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, import, certificates,
 summary: "If the controller rejects a connection because it cannot validate the chain of trust for a network server, you can import a certificate from the Trusted tab that allows the controller (acting as a client) to accept communications from that server."
 ---
-= Import certificates for controllers when acting as clients
+= Import certificates for controllers when acting as clients in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

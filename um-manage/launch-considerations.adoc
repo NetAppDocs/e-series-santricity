@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, considerations, access system manager
 summary: "You select one or more storage arrays and use the Launch option to open SANtricity System Manager when you want to configure and manage storage arrays."
 ---
-= Considerations for accessing SANtricity System Manager
+= Learn about accessing SANtricity System Manager from Unified Manager
 :icons: font
 :imagesdir: ../media/
 

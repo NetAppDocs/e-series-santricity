@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, modify, connection, settings, remote, storage
 summary: "You can edit, add, or delete connection settings for any remote storage configuration through the View/Edit Settings option."
 ---
-= Modify connection settings for remote storage
+= Modify connection settings for remote storage in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

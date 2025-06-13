@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, capacity, pool, ssd cache
 summary: "You can remove drives to decrease the capacity of an existing pool or SSD Cache."
 ---
-= Remove capacity from a pool or SSD Cache
+= Remove capacity from a pool or SSD Cache in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

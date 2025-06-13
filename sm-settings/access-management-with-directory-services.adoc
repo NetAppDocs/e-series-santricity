@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, directory services,
 summary: "For Access Management, administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft’s Active Directory."
 ---
-= Access Management with directory services
+= Configure access management with directory services in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

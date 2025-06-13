@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, software, firmware, inventory
 summary: "The software and firmware inventory lists the firmware versions for each component in your storage array."
 ---
-= View software and firmware inventory
+= View software and firmware inventory in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

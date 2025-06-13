@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, autosupport,
 summary: "You enable the AutoSupport feature and the individual AutoSupport features during initial setup or you can enable or disable them later."
 ---
-= Enable or disable AutoSupport features
+= Enable or disable AutoSupport features in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

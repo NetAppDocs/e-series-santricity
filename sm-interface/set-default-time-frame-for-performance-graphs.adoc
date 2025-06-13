@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, time, graphs
 summary: "You can change the default time frame shown by the performance graphs."
 ---
-= Set default time frame for performance graphs
+= Set the default time frame for performance graphs in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, test, communication, synchronous, mirroring,
 summary: "You can test the communication between a local storage array and a remote storage array to diagnose possible communication problems for a mirrored pair that is participating in synchronous mirroring."
 ---
-= Test communication for synchronous mirroring
+= Test communication for synchronous mirroring in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

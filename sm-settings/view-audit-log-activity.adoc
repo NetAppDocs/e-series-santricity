@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, audit, log, activity,
 summary: "By viewing audit logs, users with Security Admin permissions can monitor user actions, authentication failures, invalid login attempts, and the user session lifespan."
 ---
-= View audit log activity
+= View audit log activity in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

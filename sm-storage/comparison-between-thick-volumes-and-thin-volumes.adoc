@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, comparison, thick volumes, thin volumes
 summary: "A thick volume is always fully-provisioned, which means that all of the capacity is allocated when the volume is created. A thin volume is always thinly-provisioned, which means that the capacity is allocated as the data is being written to the volume."
 ---
-= Comparison between thick volumes and thin volumes
+= Learn about thick and thin volumes in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

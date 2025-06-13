@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, re-synchronize, mirror, consistency, group, manually,
 summary: "You can manually start re-synchronization for all mirrored pairs within a mirror consistency group."
 ---
-= Re-synchronize mirror consistency group manually
+= Re-synchronize mirror consistency groups manually in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

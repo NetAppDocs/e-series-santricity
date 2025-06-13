@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, configure, mail, server, recipients, alerts,
 summary: "To configure email alerts, you must specify a mail server address and the email addresses of the alert recipients. Up to 20 email addresses are allowed."
 ---
-= Configure mail server and recipients for alerts
+= Configure mail server and alert recipients in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/
