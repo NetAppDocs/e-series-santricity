@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, limit, drive, view,
 summary: "If the storage array includes drives with different types of physical and logical attributes, the Hardware page provides filter fields that help you limit the drive view and locate specific drives."
 ---
-= Limit the drive view
+= Filter the drive view in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

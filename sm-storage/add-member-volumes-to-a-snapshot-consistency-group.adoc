@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, member, volume, snapshot consistency group
 summary: "You can add a new member volume to an existing snapshot consistency group. When you add a new member volume, you also must reserve capacity for the member volume."
 ---
-= Add member volume to a snapshot consistency group
+= Add a member volume to a snapshot consistency group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

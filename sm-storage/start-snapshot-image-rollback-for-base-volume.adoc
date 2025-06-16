@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, start, snapshot, image, rollback, base, volume
 summary: "You can perform a rollback operation to change the content of a base volume to match the content that is saved in a snapshot image. The rollback operation does not change the content of the snapshot images that are associated with the base volume."
 ---
-= Start snapshot image rollback for a base volume
+= Start snapshot image rollback for a base volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

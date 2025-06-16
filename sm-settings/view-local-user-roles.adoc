@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, local, user, roles,
 summary: "From the Local User Roles tab, you can view the mappings of the user profiles to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the storage array."
 ---
-= View local user roles
+= View local user roles in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

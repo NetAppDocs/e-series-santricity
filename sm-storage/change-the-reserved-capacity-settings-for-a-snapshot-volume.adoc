@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, volume
 summary: "You can change the settings for a snapshot volume to adjust the percentage point at which the system sends an alert notification when the reserved capacity for a snapshot volume is nearing full."
 ---
-= Change the reserved capacity settings for a snapshot volume
+= Change the reserved capacity settings for a snapshot volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

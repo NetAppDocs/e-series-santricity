@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, asynchronous, mirroring, terms,
 summary: "Learn how the asynchronous mirroring terms apply to your storage array."
 ---
-= Asynchronous mirroring terminology
+= Learn about asynchronous mirroring terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

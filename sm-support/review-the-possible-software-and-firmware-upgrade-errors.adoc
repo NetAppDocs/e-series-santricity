@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, software, firmware, upgrade, errors
 summary: "Errors can occur during either the controller software upgrade or the drive firmware upgrade."
 ---
-= Review the possible software and firmware upgrade errors
+= Learn about SANtricity software and firmware upgrade errors
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, terms
 summary: "Learn how the snapshot terms apply to your storage array."
 ---
-= Snapshot terminology
+= Learn about snapshot terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

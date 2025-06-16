@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, system, settings
 summary: "You can import the system configuration from one storage array to other storage arrays. This batch operation saves time when you need to configure multiple arrays in the network."
 ---
-= Import system settings
+= Import system settings in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

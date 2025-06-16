@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, manage, groups
 summary: "From the Manage Groups page, you can create a set of storage array groups for easier management."
 ---
-= Groups overview
+= Learn about the Groups overview in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

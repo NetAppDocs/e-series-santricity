@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, add, directory, server,
 summary: "To configure authentication for Access Management, you can establish communications between the storage array and an LDAP server, and then map the LDAP user groups to the array’s predefined roles."
 ---
-= Add an LDAP directory server
+= Add an LDAP directory server in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

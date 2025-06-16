@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, certificate, terminology
 summary: "The following terms apply to certificate management."
 ---
-= Certificate terminology
+= Learn about certificate terminology in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

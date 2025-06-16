@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volume, terms
 summary: "Learn how the volume terms apply to your storage array."
 ---
-= Volume terminology
+= Learn about volume terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

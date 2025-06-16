@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, copy, volume,
 summary: "You can view a Copy Volume operation in progress and stop, change priority, re-copy, or clear a Copy Volume operation."
 ---
-= Take action on a Copy Volume operation
+= Take action on a Copy Volume operation in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

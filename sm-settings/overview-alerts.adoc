@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, Alerts,
 summary: "You can configure System Manager to send storage array alerts by email, SNMP traps, and syslog messages."
 ---
-= Alerts overview
+= Learn about alerts in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

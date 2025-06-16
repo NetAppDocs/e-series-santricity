@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, capacity values
 summary: "System Manager can display capacity values in either gibibytes (GiB) or tebibytes (TiB)."
 ---
-= Set default units for capacity values
+= Set the default units for capacity values in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

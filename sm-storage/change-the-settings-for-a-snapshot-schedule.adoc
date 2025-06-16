@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, settings, snapshot, schedule
 summary: "For a snapshot schedule, you can change automatic collection times or the frequency of collection."
 ---
-= Change the settings for a snapshot schedule
+= Change the settings for a snapshot schedule in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

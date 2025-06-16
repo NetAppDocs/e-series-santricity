@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, volumes
 summary: "You can create a snapshot volume and assign it to a host if you want to read or write snapshot data. The snapshot volume shares the same characteristics as the base volume (RAID level, I/O characteristics, and so on)."
 ---
-= Snapshot volumes
+= Learn about snapshot volumes in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

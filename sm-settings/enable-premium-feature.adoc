@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, premium, feature,
 summary: "A premium feature is an extra option that requires a key to enable."
 ---
-= Enable a premium feature
+= Enable a premium feature in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

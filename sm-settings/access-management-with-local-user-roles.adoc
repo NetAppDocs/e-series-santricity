@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, access management, local, user, roles,
 summary: "For Access Management, administrators can use RBAC (role-based access control) capabilities enforced in the storage array. These capabilities are referred to as local user roles."
 ---
-= Access Management with local user roles
+= Configure access management with local user roles in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

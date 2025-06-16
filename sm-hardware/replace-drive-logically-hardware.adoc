@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, replace, drive, logically,
 summary: "If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead."
 ---
-= Replace drive logically
+= Replace a drive logically in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

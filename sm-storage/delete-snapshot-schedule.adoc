@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, snapshot, schedule
 summary: "If you no longer want to collect snapshot images, you can delete an existing snapshot schedule."
 ---
-= Delete snapshot schedule
+= Delete a snapshot schedule in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

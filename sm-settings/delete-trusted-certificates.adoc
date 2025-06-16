@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trusted, certificates,
 summary: "You can delete the user-installed certificates previously imported from the Trusted tab."
 ---
-= Delete trusted certificates
+= Delete trusted certificates in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, snapshot, volume
 summary: "You can disable a snapshot volume or a snapshot volume in a snapshot consistency group when you no longer need it or want to temporarily stop using it."
 ---
-= Disable snapshot volume
+= Disable a snapshot volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume groups
 summary: "You can create logical storage capacity from a subset of unassigned drives in your storage array. This logical capacity can take the form of either a pool or a volume group, depending on the needs of your environment."
 ---
-= Pools and volume groups overview
+= Learn about pools and volume groups in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

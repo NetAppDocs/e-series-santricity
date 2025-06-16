@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, volumes
 summary: "You can add a volume to SSD Cache as a way to improve read-only performance. SSD Cache consists of a set of solid-state disk (SSD) drives that you logically group together in your storage array."
 ---
-= SSD Cache and volumes
+= Learn about SSD cache and volumes in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

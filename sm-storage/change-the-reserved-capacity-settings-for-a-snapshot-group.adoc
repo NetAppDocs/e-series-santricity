@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reserved capacity, settings, snapshot, group
 summary: "You can change the settings for a snapshot group to change its name, auto-delete settings, the maximum number of allowed snapshot images, the percentage point at which System Manager sends a reserved capacity alert notification, or the policy to use when the reserved capacity reaches its maximum defined percentage."
 ---
-= Change the reserved capacity settings for a snapshot group
+= Change the reserved capacity settings for a snapshot group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

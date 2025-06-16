@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot schedule
 summary: "You can temporarily suspend scheduled collection of snapshot images when you need to conserve storage space. This method is more efficient than deleting and later re-creating the snapshot schedule."
 ---
-= Activate and suspend snapshot schedule
+= Activate and suspend a snapshot schedule in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

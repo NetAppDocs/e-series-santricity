@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller ownership, volume
 summary: "You can change the preferred controller ownership of a volume, so that I/O for host applications is directed through the new path."
 ---
-= Change controller ownership of a volume
+= Change the controller ownership of a volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

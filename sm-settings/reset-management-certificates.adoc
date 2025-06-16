@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, management, certificates,
 summary: "You can revert the certificates on the controllers from using CA-signed certificates back to the factory-set, self-signed certificates."
 ---
-= Reset management certificates
+= Reset management certificates in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, set, automatic, load, balancing,
 summary: "The Automatic Load Balancing feature ensures that incoming I/O traffic from the hosts is dynamically managed and balanced across both controllers. This feature is enabled by default, but you can disable it from System Manager."
 ---
-= Set automatic load balancing
+= Set automatic load balancing in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

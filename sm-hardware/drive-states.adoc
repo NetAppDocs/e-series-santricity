@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, drive, states,
 summary: "System Manager reports various states for drives."
 ---
-= Drive states
+= Learn about drive states in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, disable, resource provisioning,
 summary: "You can enable or disable resource provisioning on an existing pool or volume group."
 ---
-= Enable or disable resource provisioning on existing volume groups and pools
+= Enable or disable resource provisioning on existing volume groups and pools in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

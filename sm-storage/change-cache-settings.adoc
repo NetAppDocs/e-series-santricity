@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, cache settings
 summary: "You can change read cache and write cache settings to impact the overall I/O performance of a volume."
 ---
-= Change cache settings for a volume
+= Change the cache settings for a volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring, terms
 summary: "Learn how the synchronous mirroring terms apply to your storage array."
 ---
-= Synchronous mirroring terminology
+= Learn about synchronous mirroring terminology in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

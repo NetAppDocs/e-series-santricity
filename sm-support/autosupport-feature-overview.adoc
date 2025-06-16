@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, autosupport, ASUP
 summary: "The AutoSupport feature monitors the health of a storage array and sends automatic dispatches to technical support."
 ---
-= AutoSupport feature overview
+= Learn about AutoSupport for E-Series
 :icons: font
 :imagesdir: ../media/
 

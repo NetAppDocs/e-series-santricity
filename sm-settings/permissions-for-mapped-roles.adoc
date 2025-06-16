@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, permissions, mapped, roles,
 summary: "The RBAC (role-based access control) capabilities enforced on the storage array include pre-defined user profiles with one or more roles mapped to them. Each role includes permissions for accessing tasks in SANtricity System Manager."
 ---
-= Permissions for mapped roles
+= Learn about permissions for mapped roles in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

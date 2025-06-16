@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, create, synchronous, mirrored, pair
 summary: "To configure synchronous mirroring, you create a mirrored pair that includes a primary volume on the local array and a secondary volume on the remote array."
 ---
-= Create synchronous mirrored pair
+= Create a synchronous mirrored pair in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

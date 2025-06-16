@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, security, pool, volume group
 summary: "You can enable Drive Security for a pool or volume group to prevent unauthorized access to the data on the drives contained in the pool or volume group. Read and write access for the drives is only available through a controller that is configured with a security key."
 ---
-= Enable security for a pool or volume group
+= Enable security for a pool or volume group in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

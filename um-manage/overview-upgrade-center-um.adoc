@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, upgrade, center
 summary: "From the Upgrade Center, you can manage SANtricity OS software and NVSRAM upgrades for multiple storage arrays."
 ---
-= Upgrade Center overview
+= Learn about the Upgrade Center in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

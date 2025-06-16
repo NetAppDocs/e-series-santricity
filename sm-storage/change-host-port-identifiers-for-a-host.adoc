@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, host port, identifiers, host
 summary: "Change the host port identifiers when you want to change the user label on a host port identifier, add a new host port identifier to the host, or delete a host port identifier from the host."
 ---
-= Change host port identifiers for a host
+= Change the host port identifiers for a host in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

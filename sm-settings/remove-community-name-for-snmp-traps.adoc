@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, communities, snmpv2c, traps,
 summary: "You can remove a community name for SNMPv2c traps."
 ---
-= Remove communities for SNMPv2c traps
+= Remove communities for SNMPv2c traps in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

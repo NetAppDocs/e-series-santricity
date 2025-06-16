@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, retrieve, recovery, support files
 summary: "Technical support can use recovery support files to troubleshoot issues. System Manager automatically saves these files."
 ---
-= Retrieve recovery support files
+= Retrieve recovery support files in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

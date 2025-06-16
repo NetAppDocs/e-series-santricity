@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, certificates, arrays
 summary: "If necessary, you can import certificates for the storage arrays so they can authenticate with the system hosting SANtricity Unified Manager. Certificates can be signed by a certificate authority (CA) or can be self-signed."
 ---
-= Import certificates for arrays
+= Import certificates for arrays in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

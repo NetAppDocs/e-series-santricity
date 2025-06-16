@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, snapshot, storage
 summary: "The Snapshots feature uses copy-on-write technology to store snapshot images and use allocated reserved capacity."
 ---
-= How snapshot storage works
+= How snapshot storage works in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

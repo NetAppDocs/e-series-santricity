@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, controller, settings
 summary: "You can view information about a controller, such as the status of the host interfaces, drive interfaces, and management ports."
 ---
-= View controller settings
+= View controller settings in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

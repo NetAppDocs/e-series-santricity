@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, directory services,
 summary: "Administrators can use an LDAP (Lightweight Directory Access Protocol) server and a directory service, such as Microsoft’s Active Directory."
 ---
-= Access Management with directory services
+= Access management with directory services in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

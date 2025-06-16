@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, legacy, management, interface,
 summary: "You can enable or disable the legacy management interface (SYMbol), which is a method of communication between the storage array and the management client."
 ---
-= Enable or disable legacy management interface
+= Enable or disable legacy management interface in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

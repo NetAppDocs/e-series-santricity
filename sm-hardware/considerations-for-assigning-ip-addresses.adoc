@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, considerations, assigning, ip, addresses
 summary: "By default, controllers ship with DHCP enabled on both network ports. You can assign static IP addresses, use the default static IP addresses, or use DHCP-assigned IP addresses. You also can use IPv6 stateless auto-configuration."
 ---
-= Considerations for assigning IP addresses
+= Learn about IP address assignment for E-Series controllers
 :icons: font
 :imagesdir: ../media/
 

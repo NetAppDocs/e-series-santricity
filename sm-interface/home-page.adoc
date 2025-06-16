@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, home page
 summary: "The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed."
 ---
-= Home page
+= Learn about the SANtricity System Manager home page
 :icons: font
 :imagesdir: ../media/
 

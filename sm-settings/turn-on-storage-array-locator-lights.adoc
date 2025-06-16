@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, locator, lights,
 summary: "To find the physical location of a storage array in a cabinet, you can turn on its locator (LED) lights."
 ---
-= Turn on storage array locator lights
+= Turn on storage array locator lights in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

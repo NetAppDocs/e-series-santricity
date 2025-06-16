@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, turn, drive, locator, light, LEDs
 summary: "From the Hardware page, you can turn on the locator light to find the physical location of a drive in the storage array."
 ---
-= Turn on drive locator light
+= Turn on a drive locator light in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

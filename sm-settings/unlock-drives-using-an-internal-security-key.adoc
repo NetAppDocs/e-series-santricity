@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, unlock, drives, internal, key, management,
 summary: "If you configured internal key management and then later move secure-enabled drives from one storage array to another, you must re-assign the security key to the new storage array to gain access to the encrypted data on the drives."
 ---
-= Unlock drives when using internal key management
+= Unlock drives when using internal key management in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

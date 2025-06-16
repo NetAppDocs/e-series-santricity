@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, import, settings
 summary: "You can import settings from one storage array to another, including alerts, AutoSupport, and directory services."
 ---
-= Settings import overview
+= Learn about importing storage array settings in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

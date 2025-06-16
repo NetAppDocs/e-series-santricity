@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reset, reboot, controller
 summary: "Some issues require a controller reset (reboot). You can reset the controller even if you don’t have physical access to it."
 ---
-= Reset (reboot) controller
+= Reset (reboot) a controller in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

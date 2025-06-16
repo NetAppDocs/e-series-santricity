@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, reconstruct, drive, manually,
 summary: "Drive reconstruction normally starts automatically after you replace a drive. If drive reconstruction does not start automatically, you can start reconstruction manually."
 ---
-= Reconstruct drive manually
+= Reconstruct a drive manually in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

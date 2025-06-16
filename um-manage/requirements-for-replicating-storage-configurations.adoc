@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, requirements, replicating, storage, configurations
 summary: "Before importing a storage configuration from one storage array to another, review the requirements and guidelines."
 ---
-= Requirements for replicating storage configurations
+= Requirements for replicating storage array configurations in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

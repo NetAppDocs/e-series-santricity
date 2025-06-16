@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, export, import, volume group
 summary: "Volume group migration lets you export a volume group so that you can import the volume group to a different storage array."
 ---
-= Export/Import volume groups
+= Export/Import volume groups in SANtricity CLI
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remote, storage, requirements
 summary: "Before using the Remote Storage feature, review the following requirements and restrictions."
 ---
-= Remote Storage feature requirements
+= Learn about Remote Storage feature requirements in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

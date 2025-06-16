@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, lights, LEDs
 summary: "You can locate drives to physically identify all of the drives that comprise a selected pool, volume group, or SSD Cache. An LED indicator lights up on each drive in the selected pool, volume group, or SSD Cache."
 ---
-= Turn on locator lights in a pool, volume group, or SSD Cache
+= Turn on locator lights in a pool, volume group, or SSD Cache in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

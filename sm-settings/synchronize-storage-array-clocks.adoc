@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clocks,
 summary: "If Network Time Protocol (NTP) is not enabled, you can manually set the clocks on the controllers so they are synchronized with the management client (the system used to run the browser that accesses SANtricity System Manager)."
 ---
-= Synchronize storage array clocks
+= Synchronize storage array clocks in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

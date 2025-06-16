@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, schedule, snapshot, images
 summary: "You create a snapshot schedule to enable recovery in case of a problem with the base volume and to perform scheduled backups. Snapshots of base volumes or snapshot consistency groups can be created on a daily, weekly, or monthly schedule, at any time of day."
 ---
-= Schedule snapshot images
+= Schedule snapshot images in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

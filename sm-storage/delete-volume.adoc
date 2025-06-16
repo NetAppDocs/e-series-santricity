@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, volume
 summary: "Typically, you delete volumes if the volumes were created with the wrong parameters or capacity, no longer meet storage configuration needs, or are snapshot images that are no longer needed for backup or application testing."
 ---
-= Delete volume
+= Delete a volume in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

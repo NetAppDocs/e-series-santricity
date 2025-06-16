@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, enable, disable, resource, provisioning,
 summary: "If you previously disabled the default feature for resource provisioning, you can go to Settings and re-enable it for any new SSD volume groups or pools that you create. You can also disable the setting again."
 ---
-= Enable or disable resource provisioning for new volume groups or pools
+= Enable or disable resource provisioning for new volume groups or pools in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

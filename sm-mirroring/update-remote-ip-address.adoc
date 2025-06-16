@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, update, remote, ip, address, connection,
 summary: "You can update the iSCSI IP address for your remote storage array to re-establish connection with the local storage array."
 ---
-= Update remote IP address
+= Update remote storage array IP addresses in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

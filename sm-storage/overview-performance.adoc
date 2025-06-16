@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, performance
 summary: "The Performance page provides easy ways for you to monitor the performance of your storage array."
 ---
-= Performance overview
+= Learn about the performance overview in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

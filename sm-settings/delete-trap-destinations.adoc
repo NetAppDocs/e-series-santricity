@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, trap, destinations,
 summary: "You can delete a trap destination address so that the storage array’s event monitor no longer sends SNMP traps to that address."
 ---
-= Delete trap destinations
+= Delete trap destinations in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

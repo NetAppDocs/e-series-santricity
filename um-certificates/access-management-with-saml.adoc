@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, access management, saml
 summary: "For Access Management, administrators can use the Security Assertion Markup Language (SAML) 2.0 capabilities embedded in the array."
 ---
-= Access Management with SAML
+= Access management with SAML in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, delete, events, audit, log,
 summary: "You can clear the audit log of old events, which makes searching through events more manageable. You have the option of saving old events to a CSV (comma-separated values) file upon deletion."
 ---
-= Delete events from the audit log
+= Delete events from the audit log in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, delete, storage, array, group
 summary: "You can remove one or more storage array groups that are no longer needed."
 ---
-= Delete storage array group
+= Delete a storage array group in SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

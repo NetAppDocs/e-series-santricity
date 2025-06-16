@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, synchronous, mirroring,
 summary: "Synchronous mirroring replicates data volumes in real time to ensure continuous availability."
 ---
-= How synchronous mirroring works
+= How synchronous mirroring works in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, fail, drive,
 summary: "If instructed to do so, you can manually fail a drive."
 ---
-= Fail drive
+= Manually fail a drive in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

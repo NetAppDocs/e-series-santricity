@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, clear, storage, array, configuration,
 summary: "Use the Clear Configuration operation when you want to delete all the pools, volume groups, volumes, host definitions, and host assignments from the storage array."
 ---
-= Clear storage array configuration
+= Clear storage array configuration in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

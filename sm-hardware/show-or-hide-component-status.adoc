@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, show, hide, component, status,
 summary: "You can display status descriptions for drives, controllers, fans, and power supplies."
 ---
-= Show or hide component status
+= Show or hide component status in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

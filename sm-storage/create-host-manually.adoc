@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, create, host, manually
 summary: "For hosts that cannot be automatically discovered, you can manually create a host. Creating a host is one of the steps required to let the storage array know which hosts are attached to it and to allow I/O access to the volumes."
 ---
-= Create host manually
+= Create a host manually in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

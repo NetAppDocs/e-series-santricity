@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, edit, email, addresses, alerts,
 summary: "You can change the email addresses of the recipients who receive email alerts."
 ---
-= Edit email addresses for alerts
+= Edit email addresses for alerts in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

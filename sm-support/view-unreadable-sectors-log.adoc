@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, unreadable, sectors, log
 summary: "You can save the unreadable sectors log and send the file to technical support for analysis."
 ---
-= View unreadable sectors log
+= View the unreadable sectors log in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

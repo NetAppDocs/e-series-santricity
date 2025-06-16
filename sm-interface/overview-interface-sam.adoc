@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series,
 summary: 'You navigate the main interface to access System Manager features and tasks.'
 ---
-= SANtricity System Manager interface overview
+= Learn about the SANtricity System Manager interface
 :icons: font
 :imagesdir: ../media/
 

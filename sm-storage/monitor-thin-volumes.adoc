@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, monitor, thin, volumes
 summary: "You can monitor thin volumes for space and generate appropriate alerts, so that you can prevent out-of-capacity conditions."
 ---
-= Monitor thin volumes
+= Monitor thin volumes in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 
