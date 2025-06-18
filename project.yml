@@ -242,35 +242,8 @@ sidebar:
               url: "/sm-storage/copy-volume.html"
             - title: Manage operations
               url: "/sm-storage/take-action-on-a-copy-volume-operation.html"
-        - title: FAQs
-          entries:
-          - title: What is a volume?
-            url: "/sm-storage/what-is-a-volume.html"
-          - title: Why am I seeing a capacity over-allocation error when I have enough
-              free capacity in a volume group to create volumes?
-            url: "/sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html"
-          - title: How does my selected workload impact volume creation?
-            url: "/sm-storage/how-does-my-selected-workload-impact-volume-creation.html"
-          - title: Why aren&#8217;t these volumes associated with a workload?
-            url: "/sm-storage/why-arent-these-volumes-associated-with-a-workload.html"
-          - title: Why can&#8217;t I delete the selected workload?
-            url: "/sm-storage/why-cant-i-delete-the-selected-workload.html"
-          - title: How do application-specific workloads help me manage my storage array?
-            url: "/sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html"
-          - title: How does providing this information help create storage?
-            url: "/sm-storage/how-does-providing-this-information-help-create-storage.html"
-          - title: What do I need to do to recognize the expanded capacity?
-            url: "/sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html"
-          - title: Why don&#8217;t I see all my pools and/or volume groups?
-            url: "/sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html"
-          - title: What is segment size?
-            url: "/sm-storage/what-is-segment-sizing.html"
-          - title: What is preferred controller ownership?
-            url: "/sm-storage/what-is-preferred-controller-ownership.html"
-          - title: When would I want to use the assign host later selection?
-            url: "/sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html"
-          - title: What do I need to know about host block size requirements?
-            url: "/sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html"
+        - title: Volumes and workloads FAQ
+          url: "/sm-storage/faq-volumes-workloads.html"
       - title: Hosts and host clusters
         entries:
         - title: Overview
@@ -317,24 +290,8 @@ sidebar:
             url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
           - title: Change host port identifiers for host
             url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
-        - title: FAQs
-          entries:
-          - title: What are hosts and host clusters?
-            url: "/sm-storage/what-are-hosts-and-host-clusters.html"
-          - title: Why would I need to create a host cluster?
-            url: "/sm-storage/why-would-i-need-to-create-a-host-cluster.html"
-          - title: How do I know which host operating system type is correct?
-            url: "/sm-storage/how-do-i-know-which-host-operating-system-type-is-correct.html"
-          - title: What are HBAs and adapter ports?
-            url: "/sm-storage/what-are-hbas-and-adapter-ports.html"
-          - title: How do I match the host ports to a host?
-            url: "/sm-storage/how-do-i-match-the-host-ports-to-a-host.html"
-          - title: How do I create CHAP secrets?
-            url: "/sm-storage/how-do-i-create-chap-secrets.html"
-          - title: What is the default cluster?
-            url: "/sm-storage/what-is-the-default-cluster.html"
-          - title: What is host connectivity reporting?
-            url: "/sm-settings/what-is-host-connectivity-reporting.html"
+        - title: Host systems and host clusters FAQ
+          url: "/sm-storage/faq-systems-clusters.html"
       - title: Snapshots
         entries:
         - title: Overview
