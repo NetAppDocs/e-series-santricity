@@ -740,7 +740,7 @@ sidebar:
           - title: Download CLI
             url: "/sm-settings/download-cli.html"
           - title: Storage array settings FAQ
-            url: "sm-storage/faq-storage-array-settings.html"
+            url: "/sm-storage/faq-storage-array-settings.html"
       - title: Drive security
         entries:
         - title: Overview
@@ -775,25 +775,8 @@ sidebar:
             url: "/sm-settings/unlock-drives-using-an-internal-security-key.html"
           - title: Unlock drives when using external key management
             url: "/sm-settings/unlock-drives-using-an-external-security-key.html"
-        - title: FAQs
-          entries:
-          - title: What do I need to know before creating a security key?
-            url: "/sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html"
-          - title: Why do I need to define a pass phrase?
-            url: "/sm-settings/why-do-i-need-to-define-a-pass-phrase.html"
-          - title: Why is it important to record security key information?
-            url: "/sm-settings/why-is-it-important-to-record-security-key-information.html"
-          - title: What do I need to know before backing up a security key?
-            url: "/sm-settings/what-do-i-need-to-know-before-backing-up-a-security-key.html"
-          - title: What do I need to know before unlocking secure drives?
-            url: "/sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html"
-          - title: What is read/write accessibility?
-            url: "/sm-settings/what-is-read-write-accessibility.html"
-          - title: What do I need to know about validating the security key?
-            url: "/sm-settings/what-do-i-need-to-know-about-validating-the-security-key.html"
-          - title: What is the difference between internal security key and external
-              security key management?
-            url: "/sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html"
+        - title: Storage drive security FAQ
+          url: "/sm-settings/faq-storage-drive-security.html"
       - title: Access management
         entries:
         - title: Overview

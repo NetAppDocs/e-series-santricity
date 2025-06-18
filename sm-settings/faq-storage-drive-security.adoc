@@ -1,0 +1,112 @@
+---
+permalink: sm-settings/faq-storage-drive-security.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Storage drive security FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What do I need to know before creating a security key?
+
+A security key is shared by controllers and secure-enabled drives within a storage array. If a secure-enabled drive is removed from the storage array, the security key protects the data from unauthorized access.
+
+You can create and manage security keys using one of the following methods:
+
+* Internal key management on the controller's persistent memory.
+* External key management on an external key management server.
+
+== Internal key management
+
+Internal keys are maintained and "`hidden`" in a non-accessible location on the controller's persistent memory. Before creating an internal security key, you must do the following:
+
+. Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+. Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+
+You can then create an internal security key, which involves defining an identifier and a pass phrase. The identifier is a string that is associated with the security key, and is stored on the controller and on all drives associated with the key. The pass phrase is used to encrypt the security key for backup purposes. When you are finished, the security key is stored on the controller in a non-accessible location. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.
+
+== External key management
+
+External keys are maintained on a separate key management server, using a Key Management Interoperability Protocol (KMIP). Before creating an external security key, you must do the following:
+
+. Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+. Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
+. Obtain a signed, client certificate file. A client certificate validates the storage array's controllers, so the key management server can trust their KMIP requests.
+ .. First, you complete and download a client Certificate Signing Request (CSR). Go to menu:Settings[Certificates > Key Management > Complete CSR].
+ .. Next, you request a signed client certificate from a CA that is trusted by the key management server. (You can also create and download a client certificate from the key management server using the downloaded CSR file.)
+ .. Once you have a client certificate file, copy that file to the host where you are accessing System Manager.
+. Retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
+
+You can then create an external key, which involves defining the IP address of the key management server and the port number used for KMIP communications. During this process, you also load certificate files. When you are finished, the system connects to the key management server with the credentials you entered. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.
+
+== Why do I need to define a pass phrase?
+
+The pass phrase is used to encrypt and decrypt the security key file stored on the local management client. Without the pass phrase, the security key cannot be decrypted and used to unlock data from a secure-enabled drive if it is re-installed in another storage array.
+
+== Why is it important to record security key information?
+
+If you lose the security key information and do not have a backup, you could lose data when relocating secure-enabled drives or upgrading a controller. You need the security key to unlock data on the drives.
+
+Be sure to record the security key identifier, the associated pass phrase, and the location on the local host where the security key file was saved.
+
+== What do I need to know before backing up a security key?
+
+If your original security key becomes corrupted and you do not have a backup, you will lose access to the data on drives if they are migrated from one storage array to another.
+
+Before backing up a security key, keep these guidelines in mind:
+
+* Make sure you know the security key identifier and pass phrase of the original key file.
++
+[NOTE]
+====
+Only internal keys use identifiers. When you created the identifier, additional characters were generated automatically and appended to both ends of the identifier string. The generated characters ensure that the identifier is unique.
+====
+
+* You create a new pass phrase for the backup. This pass phrase does not need to match the pass phrase that was used when the original key was created or last changed. The pass phrase is only applied to the backup you are creating.
++
+[NOTE]
+====
+The pass phrase for Drive Security should not be confused with the storage array's Administrator password. The pass phrase for Drive Security protects backups of a security key. The Administrator password protects the entire storage array from unauthorized access.
+====
+
+* The backup security key file is downloaded to your management client. The path for the downloaded file might depend on the default download location of your browser. Be sure to make a record of where your security key information is stored.
+
+== What do I need to know before unlocking secure drives?
+
+To unlock the data from a secure-enabled drive, you must import its security key.
+
+Before unlocking secure-enabled drives, keep the following guidelines in mind:
+
+* The storage array must already have a security key. The migrated drives will be re-keyed to the target storage array.
+* For the drives you are migrating, you must know the security key identifier and the pass phrase that corresponds to the security key file.
+* The security key file must be available on the management client (the system with a browser used for accessing System Manager).
+* If you are resetting a locked NVMe drive, you must enter the drive's security ID. To locate the security ID, you must physically remove the drive and find the PSID string (maximum of 32 characters) on the drive's label. Make sure the drive is reinstalled before you start the operation.
+
+
+== What is read/write accessibility?
+
+The Drive Settings window includes information about the Drive Security attributes. "Read/Write Accessible" is one of the attributes that displays if a drive's data has been locked.
+
+To view Drive Security attributes, go to the Hardware page. Select a drive, click *View settings*, and then click *Show more settings*. At the bottom of the page, the Read/Write Accessible attribute value is *Yes* when the drive is unlocked. The Read/Write Accessible attribute value is *No, invalid security key* when the drive is locked. You can unlock a secure drive by importing a security key (go to menu:Settings[System > Unlock Secure Drives]).
+
+== What do I need to know about validating the security key?
+
+After creating a security key, you should validate the key file to make sure it is not corrupt.
+
+If the validation fails, do the following:
+
+* If the security key identifier does not match the identifier on the controller, locate the correct security key file and then try the validation again.
+* If the controller cannot decrypt the security key for validation, you might have incorrectly entered the pass phrase. Double-check the pass phrase, re-enter it if necessary, and then try the validation again. If the error message appears again, select a backup of the key file (if available) and re-try validation.
+* If you still cannot validate the security key, the original file might be corrupted. Create a new backup of the key and validate that copy.
+
+== What is the difference between internal security key and external security key management?
+
+When you implement the Drive Security feature, you can use an internal security key or an external security key to lock down data when a secure-enabled drive is removed from the storage array.
+
+A security key is a string of characters, which is shared between the secure-enabled drives and controllers in a storage array. Internal keys are maintained on the controller's persistent memory. External keys are maintained on a separate key management server, using a Key Management Interoperability Protocol (KMIP).
+
