@@ -639,16 +639,8 @@ sidebar:
           url: "/sm-settings/faq-iscsi-protocol.html"
         - title: NVMe protocol FAQ
           url: "/sm-settings/faq-nvme-protocol.html"
-        - title: Drive FAQs
-          entries:
-          - title: What is a hot spare drive?
-            url: "/sm-storage/what-is-a-hot-spare-drive.html"
-          - title: What is preservation capacity?
-            url: "/sm-hardware/what-is-preservation-capacity.html"
-          - title: Why would I logically replace a drive?
-            url: "/sm-hardware/why-would-i-logically-replace-a-drive.html"
-          - title: Where can I view the status of a drive undergoing reconstruction?
-            url: "/sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html"
+        - title: Storage drives FAQ
+          url: "/sm-storage/faq-storage-drives.html"
       - title: Alerts
         entries:
         - title: Overview
@@ -703,14 +695,8 @@ sidebar:
             url: "/sm-settings/add-syslog-servers-for-alerts.html"
           - title: Delete syslog servers
             url: "/sm-settings/delete-syslog-servers-for-alerts.html"
-        - title: FAQs
-          entries:
-          - title: What if alerts are disabled?
-            url: "/sm-settings/what-if-alerts-are-disabled.html"
-          - title: How do I configure SNMP or syslog alerts?
-            url: "/sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html"
-          - title: Why are timestamps inconsistent between the array and alerts?
-            url: "/sm-settings/why-are-timestamps-inconsistent-between-the-array-and-alerts.html"
+        - title: Storage system alerts FAQ
+          url: "/sm-settings/faq-storage-system-alerts.html"
       - title: Array settings
         entries:
           - title: Settings overview
@@ -753,18 +739,8 @@ sidebar:
               url: "/sm-settings/enable-feature-pack.html"
           - title: Download CLI
             url: "/sm-settings/download-cli.html"
-          - title: FAQs
-            entries:
-            - title: What is Automatic Load Balancing?
-              url: "/sm-storage/what-is-automatic-load-balancing.html"
-            - title: What is controller cache?
-              url: "/sm-settings/what-is-controller-cache.html"
-            - title: What is cache flushing?
-              url: "/sm-settings/what-is-cache-flushing.html"
-            - title: What is cache block size?
-              url: "/sm-settings/what-is-cache-block-size.html"
-            - title: When should I synchronize storage array clocks?
-              url: "/sm-settings/when-should-i-synchronize-storage-array-clocks.html"
+          - title: Storage array settings FAQ
+            url: "sm-storage/faq-storage-array-settings.html"
       - title: Drive security
         entries:
         - title: Overview
