@@ -491,23 +491,8 @@ sidebar:
             url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
           - title: Why would I update my remote storage array&#8217;s IP address?
             url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
-        - title: Sync FAQs
-          entries:
-          - title: How does synchronous mirroring differ from asynchronous mirroring?
-            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-sync.html"
-          - title: Synchronous mirroring - Why don&#8217;t I see all my volumes?
-            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-          - title: Synchronous mirroring - Why don&#8217;t I see all the volumes on
-              the remote storage array?
-            url: "/sm-mirroring/synchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-          - title: Synchronous mirroring - What do I need to know before creating a
-              mirrored pair?
-            url: "/sm-mirroring/synchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-          - title: What impact does synchronization priority have on synchronization
-              rates?
-            url: "/sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html"
-          - title: Why is it recommended to use a manual synchronization policy?
-            url: "/sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html"
+        - title: Sync mirroring FAQ
+          url: "/sm-mirroring/faq-sync-mirroring.html"
       - title: Remote storage
         entries:
           - title: Overview
@@ -532,18 +517,8 @@ sidebar:
               url: "/sm-storage/rtv-modify-connection-settings-for-remote-storage.html"
             - title: Remove remote storage object
               url: "/sm-storage/rtv-remove-remote-storage.html"
-          - title: FAQs
-            entries:
-            - title: What do I need to know before creating a remote storage connection?
-              url: "/sm-storage/rtv-what-do-i-need-to-know-before-creating-a-remote-storage.html"
-            - title: Why am I being prompted to remove my remote volumes?
-              url: "/sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html"
-            - title: Why don&#8217;t I see all my volumes on my destination array?
-              url: "/sm-storage/rtv-why-dont-i-see-all-my-volumes.html"
-            - title: What do I need to know about the remote volume in an import?
-              url: "/sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html"
-            - title: What do I need to know before starting a remote storage import?
-              url: "/sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html"
+          - title: Remote storage FAQ
+            url: "/sm-storage/faq-remote-storage.html"
       - title: Hardware components
         entries:
         - title: Overview
@@ -656,60 +631,14 @@ sidebar:
               url: "/sm-hardware/assign-hot-spares-hardware.html"
             - title: Unassign hot spares
               url: "/sm-hardware/unassign-hot-spares.html"
-        - title: Shelf FAQs
-          entries:
-          - title: What is shelf loss protection and drawer loss protection?
-            url: "/sm-hardware/what-is-shelf-loss-protection-and-drawer-loss-protection.html"
-          - title: What are battery learn cycles?
-            url: "/sm-hardware/what-are-battery-learn-cycles.html"
-        - title: Controller FAQs
-          entries:
-          - title: What is auto-negotiation?
-            url: "/sm-hardware/what-is-auto-negotiation.html"
-          - title: What is IPv6 stateless address auto-configuration?
-            url: "/sm-hardware/what-is-ipv6-stateless-address-auto-configuration.html"
-          - title: Which do I choose&#8201;&#8212;&#8201;DHCP or manual configuration?
-            url: "/sm-hardware/which-do-i-choose-dhcp-or-manual-configuration.html"
-          - title: What is a DHCP server?
-            url: "/sm-hardware/what-is-a-dhcp-server.html"
-          - title: How do I configure my DHCP server?
-            url: "/sm-hardware/how-do-i-configure-my-dhcp-server.html"
-          - title: Why do I need to change the controller network configuration?
-            url: "/sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html"
-          - title: Where do I get the network configuration?
-            url: "/sm-hardware/where-do-i-get-the-network-configuration.html"
-          - title: What are ICMP PING responses?
-            url: "/sm-hardware/what-are-icmp-ping-responses.html"
-          - title: When should I refresh the port configuration?
-            url: "/sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html"
-          - title: What should I do after configuring the management ports?
-            url: "/sm-hardware/what-should-i-do-after-configuring-the-management-ports.html"
-          - title: Why is the storage system in non-optimal mode?
-            url: "/sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html"
-        - title: iSCSI FAQs
-          entries:
-          - title: What happens when I use an iSNS server for registration?
-            url: "/sm-settings/what-happens-when-i-use-an-isns-server.html"
-          - title: Which registration methods are automatically supported for iSCSI?
-            url: "/sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html"
-          - title: How do I interpret iSER over InfiniBand statistics?
-            url: "/sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html"
-          - title: What else do I need to do to configure or diagnose iSER over InfiniBand?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-iser-over-infiniband.html"
-          - title: What else do I need to do to configure or diagnose iSCSI?
-            url: "/sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html"
-        - title: NVMe FAQs
-          entries:
-          - title: How do I interpret NVMe over Fabrics statistics?
-            url: "/sm-settings/how-do-i-interpret-nvme-over-fabrics-statistics.html"
-          - title: What else do I need to do to configure or diagnose NVMe over InfiniBand?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-infiniband.html"
-          - title: What else do I need to do to configure or diagnose NVMe over RoCE?
-            url: "/sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html"
-          - title: Why are there two IP addresses for one physical port?
-            url: "/sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html"
-          - title: Why are there two sets of parameters for one physical port?
-            url: "/sm-settings/why-are-there-two-sets-of-parameters-for-one-physical-port.html"
+        - title: Storage shelf FAQ
+          url: "/sm-hardware/faq-storage-shelf.html"
+        - title: Storage controller FAQ
+          url: "/sm-hardware/faq-storage-controller.html"
+        - title: iSCSI protocol FAQ
+          url: "/sm-settings/faq-iscsi-protocol.html"
+        - title: NVMe protocol FAQ
+          url: "/sm-settings/faq-nvme-protocol.html"
         - title: Drive FAQs
           entries:
           - title: What is a hot spare drive?

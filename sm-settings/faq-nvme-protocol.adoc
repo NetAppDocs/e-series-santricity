@@ -1,0 +1,108 @@
+---
+permalink: sm-settings/faq-nvme-protocol.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= NVMe protocol FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== How do I interpret NVMe over Fabrics statistics?
+The View NVMe over Fabrics Statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.
+
+* *NVMe Subsystem statistics* -- Shows statistics for the NVMe controller and its queue. The NVMe controller provides an access path between a host and the namespaces in the storage array. You can review the NVMe subsystem statistics for such items as connection failures, resets, and shutdowns. For more information about these statistics, click *View legend for table headings*.
+* *RDMA Interface statistics* -- Provides statistics for all NVMe over Fabrics ports on the RDMA interface, which includes performance statistics and link error information associated with each switch port. This tab only appears when NVMe over Fabrics ports are available. For more information about the statistics, click *View legend for table headings*.
+
+You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
+
+== What else do I need to do to configure or diagnose NVMe over InfiniBand?
+
+The following table lists the SANtricity System Manager functions that you can use to configure and manage NVMe over InfiniBand sessions.
+
+[NOTE]
+====
+The NVMe over InfiniBand settings are available only if your storage array's controller includes an NVMe over InfiniBand port.
+====
+
+[cols="35h,~",options="header"]
+|===
+| Action| Location
+a|
+Configure NVMe over InfiniBand ports
+a|
+
+. Select *Hardware*.
+. Select the *Controllers & Components* tab.
+. Select a controller.
+. Select *Configure NVMe over InfiniBand ports*.
+
+or
+
+. Select menu:Settings[System].
+. Scroll down to *NVMe over InfiniBand settings*, and then select *Configure NVMe over InfiniBand Ports*.
+
+a|
+View NVMe over InfiniBand statistics
+a|
+
+. Select menu:Settings[System].
+. Scroll down to *NVMe over InfiniBand settings*, and then select *View NVMe over Fabrics Statistics*.
+
+|===
+
+== What else do I need to do to configure or diagnose NVMe over RoCE?
+
+You can configure and manage NVMe over RoCE from the Hardware and Settings pages.
+
+[NOTE]
+====
+The NVMe over RoCE settings are available only if your storage array's controller includes an NVMe over RoCE port.
+====
+
+
+[cols="35h,~",options="header"]
+|===
+| Action| Location
+a|
+Configure NVMe over RoCE ports
+a|
+
+. Select *Hardware*.
+. Select the *Controllers & Components* tab.
+. Select a controller.
+. Select *Configure NVMe over RoCE ports*.
+
+or
+
+. Select menu:Settings[System].
+. Scroll down to *NVMe over RoCE settings*, and then select *Configure NVMe over RoCE Ports*.
+
+a|
+View NVMe over Fabrics statistics
+a|
+
+. Select menu:Settings[System].
+. Scroll down to *NVMe over RoCE settings*, and then select *View NVMe over Fabrics Statistics*.
+
+|===
+
+== Why are there two IP addresses for one physical port?
+
+The EF600 storage array can include two HICs -- one external and one internal.
+
+In this configuration, the external HIC is connected to an internal, auxiliary HIC. Each physical port that you can access from the external HIC has an associated virtual port from the internal HIC.
+
+To achieve maximum 200Gb performance, you must assign a unique IP address for both the physical and virtual ports so the host can establish connections to each. If you do not assign an IP address to the virtual port, the HIC will run at approximately half its capable speed.
+
+== Why are there two sets of parameters for one physical port?
+
+The EF600 storage array can include two HICs -- one external and one internal.
+
+In this configuration, the external HIC is connected to an internal, auxiliary HIC. Each physical port that you can access from the external HIC has an associated virtual port from the internal HIC.
+
+To achieve maximum 200Gb performance, you must assign parameters for both the physical and virtual ports so the host can establish connections to each. If you do not assign parameters to the virtual port, the HIC will run at approximately half its capable speed.
