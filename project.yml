@@ -858,24 +858,8 @@ sidebar:
             url: "/sm-settings/configure-syslog-server-for-audit-logs.html"
           - title: Edit syslog server settings for audit log records
             url: "/sm-settings/edit-syslog-server-settings-for-audit-log-records.html"
-        - title: FAQs
-          entries:
-          - title: Why can&#8217;t I log in?
-            url: "/sm-settings/why-cant-i-log-in.html"
-          - title: What do I need to know before adding a directory server?
-            url: "/sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html"
-          - title: What do I need to know about mapping to storage array roles?
-            url: "/sm-settings/what-do-i-need-to-know-about-mapping-storage-array-roles.html"
-          - title: Which external management tools may be affected by this change?
-            url: "/sm-settings/which-external-management-tools-may-be-affected-by-this-change.html"
-          - title: What do I need to know before configuring and enabling SAML?
-            url: "/sm-settings/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-          - title: What types of events are recorded in the audit log?
-            url: "/sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html"
-          - title: What do I need to know before configuring a syslog server?
-            url: "/sm-settings/what-do-i-need-to-know-before-configuring-a-syslog-server.html"
-          - title: The syslog server is no longer receiving audit logs. What do I do?
-            url: "/sm-settings/the-syslog-server-is-no-longer-receiving-audit-logs-what-do-i-do.html"
+        - title: User access management FAQ
+          url: "/sm-settings/faq-user-access-mgmt-sm.html"
       - title: Certificates
         entries:
         - title: Overview
@@ -905,17 +889,8 @@ sidebar:
             url: "/sm-settings/use-ca-signed-certificates-for-authentication-with-a-key-management-server.html"
           - title: Export key management server certificates
             url: "/sm-settings/export-key-management-certificates.html"
-        - title: FAQs
-          entries:
-          - title: Why does the Cannot Access Other Controller dialog box appear?
-            url: "/sm-settings/why-does-the-cannot-access-other-controller-dialog-appear.html"
-          - title: How do I know what certificates need to be uploaded to SANtricity System Manager
-              for external key management?
-            url: "/sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html"
-          - title: What do I need to know about certificate revocation checking?
-            url: "/sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html"
-          - title: What types of servers will revocation checking be enabled for?
-            url: "/sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html"
+        - title: Certificates FAQ
+          url: "/sm-settings/faq-certificates.html"
       - title: Support
         entries:
         - title: Overview
@@ -988,33 +963,8 @@ sidebar:
             url: "/sm-support/upgrade-drive-firmware.html"
           - title: Review the possible software and firmware upgrade errors
             url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
-        - title: FAQs
-          entries:
-            - title: What data am I collecting?
-              url: "/sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html"
-            - title: What does unreadable sectors data show me?
-              url: "/sm-support/what-does-unreadable-sectors-data-show-me.html"
-            - title: What is a health image?
-              url: "/sm-support/what-is-a-health-image.html"
-            - title: What do the AutoSupport features do?
-              url: "/sm-support/what-do-the-autosupport-features-do.html"
-            - title: What type of data is collected through the AutoSupport feature?
-              url: "/sm-support/what-type-of-data-is-collected-through-autosupport.html"
-            - title: How do I configure the delivery method for the AutoSupport feature?
-              url: "/sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html"
-            - title: What is configuration data?
-              url: "/sm-support/what-is-configuration-data.html"
-            - title: What do I need to know before upgrading the SANtricity OS Software?
-              url: "/sm-support/what-do-i-need-to-know-before-upgrading-the-santricity-os-software.html"
-            - title: What do I need to know before suspending IOM auto-synchronization?
-              url: "/sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html"
-            - title: Why is my firmware upgrade progressing so slowly?
-              url: "/sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html"
-            - title: What do I need to know before upgrading drive firmware?
-              url: "/sm-support/what-do-i-need-to-know-before-upgrading-drive-firmware.html"
-            - title: How do I choose which type of upgrade to perform?
-              url: "/sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html"
-
+        - title: AutoSupport FAQ
+          url: "/sm-support/faq-autosupport.html"
   - title: SANtricity Unified Manager
     url: "/unified-manager/index.html"
     entries:

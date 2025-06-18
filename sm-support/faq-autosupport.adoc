@@ -1,0 +1,238 @@
+---
+permalink: sm-support/faq-autosupport.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= AutoSupport FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What data am I collecting?
+
+The AutoSupport feature and the manual Support Data Collection feature provide ways to collect data in a customer support bundle for remote troubleshooting and problem analysis by technical support.
+
+The customer support bundle gathers all types of information about the storage array into a single compressed file. The information collected includes the physical configuration, logical configuration, version information, events, log files, and performance data. The information is used only by technical support to solve problems with the storage array.
+
+== What does unreadable sectors data show me?
+
+You can display detailed data about unreadable sectors detected on the drives in your storage array.
+
+The unreadable sectors log shows the most recent unreadable sector first. The log contains the following information about the volumes that contain the unreadable sectors. The fields are sortable.
+
+[cols="25h,~",options="header"]
+|===
+| Field| Description
+a|
+Affected Volume
+a|
+Shows the label of the volume. If a missing volume contains unreadable sectors, the World Wide Identifier appears for the missing volume.
+a|
+Logical Unit Number (LUN)
+a|
+Shows the LUN for the volume. If the volume does not have a LUN, the dialog box shows NA.
+a|
+Assigned To
+a|
+Shows the hosts or host clusters that have access to the volume. If the volume is not accessible by a host, host cluster, or even a Default Cluster, the dialog box shows NA.
+|===
+
+To see additional information about the unreadable sectors, click the plus (+) sign next to a volume.
+
+[cols="25h,~",options="header"]
+|===
+| Field| Description
+a|
+Date/Time
+a|
+Shows the date and the time that the unreadable sector was detected.
+a|
+Volume Logical Block Address
+a|
+Shows the logical block address (LBA) of the volume.
+a|
+Drive Location
+a|
+Shows the drive shelf, drawer (if your drive shelf has drawers), and the bay location.
+a|
+Drive Logical Block Address
+a|
+Shows the LBA of the drive.
+a|
+Failure Type
+a|
+Shows one of the following failure types:
+
+* *Physical* -- A physical media error.
+* *Logical* -- A read error elsewhere in the stripe causing unreadable data. For example, an unreadable sector due to media errors elsewhere in the volume.
+* *Inconsistent* -- Inconsistent redundancy data.
+* *Data Assurance* -- A Data Assurance error.
+|===
+
+== What is a health image?
+
+A health image is a raw data dump of the controller's processor memory that technical support can use to diagnose a problem with a controller.
+
+The firmware automatically generates a health image when it detects certain errors. Under certain troubleshooting scenarios, technical support might request that you retrieve the health image file and send it to them.
+
+== What do the AutoSupport features do?
+
+The AutoSupport feature is made up of three individual features that you enable separately.
+
+* *Basic AutoSupport* -- Allows your storage array to automatically collect and send data to technical support.
+* *AutoSupport OnDemand* -- Allows technical support to request retransmission of a previous AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending retransmission requests and responds accordingly.
+* *Remote Diagnostics* -- Allows technical support to request a new, up-to-date AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending new requests and responds accordingly.
+
+== What type of data is collected through the AutoSupport feature?
+
+The AutoSupport feature contains three standard dispatch types: event dispatches, scheduled dispatches, and on-demand and remote diagnostics dispatches.
+
+The AutoSupport data does not contain any user data.
+
+* *Event dispatches*
++
+When events occur on the system that warrant proactive notification to technical support, the AutoSupport feature automatically sends an event-triggered dispatch.
+
+ ** Sent when a support event on the managed storage array occurs.
+ ** Includes a comprehensive snapshot of what was going on with the storage array at the time the event occurred.
+
+* *Scheduled dispatches*
++
+The AutoSupport feature automatically sends several dispatches on a regular schedule.
+
+ ** *Daily dispatches* -- Sent once every day during a user-configurable time interval. Includes the current system event logs and performance data.
+ ** *Weekly dispatches* -- Sent once every week during a user-configurable time interval and day. Includes configuration and system state information.
+
+* *AutoSupport OnDemand and Remote Diagnostics dispatches*
+ ** *AutoSupport OnDemand* -- Allows technical support to request retransmission of a previous AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending retransmission requests and responds accordingly.
+ ** *Remote Diagnostics* -- Allows technical support to request a new, up-to-date AutoSupport dispatch when needed for troubleshooting an issue. All transmissions are initiated from the storage array, not from the AutoSupport server. The storage array checks in periodically with the AutoSupport server to determine if there are any pending new requests and responds accordingly.
+
+== How do I configure the delivery method for the AutoSupport feature?
+
+The AutoSupport feature supports the protocols HTTPS and SMTP for delivering AutoSupport dispatches to technical support.
+
+.Before you begin
+
+* The AutoSupport feature must be enabled. You can see whether it is enabled on the AutoSupport page.
+* A DNS server must be installed and configured in your network. The DNS server address must be configured in System Manager (this task is available from the Hardware page).
+
+.About this task
+
+Review the different protocols:
+
+* *HTTPS* -- Allows you to connect directly to the destination technical support server using HTTPS. If you want to enable either AutoSupport OnDemand or Remote Diagnostics, the AutoSupport delivery method must be set to HTTPS.
+* *Email* -- Allows you to use an email server as the delivery method for sending AutoSupport dispatches.
+
+[NOTE]
+====
+*Differences between the HTTPS and Email methods*. The Email delivery method, which uses SMTP, has some important differences from the HTTPs delivery method. First, the size of the dispatches for the Email method are limited to 5MB, which means that some ASUP data collections will not be dispatched. Second, the AutoSupport OnDemand feature is available only on the HTTPS delivery method.
+====
+
+.Steps
+
+. Select menu:Support[Support Center > AutoSupport] tab.
+. Select *Configure AutoSupport Delivery Method*.
++
+A dialog box appears, which lists the dispatch delivery methods.
+
+. Select the desired delivery method, and then select the parameters for that delivery method. Do one of the following:
+ ** If you selected HTTPS, select one of the following delivery parameters:
+  *** *Directly* -- This delivery parameter is the default selection. Choosing this option allows you to connect directly to the destination technical support system using the HTTPS protocol.
+  *** *Via Proxy server* -- Choosing this option allows you to specify the HTTP proxy server details required for establishing connection with the destination technical support system. You must specify the host address and port number. However, you only need to enter the host authentication details (user name and password) if required.
+  *** *Via Proxy auto-configuration script (PAC)* -- Specify the location of a Proxy Auto-Configuration (PAC) Script file. A PAC file allows the system to automatically choose the appropriate proxy server for establishing a connection with the destination technical support system.
+ ** If you selected Email, enter the following information:
+  *** The mail server address as a fully qualified domain name, IPv4 address, or IPv6 address.
+  *** The email address that appears in the From field of the AutoSupport dispatch email.
+  *** *Optional; if you want to perform a configuration test.* The email address where a confirmation is sent when the AutoSupport system receives the test dispatch.
+  *** If you want to encrypt messages, select either *SMTPS* or *STARTTLS* for the encryption type, and then select the port number for encrypted messages. Otherwise, select *None*.
+  *** If needed, enter a user name and password for authentication with the outgoing sender and the mail server.
+. Click *Test Configuration* to test the connection to the technical support server using the specified delivery parameters. If you enabled the AutoSupport On-Demand feature, the system will also test the connection for AutoSupport OnDemand dispatch delivery.
++
+If the configuration test fails, check your configuration settings and run the test again. If the test continues to fail, contact technical support.
+
+. Click *Save*.
+
+== What is configuration data?
+
+When you select Collect Configuration Data, the system saves the current state of the RAID configuration database.
+
+The RAID configuration database includes all data for volume groups and disk pools on the controller. The Collect Configuration Data feature saves the same information as the CLI command for `save storageArray dbmDatabase`.
+
+== What do I need to know before upgrading the SANtricity OS Software?
+
+Before you upgrade your controller's software and firmware, be aware of these items.
+
+* You have read the  document and the `readme.txt` file and have determined that you want to do the upgrade.
+* You know whether you want to upgrade your IOM firmware.
++
+Normally, you should upgrade all components at the same time. However, you might decide not to upgrade the IOM firmware if you do not want to upgrade it as part of the SANtricity OS controller software upgrade or if technical support has instructed you to downgrade your IOM firmware (you can only downgrade firmware by using the command line interface).
+
+* You know whether you want to upgrade the controller NVSRAM file.
++
+Normally, you should upgrade all components at the same time. However, you might decide not to upgrade the controller NVSRAM file if your file has either been patched or is a custom version and you do not want to overwrite it.
+
+* You know whether you want to activate now or later.
++
+Reasons for activating later might include:
+
+ ** *Time of day* -- Activating the software and firmware can take a long time, so you might want to wait until I/O loads are lighter. The controllers fail over during activation so performance might be lower than usual until the upgrade completes.
+ ** *Type of package* -- You might want to test the new software and firmware on one storage array before upgrading the files on other storage arrays.
+
+These components are part of the SANtricity OS controller software upgrade:
+
+* *Management software* -- System Manager is the software that manages the storage array.
+* *Controller firmware* -- Controller firmware manages the I/O between hosts and volumes.
+* *Controller NVSRAM* -- Controller NVSRAM is a controller file that specifies the default settings for the controllers.
+* *IOM firmware* -- The I/O module (IOM) firmware manages the connection between a controller and a drive shelf. It also monitors the status of the components.
+* *Supervisor software* -- Supervisor software is the virtual machine on a controller in which the software runs.
+
+As part of the upgrade process, the host's multipath/failover driver and/or HBA driver might also need to be upgraded so the host can interact with the controllers correctly.
+
+[NOTE]
+====
+To determine if this is the case, see the https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^].
+====
+
+If your storage array contains only one controller or you do not have a multipath driver installed, stop I/O activity to the storage array to prevent application errors. If your storage array has two controllers and you have a multipath driver installed, you do not need to stop I/O activity.
+
+CAUTION: Do not make changes to the storage array while the upgrade occurs.
+
+== What do I need to know before suspending IOM auto-synchronization?
+
+Suspending IOM auto-synchronization prevents the IOM firmware from being upgraded the next time a SANtricity OS controller software upgrade occurs.
+
+Normally, controller software and IOM firmware are upgraded as a bundle. You can suspend IOM auto-synchronization if you have a special build of IOM firmware that you want to preserve on your enclosure. Otherwise, you will revert to the IOM firmware bundled with the controller software the next time you do a controller software upgrade.
+
+== Why is my firmware upgrade progressing so slowly?
+
+The firmware upgrade progress depends on the overall load of the system.
+
+During an online upgrade of drive firmware, if a volume transfer takes place during the rapid reconstruction process, the system initiates a full reconstruction on the volume that was transferred. This operation might take a considerable amount of time. Actual full reconstruction time depends on several factors, including the amount of I/O activity occurring during the reconstruction operation, the number of drives in the volume group, the rebuild priority setting, and the drive performance.
+
+== What do I need to know before upgrading drive firmware?
+
+Before upgrading your drive firmware, be aware of these items.
+
+* As a precaution, back up your data using disk-to-disk backup, volume copy (to a volume group not affected by the planned firmware upgrade), or a remote mirror.
+* You might want to upgrade only a few drives to test the behavior of the new firmware to ensure it is functioning correctly. If the new firmware is functioning correctly, upgrade the remaining drives.
+* If you have any failed drives, fix them before you start the firmware upgrade.
+* If the drives can do an offline upgrade, stop I/O activity to all volumes associated with the drives. When I/O activity is stopped, no configuration operations associated with those volumes can occur.
+* Do not remove any drives while upgrading drive firmware.
+* Do not make any configuration changes to the storage array while upgrading drive firmware.
+
+== How do I choose which type of upgrade to perform?
+
+You choose the type of upgrade to perform on the drive depending on the state of the pool or volume group.
+
+* *Online*
++
+If the pool or volume group supports redundancy and is Optimal, you can use the Online method to upgrade the drive firmware. The Online method downloads firmware _while the storage array is processing I/O_ to the associated volumes using these drives. You do not have to stop I/O to the associated volumes using these drives. These drives are upgraded one at a time to the volumes associated with the drives. If the drive is not assigned to a pool or volume group, its firmware can be updated by the Online or the Offline method. System performance may be impacted when you use the Online method to upgrade drive firmware.
+
+* *Offline*
++
+If the pool or volume group does not support redundancy (RAID 0), or is degraded, you must use the Offline method to upgrade the drive firmware. The Offline method will upgrade firmware _only while all I/O activity is stopped_ to the associated volumes using these drives. You must stop all I/O to any associated volumes using these drives. If the drive is not assigned to a pool or volume group, its firmware may be updated by the Online or the Offline method.
+
