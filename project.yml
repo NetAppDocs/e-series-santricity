@@ -87,29 +87,8 @@ sidebar:
               url: "/sm-interface/view-and-act-on-operations-in-progress.html"
             - title: Recover from problems using Recovery Guru
               url: "/sm-interface/recover-from-problems-using-recovery-guru.html"
-        - title: FAQs
-          entries:
-            - title: What are the supported browsers?
-              url: "/sm-interface/what-are-the-supported-browsers.html"
-            - title: What are the keyboard shortcuts?
-              url: "/sm-interface/what-are-the-keyboard-shortcuts.html"
-            - title: How do performance statistics for individual volumes relate to the
-                total?
-              url: "/sm-storage/how-do-performance-statistics-for-individual-volumes-relate-to-the-total.html"
-            - title: Why does data display as zero in the graphs and table?
-              url: "/sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html"
-            - title: What does the Latency graph show?
-              url: "/sm-storage/what-does-the-latency-graph-show.html"
-            - title: What does the IOPS graph show?
-              url: "/sm-storage/what-does-the-iops-graph-show.html"
-            - title: What does the MiB/s graph show?
-              url: "/sm-storage/what-does-the-mib-s-graph-show.html"
-            - title: What does the CPU graph show?
-              url: "/sm-storage/what-does-the-cpu-graph-show.html"
-            - title: What does the Headroom graph show?
-              url: "/sm-storage/what-does-the-headroom-graph-show.html"
-            - title: Where can I find more information about display preferences?
-              url: "/sm-interface/where-can-i-find-more-information-about-display-preferences.html"
+        - title: Management interface FAQ
+          url: "/sm-interface/faq-management-interface.html"
       - title: Pools and volume groups
         entries:
         - title: Overview
@@ -193,58 +172,8 @@ sidebar:
             url: "/sm-storage/cancel-pending-snapshot-image.html"
           - title: Delete snapshot group
             url: "/sm-storage/delete-snapshot-group.html"
-        - title: FAQs
-          entries:
-          - title: What is a volume group?
-            url: "/sm-storage/what-is-a-volume-group.html"
-          - title: What is a pool?
-            url: "/sm-storage/what-is-a-pool.html"
-          - title: What is reserved capacity?
-            url: "/sm-storage/what-is-reserved-capacity.html"
-          - title: What is FDE/FIPS security?
-            url: "/sm-storage/what-is-fde-fips-security.html"
-          - title: What is redundancy check?
-            url: "/sm-storage/what-is-redundancy-check.html"
-          - title: What are the differences between pools and volume groups?
-            url: "/sm-storage/what-are-the-differences-between-pools-and-volume-groups.html"
-          - title: Why would I want to manually configure a pool?
-            url: "/sm-storage/why-would-i-want-to-manually-configure-a-pool.html"
-          - title: Why are capacity alerts important?
-            url: "/sm-storage/why-are-capacity-alerts-important.html"
-          - title: Why can&#8217;t I increase my preservation capacity?
-            url: "/sm-storage/why-cant-i-increase-my-preservation-capacity.html"
-          - title: Is there a limit on the number of drives I can remove from a pool?
-            url: "/sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html"
-          - title: What media types are supported for a drive?
-            url: "/sm-storage/what-media-types-are-supported-for-a-drive.html"
-          - title: Why are some drives not showing up?
-            url: "/sm-storage/why-are-some-drives-not-showing-up.html"
-          - title: How do I maintain shelf/drawer loss protection?
-            url: "/sm-storage/how-do-i-maintain-shelf-drawer-loss-protection.html"
-          - title: What is the optimal drive positioning for pools and volume groups?
-            url: "/sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html"
-          - title: What RAID level is best for my application?
-            url: "/sm-storage/what-raid-level-is-best-for-my-application.html"
-          - title: What is Data Assurance?
-            url: "/sm-storage/what-is-data-assurance.html"
-          - title: What is secure-capable (Drive Security)?
-            url: "/sm-storage/what-is-security-capable-drive-security.html"
-          - title: What do I need to know about increasing reserved capacity?
-            url: "/sm-storage/what-do-i-need-to-know-about-increasing-reserved-capacity.html"
-          - title: Why can&#8217;t I choose another amount to decrease by?
-            url: "/sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html"
-          - title: Why do I need reserved capacity for each member volume?
-            url: "/sm-storage/why-do-i-need-reserved-capacity-for-every-member-volume.html"
-          - title: How do I view and interpret all SSD Cache statistics?
-            url: "/sm-storage/how-do-i-view-and-interpret-all-ssd-cache-statistics.html"
-          - title: What is optimization capacity for pools?
-            url: "/sm-storage/what-is-optimization-capacity-pools.html"
-          - title: What is optimization capacity for volume groups?
-            url: "/sm-storage/what-is-optimization-capacity-volume-groups.html"
-          - title: What is resource provisioning capable?
-            url: "/sm-storage/what-is-resource-provisioning-capable.html"
-          - title: What do I need to know about the resource-provisioned volumes feature?
-            url: "/sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html"
+        - title: Pools and volume groups FAQ
+          url: "/sm-storage/faq-pools-volume-groups.html" 
       - title: Volumes and workloads
         entries:
         - title: Overview

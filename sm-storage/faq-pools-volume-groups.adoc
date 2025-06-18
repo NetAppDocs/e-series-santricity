@@ -1,0 +1,512 @@
+---
+permalink: sm-storage/faq-pools-volume-groups.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Pools and volume groups FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What is a volume group?
+
+A volume group is a container for volumes with shared characteristics. A volume group has a defined capacity and RAID level. You can use a volume group to create one or more volumes accessible to a host. (You create volumes from either a volume group or a pool.)
+
+== What is a pool?
+
+A pool is a set of drives that is logically grouped. You can use a pool to create one or more volumes accessible to a host. (You create volumes from either a pool or a volume group.)
+
+Pools can eliminate the need for administrators to monitor usage on each host to determine when they are likely to run out of storage space and avoid conventional disk resizing outages. When a pool nears depletion, additional drives can be added to the pool non-disruptively and capacity growth is transparent to the host.
+
+With pools, data is automatically re-distributed to maintain equilibrium. By distributing parity information and spare capacity throughout the pool, every drive in the pool can be used to rebuild a failed drive. This approach does not use dedicated hot spare drives; instead, preservation (spare) capacity is reserved throughout the pool. Upon drive failure, segments on other drives are read to recreate the data. A new drive is then chosen to write each segment that was on a failed drive so that data distribution across drives is maintained.
+
+== What is reserved capacity?
+
+Reserved capacity is the physically allocated capacity that stores data for copy service objects such as snapshot images, consistency group member volumes, and mirrored pair volumes.
+
+The reserved capacity volume that is associated with a copy service operation resides in a pool or a volume group. You create reserved capacity from either a pool or volume group.
+
+
+== What is FDE/FIPS security?
+
+FDE/FIPS security refers to secure-capable drives that encrypt data during writes and decrypt data during reads using a unique encryption key. These secure-capable drives prevent unauthorized access to the data on a drive that is physically removed from the storage array.
+
+Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives. FIPS drives have undergone certification testing.
+
+[NOTE]
+====
+For volumes that require FIPS support, use only FIPS drives. Mixing FIPS and FDE drives in a volume group or pool will result in all drives being treated as FDE drives. Also, an FDE drive cannot be added to or used as a spare in an all-FIPS volume group or pool.
+====
+
+== What is redundancy check?
+
+A redundancy check determines whether the data on a volume in a pool or volume group is consistent. Redundancy data is used to quickly reconstruct information on a replacement drive if one of the drives in the pool or volume group fails.
+
+You can perform this check only on one pool or volume group at a time. A volume redundancy check performs the following actions:
+
+* Scans the data blocks in a RAID 3 volume, a RAID 5 volume, or a RAID 6 volume, and then checks the redundancy information for each block. (RAID 3 can only be assigned to volume groups using the command line interface.)
+* Compares the data blocks on RAID 1 mirrored drives.
+* Returns redundancy errors if the data is determined to be inconsistent by the controller firmware.
+
+[NOTE]
+====
+Immediately running a redundancy check on the same pool or volume group might cause an error. To avoid this problem, wait one to two minutes before running another redundancy check on the same pool or volume group.
+====
+
+== What are the differences between pools and volume groups?
+
+A pool is similar to a volume group, with the following differences.
+
+* The data in a pool is stored randomly on all drives in the pool, unlike data in a volume group, which is stored on the same set of drives.
+* A pool has less performance degradation when a drive fails, and takes less time to reconstruct.
+* A pool has built-in preservation capacity; therefore, it does not require dedicated hot spare drives.
+* A pool allows a large number of drives to be grouped.
+* A pool does not need a specified RAID level.
+
+== When would I want to use the assign host later selection?
+
+If you want to speed the process for creating volumes, you can skip the host assignment step so that newly created volumes are initialized offline.
+
+Newly created volumes must be initialized. The system can initialize them using one of two modes -- either an Immediate Available Format (IAF) background initialization process or an offline process.
+
+When you map a volume to a host, it forces any initializing volumes in that group to transition to background initialization. This background initialization process allows for concurrent host I/O, which can sometimes be time-consuming.
+
+When none of the volumes in a volume group are mapped, offline initialization is performed. The offline process is much faster than the background process.
+
+== Why would I want to manually configure a pool?
+
+The following examples describe why you would want to manually configure a pool.
+
+* If you have multiple applications on your storage array and do not want them competing for the same drive resources, you might consider manually creating a smaller pool for one or more of the applications.
++
+You can assign just one or two volumes instead of assigning the workload to a large pool that has many volumes across which to distribute the data. Manually creating a separate pool that is dedicated to the workload of a specific application can allow storage array operations to perform more rapidly, with less contention.
++
+To manually create a pool: Select *Storage*, and then select *Pools & Volume Groups*. From the All Capacity tab, click menu:Create[Pool].
+
+* If there are multiple pools of the same drive type, a message appears indicating that System Manager cannot recommend the drives for a pool automatically. However, you can manually add the drives to an existing pool.
++
+To manually add drives to an existing pool: From the Pools & Volume Groups page, select the pool, and then click *Add Capacity*.
+
+== Why are capacity alerts important?
+
+Capacity alerts indicate when to add drives to a pool. A pool needs sufficient free capacity to successfully perform storage array operations. You can prevent interruptions to these operations by configuring SANtricity System Manager to send alerts when the free capacity of a pool reaches or exceeds a specified percentage.
+
+You set this percentage when you create a pool using either the *Pool auto-configuration* option or the *Create pool* option. If you choose the automatic option, default settings automatically determine when you receive alert notifications. If you choose to manually create the pool, you can determine the alert notification settings; or if you prefer, you can accept the default settings. You can adjust these settings later in menu:Settings[Alerts].
+
+[NOTE]
+====
+When the free capacity in the pool reaches the specified percentage, an alert notification is sent using the method you specified in the alert configuration.
+====
+
+== Why can't I increase my preservation capacity?
+
+If you have created volumes on all available usable capacity, you might not be able to increase preservation capacity.
+
+Preservation capacity is the amount of capacity (number of drives) that is reserved on a pool to support potential drive failures. When a pool is created, the system automatically reserves a default amount of preservation capacity depending on the number of drives in the pool. If you have created volumes on all available usable capacity, you cannot increase preservation capacity without adding capacity to the pool by either adding drives or deleting volumes.
+
+You can change the preservation capacity from *Pools & Volume Groups*. Select the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
+
+[NOTE]
+====
+Preservation capacity is specified as a number of drives, even though the actual preservation capacity is distributed across the drives in the pool.
+====
+
+== Is there a limit on the number of drives I can remove from a pool?
+
+SANtricity System Manager sets limits for how many drives you can remove from a pool.
+
+* You cannot reduce the number of drives in a pool to be less than 11 drives.
+* You cannot remove drives if there is not enough free capacity in the pool to contain the data from the removed drives when that data is redistributed to the remaining drives in the pool.
+* You can remove a maximum of 60 drives at a time. If you select more than 60 drives, the Remove Drives option is disabled. If you need to remove more than 60 drives, repeat the Remove Drives operation.
+
+== What media types are supported for a drive?
+
+The following media types are supported: Hard Disk Drive (HDD) and Solid State Disk (SSD).
+
+== Why are some drives not showing up?
+
+In the Add Capacity dialog, not all drives are available for adding capacity to an existing pool or volume group.
+
+Drives are not eligible for any of the following reasons:
+
+* A drive must be unassigned and not secure-enabled. Drives already part of another pool, another volume group, or configured as a hot spare are not eligible. If a drive is unassigned but is secure-enabled, you must manually erase that drive for it to become eligible.
+* A drive that is in a non-optimal state is not eligible.
+* If the capacity of a drive is too small, it is not eligible.
+* The drive media type must match within a pool or volume group. You cannot mix the following:
+ ** Hard Disk Drives (HDDs) with Solid State Disks (SSDs)
+ ** NVMe with SAS drives
+ ** Drives with 512-byte and 4KiB volume block sizes
+* If a pool or volume group contains all secure-capable drives, non-secure-capable drives are not listed.
+* If a pool or volume group contains all Federal Information Processing Standards (FIPS) drives, non-FIPS drives are not listed.
+* If a pool or volume group contains all Data Assurance (DA)-capable drives and there is at least one DA-enabled volume in the pool or volume group, a drive that is not DA capable is not eligible, so it cannot be added to that pool or volume group. However, if there is no DA-enabled volume in the pool or volume group, a drive that is not DA capable can be added to that pool or volume group. If you decide to mix these drives, keep in mind that you cannot create any DA-enabled volumes.
+
+[NOTE]
+====
+Capacity can be increased in your storage array by adding new drives or by deleting pools or volume groups.
+====
+
+== How do I maintain shelf/drawer loss protection?
+
+To maintain shelf/drawer loss protection for a pool or volume group, use the criteria specified in the following table.
+
+[cols="1a,1a,1a" options="header"]
+|===
+| Level| Criteria for shelf/drawer loss protection| Minimum number of shelves/drawers required
+a|
+Pool
+a|
+For shelves, the pool must contain no more than two drives in a single shelf.
+
+For drawers, the pool must include an equal number of drives from each drawer.
+a|
+6 for shelves
+
+5 for drawers
+a|
+RAID 6
+a|
+The volume group contains no more than two drives in a single shelf or drawer.
+a|
+3
+a|
+RAID 3 or RAID 5
+a|
+Each drive in the volume group is located in a separate shelf or drawer.
+a|
+3
+a|
+RAID 1
+a|
+Each drive in a mirrored pair must be located in a separate shelf or drawer.
+a|
+2
+a|
+RAID 0
+a|
+Cannot achieve shelf/drawer loss protection.
+a|
+Not applicable
+|===
+
+[NOTE]
+====
+Shelf/drawer loss protection is not maintained if a drive has already failed in the pool or volume group. In this situation, losing access to a drive shelf or drawer, and consequently another drive in the pool or volume group, causes loss of data.
+====
+
+== What is the optimal drive positioning for pools and volume groups?
+
+When creating pools and volume groups, make sure to balance the drive selection between the upper and lower drive slots.
+
+For the EF600 and EF300 controllers, drive slots 0-11 are connected to one PCI bridge, while slots 12-23 are connected to a different PCI bridge. For optimal performance, you should balance the drive selection to include a roughly equal number of drives from the upper and lower slots. This positioning ensures that your volumes do not hit a bandwidth limit sooner than necessary.
+
+== What RAID level is best for my application?
+
+To maximize the performance of a volume group, you must select the appropriate RAID level. You can determine the appropriate RAID level by knowing the read and write percentages for the applications that are accessing the volume group. Use the Performance page to obtain these percentages.
+
+=== RAID levels and application performance
+
+RAID relies on a series of configurations, called _levels_, to determine how user and redundancy data is written and retrieved from the drives. Each RAID level provides different performance features. Applications with a high read percentage will perform well using RAID 5 volumes or RAID 6 volumes because of the outstanding read performance of the RAID 5 and RAID 6 configurations.
+
+Applications with a low read percentage (write-intensive) do not perform as well on RAID 5 volumes or RAID 6 volumes. The degraded performance is the result of the way that a controller writes data and redundancy data to the drives in a RAID 5 volume group or a RAID 6 volume group.
+
+Select a RAID level based on the following information.
+
+*RAID 0*
+
+* *Description*
+ ** Non-redundant, striping mode.
+* *How it works*
+ ** RAID 0 stripes data across all of the drives in the volume group.
+* *Data protection features*
+ ** RAID 0 is not recommended for high availability needs. RAID 0 is better for non-critical data.
+ ** If a single drive fails in the volume group, all of the associated volumes fail, and all data is lost.
+* *Drive number requirements*
+ ** A minimum of one drive is required for RAID Level 0.
+ ** RAID 0 volume groups can have more than 30 drives.
+ ** You can create a volume group that includes all of the drives in the storage array.
+
+*RAID 1 or RAID 10*
+
+* *Description*
+ ** Striping/mirror mode.
+* *How it works*
+ ** RAID 1 uses disk mirroring to write data to two duplicate disks simultaneously.
+ ** RAID 10 uses drive striping to stripe data across a set of mirrored drive pairs.
+* *Data protection features*
+ ** RAID 1 and RAID 10 offer high performance and the best data availability.
+ ** RAID 1 and RAID 10 use drive mirroring to make an exact copy from one drive to another drive.
+ ** If one of the drives in a drive pair fails, the storage array can instantly switch to the other drive without any loss of data or service.
+ ** A single drive failure causes associated volumes to become degraded. The mirror drive allows access to the data.
+ ** A drive-pair failure in a volume group causes all of the associated volumes to fail, and data loss could occur.
+* *Drive number requirements*
+ ** A minimum of two drives is required for RAID 1: one drive for the user data, and one drive for the mirrored data.
+ ** If you select four or more drives, RAID 10 is automatically configured across the volume group: two drives for user data, and two drives for the mirrored data.
+ ** You must have an even number of drives in the volume group. If you do not have an even number of drives and you have some remaining unassigned drives, go to *Pools & Volume Groups* to add additional drives to the volume group, and retry the operation.
+ ** RAID 1 and RAID 10 volume groups can have more than 30 drives. A volume group can be created that includes all of the drives in the storage array.
+
+*RAID 5*
+
+* *Description*
+ ** High I/O mode.
+* *How it works*
+ ** User data and redundant information (parity) are striped across the drives.
+ ** The equivalent capacity of one drive is used for redundant information.
+* *Data protection features*
+ ** If a single drive fails in a RAID 5 volume group, all of the associated volumes become degraded. The redundant information allows the data to still be accessed.
+ ** If two or more drives fail in a RAID 5 volume group, all of the associated volumes fail, and all data is lost.
+* *Drive number requirements*
+ ** You must have a minimum of three drives in the volume group.
+ ** Typically, you are limited to a maximum of 30 drives in the volume group.
+
+*RAID 6*
+
+* *Description*
+ ** High I/O mode.
+* *How it works*
+ ** User data and redundant information (dual parity) are striped across the drives.
+ ** The equivalent capacity of two drives is used for redundant information.
+* *Data protection features*
+ ** If one or two drives fail in a RAID 6 volume group, all of the associated volumes become degraded, but the redundant information allows the data to still be accessed.
+ ** If three or more drives fail in a RAID 6 volume group, all of the associated volumes fail, and all data is lost.
+* *Drive number requirements*
+ ** You must have a minimum of five drives in the volume group.
+ ** Typically, you are limited to a maximum of 30 drives in the volume group.
+
+[NOTE]
+====
+You cannot change the RAID level of a pool. The user interface automatically configures pools as RAID 6.
+====
+
+=== RAID levels and data protection
+
+RAID 1, RAID 5, and RAID 6 write redundancy data to the drive media for fault tolerance. The redundancy data might be a copy of the data (mirrored) or an error-correcting code derived from the data. You can use the redundancy data to quickly reconstruct information on a replacement drive if a drive fails.
+
+You configure a single RAID level across a single volume group. All redundancy data for that volume group is stored within the volume group. The capacity of the volume group is the aggregate capacity of the member drives minus the capacity reserved for redundancy data. The amount of capacity needed for redundancy depends on the RAID level used.
+
+== What is Data Assurance?
+
+Data Assurance (DA) implements the T10 Protection Information (PI) standard, which increases data integrity by checking for and correcting errors that might occur as data is transferred along the I/O path.
+
+The typical use of the Data Assurance feature will check the portion of the I/O path between the controllers and drives. DA capabilities are presented at the pool and volume group level.
+
+When this feature is enabled, the storage array appends error-checking codes (also known as cyclic redundancy checks or CRCs) to each block of data in the volume. After a data block is moved, the storage array uses these CRC codes to determine if any errors occurred during transmission. Potentially corrupted data is neither written to disk nor returned to the host. If you want to use the DA feature, select a pool or volume group that is DA capable when you create a new volume (look for "Yes" next to "DA" in the pool and volume group candidates table).
+
+Make sure you assign these DA-enabled volumes to a host using an I/O interface that is capable of DA. I/O interfaces that are capable of DA include Fibre Channel, SAS, iSCSI over TCP/IP, NVMe/FC, NVMe/IB, NVME/RoCE and iSER over InfiniBand (iSCSI Extensions for RDMA/IB). DA is not supported by SRP over InfiniBand.
+
+== What is secure-capable (Drive Security)?
+
+Drive Security is a feature that prevents unauthorized access to data on secure-enabled drives when removed from the storage array. These drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+
+== What do I need to know about increasing reserved capacity?
+
+Typically, you should increase capacity when you receive a warning that the reserved capacity is in danger of becoming full. You can increase reserved capacity only in increments of 8 GiB.
+
+* You must have sufficient free capacity in the pool or volume group so it can be expanded if necessary.
++
+If no free capacity exists on any pool or volume group, you can add unassigned capacity in the form of unused drives to a pool or volume group.
+
+* The volume in the pool or volume group must have an Optimal status and must not be in any state of modification.
+* Free capacity must exist in the pool or volume group that you want to use to increase capacity.
+* You cannot increase reserved capacity for a snapshot volume that is read-only. Only snapshot volumes that are read-write require reserved capacity.
+
+For snapshot operations, reserved capacity is typically 40 percent of the base volume. For asynchronous mirroring operations reserved capacity is typically 20 percent of the base volume. Use a higher percentage if you believe the base volume will undergo many changes or if the estimated life expectancy of a storage object's copy service operation will be very long.
+
+== Why can't I choose another amount to decrease by?
+
+You can decrease reserved capacity only by the amount you used to increase it. Reserved capacity for member volumes can be removed only in the reverse order they were added.
+
+You cannot decrease the reserved capacity for a storage object if one of these conditions exists:
+
+* If the storage object is a mirrored pair volume.
+* If the storage object contains only one volume for reserved capacity. The storage object must contain at least two volumes for reserved capacity.
+* If the storage object is a disabled snapshot volume.
+* If the storage object contains one or more associated snapshot images.
+
+You can remove volumes for reserved capacity only in the reverse order that they were added.
+
+You cannot decrease the reserved capacity for a snapshot volume that is read-only because it does not have any associated reserved capacity. Only snapshot volumes that are read-write require reserved capacity.
+
+== Why do I need reserved capacity for each member volume?
+
+Each member volume in a snapshot consistency group must have its own reserved capacity to save any modifications made by the host application to the base volume without affecting the referenced consistency group snapshot image. Reserved capacity provides the host application with write access to a copy of the data contained in the member volume that is designated as read-write.
+
+A consistency group snapshot image is not directly read or write accessible to hosts. Rather, the snapshot image is used to save only the data captured from the base volume.
+
+During the creation of a consistency group snapshot volume that is designated as read-write, System Manager creates a reserved capacity for each member volume in the consistency group. This reserved capacity provides the host application with write access to a copy of the data contained in the consistency group snapshot image.
+
+== How do I view and interpret all SSD Cache statistics?
+
+You can view nominal statistics and detailed statistics for SSD Cache. Nominal statistics are a subset of the detailed statistics.
+
+The detailed statistics can be viewed only when you export all SSD statistics to a `.csv` file. As you review and interpret the statistics, keep in mind that some interpretations are derived by looking at a combination of statistics.
+
+=== Nominal statistics
+
+To view SSD Cache statistics, select menu:Storage[Pools & Volume Groups]. Select the SSD Cache that you want to view statistics for, and then select menu:More[View Statistics]. The nominal statistics are shown on the View SSD Cache Statistics dialog.
+
+The following list includes nominal statistics, which are a subset of the detailed statistics.
+
+[cols="25h,~",options="header"]
+|===
+| Nominal statistic| Description
+a|
+Reads/Writes
+a|
+The total number of host reads from or host writes to the SSD Cache-enabled volumes. Compare the Reads relative to Writes. The Reads need to be greater than the Writes for effective SSD Cache operation. The greater the ratio of Reads to Writes, the better the operation of the cache.
+a|
+Cache Hits
+a|
+A count of the number of cache hits.
+a|
+Cache Hits (%)
+a|
+Derived from Cache Hits / (reads + writes). The Cache Hit percentage should be greater than 50 percent for effective SSD Cache operation. A small number could indicate several things:
+
+* The ratio of Reads to Writes is too small
+* Reads are not repeated
+* Cache capacity is too small
+a|
+Cache Allocation (%)
+a|
+The amount of SSD Cache storage that is allocated, expressed as a percentage of the SSD Cache storage that is available to this controller. Derived from allocated bytes / available bytes. Cache Allocation percentage normally shows as 100 percent. If this number is less than 100 percent, it means either the cache has not been warmed or the SSD Cache capacity is larger than all the data being accessed. In the latter case, a smaller SSD Cache capacity could provide the same level of performance. Note that this does not indicate that cached data has been placed into the SSD Cache; it is simply a preparation step before data can be placed in the SSD Cache.
+a|
+Cache Utilization (%)
+a|
+The amount of SSD Cache storage that contains data from enabled volumes, expressed as a percentage of SSD Cache storage that is allocated. This value represents the utilization or density of the SSD Cache derived from user data bytes / allocated bytes. Cache Utilization percentage normally is lower than 100 percent, perhaps much lower. This number shows the percent of SSD Cache capacity that is filled with cache data. This number is lower than 100 percent because each allocation unit of the SSD Cache, the SSD Cache block, is divided into smaller units called sub-blocks, which are filled somewhat independently. A higher number is generally better, but performance gains can be significant even with a smaller number.
+|===
+
+=== Detailed statistics
+
+The detailed statistics consist of the nominal statistics, plus additional statistics. These additional statistics are saved along with the nominal statistics, but unlike the nominal statistics, they do not display in the View SSD Cache Statistics dialog. You can view the detailed statistics only after exporting the statistics to a `.csv` file.
+
+When viewing the `.csv` file, notice that the detailed statistics are listed after the nominal statistics:
+
+[cols="25h,~",options="header"]
+|===
+| Detailed statistics| Description
+a|
+Read Blocks
+a|
+The number of blocks in host reads.
+a|
+Write Blocks
+a|
+The number of blocks in host writes.
+a|
+Full Hit Blocks
+a|
+The number of blocks in cache hits. The full hit blocks indicate the number of blocks that have been read entirely from SSD Cache. The SSD Cache is only beneficial to performance for those operations that are full cache hits.
+a|
+Partial Hits
+a|
+The number of host reads where at least one block, but not all blocks, were in the SSD Cache. A partial hit is an SSD Cache *miss* where the reads were satisfied from the base volume.
+a|
+Partial Hits - Blocks
+a|
+The number of blocks in Partial Hits. Partial cache hits and partial cache hit blocks result from an operation that has only a portion of its data in the SSD Cache. In this case, the operation must get the data from the cached hard disk drive (HDD) volume. The SSD Cache offers no performance benefit for this type of hit. If the partial cache hit blocks count is higher than the full cache hit blocks, a different I/O characteristic type (file system, database, or web server) could improve the performance. It is expected that there will be a larger number of Partial Hits and Misses as compared to Cache Hits while the SSD Cache is warming.
+a|
+Misses
+a|
+The number of host reads where none of the blocks were in the SSD Cache. An SSD Cache miss occurs when the reads were satisfied from the base volume. It is expected that there will be a larger number of Partial Hits and Misses as compared to Cache Hits while the SSD Cache is warming.
+a|
+Misses - Blocks
+a|
+The number of blocks in Misses.
+a|
+Populate Actions (Host Reads)
+a|
+The number of host reads where data was copied from the base volume to the SSD Cache.
+a|
+Populate Actions (Host Reads) - Blocks
+a|
+The number of blocks in Populate Actions (Host Reads).
+a|
+Populate Actions (Host Writes)
+a|
+The number of host writes where data was copied from the base volume to the SSD Cache. The Populate Actions (Host Writes) count might be zero for the cache configuration settings that do not fill the cache as a result of a Write I/O operation.
+a|
+Populate Actions (Host Writes) - Blocks
+a|
+The number of blocks in Populate Actions (Host Writes).
+a|
+Invalidate Actions
+a|
+The number of times data was invalidated or removed from the SSD Cache. A cache invalidate operation is performed for each host write request, each host read request with Forced Unit Access (FUA), each verify request, and in some other circumstances.
+a|
+Recycle Actions
+a|
+The number of times that the SSD Cache block has been re-used for another base volume and/or a different logical block addressing (LBA) range. For effective cache operation, the number of recycles must be small compared to the combined number of read and write operations. If the number of Recycle Actions is close to the combined number of Reads and Writes, the SSD Cache is thrashing. Either the cache capacity needs to be increased or the workload is not favorable for use with SSD Cache.
+a|
+Available Bytes
+a|
+The number of bytes available in the SSD Cache for use by this controller.
+a|
+Allocated Bytes
+a|
+The number of bytes allocated from the SSD Cache by this controller. Bytes allocated from the SSD Cache might be empty or they might contain data from base volumes.
+a|
+User Data Bytes
+a|
+The number of allocated bytes in the SSD Cache that contain data from base volumes. The available bytes, allocated bytes, and user data bytes are used to compute the Cache Allocation percentage and the Cache Utilization percentage.
+|===
+
+== What is optimization capacity for pools?
+
+SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated.
+
+For drives associated with a pool, unallocated capacity is comprised of a pool's preservation capacity, the free capacity (capacity not used by volumes), and a portion of the usable capacity set aside as additional optimization capacity. The additional optimization capacity ensures a minimum level of optimization capacity by reducing the usable capacity, and as such, is not available for volume creation.
+
+When a pool is created, a recommended optimization capacity is generated that provides a balance of performance, drive wear life, and available capacity. The Additional Optimization Capacity slider located in the Pool Settings dialog allows adjustments to the pool's optimization capacity. Adjusting the slider provides for better performance and drive wear life at the expense of available capacity, or additional available capacity at the expense of performance and drive wear life.
+
+[NOTE]
+====
+The Additional Optimization Capacity slider is only available for EF600 and EF300 storage systems.
+====
+
+== What is optimization capacity for volume groups?
+
+SSD drives will have longer life and better maximum write performance when a portion of their capacity is unallocated.
+
+For drives associated with a volume group, unallocated capacity is comprised of a volume group's free capacity (capacity not used by volumes), and a portion of the usable capacity set aside as optimization capacity. The additional optimization capacity ensures a minimum level of optimization capacity by reducing the usable capacity, and as such, is not available for volume creation.
+
+When a volume group is created, a recommended optimization capacity is generated that provides a balance of performance, drive wear life, and available capacity. The Additional Optimization Capacity slider in the Volume Group Settings dialog allows adjustments to a volume group's optimization capacity. Adjusting the slider provides for better performance and drive wear life at the expense of available capacity, or additional available capacity at the expense of performance and drive wear life.
+
+[NOTE]
+====
+The Additional Optimization Capacity slider is only available for EF600 and EF300 storage systems.
+====
+
+== What is resource provisioning capable?
+
+Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+
+A resource-provisioned volume is a thick volume in an SSD volume group or pool, where drive capacity is allocated (assigned to the volume) when the volume is created, but the drive blocks are deallocated (unmapped). By comparison, in a traditional thick volume, all drive blocks are mapped or allocated during a background volume initialization operation in order to initialize the Data Assurance protection information fields and to make data and RAID parity consistent in each RAID stripe. With a resource provisioned volume, there is no time-bound background initialization. Instead, each RAID stripe is initialized upon the first write to a volume block in the stripe.
+
+Resource-provisioned volumes are supported only on SSD volume groups and pools, where all drives in the group or pool support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability. When a resource-provisioned volume is created, all drive blocks assigned to the volume are deallocated (unmapped). In addition, hosts can deallocate logical blocks in the volume using the NVMe Dataset Management command or the SCSI Unmap command. Deallocating blocks can improve SSD wear life and increase maximum write performance. The improvement varies with each drive model and capacity.
+
+NOTE: DULBE is not supported on EF300C or EF600C storage arrays at this time. 
+
+== What do I need to know about the resource-provisioned volumes feature?
+
+Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+
+A resource-provisioned volume is a thick volume in an SSD volume group or pool, where drive capacity is allocated (assigned to the volume) when the volume is created, but the drive blocks are deallocated (unmapped). By comparison, in a traditional thick volume, all drive blocks are mapped or allocated during a background volume initialization operation in order to initialize the Data Assurance protection information fields and to make data and RAID parity consistent in each RAID stripe. With a resource provisioned volume, there is no time-bound background initialization. Instead, each RAID stripe is initialized upon the first write to a volume block in the stripe.
+
+Resource-provisioned volumes are supported only on SSD volume groups and pools, where all drives in the group or pool support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability. When a resource-provisioned volume is created, all drive blocks assigned to the volume are deallocated (unmapped). In addition, hosts can deallocate logical blocks in the volume using the NVMe Dataset Management command or the SCSI Unmap command. Deallocating blocks can improve SSD wear life and increase maximum write performance. The improvement varies with each drive model and capacity.
+
+Resource provisioning is enabled by default on systems where the drives support DULBE. You can disable that default setting from *Pools & Volume Groups*.
+
+NOTE: DULBE is not supported on EF300C or EF600C storage arrays at this time. 
+
+
+
+
+
+
+
+
+
