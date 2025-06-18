@@ -371,28 +371,8 @@ sidebar:
             url: "/sm-storage/disable-snapshot-volume.html"
           - title: Delete snapshot volume
             url: "/sm-storage/delete-snapshot-volume.html"
-        - title: FAQs
-          entries:
-          - title: Why don&#8217;t I see all my volumes, hosts, or host clusters?
-            url: "/sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html"
-          - title: What is a snapshot image?
-            url: "/sm-storage/what-is-a-snapshot-image.html"
-          - title: Why use snapshot images?
-            url: "/sm-storage/why-use-snapshot-images.html"
-          - title: What kinds of volumes can be used for snapshots?
-            url: "/sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html"
-          - title: Why would I create a snapshot consistency group?
-            url: "/sm-storage/why-would-i-create-a-snapshot-consistency-group.html"
-          - title: What is a snapshot volume and when does it need reserved capacity?
-            url: "/sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html"
-          - title: What is a snapshot group?
-            url: "/sm-storage/what-is-a-snapshot-group.html"
-          - title: Why would I disable a snapshot volume?
-            url: "/sm-storage/why-would-i-disable-a-snapshot-volume.html"
-          - title: What is the Disabled state?
-            url: "/sm-storage/what-is-the-disabled-state.html"
-          - title: Why would I suspend a snapshot schedule?
-            url: "/sm-storage/why-would-i-suspend-a-snapshot-schedule.html"
+        - title: Snapshots FAQ
+          url: "/sm-storage/faq-snapshots.html"
       - title: Mirroring
         entries:
         - title: Overview
@@ -479,7 +459,8 @@ sidebar:
             url: "/sm-mirroring/deactivate-asynchronous-mirroring.html"
           - title: Deactivate sync mirroring
             url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
-        - title: Async FAQs
+        - title: Async mirroring FAQ
+          url: "/sm-mirroring/faq-async-mirroring.html"     
           entries:
           - title: How does asynchronous mirroring differ from synchronous mirroring?
             url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
