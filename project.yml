@@ -1078,12 +1078,8 @@ sidebar:
           url: "/um-manage/import-system-settings.html"
         - title: Import storage configuration settings
           url: "/um-manage/import-storage-configuration-settings.html"
-      - title: FAQs
-        entries:
-        - title: What settings will be imported?
-          url: "/um-manage/what-settings-will-be-imported.html"
-        - title: Why don&#8217;t I see all of my storage arrays?
-          url: "/um-manage/why-dont-i-see-all-of-my-storage-arrays.html"
+      - title: Import settings FAQ
+        url: "/um-manage/faq-import-settings.html"
     - title: Array groups
       entries:
       - title: Overview
@@ -1132,7 +1128,8 @@ sidebar:
           url: "/um-manage/create-asynchronous-mirrored-pair-um.html"
         - title: Create synchronous mirrored pair
           url: "/um-manage/create-synchronous-mirrored-pair-um.html"
-      - title: FAQs
+      - title: Storage mirroring FAQ
+        url: "/um-manage/faq-storage-mirroring.html"
         entries:
         - title: What do I need to know before creating a mirror consistency group?
           url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
@@ -1221,18 +1218,8 @@ sidebar:
             url: "/um-certificates/change-saml-role-mappings.html"
           - title: Export SAML Service Provider files
             url: "/um-certificates/export-saml-service-provider-files.html"
-      - title: FAQs
-        entries:
-        - title: Why can&#8217;t I log in?
-          url: "/um-certificates/why-cant-i-log-in-unified.html"
-        - title: What do I need to know before adding a directory server?
-          url: "/um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html"
-        - title: What do I need to know about mapping to storage array roles?
-          url: "/um-certificates/what-do-i-need-to-know-about-mapping-storage-array-roles-unified.html"
-        - title: What do I need to know before configuring and enabling SAML?
-          url: "/um-certificates/what-do-i-need-to-know-before-configuring-and-enabling-saml.html"
-        - title: What are the local users?
-          url: "/um-certificates/what-are-the-local-users.html"
+      - title: User access management FAQ
+        url: "/um-certificates/faq-user-access-mgmt-um.html"
   - title: Earlier versions
     url: /early-versions.html
   - title: Legal notices
