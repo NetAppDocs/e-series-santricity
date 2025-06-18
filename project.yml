@@ -36,22 +36,8 @@ sidebar:
             url: "/san-getstarted/access-sam.html"
           - title: Setup wizard overview
             url: "/sm-interface/setup-wizard-overview.html"
-          - title: FAQs
-            entries:
-              - title: What if I don&#8217;t see all of my hardware components?
-                url: "/sm-interface/what-if-i-dont-see-all-of-my-hardware-components.html"
-              - title: What if I don&#8217;t see all of my hosts?
-                url: "/sm-interface/what-if-i-dont-see-all-of-my-hosts.html"
-              - title: How does identifying applications help me manage my storage array?
-                url: "/sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html"
-              - title: What is a workload?
-                url: "/sm-interface/what-is-a-workload.html"
-              - title: How do I configure the delivery method for AutoSupport?
-                url: "/sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html"
-              - title: How do I know if I should accept the recommended pool configuration?
-                url: "/sm-interface/how-do-i-know-if-i-should-accept-the-recommended-pool-configuration.html"
-              - title: SANtricity System Manager has not detected any hosts. What do I do?
-                url: "/sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html"
+          - title: Storage system setup FAQ
+            url: "/sm-interface/faq-storage-system-setup.html"
         - title: SANtricity Unified Manager setup
           entries:
           - title: Install SANtricity Unified Manager
