@@ -1,0 +1,5 @@
+---
+permalink: sm-hardware/where-can-i-view-the-status-of-a-drive-undergoing-reconstruction.html
+redirect: e-series-santricity/sm-storage/faq-storage-drives.html
+---
+

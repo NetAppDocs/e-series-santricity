@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-creating-a-security-key.html
+redirect: e-series-santricity/sm-settings/faq-storage-drive-security.html
+---

@@ -30,7 +30,6 @@ When Automatic Load Balancing is enabled, it performs the following functions:
 Any volume assigned to use a controller's SSD Cache is not eligible for an automatic load balance transfer.
 ====
 
-
 == What is controller cache?
 
 The controller cache is a physical memory space that streamlines two types of I/O (input/output) operations: between the controllers and hosts, and between the controllers and disks.
@@ -50,7 +49,6 @@ The controller cache affects the overall performance of the storage array in sev
 ====
 *Possible loss of data* -- If you enable the *Write caching without batteries* option and do not have a universal power supply for protection, you could lose data. In addition, you could lose data if you do not have controller batteries and you enable the *Write caching without batteries* option.
 ====
-
 
 == What is cache flushing?
 

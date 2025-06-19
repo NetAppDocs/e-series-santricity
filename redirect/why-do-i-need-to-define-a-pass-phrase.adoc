@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/why-do-i-need-to-define-a-pass-phrase.html
+redirect: e-series-santricity/sm-settings/faq-storage-drive-security.html
+---
