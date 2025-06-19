@@ -460,7 +460,7 @@ sidebar:
           - title: Deactivate sync mirroring
             url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
         - title: Async mirroring FAQ
-          url: "/sm-mirroring/faq-async-mirroring.html"     
+          url: "/sm-mirroring/faq-async-mirroring.html"
         - title: Sync mirroring FAQ
           url: "/sm-mirroring/faq-sync-mirroring.html"
       - title: Remote storage
