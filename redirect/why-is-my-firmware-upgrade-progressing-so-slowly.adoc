@@ -1,0 +1,4 @@
+---
+permalink: sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

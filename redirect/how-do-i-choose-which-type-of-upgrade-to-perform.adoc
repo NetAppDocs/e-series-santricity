@@ -1,0 +1,4 @@
+---
+permalink: sm-support/how-do-i-choose-which-type-of-upgrade-to-perform.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

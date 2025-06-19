@@ -1,0 +1,4 @@
+---
+permalink: sm-support/what-do-the-autosupport-features-do.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---
