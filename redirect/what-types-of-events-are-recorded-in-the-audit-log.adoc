@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-types-of-events-are-recorded-in-the-audit-log.html
+redirect: e-series-santricity/sm-settings/faq-user-access-mgmt-sm.html
+---

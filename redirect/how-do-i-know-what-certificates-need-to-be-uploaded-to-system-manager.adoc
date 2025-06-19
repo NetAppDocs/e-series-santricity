@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/how-do-i-know-what-certificates-need-to-be-uploaded-to-system-manager.html
+redirect: e-series-santricity/sm-settings/faq-certificates.html
+---
