@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-do-i-need-to-know-about-host-block-size-requirements.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

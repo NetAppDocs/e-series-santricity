@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/why-am-i-seeing-a-capacity-over-allocation-error-when-i-have-enough-free-capacity-in-a-volume-group-to-create-volumes.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

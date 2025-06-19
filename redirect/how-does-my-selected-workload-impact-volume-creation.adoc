@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/how-does-my-selected-workload-impact-volume-creation.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---
