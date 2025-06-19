@@ -52,7 +52,7 @@ If you are using an LDAP (Lightweight Directory Access Protocol) server and Dire
 * An administrator has defined user groups in the directory service.
 * You know the group domain names for the LDAP user groups.
 
-== SAML
+=== SAML
 
 If you are using the Security Assertion Markup Language (SAML) capabilities embedded in the storage array, make sure that:
 
@@ -70,7 +70,7 @@ If you are using the Security Assertion Markup Language (SAML) capabilities embe
 
 Before configuring and enabling the Security Assertion Markup Language (SAML) capabilities for authentication, make sure you meet the following requirements and understand SAML restrictions.
 
-== Requirements
+=== Requirements
 
 Before you begin, make sure that:
 
@@ -81,7 +81,7 @@ Before you begin, make sure that:
 * An IdP metadata file is downloaded from the IdP system and available on the local system used for accessing Unified Manager.
 * You know the IP address or domain name the controller in the storage array.
 
-== Restrictions
+=== Restrictions
 
 In addition to the requirements above, make sure you understand the following restrictions:
 

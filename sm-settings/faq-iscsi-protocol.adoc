@@ -80,7 +80,7 @@ iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous 
 The iSCSI settings are only available if your storage array supports iSCSI.
 ====
 
-== Configure iSCSI
+=== Configure iSCSI
 
 [cols="1a,1a" options="header"]
 |===
@@ -110,7 +110,7 @@ or
 . Click menu:View/Edit Settings[Host Ports] tab.
 |===
 
-== Diagnose iSCSI
+=== Diagnose iSCSI
 
 [cols="1a,1a" options="header"]
 |===

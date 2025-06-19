@@ -50,7 +50,7 @@ The storage array's embedded RBAC (role-based access control) capabilities inclu
 * *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
 * *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
 
-== Directory Services
+=== Directory Services
 
 If you are using an LDAP (Lightweight Directory Access Protocol) server and Directory Services, make sure that:
 
@@ -63,7 +63,7 @@ If you are using an LDAP (Lightweight Directory Access Protocol) server and Dire
 
 * The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
 
-== SAML
+=== SAML
 
 If you are using the Security Assertion Markup Language (SAML) capabilities embedded in the storage array, make sure that:
 
@@ -82,13 +82,13 @@ If you are using the Security Assertion Markup Language (SAML) capabilities embe
 
 When you make certain changes in SANtricity System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use.
 
-== Management interface
+=== Management interface
 
 Tools that communicate directly with the legacy management interface (SYMbol), such as the SANtricity SMI-S Provider or OnCommand Insight (OCI), do not work unless the Legacy Management Interface setting is enabled. In addition, you cannot use legacy CLI commands or perform mirroring operations if this setting is disabled.
 
 Contact technical support for more information.
 
-== SAML authentication
+=== SAML authentication
 
 When SAML is enabled, the following clients cannot access storage array services and resources:
 
@@ -106,7 +106,7 @@ Contact technical support for more information.
 
 Before configuring and enabling the Security Assertion Markup Language (SAML) capabilities for authentication, make sure you meet the following requirements and understand SAML restrictions.
 
-== Requirements
+=== Requirements
 
 Before you begin, make sure that:
 
@@ -117,7 +117,7 @@ Before you begin, make sure that:
 * An IdP metadata file is downloaded from the IdP system and available on the local system used for accessing System Manager.
 * You know the IP address or domain name of each controller in the storage array.
 
-== Restrictions
+=== Restrictions
 
 In addition to the requirements above, make sure you understand the following restrictions:
 

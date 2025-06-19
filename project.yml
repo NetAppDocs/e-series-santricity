@@ -461,36 +461,6 @@ sidebar:
             url: "/sm-mirroring/deactivate-synchronous-mirroring.html"
         - title: Async mirroring FAQ
           url: "/sm-mirroring/faq-async-mirroring.html"     
-          entries:
-          - title: How does asynchronous mirroring differ from synchronous mirroring?
-            url: "/sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html"
-          - title: Why can&#8217;t I access my chosen mirroring feature?
-            url: "/sm-mirroring/why-cant-i-access-my-chosen-mirroring-feature.html"
-          - title: What do I need to know before creating a mirror consistency group?
-            url: "/sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html"
-          - title: Asynchronous mirroring - What do I need to know before creating a
-              mirrored pair?
-            url: "/sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html"
-          - title: What do I need to know before increasing my reserved capacity on
-              a mirrored pair volume?
-            url: "/sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html"
-          - title: Why can&#8217;t I increase reserved capacity with my requested amount?
-            url: "/sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html"
-          - title: Why would I change this percentage?
-            url: "/sm-mirroring/why-would-i-change-this-percentage.html"
-          - title: Why do I see more than one reserved capacity candidate?
-            url: "/sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html"
-          - title: Why do I see Not Available values displayed in the table?
-            url: "/sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html"
-          - title: Why don&#8217;t I see all of my pools and volume groups?
-            url: "/sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html"
-          - title: Asynchronous mirroring - Why don&#8217;t I see all my volumes?
-            url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-my-volumes.html"
-          - title: Asynchronous mirroring - Why don&#8217;t I see all the volumes on
-              the remote storage array?
-            url: "/sm-mirroring/asynchronous-mirroring-why-dont-i-see-all-the-volumes-on-the-remote-storage-array.html"
-          - title: Why would I update my remote storage array&#8217;s IP address?
-            url: "/sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html"
         - title: Sync mirroring FAQ
           url: "/sm-mirroring/faq-sync-mirroring.html"
       - title: Remote storage
@@ -1063,24 +1033,6 @@ sidebar:
           url: "/um-manage/create-synchronous-mirrored-pair-um.html"
       - title: Storage mirroring FAQ
         url: "/um-manage/faq-storage-mirroring.html"
-        entries:
-        - title: What do I need to know before creating a mirror consistency group?
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirror-consistency-group-um.html"
-        - title: What do I need to know before creating a mirrored pair?
-          url: "/um-manage/what-do-i-need-to-know-before-creating-a-mirrored-pair-um.html"
-        - title: Why would I change this percentage?
-          url: "/um-manage/why-would-i-change-this-percentage-um.html"
-        - title: Why do I see more than one reserved capacity candidate?
-          url: "/um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html"
-        - title: Why don&#8217;t I see all my volumes?
-          url: "/um-manage/why-dont-i-see-all-my-volumes-um.html"
-        - title: Why don&#8217;t I see all the volumes on the remote storage array?
-          url: "/um-manage/why-dont-i-see-all-the-volumes-on-the-remote-storage-array-um.html"
-        - title: What impact does synchronization priority have on synchronization
-            rates?
-          url: "/um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html"
-        - title: Why is it recommended to use a manual synchronization policy?
-          url: "/um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html"
     - title: Certificates
       entries:
       - title: Overview
