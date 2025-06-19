@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-are-the-differences-between-pools-and-volume-groups.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

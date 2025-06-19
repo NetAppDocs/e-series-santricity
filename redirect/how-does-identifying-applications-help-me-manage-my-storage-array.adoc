@@ -1,0 +1,4 @@
+---
+permalink: sm-interface/how-does-identifying-applications-help-me-manage-my-storage-array.html
+redirect: e-series-santricity/sm-interface/faq-storage-system-setup.html
+---

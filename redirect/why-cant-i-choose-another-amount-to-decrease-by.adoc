@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/why-cant-i-choose-another-amount-to-decrease-by.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

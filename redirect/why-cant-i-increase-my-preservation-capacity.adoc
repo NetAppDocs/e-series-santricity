@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/why-cant-i-increase-my-preservation-capacity.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---
+

@@ -1,0 +1,4 @@
+---
+permalink: sm-interface/how-do-i-configure-the-delivery-method-for-autosupport-new.html
+redirect: e-series-santricity/sm-interface/faq-storage-system-setup.html
+---

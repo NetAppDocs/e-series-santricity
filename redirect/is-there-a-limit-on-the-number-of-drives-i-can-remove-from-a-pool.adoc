@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/is-there-a-limit-on-the-number-of-drives-i-can-remove-from-a-pool.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

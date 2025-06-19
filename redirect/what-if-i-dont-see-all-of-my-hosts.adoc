@@ -1,0 +1,4 @@
+---
+permalink: sm-interface/what-if-i-dont-see-all-of-my-hosts.html
+redirect: e-series-santricity/sm-interface/faq-storage-system-setup.html
+---

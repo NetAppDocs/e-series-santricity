@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-media-types-are-supported-for-a-drive.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

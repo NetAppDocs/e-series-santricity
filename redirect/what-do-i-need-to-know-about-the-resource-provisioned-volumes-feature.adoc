@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-the-resource-provisioned-volumes-feature.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

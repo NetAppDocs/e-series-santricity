@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/why-would-i-want-to-manually-configure-a-pool.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---
+

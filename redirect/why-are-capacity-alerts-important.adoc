@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/why-are-capacity-alerts-important.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---
+
