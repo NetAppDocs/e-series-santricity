@@ -1,4 +1,4 @@
 ---
-permalink: um-storage/why-cant-i-delete-the-selected-workload.html
+permalink: sm-storage/why-cant-i-delete-the-selected-workload.html
 redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
 ---
