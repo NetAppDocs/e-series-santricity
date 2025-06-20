@@ -1,0 +1,236 @@
+---
+permalink: sm-mirroring/faq-async-mirroring.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Async mirroring FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== How does asynchronous mirroring differ from synchronous mirroring?
+
+The Asynchronous Mirroring feature differs from the Synchronous Mirroring feature in one essential way: it captures the state of the source volume at a particular point in time and copies just the data that has changed since the last image capture.
+
+With synchronous mirroring, the state of the primary volume is not captured at some point in time, but rather reflects all changes that were made on the primary volume to the secondary volume. The secondary volume is identical to the primary volume at every moment because, with this type of mirror, each time a write is done to the primary volume, a write is done to the secondary volume. The host does not receive an acknowledgment that the write was successful until the secondary volume is successfully updated with the changes that were made on the primary volume.
+
+With asynchronous mirroring, the remote storage array is not fully synchronized with the local storage array, so if the application needs to transition to the remote storage array due to a loss of the local storage array, some transactions could be lost.
+
+Comparison between mirroring features:
+
+[cols="1a,1a" options="header"]
+|===
+| Asynchronous Mirroring| Synchronous Mirroring
+2+a|
+*Replication method*
+a|
+* *Point-in-Time*
++
+Mirroring is done on demand or automatically according to a user-defined schedule. Schedules can be defined at the granularity of minutes. The minimum time between syncs is 10 minutes.
+a|
+* *Continuous*
++
+Mirroring is automatically executed continuously, copying data from every host write.
+2+a|
+*Reserved capacity*
+a|
+* *Multiple*
++
+A reserved capacity volume is required for each mirrored pair.
+a|
+* *Single*
++
+Single reserved capacity volume is required for all mirrored volumes.
+
+2+a|
+*Communication*
+a|
+* *iSCSI and Fibre Channel*
++
+Supports iSCSI and Fibre Channel interfaces between storage arrays.
+a|
+* *Fibre Channel*
++
+Supports only Fibre Channel interfaces between storage arrays.
+2+a|
+*Distance*
+a|
+* *Unlimited*
++
+Support for virtually unlimited distances between the local storage array and the remote storage array, with the distance typically limited only by the capabilities of the network and the channel extension technology.
+
+a|
+
+* *Restricted*
++
+Typically must be within about 10 km (6.2 miles), of the local storage array to meet the latency and application performance requirements.
+
+|===
+
+== Why can't I access my chosen mirroring feature?
+
+Mirroring is configured in the SANtricity Unified Manager interface.
+
+[NOTE]
+====
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage array.
+====
+
+
+To enable and configure mirroring between two arrays, verify the following:
+
+* The Web Services Proxy service must be running. (Unified Manager is installed on a host system along with the Web Services Proxy.)
+* Unified Manager must be running on your local host through an HTTPS connection.
+* The two storage arrays you want to use for mirroring must be discovered in Unified Manager.
+* Unified Manager must have valid SSL certificates for the storage arrays. You can accept a self-signed certificate or install CA-signed certificates from Unified Manager.
+
+For configuration instructions, see the following:
+
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html[Create asynchronous mirrored pair (in Unified Manager)]
+* link:../um-manage/create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair (in Unified Manager)]
+
+== What do I need to know before creating a mirror consistency group?
+
+Follow these guidelines before you create a mirror consistency group.
+
+[NOTE]
+====
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+====
+
+You create a consistency group in Unified Manager in the Create Mirrored Pairs wizard.
+
+Meet the following requirements for Unified Manager:
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+Also be sure to meet the following requirements for storage arrays:
+
+* The two storage arrays must be discovered in Unified Manager.
+* Each storage array must have two controllers.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+
+== Asynchronous mirroring - What do I need to know before creating a mirrored pair?
+
+You configure mirrored pairs in the SANtricity Unified Manager interface, and then manage the pairs in SANtricity System Manager.
+
+Before creating a mirrored pair, follow these guidelines.
+
+* You must have two storage arrays.
+* Each storage array must have two controllers.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* You have installed the Web Services Proxy and Unified Manager. Mirrored pairs are configured in the Unified Manager interface.
+* The two storage arrays are discovered in Unified Manager.
+* Your storage array must contain at least one mirror consistency group. You create a consistency group in Unified Manager in the Create Mirrored Pairs wizard.
+
+== What do I need to know before increasing my reserved capacity on a mirrored pair volume?
+
+Typically, you should increase reserved capacity when you receive a warning that the reserved capacity for a mirrored pair is becoming full. You can increase reserved capacity only in increments of 8 GiB.
+
+For asynchronous mirroring operations, reserved capacity is typically 20 percent of the base volume. Choose a larger capacity for reserved capacity if one or both of these conditions exist:
+
+* You intend to keep the mirrored pair for a long period of time.
+* A large percentage of data blocks will change on the primary volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the primary volume.
+
+You can increase the reserved capacity for a mirrored pair by performing one of these actions:
+
+* Adjust the capacity percentage for a mirrored pair volume by selecting menu:Storage[Pools and Volumes Groups] and then clicking the *Reserved Capacity* tab.
+* Create a new volume using free capacity that is available on a pool or volume group.
++
+If no free capacity exists on any pool or volume group, you can add unconfigured capacity in the form of unused drives to a pool or volume group.
+
+== Why can't I increase reserved capacity with my requested amount?
+
+You can increase reserved capacity only in increments of 4 GiB.
+
+Review the following guidelines:
+
+* You must have sufficient free capacity in the pool or volume group so it can be expanded if necessary.
++
+If no free capacity exists on any pool or volume group, you can add unassigned capacity in the form of unused drives to a pool or volume group.
+
+* The volume in the pool or volume group must have an Optimal status and must not be in any state of modification.
+* Free capacity must exist in the pool or volume group that you want to use to increase capacity.
+
+For asynchronous mirroring operations reserved capacity is typically 20 percent of the base volume. Use a higher percentage if you believe the base volume will undergo many changes or if the estimated life expectancy of a storage object's copy service operation will be very long.
+
+== Why would I change this percentage?
+
+Reserved capacity is typically 40 percent of the base volume for snapshot operations and 20 percent of the base volume for asynchronous mirroring operations.
+
+Usually this capacity is sufficient. The capacity needed varies, depending on the frequency and size of I/O writes to the base volume and how long you intend to use the storage object's copy service operation.
+
+In general, choose a larger percentage for reserved capacity if one or both of these conditions exist:
+
+* If the lifespan of a particular storage object's copy service operation will be very long.
+* If a large percentage of data blocks will change on the base volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the base volume.
+
+== Why do I see more than one reserved capacity candidate?
+
+If there is more than one volume in a pool or volume group that meets the capacity percentage amount you selected for the storage object, you will see multiple candidates.
+
+You can refresh the list of recommended candidates by changing the percentage of physical drive space that you want to reserve on the base volume for copy service operations. The best candidates are displayed based on your selection.
+
+== Why do I see Not Available values displayed in the table?
+
+The table lists Not Available values when the data located on the remote storage array is not available to be displayed.
+
+To display the remote storage array data, launch System Manager from Unified Manager.
+
+== Why don't I see all of my pools and volume groups?
+
+When you create a secondary volume for the asynchronous mirrored pair, the system displays a list of all the eligible pools and volume groups for that asynchronous mirrored pair. Any pool or volume group that is not eligible to be used does not display in that list.
+
+Pools or volume groups may not be eligible for any of the following reasons.
+
+* The security capabilities of a pool or volume group do not match.
+* A pool or volume group is in a non-optimal state.
+* The capacity of a pool or volume group is too small.
+
+== Asynchronous mirroring - Why don't I see all my volumes?
+
+When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes. 
+
+Any volumes that are not eligible to be used do not display in that list. Volumes may not be eligible for any of the following reasons:
+
+* The volume is not optimal.
+* The volume is already participating in a mirroring relationship.
+* For thin volumes, auto-expansion must be enabled.
+
+NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an asynchronous mirrored pair must match the same protocol, tray level, segment size, security type, and RAID level. Non-eligible asynchronous mirrored pairs will not appear in the list of available volumes.
+
+== Asynchronous mirroring - Why don't I see all the volumes on the remote storage array?
+
+When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair.
+
+Any volumes that are not eligible to be used, do not display in that list. Volumes might not be eligible for any of the following reasons:
+
+* The volume is not optimal.
+* The volume is already participating in a mirroring relationship.
+* The thin volume attributes between the primary volume and the secondary volume do not match.
+* If you are using Data Assurance (DA), the primary volume and the secondary volume must have the same DA settings.
+ ** If the primary volume is DA enabled, the secondary volume must be DA enabled.
+ ** If the primary volume is not DA enabled, the secondary volume must not be DA enabled.
+
+==  Why would I update my remote storage array's IP address?
+
+You update your remote storage array's IP address when the IP address of an iSCSI port changes and the local storage array is unable to communicate with the remote storage array.
+
+When establishing an asynchronous mirroring relationship with an iSCSI connection, both the local and the remote storage arrays store a record of the IP address of the remote storage array in the asynchronous mirroring configuration. If the IP address of an iSCSI port changes, the remote storage array that is attempting to use that port encounters a communication error.
+
+The storage array with the changed IP address sends a message to each remote storage array associated with the mirror consistency groups that are configured to mirror over an iSCSI connection. Storage arrays that receive this message automatically update their remote-target IP address.
+
+If the storage array with the changed IP address is unable to send its inter-array message to a remote storage array, the system sends you an alert of the connectivity issue. Use the Update Remote IP Address option to re-establish connection with the local storage array.

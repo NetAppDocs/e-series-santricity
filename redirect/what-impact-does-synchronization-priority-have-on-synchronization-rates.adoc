@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/what-impact-does-synchronization-priority-have-on-synchronization-rates.html
+redirect: e-series-santricity/sm-mirroring/faq-sync-mirroring.html
+---

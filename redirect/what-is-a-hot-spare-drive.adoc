@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-a-hot-spare-drive.html
+redirect: e-series-santricity/sm-storage/faq-storage-drives.html
+---

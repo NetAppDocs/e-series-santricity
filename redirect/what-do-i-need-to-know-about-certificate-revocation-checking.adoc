@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-about-certificate-revocation-checking.html
+redirect: e-series-santricity/sm-settings/faq-certificates.html
+---

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups
 summary: "The Snapshots feature makes use of base volumes, reserved capacity, and snapshot groups."
 ---
-= Base volumes, reserved capacity, and snapshot groups
+= Learn about base volumes, reserved capacity, and snapshot groups in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

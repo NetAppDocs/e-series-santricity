@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/why-does-the-data-display-as-zero-in-the-graphs-and-table.html
+redirect: e-series-santricity/sm-interface/faq-management-interface.html
+---

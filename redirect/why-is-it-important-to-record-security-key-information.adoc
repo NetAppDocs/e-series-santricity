@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/why-is-it-important-to-record-security-key-information.html
+redirect: e-series-santricity/sm-settings/faq-storage-drive-security.html
+---

@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-happens-when-i-use-an-isns-server.html
+redirect: e-series-santricity/sm-settings/faq-iscsi-protocol.html
+---

@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-does-the-iops-graph-show.html
+redirect: e-series-santricity/sm-interface/faq-management-interface.html
+---

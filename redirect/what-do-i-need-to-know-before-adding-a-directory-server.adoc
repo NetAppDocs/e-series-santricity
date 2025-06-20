@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-adding-a-directory-server.html
+redirect: e-series-santricity/sm-settings/faq-user-access-mgmt-sm.html
+---

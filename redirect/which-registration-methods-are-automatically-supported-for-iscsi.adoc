@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/which-registration-methods-are-automatically-supported-for-iscsi.html
+redirect: e-series-santricity/sm-settings/faq-iscsi-protocol.html
+---

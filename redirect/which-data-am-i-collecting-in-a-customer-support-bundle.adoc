@@ -1,0 +1,4 @@
+---
+permalink: sm-support/which-data-am-i-collecting-in-a-customer-support-bundle.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

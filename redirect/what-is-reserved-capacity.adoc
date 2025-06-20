@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-reserved-capacity.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---

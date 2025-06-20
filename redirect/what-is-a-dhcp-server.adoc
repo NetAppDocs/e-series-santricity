@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/what-is-a-dhcp-server.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---

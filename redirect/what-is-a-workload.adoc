@@ -1,0 +1,5 @@
+---
+permalink: sm-interface/what-is-a-workload.html
+redirect: e-series-santricity/sm-interface/faq-storage-system-setup.html
+---
+

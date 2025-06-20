@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/how-does-providing-this-information-help-create-storage.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

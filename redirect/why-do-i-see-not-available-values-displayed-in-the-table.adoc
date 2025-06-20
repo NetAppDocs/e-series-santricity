@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-do-i-see-not-available-values-displayed-in-the-table.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

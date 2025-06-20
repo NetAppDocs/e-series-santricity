@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-do-i-need-to-know-before-unlocking-secure-drives.html
+redirect: e-series-santricity/sm-settings/faq-storage-drive-security.html
+---

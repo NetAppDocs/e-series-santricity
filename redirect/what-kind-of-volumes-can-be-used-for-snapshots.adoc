@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-kind-of-volumes-can-be-used-for-snapshots.html
+redirect: e-series-santricity/sm-storage/faq-snapshots.html
+---

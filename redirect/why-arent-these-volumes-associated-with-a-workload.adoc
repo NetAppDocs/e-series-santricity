@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/why-arent-these-volumes-associated-with-a-workload.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

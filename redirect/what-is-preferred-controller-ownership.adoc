@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-preferred-controller-ownership.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

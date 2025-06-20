@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/when-should-i-synchronize-storage-array-clocks.html
+redirect: e-series-santricity/sm-storage/faq-storage-array-settings.html
+---

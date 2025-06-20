@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/why-are-there-two-ip-addresses-for-one-physical-port.html
+redirect: e-series-santricity/sm-settings/faq-nvme-protocol.html
+---

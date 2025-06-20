@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-do-i-need-to-do-to-recognize-the-expanded-capacity.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

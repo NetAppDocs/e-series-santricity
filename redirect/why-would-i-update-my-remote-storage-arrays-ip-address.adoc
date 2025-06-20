@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-would-i-update-my-remote-storage-arrays-ip-address.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

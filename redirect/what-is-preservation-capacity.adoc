@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/what-is-preservation-capacity.html
+redirect: e-series-santricity/sm-storage/faq-storage-drives.html
+---

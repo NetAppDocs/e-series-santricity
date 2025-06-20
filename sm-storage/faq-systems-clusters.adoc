@@ -1,0 +1,146 @@
+---
+permalink: sm-storage/faq-systems-clusters.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Host systems and host clusters FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What are hosts and host clusters?
+
+A host is a server that sends I/O to a volume on a storage array. A host cluster is a group of hosts. You create a host cluster to make it easy to assign the same volumes to multiple hosts.
+
+You define a host separately. It can either be an independent entity or be added to a host cluster. You can assign volumes to an individual host, or a host can be part of a host cluster that shares access to one or more volumes with other hosts in the host cluster.
+
+The host cluster is a logical entity that you create in SANtricity System Manager. You must add hosts to the host cluster before you can assign volumes.
+
+== Why would I need to create a host cluster?
+
+You need to create a host cluster if you want to have two or more hosts share access to the same set of volumes. Normally, the individual hosts have clustering software installed on them to coordinate volume access.
+
+== How do I know which host operating system type is correct?
+
+The Host Operating System Type field contains the operating system of the host. You can select the recommended host type from the drop-down list.
+
+The host types that appear in the drop-down list depend on the storage array model and the firmware version. The most recent versions display the most common options first, which are the most likely to be appropriate. Appearance on this list does not imply the option is fully supported.
+
+[NOTE]
+====
+For more information about host support, refer to the https://imt.netapp.com/matrix/#welcome[NetApp Interoperability Matrix Tool^].
+====
+
+Some of the following host types might appear in the list:
+
+[cols="35h,~",options="header"]
+|===
+| Host Operating System type| Operating System (OS) and multipath driver
+a|
+Linux DM-MP (Kernel 3.10 or later)
+a|
+Supports Linux operating systems using a Device Mapper multipath failover solution with a 3.10 or later Kernel.
+a|
+VMware ESXi
+a|
+Supports VMware ESXi operating systems running the Native Multipathing Plug-in (NMP) architecture using the VMware built-in Storage Array Type Policy module SATP_ALUA.
+a|
+Windows (clustered or non-clustered)
+a|
+Supports Windows clustered or non-clustered configurations that are not running the ATTO multipathing driver.
+a|
+ATTO Cluster (all operating systems)
+a|
+Supports all cluster configurations using the ATTO Technology, Inc., multipathing driver.
+a|
+Linux (Veritas DMP)
+a|
+Supports Linux operating systems using a Veritas DMP multipathing solution.
+a|
+Linux (ATTO)
+a|
+Supports Linux operating systems using an ATTO Technology, Inc., multipathing driver.
+a|
+Mac OS (ATTO)
+a|
+Supports Mac OS versions using an ATTO Technology, Inc., multipathing driver.
+a|
+Windows (ATTO)
+a|
+Supports Windows operating systems using an ATTO Technology, Inc., multipathing driver.
+a|
+IBM SVC
+a|
+Supports an IBM SAN Volume Controller configuration.
+a|
+Factory Default
+a|
+Reserved for the initial start-up of the storage array. If your host operating system type is set to Factory Default, change it to match the host operating system and multipath driver running on the connected host.
+a|
+Linux DM-MP (Kernel 3.9 or earlier)
+a|
+Supports Linux operating systems using a Device Mapper multipath failover solution with a 3.9 or earlier Kernel.
+a|
+Window Clustered (deprecated)
+a|
+If your host operating system type is set to this value, use the Windows (clustered or non-clustered) setting instead.
+|===
+
+== What are HBAs and adapter ports?
+
+A host bus adapter (HBA) is a board that resides in a host and contains one or more host ports. A host port is a port on a host bus adapter (HBA) that provides the physical connection to a controller and is used for I/O operations.
+
+The adapter ports on the HBA are called host ports. Most HBAs have either one or two host ports. The HBA has a unique World Wide Identifier (WWID), and each HBA host port has a unique WWID. The host port identifiers are used to associate the appropriate HBA with the physical host when you are manually creating the host through SANtricity System Manager.
+
+== How do I match the host ports to a host?
+
+If you are manually creating a host, you first must use the appropriate host bus adapter (HBA) utility available on the host to determine the host port identifiers associated with each HBA installed in the host.
+
+When you have this information, select the host port identifiers that have logged into the storage array from the list provided in the Create Host dialog.
+
+[NOTE]
+====
+Make sure you select the appropriate host port identifiers for the host you are creating. If you associate the wrong host port identifiers, you might cause unintended access from another host to this data.
+====
+
+== How do I create CHAP secrets?
+
+If you set up Challenge Handshake Authentication Protocol (CHAP) authentication on any iSCSI host connected to the storage array, you must re-enter that initiator CHAP secret for each iSCSI host.
+
+To do this, you can use System Manager either as part of the Create Host operation or through the View/Edit Settings option.
+
+If you are using CHAP mutual authentication, you also must define a target CHAP secret for the storage array in the Settings page and re-enter that target CHAP secret on each iSCSI host.
+
+== What is the default cluster?
+
+The default cluster is a system-defined entity that allows any unassociated host port identifier that has logged into the storage array to gain access to volumes assigned to the default cluster. An unassociated host port identifier is a host port that is not logically associated with a particular host, but is physically installed in a host and logged into the storage array.
+
+[NOTE]
+====
+If you want hosts to have specific access to certain volumes in the storage array, you must _not_ use the default cluster. Instead, you must associate the host port identifiers with their corresponding hosts. This task can be done manually during the Create Host operation. Then, you assign volumes either to an individual host or to a host cluster.
+====
+
+You should _only_ use the default cluster in special situations where your external storage environment is conducive to allowing all the hosts and all the logged-in host port identifiers connected to the storage array have access to all of the volumes (all-access mode) without specifically making the hosts known to the storage array or the user interface.
+
+Initially, you can assign volumes only to the default cluster through the command line interface (CLI). However, after you assign at least one volume to the default cluster, this entity (called Default Cluster) is displayed in the user interface where you can then manage this entity.
+
+== What is host connectivity reporting?
+
+When host connectivity reporting is enabled, the storage array continuously monitors the connection between the controllers and the configured hosts, and then alerts you if the connection is disrupted.
+
+Disruptions to the connection might occur if there is a loose, damaged, or missing cable, or another problem with the host. In these situations, the system might open a Recovery Guru message:
+
+* *Host Redundancy Lost* -- Opens if either controller cannot communicate with the host.
+* *Host Type Incorrect* -- Opens if the host's type is incorrectly specified on the storage array, which could result in failover problems.
+
+You might want to disable host connectivity reporting in situations where rebooting a controller might take longer than the connection timeout. Disabling this feature suppresses Recovery Gurus messages.
+
+[NOTE]
+====
+Disabling host connectivity reporting also disables automatic load balancing, which monitors and balances controller resource use. However, if you re-enable host connectivity reporting, the automatic load balancing feature is not automatically re-enabled.
+====
+

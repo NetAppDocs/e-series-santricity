@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/how-do-i-configure-snmp-or-syslog-alerts.html
+redirect: e-series-santricity/sm-settings/faq-storage-system-alerts.html
+---

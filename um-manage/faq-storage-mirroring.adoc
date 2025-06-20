@@ -1,0 +1,150 @@
+---
+permalink: um-manage/faq-storage-mirroring.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Storage mirroring FAQ for SANtricity Unified Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What do I need to know before creating a mirror consistency group?
+
+Follow these guidelines before you create a mirror consistency group.
+
+Meet the following requirements for Unified Manager:
+
+* The Web Services Proxy service must be running.
+* Unified Manager must be running on your local host through an HTTPS connection.
+* Unified Manager must be showing valid SSL certificates for the storage array. You can accept a self-signed certificate or install your own security certificate using Unified Manager and navigating to menu:Certificate[Certificate Management].
+
+Also be sure to meet the following requirements for storage arrays:
+
+* The two storage arrays must be discovered in Unified Manager.
+* Each storage array must have two controllers.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* Your local and remote storage arrays are connected through a Fibre Channel fabric or iSCSI interface.
+
+[NOTE]
+====
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+====
+
+== What do I need to know before creating a mirrored pair?
+
+Before creating a mirrored pair, follow these guidelines.
+
+* You must have two storage arrays.
+* Each storage array must have two controllers.
+* The two storage arrays must be discovered in Unified Manager.
+* Each controller in both the primary array and secondary array must have an Ethernet management port configured and must be connected to your network.
+* The storage arrays have a minimum firmware version of 7.84. (They can each run different OS versions.)
+* You must know the password for the local and remote storage arrays.
+* You must have enough free capacity on the remote storage array to create a secondary volume equal to or greater than the primary volume that you want to mirror.
+* Asynchronous mirroring is supported on controllers with Fibre Channel (FC) or iSCSI host ports, while synchronous mirroring is supported only on controllers with FC host ports.
+
+[NOTE]
+====
+Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+====
+
+== Why would I change this percentage?
+
+Reserved capacity is typically 20 percent of the base volume for asynchronous mirroring operations. Usually this capacity is sufficient.
+
+The capacity needed varies, depending on the frequency and size of I/O writes to the base volume and how long you intend to use the storage object's copy service operation. In general, choose a larger percentage for reserved capacity if one or both of these conditions exist:
+
+* If the lifespan of a particular storage object's copy service operation will be very long.
+* If a large percentage of data blocks will change on the base volume due to heavy I/O activity. Use historical performance data or other operating system utilities to help you determine typical I/O activity to the base volume.
+
+== Why do I see more than one reserved capacity candidate?
+
+If there is more than one volume in a pool or volume group that meets the capacity percentage amount you selected for the storage object, then you will see multiple candidates.
+
+You can refresh the list of recommended candidates by changing the percentage of physical drive space that you want to reserve on the base volume for copy service operations. The best candidates are displayed based on your selection.
+
+== Why don't I see all my volumes?
+
+When you are selecting a primary volume for a mirrored pair, a list shows all the eligible volumes. 
+
+Any volumes that are not eligible to be used do not display in that list. Volumes might not be eligible for any of the following reasons:
+
+* The volume is not optimal.
+* The volume is already participating in a mirroring relationship.
+* For synchronous mirroring, the primary and secondary volumes in a mirrored pair must be standard volumes. They cannot be thin volumes or snapshot volumes.
+* For asynchronous mirroring, thin volumes must have auto-expansion enabled.
+
+NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an asynchronous mirrored pair must match the same protocol, tray level, segment size, security type, and RAID level. Non-eligible asynchronous mirrored pairs will not appear in the list of available volumes.
+
+== Why don't I see all the volumes on the remote storage array?
+
+When you are selecting a secondary volume on the remote storage array, a list shows all the eligible volumes for that mirrored pair.
+
+Any volumes that are not eligible to be used, do not display in that list. Volumes may not be eligible for any of the following reasons:
+
+* The volume is a non-standard volume, such as a snapshot volume.
+* The volume is not optimal.
+* The volume is already participating in a mirroring relationship.
+* For asynchronous mirroring, the thin volume attributes between the primary volume and the secondary volume do not match.
+* If you are using Data Assurance (DA), the primary volume and the secondary volume must have the same DA settings.
+ ** If the primary volume is DA enabled, the secondary volume must be DA enabled.
+ ** If the primary volume is not DA enabled, the secondary volume must not be DA enabled.
+* For asynchronous mirroring, the primary volume and the secondary volume must have the same Drive Security capabilities.
+ ** If the primary volume is FIPS capable, the secondary volume must be FIPS capable.
+ ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
+ ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
+
+== What impact does synchronization priority have on synchronization rates?
+
+The synchronization priority defines how much processing time is allocated for synchronization activities relative to system performance.
+
+The controller owner of the primary volume performs this operation in the background. At the same time, the controller owner processes local I/O writes to the primary volume and associated remote writes to the secondary volume. Because the resynchronization diverts controller processing resources from I/O activity, resynchronization can have a performance impact to the host application.
+
+Keep these guidelines in mind to help you determine how long a synchronization priority might take and how the synchronization priorities can affect system performance.
+
+These priority rates are available:
+
+* Lowest
+* Low
+* Medium
+* High
+* Highest
+
+The lowest priority rate supports system performance, but the resynchronization takes longer. The highest priority rate supports resynchronization, but system performance might be compromised.
+
+These guidelines roughly approximate the differences between the priorities.
+
+[cols="45h,~",options="header"]
+|===
+| Priority rate for full synchronization| Time elapsed compared to highest synchronization rate
+a|
+Lowest
+a|
+Approximately eight times as long as at the highest priority rate.
+a|
+Low
+a|
+Approximately six times as long as at the highest priority rate.
+a|
+Medium
+a|
+Approximately three-and-a-half times as long as at the highest priority rate.
+a|
+High
+a|
+Approximately twice as long as at the highest priority rate.
+|===
+
+Volume size and host I/O rate loads affect the synchronization time comparisons.
+
+== Why is it recommended to use a manual synchronization policy?
+
+Manual resynchronization is recommended because it lets you manage the resynchronization process in a way that provides the best opportunity for recovering data.
+
+If you use an Automatic resynchronization policy and intermittent communication problems occur during resynchronization, data on the secondary volume could be temporarily corrupted. When resynchronization is complete, the data is corrected.

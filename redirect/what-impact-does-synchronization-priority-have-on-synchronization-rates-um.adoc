@@ -1,0 +1,4 @@
+---
+permalink: um-manage/what-impact-does-synchronization-priority-have-on-synchronization-rates-um.html
+redirect: e-series-santricity/um-manage/faq-storage-mirroring.html
+---

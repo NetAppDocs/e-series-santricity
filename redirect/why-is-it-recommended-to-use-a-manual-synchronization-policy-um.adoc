@@ -1,0 +1,4 @@
+---
+permalink: um-manage/why-is-it-recommended-to-use-a-manual-synchronization-policy-um.html
+redirect: e-series-santricity/um-manage/faq-storage-mirroring.html
+---

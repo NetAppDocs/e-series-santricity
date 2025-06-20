@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

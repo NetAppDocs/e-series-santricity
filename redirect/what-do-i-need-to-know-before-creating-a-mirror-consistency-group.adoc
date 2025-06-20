@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

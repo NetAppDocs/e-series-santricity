@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/what-is-a-volume-group.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---
+

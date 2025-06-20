@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/why-would-i-suspend-a-snapshot-schedule.html
+redirect: e-series-santricity/sm-storage/faq-snapshots.html
+---

@@ -1,0 +1,4 @@
+---
+permalink: um-manage/what-settings-will-be-imported.html
+redirect: e-series-santricity/um-manage/faq-import-settings.html
+---

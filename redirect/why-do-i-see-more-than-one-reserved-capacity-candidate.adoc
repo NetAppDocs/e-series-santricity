@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-do-i-see-more-than-one-reserved-capacity-candidate.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

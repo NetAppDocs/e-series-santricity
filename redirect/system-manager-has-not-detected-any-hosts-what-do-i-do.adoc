@@ -1,0 +1,4 @@
+---
+permalink: sm-interface/system-manager-has-not-detected-any-hosts-what-do-i-do.html
+redirect: e-series-santricity/sm-interface/faq-storage-system-setup.html
+---

@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/what-are-battery-learn-cycles.html
+redirect: e-series-santricity/sm-hardware/faq-storage-shelf.html
+---

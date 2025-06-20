@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-types-of-servers-will-revocation-checking-be-enabled-for.html
+redirect: e-series-santricity/sm-settings/faq-certificates.html
+---

@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/how-do-application-specific-workloads-help-me-manage-my-storage-array.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

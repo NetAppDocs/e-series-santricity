@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-data-assurance.html
+redirect: e-series-santricity/sm-storage/faq-pools-volume-groups.html
+---
