@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/what-is-the-disabled-state.html
+redirect: e-series-santricity/sm-storage/faq-snapshots.html
+---
+

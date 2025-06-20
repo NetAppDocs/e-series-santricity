@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-dont-i-see-all-of-my-pools-and-volume-groups.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

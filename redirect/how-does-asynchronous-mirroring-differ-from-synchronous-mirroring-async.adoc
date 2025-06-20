@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

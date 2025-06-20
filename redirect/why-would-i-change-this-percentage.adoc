@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-would-i-change-this-percentage.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

@@ -1,0 +1,5 @@
+---
+permalink: sm-mirroring/why-cant-i-increase-reserved-capacity-with-my-requested-amount.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---
+
