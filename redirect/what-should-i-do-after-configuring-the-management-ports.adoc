@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/what-should-i-do-after-configuring-the-management-ports.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---

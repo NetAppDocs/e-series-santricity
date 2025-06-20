@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/why-is-the-storage-system-in-non-optimal-mode.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---

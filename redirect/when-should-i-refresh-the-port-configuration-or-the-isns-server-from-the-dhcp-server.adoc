@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/when-should-i-refresh-the-port-configuration-or-the-isns-server-from-the-dhcp-server.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---
