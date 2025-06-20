@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/synchronous-mirroring-why-dont-i-see-all-my-volumes.html
+redirect: e-series-santricity/sm-mirroring/faq-sync-mirroring.html
+---

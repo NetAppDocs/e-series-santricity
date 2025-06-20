@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/why-is-it-recommended-to-use-a-manual-synchronization-policy.html
+redirect: e-series-santricity/sm-mirroring/faq-sync-mirroring.html
+---
