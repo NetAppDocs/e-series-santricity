@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

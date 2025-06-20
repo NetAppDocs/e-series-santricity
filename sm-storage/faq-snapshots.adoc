@@ -1,0 +1,106 @@
+---
+permalink: sm-storage/faq-snapshots.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Snapshots FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== Why don't I see all my volumes, hosts, or host clusters?
+
+Snapshot volumes with a DA-enabled base volume are not eligible to be assigned to a host that is not Data Assurance (DA) capable. You must disable DA on the base volume before a snapshot volume can be assigned to a host that is not DA capable.
+
+Consider the following guidelines for the host to which you are assigning the snapshot volume:
+
+* A host is not DA capable if it is connected to the storage array through an I/O interface that is not DA capable.
+* A host cluster is not DA capable if it has at least one host member that is not DA capable.
+
+[NOTE]
+====
+You cannot disable DA on a volume that is associated with snapshots (consistency groups, snapshot groups, snapshot images, and snapshot volumes), volume copies, and mirrors. All associated reserved capacity and snapshot objects must be deleted before DA can be disabled on the base volume.
+====
+
+== What is a snapshot image?
+
+A snapshot image is a logical copy of volume content, captured at a particular point in time. Snapshot images use minimal storage space.
+
+Snapshot image data is stored as follows:
+
+* When a snapshot image is created, it exactly matches the base volume. After the snapshot is taken, when the first write request occurs for any block or set of blocks on the base volume, the original data is copied to the snapshot reserved capacity before the new data is written to the base volume.
+* Subsequent snapshots include only data blocks that have changed since the first snapshot image was created. Each subsequent copy-on-write operation saves original data that is about to be overwritten on the base volume to the snapshot reserved capacity before the new data is written to the base volume.
+
+== Why use snapshot images?
+
+You can use snapshots to protect against and allow recovery from accidental or malicious loss or corruption of data.
+
+Select a base volume or a group of base volumes, called a snapshot consistency group, and then capture snapshot images in one or more of the following ways:
+
+* You can create a snapshot image of a single base volume or a snapshot consistency group consisting of multiple base volumes.
+* You can take snapshots manually or create a schedule for a base volume or snapshot consistency group to automatically capture periodic snapshot images.
+* You can create a host-accessible snapshot volume of a snapshot image.
+* You can perform a rollback operation to restore a snapshot image.
+
+The system retains multiple snapshot images as restore points you can use to roll back to known good data sets at specific points in time. The ability to roll back provides protection against accidental deletion of data and data corruption.
+
+== What kinds of volumes can be used for snapshots?
+
+Standard volumes and thin volumes are the only types of volumes that can be used to store snapshot images. Non-standard volumes cannot be used. The base volume can reside on either a pool or volume group.
+
+== Why would I create a snapshot consistency group?
+
+You create a snapshot consistency group when you want to make sure snapshot images are taken on multiple volumes at the same time.
+
+For example, a database made up of multiple volumes that need to stay consistent for recovery purposes would require a snapshot consistency group to collect coordinated snapshots of all volumes and use them to restore the entire database.
+
+The volumes included in a snapshot consistency group are called _member volumes_.
+
+You can perform the following snapshot operations on a snapshot consistency group:
+
+* Create a snapshot image of a snapshot consistency group to get simultaneous images of the member volumes.
+* Create a schedule for the snapshot consistency group to automatically capture periodic simultaneous images of the member volumes.
+* Create a host-accessible snapshot volume of a snapshot consistency group image.
+* Perform a rollback operation for a snapshot consistency group.
+
+
+== What is a snapshot volume and when does it need reserved capacity?
+
+A snapshot volume allows the host to access data in the snapshot image. The snapshot volume contains its own reserved capacity, which saves any modifications to the base volume without affecting the original snapshot image. Snapshot images are not read- or write-accessible to hosts. If you want to read or write to snapshot data, create a snapshot volume and assign it to a host.
+
+You can create two types of snapshot volumes. The type of snapshot volume determines if it uses reserved capacity.
+
+* *Read-only* -- A snapshot volume that is created as read-only provides a host application with read access to a copy of the data contained in the snapshot image. A read-only snapshot volume does not use reserved capacity.
+* *Read-write* -- A snapshot volume that is created as read-write allows you to make changes to the snapshot volume without affecting the referenced snapshot image. A read-write snapshot volume uses reserved capacity to store these changes. You can convert a read-only snapshot volume to read-write at any time.
+
+== What is a snapshot group?
+
+A snapshot group is a collection of point-in-time snapshot images of a single associated base volume.
+
+System Manager organizes snapshot images into _snapshot groups_. Snapshot groups require no user action, but you can adjust reserved capacity on a snapshot group at any time. Additionally, you might be prompted to create reserved capacity when the following conditions are met:
+
+* Any time you take a snapshot of a base volume that does not yet have a snapshot group, System Manager automatically creates a snapshot group. This creates reserved capacity for the base volume that is used to store subsequent snapshot images.
+* Any time you create a snapshot schedule for a base volume, System Manager automatically creates a snapshot group.
+
+== Why would I disable a snapshot volume?
+
+You disable a snapshot volume when you want to assign a different snapshot volume to the snapshot image. You can reserve the disabled snapshot volume for later use.
+
+If you no longer need the snapshot volume or the consistency group snapshot volume and do not intend to re-create it at a later time, you should delete the volume instead of disabling it.
+
+== What is the Disabled state?
+
+A snapshot volume in Disabled status is not currently assigned to a snapshot image. To enable the snapshot volume, you must use the re-create operation to assign a new snapshot image to the disabled snapshot volume.
+
+The snapshot volume characteristics are defined by the snapshot image assigned to it. Read-write activity is suspended on a snapshot volume in Disabled status.
+
+
+== Why would I suspend a snapshot schedule?
+
+When a schedule is suspended, the scheduled snapshot image creations do not occur. You can pause a snapshot schedule to conserve storage space, and then resume the scheduled snapshots at a later time.
+
+If you do not need the snapshot schedule, you should delete the schedule instead of suspending it.

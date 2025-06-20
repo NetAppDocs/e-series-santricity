@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/rtv-why-am-i-being-prompted-to-clean-up-my-remote-volumes.html
+redirect: e-series-santricity/sm-storage/faq-remote-storage.html
+---

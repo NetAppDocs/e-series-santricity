@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/when-would-i-want-to-use-the-assign-host-later-selection.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

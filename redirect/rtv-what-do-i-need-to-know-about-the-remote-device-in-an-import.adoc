@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-about-the-remote-device-in-an-import.html
+redirect: e-series-santricity/sm-storage/faq-remote-storage.html
+---
+

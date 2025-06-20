@@ -1,0 +1,233 @@
+---
+permalink: sm-interface/faq-management-interface.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Management interface FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What are the supported browsers?
+
+SANtricity System Manager supports these browser versions.
+
+include::../_include/supported_browser_versions.adoc[]
+
+== What are the keyboard shortcuts?
+
+You can navigate around SANtricity System Manager using the keyboard alone.
+
+=== Overall navigation
+
+[cols="1a,1a" options="header"]
+|===
+| Action| Keyboard shortcut
+a|
+Move to the next item.
+a|
+Tab
+a|
+Move to the previous item.
+a|
+Shift + Tab
+a|
+Select an item.
+a|
+Enter
+a|
+Drop-down list--Move to the next or previous item.
+a|
+Down arrow or up arrow
+a|
+Check box--Select an item.
+a|
+Spacebar
+a|
+Radio buttons--Toggle between items.
+a|
+Down arrow or up arrow
+a|
+Expandable text--Expand or contract item.
+a|
+Enter
+|===
+
+=== Table navigation
+
+[cols="1a,1a" options="header"]
+|===
+| Action| Keyboard shortcut
+a|
+Select a row.
+a|
+Tab to select a row, then press Enter
+a|
+Scroll up or down.
+a|
+Down arrow/up arrow or Page Down/Page Up
+a|
+Change the sort order of a column.
+a|
+Tab to select a column heading, then press Enter
+|===
+
+=== Calendar navigation
+
+[cols="1a,1a" options="header"]
+|===
+| Action| Keyboard shortcut
+a|
+Move to the previous month.
+a|
+Page Up
+a|
+Move to the next month.
+a|
+Page Down
+a|
+Move to the previous year.
+a|
+Control + Page Up
+a|
+Move to the next year.
+a|
+Control + Page Down
+a|
+Open the date picker if closed.
+a|
+Control + Home
+a|
+Move to the current month.
+a|
+Control / Command + Home
+a|
+Move to the previous day.
+a|
+Control / Command + Left
+a|
+Move to the next day.
+a|
+Control / Command + Right
+a|
+Move to the previous week.
+a|
+Control / Command + Up
+a|
+Move to the next week.
+a|
+Control / Command + Down
+a|
+Select the focused date.
+a|
+Enter
+a|
+Close the date picker and erase the date.
+a|
+Control / Command + End
+a|
+Close the date picker without selection.
+a|
+Escape
+|===
+
+== How do performance statistics for individual volumes relate to the total?
+
+The statistics for pools and volume groups are calculated by aggregating all volumes, including reserved capacity volumes.
+
+Reserved capacity is used internally by the storage system to support thin volumes, snapshots, and asynchronous mirroring, and are not visible to I/O hosts. As a result, the pool, controller, and storage array statistics may not add up to be the sum of the viewable volumes.
+
+However, for application and workload statistics, only the visible volumes are aggregated.
+
+== Why does data display as zero in the graphs and table?
+
+When a zero is displayed for a data point in the graphs and table, it means there is no I/O activity for the object for that point in time. This situation could occur because the host is not initiating I/O to that object, or it could be a problem with the object itself.
+
+The historical data for the object is still available for viewing. The graphs and table will show non-zero data once I/O activity begins occurring for the object.
+
+The following table lists the most common reasons why a data point value might be zero for any given object.
+
+[cols="25h,~",options="header"]
+|===
+| Array-level object type| Reason data displays as zero
+a|
+Volume
+a|
+
+* Volume had no host assignment.
+a|
+Volume group
+a|
+* Volume group is being imported.
+* Volume group does not contain a volume that is assigned to a host, *_and_* volume group does not contain any reserved capacity.
+a|
+Drive
+a|
+* Drive has failed.
+* Drive has been removed.
+* Drive is in an unknown state.
+a|
+Controller
+a|
+* Controller is offline.
+* Controller has failed.
+* Controller has been removed.
+* Controller is in an unknown state.
+a|
+Storage array
+a|
+* Storage array does not contain volumes.
+|===
+
+== What does the Latency graph show?
+
+The Latency graph provides latency statistics, in milliseconds (ms), for volumes, volume groups, pools, applications, and workloads. This graph appears in the Logical View, Physical View, and Applications & Workloads View tabs.
+
+Latency refers to any delay that occurs as data is read or written. Hover your cursor over a point on the graph to view the following values, in milliseconds (ms), for that point in time:
+
+* Read time.
+* Write time.
+* Average I/O size.
+
+== What does the IOPS graph show?
+
+The IOPS graph displays statistics for input/output operations per second. On the Home page, this graph displays statistics for the storage array. In the Logical View, Physical View, and Applications & Workloads View tabs of the Performance tile, this graph displays statistics for the storage array, volumes, volume groups, pools, applications, and workloads.
+
+IOPS is an abbreviation for _input/output (I/O) operations per second_. Hover your cursor over a point on the graph to view the following values for that point in time:
+
+* Number of read operations.
+* Number of write operations.
+* Total read and write operations combined.
+
+== What does the MiB/s graph show?
+
+The MiB/s graph displays transfer speed statistics in mebibytes per second. On the Home page, this graph displays statistics for the storage array. In the Logical View, Physical View, and Applications & Workloads View tabs of the Performance tile, this graph displays statistics for the storage array, volumes, volume groups, pools, applications, and workloads.
+
+MiB/s is an abbreviation for _mebibytes per second_, or 1,048,576 bytes per second. Hover your cursor over a point on the graph to view the following values for that point in time:
+
+* The amount of data read.
+* The amount of data written.
+* The combined total amount of data read and written.
+
+== What does the CPU graph show?
+
+The CPU graph displays processing capacity statistics for each controller (controller A and controller B). CPU is an abbreviation for _central processing unit_. On the Home page, this graph displays statistics for the storage array. On the Physical View tab of the Performance tile, this graph displays statistics for the storage array and drives.
+
+The CPU graph shows the percentage of CPU processing capacity being used against operations on the array. Even when no external I/O is occurring, the CPU utilization percentage can be non-zero because the storage operating system might be doing background operations and monitoring. Hover your cursor over a point on the graph to view a percentage of processing capability being used at that point in time.
+
+== What does the Headroom graph show?
+
+The Headroom graph is related to remaining performance capability for the storage array controllers. This graph is visible on the Home page and on the Physical View tab of the Performance tile.
+
+The Headroom graph shows the remaining performance capability of the physical objects in the storage system. Hover your cursor over a point on the graph to view the percentages of IOPS and MiB/s capability remaining for controller A and for controller B.
+
+== Where can I find more information about display preferences?
+
+To find information about the available display options:
+
+* To read more about the default units for displaying capacity values, see link:set-default-units-for-capacity-values.html[Set default units for capacity values].
+* To read more about the default time frame for displaying performance graphs, see link:set-default-time-frame-for-performance-graphs.html[Set default time frame for performance graphs].

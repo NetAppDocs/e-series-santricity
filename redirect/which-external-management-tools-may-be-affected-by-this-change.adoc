@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/which-external-management-tools-may-be-affected-by-this-change.html
+redirect: e-series-santricity/sm-settings/faq-user-access-mgmt-sm.html
+---

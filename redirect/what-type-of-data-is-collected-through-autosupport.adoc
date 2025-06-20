@@ -1,0 +1,4 @@
+---
+permalink: sm-support/what-type-of-data-is-collected-through-autosupport.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

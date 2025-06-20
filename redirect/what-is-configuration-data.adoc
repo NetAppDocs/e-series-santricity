@@ -1,0 +1,4 @@
+---
+permalink: sm-support/what-is-configuration-data.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

@@ -1,0 +1,5 @@
+---
+permalink: sm-storage/why-would-i-disable-a-snapshot-volume.html
+redirect: e-series-santricity/sm-storage/faq-snapshots.html
+---
+

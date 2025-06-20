@@ -1,0 +1,141 @@
+---
+permalink: sm-settings/faq-iscsi-protocol.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= iSCSI protocol FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What happens when I use an iSNS server for registration?
+
+When Internet Storage Name Service (iSNS) server information is used, the hosts (initiators) can be configured to query the iSNS server to retrieve information from the target (controllers).
+
+This registration provides the iSNS server with the controller's iSCSI Qualified Name (IQN) and port information, and allows for queries between the initiators (iSCSI hosts) and targets (controllers).
+
+== Which registration methods are automatically supported for iSCSI?
+
+The iSCSI implementation supports either the Internet Storage Name Service (iSNS) discovery method or the use of the Send Targets command.
+
+The iSNS method allows for iSNS discovery between the initiators (iSCSI hosts) and targets (the controllers). You register the target controller to provide the iSNS server with the controller's iSCSI Qualified Name (IQN) and port information.
+
+If you do not configure iSNS, the iSCSI host can send the Send Targets command during an iSCSI discovery session. In response, the controller returns the port information (for example, the Target IQN, port IP address, listening port, and Target Port Group). This discovery method is not required if you use iSNS, because the host initiator can retrieve the target IPs from the iSNS server.
+
+== How do I interpret iSER over InfiniBand statistics?
+
+The View iSER over InfiniBand Statistics dialog box displays local target (protocol) statistics and iSER over InfiniBand (IB) interface statistics. All statistics are read-only, and cannot be set.
+
+* *Local Target (Protocol) statistics* -- Provides statistics for the iSER over InfiniBand target, which shows block-level access to its storage media.
+* *iSER over InfiniBand Interface statistics* -- Provides statistics for all iSER over InfiniBand ports on the InfiniBand interface, which includes performance statistics and link error information associated with each switch port.
+
+You can view each of these statistics as raw statistics or as baseline statistics. Raw statistics are all of the statistics that have been gathered since the controllers were started. Baseline statistics are point-in-time statistics that have been gathered since you set the baseline time.
+
+== What else do I need to do to configure or diagnose iSER over InfiniBand?
+
+The following table lists the SANtricity System Manager functions that you can use to configure and manage iSER over InfiniBand sessions.
+
+[NOTE]
+====
+The iSER over InfiniBand settings are available only if your storage array's controller includes an iSER over InfiniBand host management port.
+====
+
+
+[cols="35h,~",options="header"]
+|===
+| Action| Location
+a|
+Configure iSER over InfiniBand ports
+a|
+
+. Select *Hardware*.
+. Select the *Controllers & Components* tab.
+. Select a controller.
+. Select *Configure iSER over InfiniBand ports*.
+
+or
+
+. Select menu:Settings[System].
+. Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand Ports*.
+
+a|
+View iSER over InfiniBand statistics
+a|
+
+. Select menu:Settings[System].
+. Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand Statistics*.
+
+|===
+
+== What else do I need to do to configure or diagnose iSCSI?
+
+iSCSI sessions can occur with hosts or remote storage arrays in an asynchronous mirror relationship. The following tables list the SANtricity System Manager functions that you can use to configure and manage these iSCSI sessions.
+
+[NOTE]
+====
+The iSCSI settings are only available if your storage array supports iSCSI.
+====
+
+=== Configure iSCSI
+
+[cols="1a,1a" options="header"]
+|===
+| Action| Location
+a|
+Manage iSCSI settings
+a|
+. Select menu:Settings[System].
+. Scroll down to *iSCSI settings* to view all the management functions.
+a|
+Configure iSCSI ports
+a|
+. Select *Hardware*.
+. Select the *Controllers & Components* tab.
+. Select a controller.
+. Select *Configure iSCSI ports*.
+a|
+Set the host CHAP secret
+a|
+. Select menu:Settings[System].
+. Scroll down to *iSCSI settings*, and then select *Configure Authentication*.
+
+or
+
+. Select menu:Storage[Hosts].
+. Select a host member.
+. Click menu:View/Edit Settings[Host Ports] tab.
+|===
+
+=== Diagnose iSCSI
+
+[cols="1a,1a" options="header"]
+|===
+| Action| Location
+a|
+View or end iSCSI sessions
+a|
+. Select menu:Settings[System].
+. Scroll down to *iSCSI settings*, and then select *View/End iSCSI Sessions*.
+
+or
+
+. Select menu:Support[Support Center > Diagnostics] tab.
+. Select *View/End iSCSI Sessions*.
+a|
+View iSCSI statistics
+a|
+. Select menu:Settings[System].
+. Scroll down to *iSCSI settings*, and then select *View iSCSI Statistics Packages*.
+
+or
+
+. Select menu:Support[Support Center > Diagnostics] tab.
+. Select *View iSCSI Statistics Packages*.
+|===
+
+
+

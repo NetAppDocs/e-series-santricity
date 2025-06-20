@@ -1,0 +1,5 @@
+---
+permalink: sm-support/what-else-do-i-need-to-do-to-configure-or-diagnose-iscsi.html
+redirect: e-series-santricity/sm-settings/faq-iscsi-protocol.html
+---
+

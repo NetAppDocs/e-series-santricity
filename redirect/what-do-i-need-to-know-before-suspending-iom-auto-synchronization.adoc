@@ -1,0 +1,4 @@
+---
+permalink: sm-support/what-do-i-need-to-know-before-suspending-iom-auto-synchronization.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

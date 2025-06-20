@@ -1,0 +1,4 @@
+---
+permalink: sm-mirroring/what-do-i-need-to-know-before-increasing-my-reserved-capacity-on-a-mirrored-pair-volume.html
+redirect: e-series-santricity/sm-mirroring/faq-async-mirroring.html
+---

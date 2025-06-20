@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/rtv-what-do-i-need-to-know-before-starting-a-remote-storage-import.html
+redirect: e-series-santricity/sm-storage/faq-remote-storage.html
+---

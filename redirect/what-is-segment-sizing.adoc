@@ -1,0 +1,4 @@
+---
+permalink:  sm-storage/what-is-segment-sizing.html
+redirect: e-series-santricity/sm-storage/faq-volumes-workloads.html
+---

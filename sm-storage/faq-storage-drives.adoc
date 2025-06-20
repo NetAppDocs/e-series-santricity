@@ -1,0 +1,48 @@
+---
+permalink: sm-storage/faq-storage-drives.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Storage drives FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What is a hot spare drive?
+
+Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups. They are fully functional drives that contain no data. If a drive fails in the volume group, the controller automatically reconstructs data from the failed drive to a hot spare.
+
+If a drive fails in the storage array, the hot spare drive is automatically substituted for the failed drive without requiring a physical swap. If the hot spare drive is available when a drive fails, the controller uses redundancy data to reconstruct the data from the failed drive to the hot spare drive.
+
+A hot spare drive is not dedicated to a specific volume group. Instead, you can use a hot spare drive for any failed drive in the storage array with the same capacity or smaller capacity. A hot spare drive must be of the same media type (HDD or SSD) as the drives that it is protecting.
+
+[NOTE]
+====
+Hot spare drives are not supported with pools. Instead of hot spare drives, pools use the preservation capacity within each drive that comprises the pool.
+====
+
+== What is preservation capacity?
+
+Preservation capacity is the amount of capacity (number of drives) that is reserved in a pool to support potential drive failures.
+
+When a pool is created, the system automatically reserves a default amount of preservation capacity depending on the number of drives in the pool.
+
+Pools use preservation capacity during reconstruction, whereas volume groups use hot spare drives for the same purpose. The preservation capacity method is an improvement over hot spare drives because it allows reconstruction to happen faster. Preservation capacity is spread over a number of drives in the pool instead of on one drive in the case of a hot spare drive, so you are not limited by the speed or availability of one drive.
+
+== Why would I logically replace a drive?
+
+If a drive fails or you want to replace it for any other reason, and you have an unassigned drive in your storage array, you can logically replace the failed drive with the unassigned drive. If you do not have an unassigned drive, you can physically replace the drive instead.
+
+The data from the original drive is copied or reconstructed onto the replacement drive.
+
+== Where can I view the status of a drive undergoing reconstruction?
+
+You can view drive reconstruction status from the Operations in Progress dashboard.
+
+From the Home page, click the *View Operations in Progress* link in the upper right.
+
+Depending on the drive, the full reconstruction might take a considerable amount of time. If a volume ownership has changed, a full reconstruction might take place instead of the rapid reconstruction.

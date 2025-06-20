@@ -1,0 +1,160 @@
+---
+permalink: sm-settings/faq-user-access-mgmt-sm.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= User access management FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== Why can't I log in?
+
+If you receive an error when attempting to log in to SANtricity System Manager, review these possible causes.
+
+Login errors to System Manager might occur for one of these reasons:
+
+* You entered an incorrect username or password.
+* You have insufficient privileges.
+* The directory server (if configured) might be unavailable. If this is the case, try logging in with a local user role.
+* You attempted to log in unsuccessfully multiple times, which triggered the lockout mode. Wait 10 minutes to re-login.
+* A lockout condition was triggered and your audit log might be full. Go to Access Management and delete old events from the audit log.
+* SAML authentication is enabled. Refresh your browser to log in.
+
+Login errors to a remote storage array for mirroring tasks might occur for one of these reasons:
+
+* You have entered an incorrect password.
+* You attempted to log in unsuccessfully multiple times, which triggered the lockout mode. Wait 10 minutes to log in again.
+* The maximum number of client connections used on the controller has been reached. Check for multiple users or clients.
+
+== What do I need to know before adding a directory server?
+
+Before adding a directory server in Access Management, make sure you meet the following requirements.
+
+* User groups must be defined in your directory service.
+* LDAP server credentials must be available, including the domain name, server URL, and optionally the bind account user name and password.
+* For LDAPS servers using a secure protocol, the LDAP server's certificate chain must be installed on your local machine.
+
+== What do I need to know about mapping to storage array roles?
+
+Before mapping groups to roles, review the following guidelines.
+
+The storage array's embedded RBAC (role-based access control) capabilities include the following roles:
+
+* *Storage admin* -- Full read/write access to the storage objects (for example, volumes and disk pools), but no access to the security configuration.
+* *Security admin* -- Access to the security configuration in Access Management, certificate management, audit log management, and the ability to turn the legacy management interface (SYMbol) on or off.
+* *Support admin* -- Access to all hardware resources on the storage array, failure data, MEL events, and controller firmware upgrades. No access to storage objects or the security configuration.
+* *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
+=== Directory Services
+
+If you are using an LDAP (Lightweight Directory Access Protocol) server and Directory Services, make sure that:
+
+* An administrator has defined user groups in the directory service.
+* You know the group domain names for the LDAP user groups. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+
+* The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
+
+=== SAML
+
+If you are using the Security Assertion Markup Language (SAML) capabilities embedded in the storage array, make sure that:
+
+* An Identity Provider (IdP) administrator has configured user attributes and group membership in the IdP system.
+* You know the group membership names.
+* You know the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+
+* The Monitor role is required for all users, including the administrator. System Manager will not operate correctly for any user without the Monitor role present.
+
+
+== Which external management tools may be affected by this change?
+
+When you make certain changes in SANtricity System Manager, such as switching the management interface or using SAML for an authentication method, some external tools and features might be restricted from use.
+
+=== Management interface
+
+Tools that communicate directly with the legacy management interface (SYMbol), such as the SANtricity SMI-S Provider or OnCommand Insight (OCI), do not work unless the Legacy Management Interface setting is enabled. In addition, you cannot use legacy CLI commands or perform mirroring operations if this setting is disabled.
+
+Contact technical support for more information.
+
+=== SAML authentication
+
+When SAML is enabled, the following clients cannot access storage array services and resources:
+
+* Enterprise Management Window (EMW)
+* Command-line interface (CLI)
+* Software Developer Kits (SDK) clients
+* In-band clients
+* HTTP Basic Authentication REST API clients
+* Login using standard REST API endpoint
+
+Contact technical support for more information.
+
+
+== What do I need to know before configuring and enabling SAML?
+
+Before configuring and enabling the Security Assertion Markup Language (SAML) capabilities for authentication, make sure you meet the following requirements and understand SAML restrictions.
+
+=== Requirements
+
+Before you begin, make sure that:
+
+* An Identity Provider (IdP) is configured in your network. An IdP is an external system used to request credentials from a user and determine if the user is successfully authenticated. Your security team is responsible for maintaining the IdP.
+* An IdP administrator has configured user attributes and groups in the IdP system.
+* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
+* An administrator has ensured that the IdP server and controller clocks are synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An IdP metadata file is downloaded from the IdP system and available on the local system used for accessing System Manager.
+* You know the IP address or domain name of each controller in the storage array.
+
+=== Restrictions
+
+In addition to the requirements above, make sure you understand the following restrictions:
+
+* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance. We recommend that you test the SSO logins before you enable SAML in the final configuration step. (The system also performs an SSO login test before enabling SAML.)
+* If you disable SAML in the future, the system automatically restores the previous configuration (Local User Roles and/or Directory Services).
+* If Directory Services are currently configured for user authentication, SAML overrides that configuration.
+* When SAML is configured, the following clients cannot access storage array resources:
+ ** Enterprise Management Window (EMW)
+ ** Command-line interface (CLI)
+ ** Software Developer Kits (SDK) clients
+ ** In-band clients
+ ** HTTP Basic Authentication REST API clients
+ ** Login using standard REST API endpoint
+
+== What types of events are recorded in the audit log?
+
+The audit log can record modification events, or both modification and read-only events.
+
+Depending on the policy settings, the following types of events are shown:
+
+* *Modification events* -- User actions from within System Manager that involve changes to the system, such as provisioning storage.
+* *Modification and read-only events* -- User actions that involve changes to the system, as well as events that involve viewing or downloading information, such as viewing volume assignments.
+
+== What do I need to know before configuring a syslog server?
+
+You can archive audit logs onto an external syslog server.
+
+Before configuring a syslog server, keep the following guidelines in mind.
+
+* Make sure you know the server address, protocol, and port number. The server address can be a fully qualified domain name, an IPv4 address, or an IPv6 address.
+* If your server uses a secure protocol (for example, TLS), a Certificate Authority (CA) certificate must be available on your local system. CA certificates identify website owners for secure connections between servers and clients.
+* After configuration, all new audit logs are sent to the syslog server. Previous logs are not transferred.
+* The Overwrite Policy settings (available from *View/Edit Settings*) do not affect how logs are managed with a syslog server configuration.
+* Audit logs follow the RFC 5424 messaging format.
+
+== The syslog server is no longer receiving audit logs. What do I do?
+
+If you configured a syslog server with a TLS protocol, the server cannot receive messages if the certificate becomes invalid for any reason. An error message about the invalid certificate is posted to the audit log.
+
+To resolve this issue, you must first fix the certificate for the syslog server. Once a valid certificate chain is in place, go to menu:Settings[Audit Log > Configure Syslog Servers > Test All].

@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-the-default-cluster.html
+redirect: e-series-santricity/sm-storage/faq-systems-clusters.html
+---

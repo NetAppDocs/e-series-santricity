@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/why-do-i-need-to-change-the-controller-network-configuration.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---

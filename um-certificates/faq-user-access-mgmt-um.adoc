@@ -1,0 +1,111 @@
+---
+permalink: um-certificates/faq-user-access-mgmt-um.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= User access management FAQ for SANtricity Unified Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== Why can't I log in?
+
+If you receive an error when attempting to log in, review these possible causes.
+
+Login errors might occur for one of these reasons:
+
+* You entered an incorrect user name or password.
+* You have insufficient privileges.
+* You attempted to log in unsuccessfully multiple times, which triggered the lockout mode. Wait 10 minutes to re-login.
+* SAML authentication is enabled. Refresh your browser to log in.
+
+== What do I need to know before adding a directory server?
+
+Before adding a directory server in Access Management, you must meet certain requirements.
+
+* User groups must be defined in your directory service.
+* LDAP server credentials must be available, including the domain name, server URL, and optionally the bind account user name and password.
+* For LDAPS servers using a secure protocol, the LDAP server's certificate chain must be installed on your local machine.
+
+== What do I need to know about mapping to storage array roles?
+
+Before mapping groups to roles, review the guidelines.
+
+The RBAC (role-based access control) capabilities include the following roles:
+
+* *Storage admin* -- Full read/write access to storage objects on the arrays, but no access to the security configuration.
+* *Security admin* -- Access to the security configuration in Access Management and Certificate Management.
+* *Support admin* -- Access to all hardware resources on storage arrays, failure data, and MEL events. No access to storage objects or the security configuration.
+* *Monitor* -- Read-only access to all storage objects, but no access to the security configuration.
+
+[NOTE]
+====
+The Monitor role is required for all users, including the administrator.
+====
+
+If you are using an LDAP (Lightweight Directory Access Protocol) server and Directory Services, make sure that:
+
+* An administrator has defined user groups in the directory service.
+* You know the group domain names for the LDAP user groups.
+
+=== SAML
+
+If you are using the Security Assertion Markup Language (SAML) capabilities embedded in the storage array, make sure that:
+
+* An Identity Provider (IdP) administrator has configured user attributes and group membership in the IdP system.
+* You know the group membership names.
+* You know the attribute value for the group to be mapped. Regular expressions are supported. These special regular expression characters must be escaped with a backslash (`\`) if they are not part of a regular expression pattern:
++
+----
+\.[]{}()<>*+-=!?^$|
+----
+
+* The Monitor role is required for all users, including the administrator. Unified Manager will not operate correctly for any user without the Monitor role present.
+
+== What do I need to know before configuring and enabling SAML?
+
+Before configuring and enabling the Security Assertion Markup Language (SAML) capabilities for authentication, make sure you meet the following requirements and understand SAML restrictions.
+
+=== Requirements
+
+Before you begin, make sure that:
+
+* An Identity Provider (IdP) is configured in your network. An IdP is an external system used to request credentials from a user and determine if the user is successfully authenticated. Your security team is responsible for maintaining the IdP.
+* An IdP administrator has configured user attributes and groups in the IdP system.
+* An IdP administrator has ensured that the IdP supports the ability to return a Name ID on authentication.
+* An administrator has ensured that the IdP server and controller clock is synchronized (either through an NTP server or by adjusting the controller clock settings).
+* An IdP metadata file is downloaded from the IdP system and available on the local system used for accessing Unified Manager.
+* You know the IP address or domain name the controller in the storage array.
+
+=== Restrictions
+
+In addition to the requirements above, make sure you understand the following restrictions:
+
+* Once SAML is enabled, you _cannot_ disable it through the user interface, nor can you edit the IdP settings. If you need to disable or edit the SAML configuration, contact Technical Support for assistance. We recommend that you test the SSO logins before you enable SAML in the final configuration step. (The system also performs an SSO login test before enabling SAML.)
+* If you disable SAML in the future, the system automatically restores the previous configuration (Local User Roles and/or Directory Services).
+* If Directory Services are currently configured for user authentication, SAML overrides that configuration.
+* When SAML is configured, the following clients cannot access storage array resources:
+ ** Enterprise Management Window (EMW)
+ ** Command-line interface (CLI)
+ ** Software Developer Kits (SDK) clients
+ ** In-band clients
+ ** HTTP Basic Authentication REST API clients
+ ** Login using standard REST API endpoint
+
+== What are the local users?
+
+Local users are predefined in the system and include specific permissions.
+
+Local users include:
+
+* *admin* -- Super administrator who has access to all functions in the system. This user includes all roles. The password must be set on first-time login.
+* *storage* -- The administrator responsible for all storage provisioning. This user includes the following roles: Storage Admin, Support Admin, and Monitor. This account is disabled until a password is set.
+* *security* -- The user responsible for security configuration, including Access Management and Certificate Management. This user includes the following roles: Security Admin and Monitor. This account is disabled until a password is set.
+* *support* -- The user responsible for hardware resources, failure data, and firmware upgrades. This user includes the following roles: Support Admin and Monitor. This account is disabled until a password is set.
+* *monitor* -- A user with read-only access to the system. This user includes only the Monitor role. This account is disabled until a password is set.
+* *rw* (read/write) -- This user includes the following roles: Storage Admin, Support Admin, and Monitor. This account is disabled until a password is set.
+* *ro* (read only) -- This user includes only the Monitor role. This account is disabled until a password is set.

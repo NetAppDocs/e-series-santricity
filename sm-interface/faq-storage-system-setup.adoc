@@ -1,0 +1,69 @@
+---
+permalink: sm-interface/faq-storage-system-setup.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Storage system setup FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What if I don't see all of my hardware components?
+
+If you do not see all your hardware components on the Verify Hardware dialog box, it could mean that a drive shelf is not connected correctly, or that an incompatible shelf is installed in the storage array.
+
+Verify that all drive shelves are connected correctly. If you are uncertain about which drive shelves are compatible, contact technical support.
+
+== What if I don't see all of my hosts?
+
+If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected.
+
+You can configure hosts later, once you are done with the setup. You can create hosts manually as follows:
+
+* You can manually create hosts and associate the appropriate host port identifiers by going to menu:Storage[Hosts]. Hosts that have been created manually also display in the *Initial Setup* wizard.
+* The target and host must be configured for the host port type (for example, iSCSI or NVMe over RoCE), and a session to the storage established before automatic detection will work.
+
+== How does identifying applications help me manage my storage array?
+
+When you identify applications, SANtricity System Manager automatically recommends a volume configuration that optimizes storage based on application type.
+
+Optimizing volumes by application can make data storage operations more efficient. Characteristics such as I/O type, segment size, controller ownership, and read and write cache are included in the volume configuration. In addition, you can view performance data by application and by workload to assess the latency, IOPS, and MiB/s of applications and their associated workloads.
+
+== What is a workload?
+
+For some applications in your network, such as SQL Server or Exchange, you can define a workload that optimizes storage for that application.
+
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+
+During volume creation, the system prompts you to answer questions about a workload's use. For example, if you are creating volumes for Microsoft Exchange, you are asked how many mailboxes you need, what your average mailbox capacity requirements are, and how many copies of the database you want. The system uses this information to create an optimal volume configuration for you, which can be edited as needed.
+
+== How do I configure the delivery method for AutoSupport?
+
+To access configuration tasks for AutoSupport delivery methods, go to menu:Support[Support Center], and then click the *AutoSupport* tab.
+
+The following protocols are supported: HTTPS and SMTP.
+
+== How do I know if I should accept the recommended pool configuration?
+
+Whether you accept the recommended pool configuration depends on a few factors.
+
+Determine the type of storage that is best for your requirements by answering the following questions:
+
+* Do you prefer multiple pools of smaller capacities, rather than the largest pools possible?
+* Do you prefer RAID volume groups over pools?
+* Do you prefer to manually provision your drives, rather than having a configuration recommended for you?
+
+If you answered Yes to any of these questions, consider rejecting the recommended pool configuration.
+
+== SANtricity System Manager has not detected any hosts. What do I do?
+
+If you do not see your connected hosts, then automatic detection has failed, the hosts are improperly connected, or no hosts are currently connected.
+
+You can configure hosts later, once you are done with the setup. You can create hosts manually as follows:
+
+* You can manually create hosts and associate the appropriate host port identifiers by going to menu:Storage[Hosts]. Hosts that have been created manually also display in the *Initial Setup* wizard.
+* The target and host must be configured for the host port type (for example, iSCSI or NVMe over RoCE), and a session to the storage established before automatic detection will work.

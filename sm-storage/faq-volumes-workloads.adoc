@@ -1,0 +1,144 @@
+---
+permalink: sm-storage/faq-volumes-workloads.html
+sidebar: sidebar
+keywords: 
+summary: "This FAQ can help if you're just looking for a quick answer to a question."
+---
+= Volumes and workloads FAQ for SANtricity System Manager
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This FAQ can help if you're just looking for a quick answer to a question.
+
+== What is a volume?
+
+A volume is a container in which applications, databases, and file systems store data. It is the logical component created for the host to access storage on the storage array.
+
+A volume is created from the capacity available in a pool or a volume group. A volume has a defined capacity. Although a volume might consist of more than one drive, a volume appears as one logical component to the host.
+
+== Why am I seeing a capacity over-allocation error when I have enough free capacity in a volume group to create volumes?
+
+The selected volume group might have one or more free capacity areas. A free capacity area is the free capacity that can result from deleting a volume or from not using all available free capacity during volume creation.
+
+When you create a volume in a volume group that has one or more free capacity areas, the volume's capacity is limited to the largest free capacity area in that volume group. For example, if a volume group has a total of 15 GiB free capacity, and the largest free capacity area is 10 GiB, the largest volume you can create is 10 GiB.
+
+If a volume group has free capacity areas, the volume group graph contains a link indicating the number of existing free capacity areas. Select the link to display a pop-over that indicates the capacity of each area.
+
+By consolidating free capacity, you can create additional volumes from the maximum amount of free capacity in a volume group. You can consolidate the existing free capacity on a selected volume group using one of the following methods:
+
+* When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
+* You can also select menu:Pools & Volume Groups[Uncommon Tasks > Consolidate volume group free capacity] to launch the dialog box.
+
+If you want to use a specific free capacity area rather than the largest free capacity area, use the Command Line Interface (CLI).
+
+== How does my selected workload impact volume creation?
+
+During volume creation, you are prompted for information about a workload's use. The system uses this information to create an optimal volume configuration for you, which can be edited as needed. Optionally, you can skip this step in the volume creation sequence.
+
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+
+* *Application-specific* -- When you are creating volumes using an application-specific workload, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. Volume characteristics like I/O type, segment size, controller ownership, and read and write cache are automatically recommended and optimized for workloads that are created for the following application types.
+
+ ** Microsoft® SQL Server™
+ ** Microsoft® Exchange Server™
+ ** Video surveillance applications
+ ** VMware ESXi™ (for volumes to be used with Virtual Machine File System)
++
+You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+
+* *Other* (or applications without specific volume creation support) -- Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if there is no built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add/Edit Volumes dialog box.
+
+== Why aren't these volumes associated with a workload?
+
+Volumes are not associated with a workload if they have been created using the command line interface (CLI) or if they have been migrated (imported/exported) from a different storage array.
+
+== Why can't I delete the selected workload?
+
+This workload consists of a group of volumes that were created using the command line interface (CLI) or migrated (imported/exported) from a different storage array. As a result, the volumes in this workload are not associated with an application-specific workload, so the workload cannot be deleted.
+
+
+== How do application-specific workloads help me manage my storage array?
+
+The volume characteristics of your application-specific workload dictate how the workload interacts with the components of your storage array and helps determine the performance of your environment under a given configuration.
+
+An application is software such as SQL Server or Exchange. You define one or more workloads to support each application. 
+
+== How does providing this information help create storage?
+
+The workload information is used to optimize the volume characteristics such as I/O type, segment size, and read/write cache for the workload selected. These optimized characteristics dictate how your workload interacts with the storage array components.
+
+Based on the workload information you provide, System Manager creates the appropriate volumes and places them on the available pools or volume groups that currently exist on the system. The system creates the volumes and optimizes their characteristics based on the current best practices for the workload you selected.
+
+Before you finish creating volumes for a given workload, you can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+
+Refer to your application-specific documentation for best practice information.
+
+== What do I need to do to recognize the expanded capacity?
+
+If you increase the capacity for a volume, the host might not immediately recognize the increase in volume capacity.
+
+Most operating systems recognize the expanded volume capacity and automatically expand after the volume expansion is initiated. However, some might not. If your OS does not automatically recognize the expanded volume capacity, you might need to perform a disk rescan or reboot.
+
+After you have expanded the volume capacity, you must manually increase the file system size to match. How you do this depends on the file system you are using.
+
+Refer to your host operating system documentation for additional details.
+
+== Why don't I see all my pools and/or volume groups?
+
+Any pool or volume group to which you cannot move the volume does not display in the list.
+
+Pools or volume groups are not eligible for any of the following reasons:
+
+* The Data Assurance (DA) capabilities of a pool or volume group pool do not match.
+* A pool or volume group is in a non-optimal state.
+* The capacity of a pool or volume group is too small.
+
+== What is segment size?
+
+A segment is the amount of data in kilobytes (KiB) that is stored on a drive before the storage array moves to the next drive in the stripe (RAID group). Segment size applies only to volume groups, not pools.
+
+Segment size is defined by the number of data blocks it contains. When determining segment size, you must know what type of data you will store in a volume. If an application typically uses small, random reads and writes (IOPS), a smaller segment size typically works better. Alternatively, if the application has large, sequential reads and writes (throughput), a large segment size is generally better.
+
+Whether an application uses small random reads and writes, or large sequential reads and writes, the storage array performs better if the segment size is larger than the typical data block chunk size. This normally makes it easier and faster for the drives to access the data, which is important for better storage array performance.
+
+=== Environments where IOPS performance is important
+
+In an I/O operations per second (IOPS) environment, the storage array performs better if you use a segment size that is larger than the typical data block size ("`chunk`") that is read/written to a drive. This ensures that each chunk is written to a single drive.
+
+=== Environments where throughput is important
+
+In a throughput environment, the segment size should be an even fraction of the total drives for data and the typical data chunk size (I/O size). This spreads the data as a single stripe across the drives in the volume group leading to faster reads and writes.
+
+== What is preferred controller ownership?
+
+Preferred controller ownership defines the controller that is designated to be the owning, or primary, controller of the volume.
+
+Controller ownership is very important and should be planned carefully. Controllers should be balanced as closely as possible for total I/Os.
+
+For example, if one controller reads primarily large, sequential data blocks and the other controller has small data blocks with frequent reads and writes, the loads are very different. Knowing which volumes contain what type of data allows you to balance I/O transfers equally over both controllers.
+
+== When would I want to use the assign host later selection?
+
+If you want to speed the process for creating volumes, you can skip the host assignment step so that newly created volumes are initialized offline.
+
+Newly created volumes must be initialized. The system can initialize them using one of two modes -- either an Immediate Available Format (IAF) background initialization process or an offline process.
+
+When you map a volume to a host, it forces any initializing volumes in that group to transition to background initialization. This background initialization process allows for concurrent host I/O, which can sometimes be time-consuming.
+
+When none of the volumes in a volume group are mapped, offline initialization is performed. The offline process is much faster than the background process.
+
+== What do I need to know about host block size requirements?
+
+For EF300 and EF600 systems, a volume can be set to support a 512-byte or a 4KiB block size (also called "sector size"). You must set the correct value during volume creation. If possible, the system suggests the appropriate default value.
+
+Before setting the volume block size, read the following limitations and guidelines.
+
+* Some operating systems and virtual machines (notably VMware, at this time) require a 512-byte block size and do not support 4KiB, so make sure you know the host requirements before creating a volume. Typically, you can achieve the best performance by setting a volume to present a 4KiB block size; however, ensure that your host allows for 4KiB (or "`4Kn`") blocks.
+* The type of drives you select for your pool or volume group also determines what volume block sizes are supported, as follows:
+ ** If you create a volume group using drives that write to 512-byte blocks, then you can only create volumes with 512-byte blocks.
+ ** If you create a volume group using drives that write to 4KiB blocks, then you can create volumes with either 512-byte or 4KiB blocks.
+* If the array has an iSCSI host interface card, all volumes are limited to 512-byte blocks (regardless of volume group block size). This is due to a specific hardware implementation.
+* You cannot change a block size once it is set. If you need to change a block size, you must delete the volume and re-create it.
+

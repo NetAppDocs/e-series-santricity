@@ -1,0 +1,4 @@
+---
+permalink: sm-hardware/how-do-i-configure-my-dhcp-server.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---

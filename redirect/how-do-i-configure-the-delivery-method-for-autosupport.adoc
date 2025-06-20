@@ -1,0 +1,4 @@
+---
+permalink: sm-support/how-do-i-configure-the-delivery-method-for-autosupport.html
+redirect: e-series-santricity/sm-support/faq-autosupport.html
+---

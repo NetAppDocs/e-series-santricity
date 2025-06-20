@@ -1,0 +1,5 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html
+redirect: e-series-santricity/sm-settings/faq-nvme-protocol.html
+---
+

@@ -1,0 +1,4 @@
+---
+permalink: um-manage/why-do-i-see-more-than-one-reserved-capacity-candidate-um.html
+redirect: e-series-santricity/um-manage/faq-storage-mirroring.html
+---

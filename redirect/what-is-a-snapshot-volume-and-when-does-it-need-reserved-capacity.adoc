@@ -1,0 +1,4 @@
+---
+permalink: sm-storage/what-is-a-snapshot-volume-and-when-does-it-need-reserved-capacity.html
+redirect: e-series-santricity/sm-storage/faq-snapshots.html
+---

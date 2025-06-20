@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/what-is-the-difference-between-internal-security-key-and-external-security-key-management.html
+redirect: e-series-santricity/sm-settings/faq-storage-drive-security.html
+---

@@ -1,0 +1,4 @@
+---
+permalink: um-certificates/what-do-i-need-to-know-before-adding-a-directory-server-unified.html
+redirect: e-series-santricity/um-certificates/faq-user-access-mgmt-um.html
+---

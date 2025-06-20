@@ -1,0 +1,5 @@
+---
+permalink: sm-hardware/what-are-icmp-ping-responses.html
+redirect: e-series-santricity/sm-hardware/faq-storage-controller.html
+---
+

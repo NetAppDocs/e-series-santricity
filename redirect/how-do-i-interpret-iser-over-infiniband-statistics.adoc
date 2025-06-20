@@ -1,0 +1,4 @@
+---
+permalink: sm-settings/how-do-i-interpret-iser-over-infiniband-statistics.html
+redirect: e-series-santricity/sm-settings/faq-iscsi-protocol.html
+---
