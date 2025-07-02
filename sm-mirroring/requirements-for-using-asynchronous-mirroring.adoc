@@ -67,6 +67,11 @@ The iSCSI intercontroller communication must use a host connect port and not the
 +
 Asynchronous mirroring uses the storage array's host-side I/O ports to convey mirrored data from the primary side to the secondary side. Because asynchronous mirroring is intended for higher-latency, lower-cost networks, iSCSI (and thus TCP/IP-based) connections are a good fit for it. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections
 
+[NOTE]
+====
+E4000 does not support asynchronous mirroring while using iSCSI protocol.
+====
+
 == Mirrored volume candidates
 
 * RAID level, caching parameters, and segment size can be different on the primary and secondary volumes of an asynchronous mirrored pair.
