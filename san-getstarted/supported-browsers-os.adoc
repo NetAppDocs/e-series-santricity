@@ -30,15 +30,15 @@ The following operating systems and versions are supported.
 a|
 Red Hat Enterprise Linux (RHEL)
 a|
-8.x, 9.x / 64-bit
+8.x (SP8), 9.x (SP2) / 64-bit
 a|
 SuSE Linux Enterprise Server (SLES)
 a|
-12.x, 15.x / 64-bit
+12.x (SP4, SP5), 15.x (SP4, SP5) / 64-bit
 a|
 Oracle Linux (OL)
 a|
-8.x, 9.x / 64-bit
+8.x (U8), 9.x (U2) / 64-bit
 a|
 Windows Server
 a|
