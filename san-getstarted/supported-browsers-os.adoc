@@ -30,22 +30,22 @@ The following operating systems and versions are supported.
 a|
 Red Hat Enterprise Linux (RHEL)
 a|
-7.x, 8.x / 64-bit
+8.x (SP8), 9.x (SP2) / 64-bit
 a|
 SuSE Linux Enterprise Server (SLES)
 a|
-12.x, 15.x / 64-bit
+12.x (SP4, SP5), 15.x (SP4, SP5) / 64-bit
 a|
 Oracle Linux (OL)
 a|
-7.x, 8.x / 64-bit
+8.x (U8), 9.x (U2) / 64-bit
 a|
 Windows Server
 a|
-2016, 2019, 2022 / 64-bit
+2019, 2022, 2025 / 64-bit
 a|
 Ubuntu
 a|
-18.04, 20.04 / 64-bit
+20.04, 22.04 / 64-bit
 
 |===
