@@ -13,7 +13,7 @@ You can display status descriptions for drives, controllers, fans, and power sup
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . To see either the back or front components:
  ** If you want to see the controller and power/fan canister components, but the drives are displayed, click the *Controllers & Components* tab.
  ** If you want to see the drives, but the controller and power/fan canister components are displayed, click the *Drives* tab.

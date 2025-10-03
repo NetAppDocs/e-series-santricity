@@ -29,7 +29,7 @@ The member volumes must be Optimal.
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Click the *Snapshot Consistency Groups* tab.
 . Select menu:Create[Snapshot consistency group].
 +

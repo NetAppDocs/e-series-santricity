@@ -47,7 +47,7 @@ Perform this operation only when instructed to do so by technical support.
 .Steps
 
 . If your storage array contains only one controller or you do not have a multipath driver installed, stop I/O activity to the storage array to prevent application errors. If your storage array has two controllers and you have a multipath driver installed, you do not need to stop I/O activity.
-. Select menu:Support[Upgrade Center].
+. From the left panel, select menu:Support[Upgrade Center].
 . Download the new file from the Support site to your management client.
  .. Click *NetApp Support* to launch the Support web site.
  .. On the Support web site, click the *Downloads* tab, and then select *Downloads*.

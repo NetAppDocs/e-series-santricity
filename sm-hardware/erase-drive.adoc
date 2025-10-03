@@ -27,7 +27,7 @@ The Erase feature does not support some older drive models. If you attempt to er
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . If the graphic shows the controllers, click the *Drives* tab.
 +
 The graphic changes to show the drives instead of the controllers.
@@ -43,12 +43,12 @@ The shelf view shows only the unassigned drives; all others are grayed out.
 *Possible loss of data* -- The Erase operation cannot be undone. Make sure you select the correct drives during the procedure.
 ====
 
-. From the context menu, select *Erase*.
+. From the context menu, select *Erase Drives*.
 +
 The Erase Drives dialog box opens, showing all the eligible drives for an erase operation.
 
 . If desired, select additional drives from the table. You cannot select _all_ drives; be sure one drive remains deselected.
-. Confirm the operation by typing `erase`, and then click *Erase*.
+. Confirm the operation by typing `erase`, and then click *Erase Drives*.
 +
 [CAUTION]
 ====

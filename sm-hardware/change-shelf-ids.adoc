@@ -17,7 +17,10 @@ The controller firmware automatically assigns the shelf ID, but you can change t
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
++
+The graphic changes to show the controllers instead of the drives.
 . Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *Change ID*.
 . In the Change Shelf ID dialog box, select the drop-down list to display available numbers.
 +

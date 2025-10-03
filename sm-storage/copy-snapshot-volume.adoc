@@ -18,7 +18,7 @@ You can copy a snapshot volume to the target volume as performed in a normal Cop
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.

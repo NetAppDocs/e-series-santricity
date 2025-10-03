@@ -18,9 +18,9 @@ When you delete a snapshot schedule, the associated snapshot images are not dele
 
 .Steps
 
-. Select menu:Storage[Snapshots].
-. Click the *Schedules* tab.
-. Select the snapshot schedule that you want to delete, and confirm the operation.
+. From the left panel, select menu:Storage[Snapshots].
+. Click the *Snapshots Schedules* tab.
+. Select the snapshot schedule that you want to delete, click *Delete*, and confirm the operation.
 
 .Results
 

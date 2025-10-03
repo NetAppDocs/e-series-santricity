@@ -44,8 +44,8 @@ Avoid using drives that are Data Assurance (DA) capable to add capacity to a poo
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the pool or volume group to which you want to add drives, and then click *Add Capacity*.
+. From the left panel, select menu:Storage[Pools & Volume Groups].
+. Select the pool or volume group to which you want to add drives, and then click the menu:ellipsis icon[Add Capacity].
 +
 The Add Capacity dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
 

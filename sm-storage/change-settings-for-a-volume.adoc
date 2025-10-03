@@ -20,10 +20,10 @@ NOTE: Some operations may be unavailable while changes to the volume settings ar
 
 .Steps
 
-. Select menu:Storage[Volumes].
-. Select the volume that you want to change, and then select *View/Edit Settings*.
+. From the left panel, select menu:Storage[Volumes].
+. Select the volume that you want to change, and then click the menu:ellipsis icon[Edit Settings].
 +
-The Volume Settings dialog box appears. The configuration settings for the volume you selected appear in this dialog box.
+The Edit Volume Settings window appears. The configuration settings for the volume you selected appear in this dialog box.
 
 . Select the *Basic* tab to change the volume's name and host assignment.
 +

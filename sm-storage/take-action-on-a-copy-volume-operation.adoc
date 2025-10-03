@@ -14,7 +14,7 @@ You can view a Copy Volume operation in progress and stop, change priority, re-c
 
 .Steps
 
-. Select menu:Home[View Operations in Progress].
+. From the left panel, select menu:Storage[Operations in Progress].
 +
 The Operations in Progress dialog box appears.
 

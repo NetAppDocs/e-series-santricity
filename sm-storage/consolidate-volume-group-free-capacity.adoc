@@ -39,8 +39,8 @@ By consolidating free capacity on a selected volume group, you will notice impro
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the volume group with free capacity that you want to consolidate, and then select menu:Uncommon Tasks[Consolidate volume group free capacity].
+. From the left panel, select menu:Storage[Pools & Volume Groups].
+. Click the menu:ellipsis icon[Consolidate volume group free capacity].
 +
 The Consolidate Free Capacity dialog box appears.
 

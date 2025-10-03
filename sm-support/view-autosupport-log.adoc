@@ -21,7 +21,7 @@ Multiple log files can exist. When the current log file reaches 200 KB, it is ar
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *View AutoSupport Log*.
 +
 A dialog box appears, which lists the current AutoSupport log.

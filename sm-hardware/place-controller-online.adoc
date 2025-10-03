@@ -13,7 +13,7 @@ If a controller is in the offline state or in service mode, you can place it bac
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.

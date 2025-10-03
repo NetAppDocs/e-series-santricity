@@ -43,7 +43,7 @@ To provide the storage array with IdP connection information, you import IdP met
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *SAML* tab.
 +
 The page displays an overview of configuration steps.

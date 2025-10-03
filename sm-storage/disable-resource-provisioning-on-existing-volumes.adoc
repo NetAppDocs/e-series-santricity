@@ -33,7 +33,7 @@ NOTE: For new volume groups and pools, you can enable or disable resource provis
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools & Volume Groups].
 . Select one pool or volume group from the list.
 +
 You can select only one pool or volume group at a time. Scroll down the list to see additional pools or volume groups.

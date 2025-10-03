@@ -18,7 +18,7 @@ Mirror consistency groups created on the local storage array hold the primary ro
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.

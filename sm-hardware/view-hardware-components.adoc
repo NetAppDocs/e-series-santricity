@@ -13,7 +13,7 @@ The Hardware page provides sorting and filtering functions that make it easier t
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . Use the functions described in the following table to view hardware components.
 
 [cols="25h,~",options="header"]

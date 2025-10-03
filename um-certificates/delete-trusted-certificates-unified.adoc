@@ -22,7 +22,7 @@ Be aware that deleting a root or intermediate certificate can impact multiple st
 
 .Steps
 
-. Select *Certificate Management*.
+. From the left panel, select menu:Settings[Certificates].
 . Select the *Trusted* tab.
 . Select one or more certificates in the table, and then click *Delete*.
 +

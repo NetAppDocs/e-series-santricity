@@ -14,7 +14,7 @@ You can delete a trap destination address so that the storage array's event moni
 
 .Steps
 
-. Select menu:Settings[Alerts].
+. From the left panel, select menu:Settings[Alerts].
 . Select the *SNMP* tab.
 +
 The trap destination addresses appear in the table.

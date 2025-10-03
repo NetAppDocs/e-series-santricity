@@ -14,7 +14,7 @@ At any time, you can replace a security key with a new key. You might need to ch
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Change Key*.
 +
 The Change Security Key dialog box opens.

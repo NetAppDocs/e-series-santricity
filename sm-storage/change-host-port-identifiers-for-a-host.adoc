@@ -22,8 +22,8 @@ When changing host port identifiers, keep the following guidelines in mind:
 
 .Steps
 
-. Select menu:Storage[Hosts].
-. Select the host to which the ports will be associated, and then click *View/Edit Settings*.
+. From the left panel, select menu:Storage[Hosts].
+. Select the host to which the ports will be associated, and then click the menu:ellipsis icon[Edit Settings].
 +
 If you want to add ports to a host in a host cluster, expand the host cluster and select the desired host. You cannot add ports at the host cluster level.
 +

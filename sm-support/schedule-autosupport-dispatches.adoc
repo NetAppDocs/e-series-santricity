@@ -24,7 +24,7 @@ The AutoSupport feature must be enabled. You can see whether it is enabled on th
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *Schedule AutoSupport Dispatches*.
 +
 The Schedule AutoSupport Dispatches wizard appears.

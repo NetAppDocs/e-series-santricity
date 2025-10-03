@@ -18,7 +18,7 @@ You can use the storage array profile as an aid during recovery or as an overvie
 
 .Steps
 
-. Select menu:Support[Support Center > Support Resources] tab.
+. From the left panel, select menu:Support[Support Center > Support Resources] tab.
 . Scroll down to *Launch detailed storage array information*, and then select *Storage Array Profile*.
 +
 The report appears on your screen.

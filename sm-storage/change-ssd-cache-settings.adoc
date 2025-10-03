@@ -14,10 +14,10 @@ You can edit the name of the SSD Cache and view its status, maximum and current 
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the SSD Cache that you want to edit, and then click *View/Edit Settings*.
+. From the left panel, select menu:Storage[Pools & Volume Groups].
+. Select the SSD Cache that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-The SSD Cache Settings dialog box appears.
+The Edit SSD Cache Settings window appears.
 
 . Review or edit the SSD Cache settings as appropriate.
 +

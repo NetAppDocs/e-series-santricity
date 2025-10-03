@@ -18,7 +18,7 @@ If a mirrored pair is manually suspended, the mirrored pair will not synchronize
 
 .Steps
 
-. Select menu:Storage[Synchronous Mirroring].
+. From the left panel, select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that you want to suspend or resume, and then select either menu:More[Suspend] or menu:More[Resume].
 +
 The system displays a confirmation.

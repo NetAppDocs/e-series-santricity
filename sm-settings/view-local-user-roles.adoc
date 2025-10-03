@@ -22,7 +22,7 @@ The user profiles and mappings cannot be changed. Only passwords can be modified
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Local User Roles* tab.
 +
 The user profiles are shown in the table:

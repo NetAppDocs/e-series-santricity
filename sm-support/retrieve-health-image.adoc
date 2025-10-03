@@ -25,7 +25,7 @@ Perform this operation only when instructed to do so by technical support.
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Retrieve Health Image*.
 +
 You can look at the details section to see the size of the health image before downloading the file.

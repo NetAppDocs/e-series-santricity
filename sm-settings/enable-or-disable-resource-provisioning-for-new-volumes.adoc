@@ -29,7 +29,7 @@ When you re-enable resource provisioning for new volume groups or pools, only ne
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Scroll down to *Additional Settings*, and then click *Enable/Disable Resource-Provisioned Volumes*.
 +
 The setting description indicates whether resource provisioning is currently enabled or disabled.

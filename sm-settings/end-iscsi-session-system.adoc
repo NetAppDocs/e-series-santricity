@@ -21,8 +21,8 @@ You might want to end an iSCSI session for these reasons:
 
 .Steps
 
-. Select menu:Settings[System].
-. Select *View/End iSCSI Sessions*.
+. From the left panel, select menu:Settings[System].
+. Under *iSCSI settings*, select *View/End iSCSI Sessions*.
 +
 A list of the current iSCSI sessions appears.
 

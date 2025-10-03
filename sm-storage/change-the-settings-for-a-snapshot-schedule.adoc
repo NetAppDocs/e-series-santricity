@@ -20,8 +20,8 @@ Because a snapshot schedule is associated to a snapshot group or snapshot consis
 
 .Steps
 
-. Select menu:Storage[Snapshots].
-. Click the *Schedules* tab.
+. From the left panel, select menu:Storage[Snapshots].
+. Click the *Snapshot Schedules* tab.
 . Select the snapshot schedule that you want to change, and then click *Edit*.
 +
 The Edit Snapshot Schedule dialog box appears.

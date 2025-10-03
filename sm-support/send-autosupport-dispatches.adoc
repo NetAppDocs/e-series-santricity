@@ -22,7 +22,7 @@ This operation collects support data and automatically sends it to technical sup
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *Send AutoSupport Dispatch*.
 +
 The Send AutoSupport Dispatch dialog box appears.

@@ -25,8 +25,8 @@ Most host multipath drivers attempt to access each volume on a path to its prefe
 
 .Steps
 
-. Select menu:Storage[Volumes].
-. Select menu:More[Redistribute volumes].
+. From the left panel, select menu:Storage[Volumes].
+. Click the menu:ellipsis icon[Redistribute volumes].
 +
 The Redistribute Volumes dialog box appears. All volumes on the storage array whose preferred controller owner does not match its current owner appear in this dialog box.
 

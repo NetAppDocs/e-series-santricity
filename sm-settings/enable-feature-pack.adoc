@@ -32,7 +32,7 @@ This task describes how to use System Manager to enable a feature pack. When you
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Add-ons*, select *Change Feature Pack*.
 . Click *Browse*, and then select the key file.
 +

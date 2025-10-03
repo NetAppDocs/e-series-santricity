@@ -14,8 +14,8 @@ You can locate drives to physically identify all of the drives that comprise a s
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the pool, volume group, or SSD Cache you want to locate, and then click menu:More[Turn on locator lights].
+. From the left panel, select menu:Storage[Pools & Volume Groups].
+. Select the pool, volume group, or SSD Cache you want to locate, and then click the menu:ellipsis icon[Turn on locator lights].
 +
 A dialog box appears that indicates the lights on the drives comprising the selected pool, volume group, or SSD Cache are turned on.
 

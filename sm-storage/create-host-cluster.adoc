@@ -28,7 +28,7 @@ If any of the host connections on the controllers in your storage array do not s
 
 .Steps
 
-. Select menu:Storage[Hosts].
+. From the left panel, select menu:Storage[Hosts].
 . Select menu:Create[Host Cluster].
 +
 The Create Host Cluster dialog box appears.

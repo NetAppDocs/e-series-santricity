@@ -23,7 +23,7 @@ Keep these guidelines in mind when you create a host:
 
 .Steps
 
-. Select menu:Storage[Hosts].
+. From the left panel, select menu:Storage[Hosts].
 . Click menu:Create[Host].
 +
 The Create Host dialog box appears.
@@ -50,7 +50,7 @@ Host interface type
 a|
 (Optional) If you have more than one type of host interface supported on your storage array, select the host interface type that you want to use.
 a|
-Host ports
+Identifier
 a|
 Do one of the following:
 

@@ -27,7 +27,7 @@ Select either a snapshot image of a base volume or a snapshot consistency group.
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 . Select *Create*.
 +

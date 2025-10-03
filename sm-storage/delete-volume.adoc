@@ -45,8 +45,8 @@ When a volume exceeds a given size (currently 128 TB) the delete is being perfor
 
 .Steps
 
-. Select menu:Storage[Volumes].
-. Click *Delete*.
+. From the left panel, select menu:Storage[Volumes].
+. Select the volume that you want to delete, and then click the menu:ellipsis icon[Delete].
 +
 The Delete Volumes dialog box appears.
 

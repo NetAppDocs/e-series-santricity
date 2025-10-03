@@ -18,7 +18,7 @@ Associated objects for a snapshot image include the base volume or snapshot cons
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Click the *Snapshot Images* tab.
 . Select the snapshot image that you want to view, and then click *View Settings*.
 +

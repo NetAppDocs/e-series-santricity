@@ -29,7 +29,7 @@ Recovery support files include these types of files:
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Retrieve Recovery Support Files*.
 +
 A dialog box lists all the recovery support files that your storage array has collected. To find particular files, you can sort any of the columns or type characters in the *Filter* box.

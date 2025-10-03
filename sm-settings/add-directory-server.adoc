@@ -30,7 +30,7 @@ During the procedure to add an LDAP server, the legacy management interface will
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . From the Directory Services tab, select *Add Directory Server*.
 +
 The Add Directory Server dialog box opens.
