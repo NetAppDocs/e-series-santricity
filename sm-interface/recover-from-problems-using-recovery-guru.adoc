@@ -13,8 +13,8 @@ The Recovery Guru is a component of SANtricity System Manager that diagnoses sto
 
 .Steps
 
-. Select *Home*.
-. Click the link labeled *Recover from _n_ problems* in the center-top of the window.
+. From the left panel, select *Home*.
+. Click the *Bell* icon and then click the link labeled *Recover from _n_ problems* in the center-top of the window.
 +
 The Recovery Guru dialog box appears.
 

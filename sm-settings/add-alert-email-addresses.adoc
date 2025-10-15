@@ -14,7 +14,7 @@ You can add up to 20 recipients for email alerts.
 
 .Steps
 
-. Select menu:Settings[Alerts].
+. From the left panel, select menu:Settings[Alerts].
 . Select the *Email* tab.
 . Select *Add Emails*.
 +

@@ -22,8 +22,8 @@ You can manually create a snapshot image from a base volume or snapshot consiste
 .Steps
 
 . Do one of the following actions to create a snapshot image:
-  ** Select menu:Storage[Volumes]. Select the object (base volume or snapshot consistency group), and then select menu:Copy Services[Create instant snapshot].
-  ** Select menu:Storage[Snapshots]. Select the *Snapshot Images* tab, and then select menu:Create[Instant snapshot].
+  ** From the left panel, select menu:Storage[Volumes]. Select the object (base volume or snapshot consistency group), and then click the menu:ellipsis icon[Create instant snapshot].
+  ** From the left panel, select menu:Storage[Snapshots]. Select the *Snapshot Images* tab, and then select menu:Create[Instant snapshot Image].
 +
 The Create Snapshot Image dialog box appears. Select the object (base volume or snapshot consistency group), and then click *Next*. If a previous snapshot image was created for the volume or snapshot consistency group, then the system creates the instant snapshot immediately. Otherwise, if this is the first time a snapshot image is created for the volume or snapshot consistency group, the Confirm Create Snapshot Image dialog box appears.
 . Click *Create* to accept the notification that reserved capacity is needed and to proceed to the Reserve Capacity step.

@@ -32,8 +32,8 @@ Increasing the capacity of a volume is supported only on certain operating syste
 
 .Steps
 
-. Select menu:Storage[Volumes].
-. Select the volume for which you want to increase capacity, and then select *Increase Capacity*.
+. From the left panel, select menu:Storage[Volumes].
+. Select the volume for which you want to increase capacity, and then click the menu:ellipsis icon[Increase Capacity].
 +
 The Confirm Increase Capacity dialog box appears.
 

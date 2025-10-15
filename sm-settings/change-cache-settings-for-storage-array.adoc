@@ -31,7 +31,7 @@ The cache block size determines the maximum size of each cache block, which is a
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Scroll down to *Additional Settings*, and then click *Change Cache Settings*.
 +
 The Change Cache Settings dialog box opens.

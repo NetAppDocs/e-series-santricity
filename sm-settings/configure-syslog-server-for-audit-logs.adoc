@@ -20,7 +20,7 @@ If you want to archive audit logs onto an external syslog server, you can config
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . From the Audit Log tab, select *Configure Syslog Servers*.
 +
 The Configure Syslog Servers dialog box opens.

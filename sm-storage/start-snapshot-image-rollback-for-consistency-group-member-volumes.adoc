@@ -37,7 +37,7 @@ You must select the member volumes to be rolled back.
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Images* tab.
 . Select the snapshot consistency group snapshot image, and then select menu:Rollback[Start].
 +

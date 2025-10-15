@@ -134,7 +134,7 @@ Review the different protocols:
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *Configure AutoSupport Delivery Method*.
 +
 A dialog box appears, which lists the dispatch delivery methods.

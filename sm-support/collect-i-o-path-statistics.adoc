@@ -25,7 +25,7 @@ Perform this operation only when instructed to do so by technical support.
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Collect I/O Path Statistics*.
 . Confirm that you want to perform the operation by typing `collect`, and then click *Collect*.
 +

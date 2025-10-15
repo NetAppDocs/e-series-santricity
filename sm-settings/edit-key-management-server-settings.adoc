@@ -14,7 +14,7 @@ If you configured external key management, you can view and edit the key managem
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *View/Edit Key Management Server Settings*.
 . Edit information in the following fields:
  ** *Key management server address* -- Enter the fully qualified domain name or the IP address (IPv4 or IPv6) of the server used for key management.

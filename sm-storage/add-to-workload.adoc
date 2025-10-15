@@ -18,7 +18,7 @@ Volumes are not associated with a workload if they have been created using the c
 
 .Steps
 
-. Select menu:Storage[Volumes].
+. From the left panel, select menu:Storage[Volumes].
 . Select the *Applications & Workloads* tab.
 +
 The Applications & Workloads view appears.

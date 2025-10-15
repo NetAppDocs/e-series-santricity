@@ -18,7 +18,7 @@ When you create a banner, it appears before the login screen in a dialog box.
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under the General section, select *Configure Login Banner*.
 +
 The Configure Login Banner dialog box opens.

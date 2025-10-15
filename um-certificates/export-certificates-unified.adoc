@@ -17,7 +17,7 @@ To open the exported file, you must have a certificate viewer application.
 
 .Steps
 
-. Select *Certificate Management*.
+. From the left panel, select menu:Settings[Certificates].
 . Select one of the following tabs:
  ** *Management* -- Shows the certificate for the system hosting the Web Services Proxy. A management certificate can be self-signed or approved by a certificate authority (CA). It allows secure access to Unified Manager.
  ** *Trusted* -- Shows certificates that Unified Manager can access for storage arrays and other remote servers, such as an LDAP server. The certificates can be issued from a certificate authority (CA) or can be self-signed.

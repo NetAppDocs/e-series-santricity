@@ -32,7 +32,7 @@ The iSCSI settings and functions only display on the Settings page if your stora
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under iSCSI Settings, click *Configure Authentication*.
 +
 The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.

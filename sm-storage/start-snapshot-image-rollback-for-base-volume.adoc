@@ -31,7 +31,7 @@ The host can immediately access the new rolled-back base volume, but the existin
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Images* tab.
 . Select the snapshot image, and then select menu:Rollback[Start].
 +

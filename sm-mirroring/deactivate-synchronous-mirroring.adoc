@@ -18,7 +18,7 @@ You must have deleted all synchronous mirror relationships. Verify that all mirr
 
 .Steps
 
-. Select menu:Storage[Synchronous Mirroring].
+. From the left panel, select menu:Storage[Synchronous Mirroring].
 . Select menu:Uncommon Tasks[Deactivate].
 +
 The system displays a confirmation.

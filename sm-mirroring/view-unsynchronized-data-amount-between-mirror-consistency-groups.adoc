@@ -18,7 +18,7 @@ You can perform this task when the selected mirror consistency group contains mi
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirror Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.

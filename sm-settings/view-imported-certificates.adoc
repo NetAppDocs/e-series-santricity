@@ -18,7 +18,7 @@ You must be logged in with a user profile that includes Security admin permissio
 
 .Steps
 
-. Select menu:Settings[Certificates].
+. From the left panel, select menu:Settings[Certificates].
 . Select one of the tabs to view information about the certificates.
 +
 [cols="25h,~",options="header"]

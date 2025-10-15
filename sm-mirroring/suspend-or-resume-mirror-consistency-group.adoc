@@ -20,7 +20,7 @@ The state of the mirror consistency group and its mirrored pairs stay suspended 
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirrored Consistency Group table appears and displays all the mirror consistency groups associated with the storage array.

@@ -21,10 +21,10 @@ If you are changing the RAID level to accommodate the performance needs of the a
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the volume group that you want to edit, and then click *View/Edit Settings*.
+. From the left panel, select menu:Storage[Pools & Volume Groups].
+. Select the volume group that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-The Volume Group Settings dialog box appears.
+The Edit Volume Group Settings window appears.
 
 . Select the *Settings* tab, and then edit the volume group settings as appropriate.
 +

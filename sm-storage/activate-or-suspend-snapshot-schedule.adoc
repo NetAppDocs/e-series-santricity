@@ -18,8 +18,8 @@ The state of the snapshot schedule stays suspended until you use the *Activate* 
 
 .Steps
 
-. Select menu:Storage[Snapshots].
-. If it is not already displayed, click the *Schedules* tab.
+. From the left panel, select menu:Storage[Snapshots].
+. If it is not already displayed, click the *Snapshot Schedules* tab.
 +
 The schedules are listed on the page.
 

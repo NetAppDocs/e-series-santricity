@@ -14,6 +14,6 @@ The AutoSupport page shows you whether the AutoSupport feature and the individua
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Look at the right side of the page just below the tabs to see whether the basic AutoSupport feature is enabled.
 . Hover your cursor over the question mark to see whether individual AutoSupport features are enabled.

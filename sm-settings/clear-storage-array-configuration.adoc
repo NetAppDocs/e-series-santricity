@@ -79,8 +79,8 @@ X
 
 .Steps
 
-. Select menu:Settings[System].
-. Select *Clear Storage Array Configuration*.
+. From the left panel, select menu:Settings[System].
+. Under *General*, select *Clear Storage Array Configuration*.
 . In the drop-down list, select either *Volume* or *Storage Array*.
 . *Optional:* If you want to save the configuration (not the data), use the links in the dialog box.
 . Confirm that you want to perform the operation.

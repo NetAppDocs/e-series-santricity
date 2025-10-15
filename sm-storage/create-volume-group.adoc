@@ -30,7 +30,7 @@ Review these guidelines before you create a volume group:
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools & Volume Groups].
 . Click menu:Create[Volume group].
 +
 The Create Volume Group dialog box appears.

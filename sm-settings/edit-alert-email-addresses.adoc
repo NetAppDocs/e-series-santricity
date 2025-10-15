@@ -18,7 +18,7 @@ The email address you intend to edit must be defined in the Email tab of the Ale
 
 .Steps
 
-. Select menu:Settings[Alerts].
+. From the left panel, select menu:Settings[Alerts].
 . Select the *Email* tab.
 . From the *Email Address* table, select the address you want to change, and then click the *Edit* (pencil) icon on the far right.
 +
