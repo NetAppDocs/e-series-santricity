@@ -1,60 +1,28 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: whats new, new features, SANtricity 11.90
+keywords: whats new, new features, SANtricity 12.0
 summary: New features in SANtricity OS.
 ---
-= What's new in SANtricity OS 11.90
+= What's new in SANtricity OS 12.0
 :experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.9.
+The following table describes new features in SANtricity System Manager 11.0.
 
-== New features in Version 11.90R3
-
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
-a|SANtricity OS Support for IOM12C and  DCM3
-a|Support for IOM12C and DCM3 SAS-3 shelves is now available for controller firmware 11.90R3 or above. The IOM12C and DCM3 shelves are replacements for the IOM12B and DCM2 shelves.   
-|===
-
-== New features in Version 11.90R2
- 
-This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464[E-Series 11.90 Release Notes^].
-
-== New features in Version 11.90R1
+== New features in Version 12.0
 
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
-a|New storage system models – EF300C and EF600C
-a|This release introduces the EF300C and EF600C all flash NVMe storage systems. The EF300C and EF600C are high-capacity flash versions of the existing EF300 and EF600 storage systems. High-capacity NVMe SSD drives of 30TB or 60TB sizes are supported with the EF300C and EF600C. The EF300C/EF600C is compatible for Dynamic Disk Pool use only with no legacy RAID support. 
-a|Support for 12Gb SAS interfaces on EF4000
-a|The E4000 controller now supports 12Gb SAS host interface cards.   
-|===
+a|New user interface for SANtricity System Manager and Unified Manager
+a|The SANtricity System Manager and Unified Manager user interfaces have been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
+a|DULBE support for EF300C and EF600C storage systems
+a|EF300C and EF600C high-capacity flash storage systems now support the Deallocated or Unwritten Logical Block Error (DULBE) feature. This feature allows the storage system to support resource-provisioned volumes, which can improve SSD wear life and increase maximum write performance.
 
-== New features in Version 11.90
 
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
 
-a|New storage system model – E4000
-a|This release introduces the E4000 low-cost storage system. The E4000 supports 12 and 60 drives and a single host interface card (HIC) per controller. For the initial release, supported host interface cards include iSCSI and Fibre Channel. E4000 storage systems and other E-Series storage systems can be viewed and managed in Unified Manager.
-
-a|Increased capacity for Dynamic Disk Pools 
-a|The capacity for Dynamic Disk Pools (DDP) has been increased to 12 PB whenever the capacity of each of the individual drives within the pool is greater than 23 TB in size. If the individual drive capacity is less than 23 TB in size, the DDP capacity is 6 PB.
-
-a|Default media scan settings increased
-a|The default media scan rate has been increased to 120 days.
-
-a|Private key now accepted for External Key Management 
-a|Certificate signing request (CSR) file generated externally through private and public key pairs can now be imported through System Manager.
-
-a|Login lockout feature now available for Web Services  
-a|Configurable through the REST API only, a new login lockout setting is now available for embedded and proxy Web Services.
 |===
 
