@@ -1,5 +1,5 @@
 ---
-permalink: sm-settings/use-script-editor.html
+permalink: sm-support/use-script-editor.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, script editor, script file, execute script
 summary: "Use the Script Editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk."

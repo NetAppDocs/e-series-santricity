@@ -916,10 +916,10 @@ sidebar:
             url: "/sm-support/upgrade-drive-firmware.html"
           - title: Review the possible software and firmware upgrade errors
             url: "/sm-support/review-the-possible-software-and-firmware-upgrade-errors.html"
+        - title: Use Script Editor 
+          url: "sm-support/use-script-editor.html"
         - title: AutoSupport FAQ
           url: "/sm-support/faq-autosupport.html"
-        - title: Use Script Editor 
-          url: "sm-settings/use-script-editor.html"
   - title: SANtricity Unified Manager
     url: "/unified-manager/index.html"
     entries:
