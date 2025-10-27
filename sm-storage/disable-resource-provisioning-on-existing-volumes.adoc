@@ -36,7 +36,7 @@ NOTE: For new volume groups and pools, you can enable or disable resource provis
 +
 You can select only one pool or volume group at a time. Scroll down the list to see additional pools or volume groups.
 
-. Select *Uncommon Tasks*, and then either *Enable resource provisioning* or *Disable resource provisioning*.
+. Click the *ellipsis* icon and select either *Enable resource provisioning* or *Disable resource provisioning*.
 . In the dialog box, confirm the operation.
 
 NOTE: *If you re-enabled DULBE* -- After the background operation completes, you might need to reboot the host so it detects the DULBE configuration changes, and then remount all the filesystems.

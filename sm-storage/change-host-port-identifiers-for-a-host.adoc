@@ -27,11 +27,7 @@ When changing host port identifiers, keep the following guidelines in mind:
 +
 If you want to add ports to a host in a host cluster, expand the host cluster and select the desired host. You cannot add ports at the host cluster level.
 +
-A dialog box appears that shows the current host settings.
-
-. Click the *Host Ports* tab.
-+
-The dialog box shows the current host port identifiers.
+An Edit host settings screen appears that shows the current host settings.
 
 . Change the host port identifier settings as appropriate.
 +
@@ -43,17 +39,17 @@ Host Port
 a|
 You can choose one of the following options:
 
-** *Add* -- Use Add to associate a new host port identifier to the host. The length of the host port identifier name is determined by the host interface technology. Fibre Channel and Infiniband host port identifier names must have 16 characters. iSCSI host port identifier names have a maximum of 223 characters. The port must be unique. A port number that has already been configured is not allowed.
-** *Delete* -- Use Delete to remove (unassociate) a host port identifier. The Delete option does not physically remove the host port. This option removes the association between the host port and the host. Unless you remove the host bus adapter or the iSCSI initiator, the host port is still recognized by the controller.
+** *Add host port* -- Click *Add host port* to associate a new host port identifier to the host. The length of the host port identifier name is determined by the host interface technology. Fibre Channel and Infiniband host port identifier names must have 16 characters. iSCSI host port identifier names have a maximum of 223 characters. The port must be unique. A port number that has already been configured is not allowed.
+** *Delete (X icon)* -- Click the *X* icon to remove (unassociate) a host port identifier. The delete option does not physically remove the host port. This option removes the association between the host port and the host. Unless you remove the host bus adapter or the iSCSI initiator, the host port is still recognized by the controller.
 +
 [NOTE]
 ====
 If you delete a host port identifier, it is no longer associated with this host. Also, the host loses access to any of its assigned volumes through this host port identifier.
 ====
 a|
-Label
+Name
 a|
-To change the port label name, click the *Edit* icon (pencil). The port label name must be unique. A label name that has already been configured is not allowed.
+If needed, you can change the port label name. The port label name must be unique. A label name that has already been configured is not allowed.
 a|
 CHAP Secret
 a|
