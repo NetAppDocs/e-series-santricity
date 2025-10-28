@@ -44,7 +44,7 @@ You can perform the following actions:
 +
 The Change Drive Media Scan Settings window appears. All volumes on the storage array appear in this dialog box.
 
-. To enable the media scan, select the *Scan media over the course of...* check box.
+. To enable the media scan, select the *Media scan* check box.
 +
 Disabling the media scan check box suspends all media scan settings.
 
