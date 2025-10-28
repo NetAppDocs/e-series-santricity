@@ -54,4 +54,4 @@ System Manager performs the following actions:
 * Erases all data from the volumes that were initialized.
 * Clears the block indices, which causes unwritten blocks to be read as if they are zero-filled (the volume appears to be completely empty).
 
-Select menu:Home[View Operations in Progress] to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
+Select menu:Storage[Operations in Progress] to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.

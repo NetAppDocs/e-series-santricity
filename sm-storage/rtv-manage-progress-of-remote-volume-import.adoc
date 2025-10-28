@@ -16,7 +16,7 @@ After the import process begins, you can view and take action on its progress.
 
 For each import operation, the Operations in Progress dialog displays a percentage of completion and estimated time remaining. Actions include changing the import priority, stopping and resuming operations, and disconnecting from the operation.
 
-You can also view Operations in Progress from the Home page (menu:Home[Show operations in progress]).
+You can also view Operations in Progress through menu:Storage[Operations in Progress].
 
 .Steps
 

@@ -49,7 +49,7 @@ This dialog box displays the volume's current reported capacity and the free cap
 .Results
 
 * System Manager increases the volume's capacity based on your selection.
-* Select menu:Home[View Operations in Progress] to view the progress of the increase capacity operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
+* Select menu:Storage[Operations in Progress] to view the progress of the increase capacity operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
 
 .After you finish
 

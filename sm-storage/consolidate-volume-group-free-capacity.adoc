@@ -51,4 +51,4 @@ System Manager begins consolidating (defragmenting) the volume group's free capa
 
 .After you finish
 
-Select menu:Home[View Operations in Progress] to view the progress of the Consolidate Free Capacity operation. This operation can be lengthy and could affect system performance.
+Select menu:Storage[Operations in Progress] to view the progress of the Consolidate Free Capacity operation. This operation can be lengthy and could affect system performance.

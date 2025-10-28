@@ -91,4 +91,4 @@ System Manager copies all data from the source volume to the target volume. Afte
 
 .After you finish
 
-Select menu:Home[View Operations in Progress] to view the progress of the Copy Volume operation. This operation can be lengthy and could affect system performance.
+Select menu:Storage[Operations in Progress] to view the progress of the Copy Volume operation. This operation can be lengthy and could affect system performance.

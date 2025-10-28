@@ -86,4 +86,4 @@ System Manager changes the volume's settings based on your selections.
 
 .After you finish
 
-Select menu:Home[View Operations in Progress] to view the progress of the change operations that are currently running for the selected volume.
+Select menu:Storage[Operations in Progress] to view the progress of the change operations that are currently running for the selected volume.
