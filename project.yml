@@ -693,8 +693,6 @@ sidebar:
               url: "/sm-settings/change-cache-settings-for-storage-array.html"
             - title: Set automatic load balancing
               url: "/sm-settings/set-automatic-load-balancing.html"
-            - title: Enable or disable legacy management interface
-              url: "/sm-settings/enable-or-disable-legacy-management-interface.html"
           - title: Configure add-on features
             entries:
             - title: How add-on features work
