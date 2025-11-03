@@ -84,6 +84,7 @@ NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an a
  ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
  ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
 * Primary and secondary volumes must share the same drive type. Mixing of NVMe and SAS drives between primary and secondary volumes is not supported.
+* Primary and secondary volumes must not have Resource Partitioning enabled.
 
 
 == Reserved capacity
