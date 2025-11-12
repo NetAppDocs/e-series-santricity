@@ -34,5 +34,5 @@ You can review the recommended volume configuration and edit, add, or delete the
 
 To view applications and workloads, launch SANtricity System Manager. From that interface, you can view information associated with an application-specific workload in a couple of different ways:
 
-* You can select the *Applications & Workloads* tab in the Volumes tile to view the storage array's volumes grouped by workload and the application type the workload is associated with.
-* You can select the *Applications & Workloads* tab in the Performance tile to view performance metrics (latency, IOPS, and MBs) for logical objects. The objects are grouped by application and associated workload. By collecting this performance data at regular intervals, you can establish baseline measurements and analyze trends, which can help as you investigate problems related to I/O performance.
+* You can select the *Applications and workloads* tab in the Volumes page to view the storage array's volumes grouped by workload and the application type the workload is associated with.
+* You can select the *Applications and workloads* tab in the Performance page to view performance metrics (latency, IOPS, and MBs) for logical objects. The objects are grouped by application and associated workload. By collecting this performance data at regular intervals, you can establish baseline measurements and analyze trends, which can help as you investigate problems related to I/O performance.

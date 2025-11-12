@@ -18,11 +18,11 @@ You can expand the capacity for a volume in two ways:
 
 * Use the free capacity that is available in the pool or volume group.
 +
-You add capacity to a volume by selecting menu:Storage[Pools and Volume Groups > Add Capacity].
+You Add capacity to a volume by selecting menu:Storage[Volumes] from the left panel and then selecting the menu:ellipsis icon[Increase capacity] for the volume.
 
 * Add unassigned capacity (in the form of unused drives) to the pool or volume group of the volume. Use this option when no free capacity exists in the pool or volume group.
 +
-You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and Volume Groups > Add Capacity].
+You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and Volume Groups > Add capacity].
 +
 If free capacity is not available in the pool or volume group, you cannot increase the capacity of the volume. You must increase the size of the pool or volume group first or delete unused volumes.
 
@@ -36,13 +36,13 @@ Deleting volumes causes loss of all data on those volumes. Deleting a volume wil
 
 == Copy
 
-When you copy volumes, you create a point-in-time copy of two separate volumes, the source volume and the target volume, on the same storage array. You can copy volumes by selecting menu:Storage[Volumes > Copy Services > Copy volume].
+When you copy volumes, you create a point-in-time copy of two separate volumes, the source volume and the target volume, on the same storage array. You can copy volumes by selecting menu:Storage[Volumes] and then selecting the menu:ellipsis icon[Copy volume].
 
 == Initialize
 
 Initializing a volume erases all data from the volume. A volume is automatically initialized when it is first created. However, the Recovery Guru might advise that you manually initialize a volume to recover from certain failure conditions. When you initialize a volume, the volume keeps its WWN, host assignments, allocated capacity, and reserved capacity settings. It also keeps the same Data Assurance (DA) settings and security settings.
 
-You can initialize volumes by selecting menu:Storage[Volumes > More > Initialize volumes].
+You can initialize volumes by selecting menu:Storage[Volumes > ellipsis icon > Initialize volumes].
 
 == Redistribute
 
@@ -50,13 +50,13 @@ You redistribute volumes to move volumes back to their preferred controller owne
 
 Most host multipath drivers attempt to access each volume on a path to its preferred controller owner. However, if this preferred path becomes unavailable, the multipath driver on the host fails over to an alternate path. This failover might cause the volume ownership to change to the alternate controller. After you have resolved the condition that caused the failover, some hosts might automatically move the volume ownership back to the preferred controller owner, but in some cases, you might need to manually redistribute the volumes.
 
-You can redistribute volumes by selecting menu:Storage[Volumes > More > Redistribute volumes].
+You can redistribute volumes by selecting menu:Storage[Volumes > ellipsis icon > Redistribute volumes].
 
 == Change volume ownership
 
-Changing the ownership of a volume changes the preferred controller ownership of the volume. The preferred controller owner of a volume is listed under menu:Storage[Volumes > View/Edit Settings > Advanced tab].
+Changing the ownership of a volume changes the preferred controller ownership of the volume. The preferred controller owner of a volume is listed under menu:Storage[Volumes > ellipsis icon > Edit settings].
 
-You can change the ownership of a volume by selecting menu:Storage[Volumes > More > Change ownership].
+You can change the ownership of a volume by selecting menu:Storage[Volumes > ellipsis icon > Change volume ownership].
 
 === Mirroring and volume ownership
 
@@ -77,7 +77,7 @@ Cache memory is an area of temporary volatile storage (RAM) on the controller th
 * Data requested from the host for a read might already be in the cache from a previous operation, thus eliminating the need for drive access.
 * Write data is written initially to the cache, which frees the application to continue instead of waiting for the data to be written to the drive.
 
-Select menu:Storage[Volumes > More > Change cache settings] to change the following cache settings:
+Select menu:Storage[Volumes > ellipsis icon > Change cache settings] to change the following cache settings:
 
 * *Read and write caching* -- The read cache is a buffer that stores data that has been read from the drives. The data for a read operation might already be in the cache from a previous operation, which eliminates the need to access the drives. The data stays in the read cache until it is flushed.
 +

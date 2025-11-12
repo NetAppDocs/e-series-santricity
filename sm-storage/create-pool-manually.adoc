@@ -23,7 +23,7 @@ A pool provides the logical storage capacity necessary from which you can create
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click menu:Create[Pool].
 +
 The Create Pool dialog box appears.

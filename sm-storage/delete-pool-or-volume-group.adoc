@@ -24,12 +24,12 @@ You can delete a pool or volume group to create more unassigned capacity, which 
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Select one pool or volume group from the list.
 +
 You can select only one pool or volume group at a time. Scroll down the list to see additional pools or volume groups.
 
-. Select menu:Uncommon Tasks[Delete] and confirm.
+. Select menu:ellipsis icon[Delete] and confirm.
 
 .Results
 

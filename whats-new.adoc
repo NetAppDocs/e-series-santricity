@@ -17,8 +17,8 @@ The following table describes new features in SANtricity System Manager 12.0.
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
-a|New user interface for SANtricity System Manager and Unified Manager
-a|The SANtricity System Manager and Unified Manager user interfaces have been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
+a|New user interface for SANtricity System Manager
+a|The SANtricity System Manager user interfaces have been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
 a|DULBE support for EF300C and EF600C storage systems
 a|EF300C and EF600C high-capacity flash storage systems now support the Deallocated or Unwritten Logical Block Error (DULBE) feature. This feature allows the storage system to support resource-provisioned volumes, which can improve SSD wear life and increase maximum write performance.
 a|Dynamic Disk Pools segment size now defaults to 32K for SSD and NVMe-based systems

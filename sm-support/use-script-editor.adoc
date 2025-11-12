@@ -2,38 +2,38 @@
 permalink: sm-support/use-script-editor.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, script editor, script file, execute script
-summary: "Use the Script Editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk."
+summary: "Use the Script editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk."
 ---
 
-= Using the Script Editor
+= Using the Script editor
 :experimental:
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Use the Script Editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk.
+Use the Script editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk.
 
 .Before you begin
-The Script Editor has an engine that verifies statement syntax, interprets the statements, converts statements to the applicable
-protocol-compliant commands, and passes the commands to the storage array, where the controllers in the storage array run
-them.
+The Script editor communicates with the storage array to enable script syntax checking and command execution. Script commands typed into the Script editor are generally run on the storage array. 
 
-The Script Editor provides two views in the window:
+The Script editor provides two views in the window:
 
 * Editor pane – Provides an area for inputting or editing script commands.
 * Output pane – Shows verification or execution results.
 A splitter bar divides the window between editor pane and output pane.
-* Input commands (for example, controller firmware, NVSRAM, drive firmware upgrades) are not supported in the Script Editor. Only output files are supported.
-* Most client-side commands are not supported by the Script Editor. 
-** The only supported client-side commands are `on error stop` and `on error continue`.
+* The Script editor does not support commands requiring input files, such as controller firmware, NVSRAM, or drive firmware upgrades.
+* The Script editor supports commands that generate output files.
+* There are a few commands that require execution to happen at the client (client-side commands). 
+** The only supported client-side commands for this release are `on error stop` and `on error continue`.
+** The script editor generates an error if you attempt to run any other client-side commands. 
 
-== Open the Script Editor
+== Open the Script editor
 
 .Steps
 
 . From the left panel, select menu:Support[Script editor].
 +
-The following table lists the file options available in the Script Editor:
+The following table lists the file options available in the Script editor:
 +
 .Field details
 [%collapsible]
@@ -45,20 +45,20 @@ The following table lists the file options available in the Script Editor:
 a|
 Open a new script
 a|
-.. Click *Load script file* to upload an existing script file to the Script Editor.
+.. Click *Load script file* to upload an existing script file to the Script editor.
 +
-The Script Editor opens the selected script file in the editor pane.
+The Script editor opens the selected script file in the editor pane.
 a|
 Verify the script command syntax
 a|
 .. Click *Syntax check* to verify the syntax of the current script in the editor pane.
 +
-The Script Editor parses the statements in the script file, one line at a
+The Script editor parses the statements in the script file, one line at a
 time, and verifies that they have the correct syntax. Any syntax errors appear in
 the output pane, which report the line number of the error and a description of
 the error.
 + 
-If the Script Editor encounters a syntax error, no further syntax
+If the Script editor encounters a syntax error, no further syntax
 verification is performed on the script.
 + 
 Fix any syntax errors, and rerun *Syntax Check* to validate the error correction and to check the remainder of the statements in the script.
@@ -67,11 +67,9 @@ Execute script
 a|
 .. Click *Execute Script* to run the current script in the editor pane.
 +
-The Script Editor parses the command statements in the script file,
-interprets and converts the statements to the appropriate commands, and sends
-the commands to the storage array controller.
+The Script editor initiates a syntax check operation, then for each script command from the input file, a command execution is run on the storage array controller. 
 + 
-If the Script Editor encounters a syntax error, it stops execution and displays an error message.
+If the Script editor encounters a syntax error, it stops execution and displays an error message.
 + 
 Fix the error, and rerun *Syntax check* to validate the error correction.
 +
@@ -83,26 +81,30 @@ encountered. This statement is the default setting.
 a|
 Edit an existing script
 a|
-.. Click *Load script file* to upload an existing script file to the Script Editor.
+.. Click *Load script file* to upload an existing script file to the Script editor.
 .. In the editor pane, make any necessary changes to the script.
 a|
 Save the script to a local file
 a|
 .. Click *Save script file* to download the changes in the script pane as a new script file. 
 a|
-Clear the text in the editor pane of the Script Editor
+Clear the text in the editor pane of the Script editor
 a|
 .. Click *Clear editor* to clear the text in the editor pane.
+a|
+Save the output results to a local file
+a|
+.. Click *Save results* to download the contents of the output pane as a new file.
 |===
 ====
 
-=== Write scripts in the Script Editor
+=== Write scripts in the Script editor
 
 .Before you begin
-When you use the Script Editor to write script commands, make sure you follow these guidelines:
+When you use the Script editor to write script commands, make sure you follow these guidelines:
 * End all statements with a semicolon (;).
 * Separate each base command and its associated primary parameters and secondary parameters with a space.
-* Parameters are case-insensitive when entered into the Script Editor.
+* Parameters are case-insensitive when entered into the Script editor.
 * Place each statement on a separate line.
 * Add comments to your scripts to make it easier for you and future users to understand the purpose of the command statements.
 
@@ -133,11 +135,6 @@ setting controller mode
 During script execution, messages appear in the output pane starting with:
 ----
 Executing script...
-----
-
-After a successful script execution, the following message appears:
-----
-Script execution complete.
 ----
 
 If an error occurs during the parse phase, the error appears in the output pane, which provides the line number and the column

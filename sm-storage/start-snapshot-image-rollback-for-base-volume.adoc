@@ -43,7 +43,7 @@ The Increase Reserved Capacity dialog box appears.
 
  .. Use the spinner box to adjust the capacity percentage.
 +
-If free capacity does not exist on the pool or volume group that contains the storage object you selected and the storage array has Unassigned Capacity, you can add capacity. You can create a new pool or volume group and then retry this operation using the new free capacity on that pool or volume group.
+If free capacity does not exist on the pool or volume group that contains the storage object you selected and the storage array has Unassigned Capacity, you can Add capacity. You can create a new pool or volume group and then retry this operation using the new free capacity on that pool or volume group.
 
  .. Click *Increase*.
 

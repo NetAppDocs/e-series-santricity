@@ -42,8 +42,8 @@ Immediately running a redundancy check on the same pool or volume group might ca
 
 NOTE: The Check Volume Redundancy feature is currently only available for operations in the Legacy System Manager interface.
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
-. Click the menu:ellipsis icon[Check volume redundancy].
+. From the left panel, select menu:Storage[Pools and volume groups].
+. Click the menu:ellipsis icon[Check volume redundancy] for the pool or volume group you want to check.
 +
 The Check Redundancy dialog box appears.
 

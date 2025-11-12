@@ -15,7 +15,7 @@ Use the Add/Discover Single Storage Array option to manually discover and add a 
 .Before you begin
 
 * The storage array must be correctly set up and configured.
-* Storage array passwords must be set up using System Manager's Access Management tile.
+* Storage array passwords must be set up using System Manager's Access Management page.
 
 .Steps
 

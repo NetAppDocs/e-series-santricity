@@ -25,14 +25,14 @@ The graphs available from the detailed performance view are arranged under three
 
 * *Logical View* -- Displays performance data for logical objects grouped by volume groups and pools. Logical objects include volume groups, pools, and volumes.
 * *Physical View* -- Displays performance data for the controller, host channels, drive channels, and drives.
-* *Applications & Workloads View* -- Displays a list of logical objects (volumes) grouped by the application types and workloads you have defined.
+* *Applications and workloads View* -- Displays a list of logical objects (volumes) grouped by the application types and workloads you have defined.
 
 .Steps
 
 . Select *Home*.
 . To select an array-level view, click the IOPS, MiB/s, or CPU button.
 . To see more details, click *View Performance Details*.
-. Select *Logical View* tab, *Physical View* tab, or *Applications & Workloads View* tab.
+. Select *Logical View* tab, *Physical View* tab, or *Applications and workloads View* tab.
 +
 Depending on the object type, different graphs appear in each tab.
 +
@@ -54,7 +54,7 @@ a|
  ** *Drive channels*: Latency, IOPS, MiB/s
  ** *Drives*: Latency, IOPS, MiB/s
 a|
-Applications & Workloads View
+Applications and workloads View
 a|
  ** *Storage array*: IOPS, MiB/s
  ** *Applications*: Latency, IOPS, MiB/s

@@ -28,7 +28,7 @@ You can view each of these statistics as raw statistics or as baseline statistic
 .Steps
 
 . From the left panel, select menu:Settings[System].
-. Select *View iSCSI Statistics Packages*.
+. Select *View iSCSI Statistics*.
 . Click a tab to view the different sets of statistics.
 . *Optional:* To set the baseline, click *Set new baseline*.
 +

@@ -75,11 +75,11 @@ The following examples describe why you would want to manually configure a pool.
 +
 You can assign just one or two volumes instead of assigning the workload to a large pool that has many volumes across which to distribute the data. Manually creating a separate pool that is dedicated to the workload of a specific application can allow storage array operations to perform more rapidly, with less contention.
 +
-To manually create a pool: Select *Storage*, and then select *Pools & Volume Groups*. From the All Capacity tab, click menu:Create[Pool].
+To manually create a pool: Select *Storage*, and then select *Pools and volume groups*. From the All Capacity tab, click menu:Create[Pool].
 
 * If there are multiple pools of the same drive type, a message appears indicating that System Manager cannot recommend the drives for a pool automatically. However, you can manually add the drives to an existing pool.
 +
-To manually add drives to an existing pool: From the Pools & Volume Groups page, select the pool, and then click *Add Capacity*.
+To manually add drives to an existing pool: From the Pools and volume groups page, select the pool, and then click *Add capacity*.
 
 == Why are capacity alerts important?
 
@@ -98,7 +98,7 @@ If you have created volumes on all available usable capacity, you might not be a
 
 Preservation capacity is the amount of capacity (number of drives) that is reserved on a pool to support potential drive failures. When a pool is created, the system automatically reserves a default amount of preservation capacity depending on the number of drives in the pool. If you have created volumes on all available usable capacity, you cannot increase preservation capacity without adding capacity to the pool by either adding drives or deleting volumes.
 
-You can change the preservation capacity from *Pools & Volume Groups*. Select the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
+You can change the preservation capacity from *Pools and volume groups*. Select the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
 
 [NOTE]
 ====
@@ -119,7 +119,7 @@ The following media types are supported: Hard Disk Drive (HDD) and Solid State D
 
 == Why are some drives not showing up?
 
-In the Add Capacity dialog, not all drives are available for adding capacity to an existing pool or volume group.
+In the Add capacity dialog, not all drives are available for adding capacity to an existing pool or volume group.
 
 Drives are not eligible for any of the following reasons:
 
@@ -235,7 +235,7 @@ Select a RAID level based on the following information.
 * *Drive number requirements*
  ** A minimum of two drives is required for RAID 1: one drive for the user data, and one drive for the mirrored data.
  ** If you select four or more drives, RAID 10 is automatically configured across the volume group: two drives for user data, and two drives for the mirrored data.
- ** You must have an even number of drives in the volume group. If you do not have an even number of drives and you have some remaining unassigned drives, go to *Pools & Volume Groups* to add additional drives to the volume group, and retry the operation.
+ ** You must have an even number of drives in the volume group. If you do not have an even number of drives and you have some remaining unassigned drives, go to *Pools and volume groups* to add additional drives to the volume group, and retry the operation.
  ** RAID 1 and RAID 10 volume groups can have more than 30 drives. A volume group can be created that includes all of the drives in the storage array.
 
 *RAID 5*
@@ -336,7 +336,7 @@ The detailed statistics can be viewed only when you export all SSD statistics to
 
 === Nominal statistics
 
-To view SSD Cache statistics, select menu:Storage[Pools & Volume Groups]. Select the SSD Cache that you want to view statistics for, and then select menu:More[View Statistics]. The nominal statistics are shown on the View SSD Cache Statistics dialog.
+To view SSD Cache statistics, select menu:Storage[Pools and volume groups] from the left panel. Select the SSD Cache that you want to view statistics for, and then click the menu:ellipsis icon[View statistics]. The nominal statistics are shown on the View Statistics page.
 
 The following list includes nominal statistics, which are a subset of the detailed statistics.
 
@@ -488,5 +488,5 @@ A resource-provisioned volume is a thick volume in an SSD volume group or pool, 
 
 Resource-provisioned volumes are supported only on SSD volume groups and pools, where all drives in the group or pool support the NVMe Deallocated or Unwritten Logical Block Error Enable (DULBE) error recovery capability. When a resource-provisioned volume is created, all drive blocks assigned to the volume are deallocated (unmapped). In addition, hosts can deallocate logical blocks in the volume using the NVMe Dataset Management command or the SCSI Unmap command. Deallocating blocks can improve SSD wear life and increase maximum write performance. The improvement varies with each drive model and capacity.
 
-Resource provisioning is enabled by default on systems where the drives support DULBE. You can disable that default setting from *Pools & Volume Groups*.
+Resource provisioning is enabled by default on systems where the drives support DULBE. You can disable that default setting from *Pools and volume groups*.
 

@@ -18,7 +18,7 @@ Changing the reserved capacity settings for an individual member volume also cha
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
 . Select the consistency group member volume that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
