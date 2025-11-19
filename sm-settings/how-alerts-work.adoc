@@ -23,12 +23,7 @@ The alerts process works as follows:
 
 == Alerts configuration
 
-You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To check the current configuration, go to menu:Settings[Alerts].
-
-The Alerts tile displays the alerts configuration, which can be one of the following:
-
-* Not configured.
-* Configured; at least one alerting method is set up. To determine which alerting methods are configured, point the cursor at the tile.
+You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To access the Alerts page, go to menu:Settings[Alerts] from the left panel.
 
 == Alerts information
 

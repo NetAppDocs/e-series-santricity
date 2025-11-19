@@ -126,4 +126,4 @@ The capacity of each volume is 128 MiB. However, if the volumes are placed in a 
 
 .After you finish
 
-Go to System Manager and select menu:Home[View Operations in Progress] to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.
+Go to System Manager and menu:Storage[Operations in Progress] to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.

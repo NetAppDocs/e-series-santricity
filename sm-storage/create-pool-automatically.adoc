@@ -34,7 +34,7 @@ You can launch the Pool Auto-Configuration dialog box using any of the following
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the menu:ellipsis icon[Launch pool auto-configuration].
 +
 The results table lists new pools, existing pools with drives added, or both. A new pool is named with a sequential number by default.

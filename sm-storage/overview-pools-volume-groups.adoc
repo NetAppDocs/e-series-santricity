@@ -22,7 +22,7 @@ Learn more:
 * link:decide-to-use-a-pool-or-volume-group.html[Decide whether to use a pool or a volume group]
 
 == How do you create pools?
-You can allow System Manager to create pools automatically when it detects unassigned capacity in a storage array. Alternatively, when automatic creation cannot determine the best configuration, you can create pools manually from menu:Storage[Pools & Volume Groups].
+You can allow System Manager to create pools automatically when it detects unassigned capacity in a storage array. Alternatively, when automatic creation cannot determine the best configuration, you can create pools manually from menu:Storage[Pools and volume groups].
 
 Learn more:
 
@@ -32,7 +32,7 @@ Learn more:
 * link:add-capacity-to-a-pool-or-volume-group.html[Add capacity to a pool or volume group]
 
 == How do you create volume groups?
-You can create volume groups from menu:Storage[Pools & Volume Groups].
+You can create volume groups from menu:Storage[Pools and volume groups].
 
 Learn more:
 

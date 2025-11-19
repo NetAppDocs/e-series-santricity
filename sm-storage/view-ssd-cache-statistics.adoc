@@ -18,8 +18,8 @@ As you review and interpret the statistics, keep in mind that some interpretatio
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
-. Select the SSD Cache for which you want to view statistics, and then click the menu:ellipsis icon[View SSD Cache statistics].
+. From the left panel, select menu:Storage[Pools and volume groups].
+. Select the SSD Cache for which you want to view statistics, and then click the menu:ellipsis icon[View statistics].
 +
 The View SSD Cache Statistics dialog box appears and displays the nominal statistics for the selected SSD cache.
 +

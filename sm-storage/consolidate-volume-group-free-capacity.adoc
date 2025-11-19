@@ -25,7 +25,7 @@ You cannot cancel the operation after it begins. Your data remains accessible du
 You can launch the Consolidate Free Capacity dialog box using any of the following methods:
 
 * When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
-* You can also launch the Consolidate Free Capacity dialog box from the Pools & Volume Groups page as described in the following task.
+* You can also launch the Consolidate Free Capacity dialog box from the Pools and volume groups page as described in the following task.
 
 .More about free capacity areas
 [%collapsible]
@@ -39,7 +39,7 @@ By consolidating free capacity on a selected volume group, you will notice impro
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the menu:ellipsis icon[Consolidate volume group free capacity].
 +
 The Consolidate Free Capacity dialog box appears.
@@ -51,4 +51,4 @@ System Manager begins consolidating (defragmenting) the volume group's free capa
 
 .After you finish
 
-Select menu:Home[View Operations in Progress] to view the progress of the Consolidate Free Capacity operation. This operation can be lengthy and could affect system performance.
+Select menu:Storage[Operations in Progress] to view the progress of the Consolidate Free Capacity operation. This operation can be lengthy and could affect system performance.

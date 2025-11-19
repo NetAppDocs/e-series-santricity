@@ -27,8 +27,8 @@ After enabling security, you can only remove it by deleting the pool or volume g
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
-. Select the pool or volume group on which you want to enable security, and then click menu:More[Enable security].
+. From the left panel, select menu:Storage[Pools and volume groups].
+. Select the pool or volume group on which you want to enable security, and then click menu:ellipsis icon[Enable security].
 +
 The Confirm Enable Security dialog box appears.
 

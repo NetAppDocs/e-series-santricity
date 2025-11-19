@@ -59,7 +59,7 @@ Be sure you want to continue with this operation. Once you click Yes in the next
 
 .Results
 
-The Erase operation might take several minutes or several hours. You can view the status in menu:Home[View Operations in Progress]. When the Erase operation completes, the drives are available for use in another volume group or disk pool, or in another storage array.
+The Erase operation might take several minutes or several hours. You can view the status in menu:Storage[Operations in Progress]. When the Erase operation completes, the drives are available for use in another volume group or disk pool, or in another storage array.
 
 .After you finish
 

@@ -16,7 +16,7 @@ You discover multiple arrays to detect all storage arrays across the subnet wher
 
 * You must be logged in with a user profile that includes Security Admin permissions.
 * The storage array must be correctly set up and configured.
-* Storage array passwords must be set up using System Manager's Access Management tile.
+* Storage array passwords must be set up using System Manager's Access Management page.
 * To resolve untrusted certificates, you must have trusted certificate files from a Certificate Authority (CA), and the certificate files are available on your local system.
 
 Discovering arrays is a multi-step procedure.

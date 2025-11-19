@@ -52,7 +52,7 @@ Dynamic cache read prefetch allows the controller to copy additional sequential 
 
 For a thin volume, dynamic cache read prefetch is always disabled and cannot be changed.
 a|
-Write Caching without Batteries
+Write Caching without batteries
 a|
 The write caching without batteries setting lets write caching continue even when the batteries are missing, failed, discharged completely, or not fully charged. Choosing write caching without batteries is not typically recommended, because data might be lost if power is lost. Typically, write caching is turned off temporarily by the controller until the batteries are charged or a failed battery is replaced.
 

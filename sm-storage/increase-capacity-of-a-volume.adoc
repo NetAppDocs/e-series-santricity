@@ -35,21 +35,21 @@ Increasing the capacity of a volume is supported only on certain operating syste
 . From the left panel, select menu:Storage[Volumes].
 . Select the volume for which you want to increase capacity, and then click the menu:ellipsis icon[Increase Capacity].
 +
-The Confirm Increase Capacity dialog box appears.
+The Confirm Increase Capacity page appears.
 
 . Select *Yes* to continue.
 +
-The Increase Reported Capacity dialog box appears.
+The Increase Reported Capacity page appears.
 +
-This dialog box displays the volume's current reported capacity and the free capacity available in the volume's associated pool or volume group.
+This page displays the volume's current reported capacity and the free capacity available in the volume's associated pool or volume group.
 
-. Use the *Increase reported capacity by adding...* box to add capacity to the current available reported capacity. You can change the capacity value to display in either mebibytes (MiB), gibibytes (GiB), or tebibytes (TiB).
+. Use the *Increase reported capacity by adding...* box to Add capacity to the current available reported capacity. You can change the capacity value to display in either mebibytes (MiB), gibibytes (GiB), or tebibytes (TiB).
 . Click *Increase*.
 
 .Results
 
 * System Manager increases the volume's capacity based on your selection.
-* Select menu:Home[View Operations in Progress] to view the progress of the increase capacity operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
+* Select menu:Storage[Operations in Progress] to view the progress of the increase capacity operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
 
 .After you finish
 

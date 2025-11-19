@@ -40,7 +40,7 @@ The Notifications area is available through the bell icon in the upper corner of
 You can change display preferences and other settings from the main interface.
 
 == User logins and passwords
-The current user logged into the system is shown in the upper right of the interface.
+The current user logged into the system is shown in the user settings.
 
 For further information on users and passwords, see:
 

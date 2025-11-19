@@ -28,11 +28,11 @@ Review the following guidelines:
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
 . Select the storage object for which you want to decrease reserved capacity, and then click the menu:ellipsis icon[Decrease Capacity].
 +
-The Decrease Reserved Capacity dialog box appears.
+The Decrease Reserved Capacity page appears.
 
 . Select the capacity amount by which you want to decrease reserved capacity, and then click *Decrease*.
 

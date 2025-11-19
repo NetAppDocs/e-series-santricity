@@ -16,7 +16,7 @@ When creating and using snapshots, review the following requirements and guideli
 * Each snapshot image is associated with exactly one snapshot group.
 * A snapshot group is created the first time you create a scheduled or instant snapshot image for an associated object. This creates reserved capacity.
 +
-You can view snapshot groups from the Pools & Volume Groups page.
+You can view snapshot groups from the Pools and volume groups page.
 
 * Scheduled snapshot images do not occur when the storage array is offline or powered off.
 * If you delete a snapshot group that has a snapshot schedule, the snapshot schedule is also deleted.

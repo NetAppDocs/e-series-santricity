@@ -2,7 +2,7 @@
 permalink: sm-storage/change-ssd-cache-settings.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, settings
-summary: "You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives."
+summary: "You can edit the settings of the SSD Cache. Current settings for the SSD cache are accessible through the View settings option."
 ---
 = Change the SSD Cache settings in SANtricity System Manager
 :experimental:
@@ -10,11 +10,11 @@ summary: "You can edit the name of the SSD Cache and view its status, maximum an
 :imagesdir: ../media/
 
 [.lead]
-You can edit the name of the SSD Cache and view its status, maximum and current capacity, Drive Security and Data Assurance status, and its associated volumes and drives.
+You can edit the settings of the SSD Cache. Current settings for the SSD cache are accessible through the View settings option.
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Select the SSD Cache that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
 The Edit SSD Cache Settings window appears.

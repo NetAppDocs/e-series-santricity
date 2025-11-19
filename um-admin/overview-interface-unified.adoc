@@ -53,7 +53,7 @@ View technical support options, resources, and contacts.
 At the top right of the interface, you can access Help and other documentation. You can also access administration options, which are available from the drop-down next to your login name.
 
 == User logins and passwords
-The current user logged into the system is shown in the upper right of the interface.
+The current user logged into the system is shown in the user settings.
 
 For further information on users and passwords, see:
 
