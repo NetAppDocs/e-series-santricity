@@ -26,7 +26,7 @@ You can access Unified Manager features and functions from the navigation sideba
 a|
 Manage
 a|
-Discover storage arrays in your network, launch SANtricity System Manager for an array, import settings from one array to multiple arrays, and manage array groups. Select the check boxes next to the array names to perform operations on them, such as importing settings and creating array groups. The ellipses at the end of each row provides an in-line menu for operations on a single array, such as renaming it.
+Discover storage arrays in your network, launch SANtricity System Manager for an array, import settings from one array to multiple arrays, and manage array groups. Select the check boxes next to the array names to perform operations on them, such as importing settings and creating array groups. The ellipsis at the end of each row provides an in-line menu for operations on a single array, such as renaming it.
 a|
 Operations
 a|
