@@ -91,4 +91,3 @@ X
 * All drives are unassigned. 
 +
 NOTE: The storage array will come up in recovery mode. You must clear recovery mode before using the storage array. See https://docs.netapp.com/us-en/e-series-santricity/sm-support/clear-recovery-mode.html[Clear recovery mode^] for more information.  
-
