@@ -1,18 +1,18 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: whats new, new features, SANtricity 12.0
+keywords: whats new, new features, SANtricity 12.00
 summary: New features in SANtricity OS.
 ---
-= What's new in SANtricity OS 12.0
+= What's new in SANtricity OS 12.00
 :experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 12.0.
+The following table describes new features in SANtricity System Manager 12.00.
 
-== New features in Version 12.0
+== New features in Version 12.00
 
 [cols="35h,~",options="header"]
 |===

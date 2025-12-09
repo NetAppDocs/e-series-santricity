@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
   rss_page: "whats-new.html"
   versions:
-    - version-number: "12.0"
+    - version-number: "12.00"
       url: /e-series-santricity
     - version-number: "11.9"
       url: /e-series-santricity-119
@@ -16,7 +16,7 @@ settings:
       url: /e-series-santricity-118
 sidebar:
   entries:
-  - title: SANtricity software 12.0 docs
+  - title: SANtricity software 12.00 docs
     url: "/index.html"
   - title: Release notes
     entries:
