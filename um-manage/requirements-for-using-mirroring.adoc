@@ -46,6 +46,8 @@ Mirroring through an iSCSI interface (asynchronous only) requires the following:
 
 * Unlike FC, iSCSI does not require a dedicated port. When asynchronous mirroring is used in iSCSI environments, it is not necessary to dedicate any of the storage array's front-end iSCSI ports for use with asynchronous mirroring; those ports are shared for both asynchronous mirror traffic and host-to-array I/O connections.
 * The controller maintains a list of remote storage systems with which the iSCSI initiator attempts to establish a session. The first port that successfully establishes an iSCSI connection is used for all subsequent communication with that remote storage array. If communication fails, a new session is attempted using all available ports.
++
+NOTE: E4000 controllers do not support iSCSI mirroring.
 * iSCSI ports are configured at the array level on a port-by-port basis. Intercontroller communication for configuration messaging and data transfer uses the global settings, including settings for:
  ** VLAN: Both local and remote systems must have the same VLAN setting to communicate
  ** iSCSI listening port
@@ -70,6 +72,7 @@ NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an a
  ** If the primary volume is FIPS capable, the secondary volume must be FIPS capable.
  ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
  ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
+ * Primary and secondary volumes must not have Resource Partitioning enabled.
 
 == Reserved capacity
 
