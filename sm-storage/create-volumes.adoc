@@ -75,7 +75,7 @@ Select one of the "Other" entries if the application you intend to use on this s
 
   *** Enter a name for the workload you want to create.
 . Click *Next*.
-. If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<Step 3: Add or edit volumes>>.
+. If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<Step 3: Add volumes>>.
 
 == Step 3: Add volumes
 System Manager may suggest a volume configuration based on the application or workload you selected. This volume configuration is optimized based on the type of application the workload supports. You can accept the recommended volume configuration or you can edit it as needed. If you selected one of the "Other" applications, you must manually specify the volumes and characteristics you want to create.

@@ -2,9 +2,9 @@
 permalink: sm-interface/index.html
 sidebar: sidebar
 keywords: santricity, system, manager,
-summary: "SANtricity System Manager 12.0"
+summary: "SANtricity System Manager 12.00"
 ---
-= SANtricity System Manager 12.0
+= SANtricity System Manager 12.00
 :icons: font
 :imagesdir: ../media/
 
