@@ -91,7 +91,7 @@ In this step, you select the settings that determine how data is synchronized af
 +
 The synchronization priority determines how much of the system resources are used to complete initial synchronization and the resynchronization operation after a communication interruption as compared to service I/O requests.
 +
-The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by going to System Manager and selecting menu:Storage[Synchronous Mirroring > More > Edit Settings].
+The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by going to System Manager and selecting menu:Storage[Synchronous Mirroring > ellipsis icon > Edit Settings].
 +
 There are five synchronization priority rates:
 

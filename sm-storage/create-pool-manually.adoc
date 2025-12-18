@@ -33,7 +33,7 @@ The Create Pool dialog box appears.
 +
 The results table lists all the possible pools that you can create.
 
-. Select the pool candidate that you want to use based on the following characteristics, and then click *Create*.
+. Locate the pool candidate that you want to use based on the following characteristics, and then click *Create*.
 +
 [cols="25h,~",options="header"]
 |===

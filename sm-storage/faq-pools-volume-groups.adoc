@@ -79,7 +79,7 @@ To manually create a pool: Select *Storage*, and then select *Pools and volume g
 
 * If there are multiple pools of the same drive type, a message appears indicating that System Manager cannot recommend the drives for a pool automatically. However, you can manually add the drives to an existing pool.
 +
-To manually add drives to an existing pool: From the Pools and volume groups page, select the pool, and then click *Add capacity*.
+To manually add drives to an existing pool: From the Pools and volume groups page, locate the pool, and then click *Add capacity*.
 
 == Why are capacity alerts important?
 
@@ -98,7 +98,7 @@ If you have created volumes on all available usable capacity, you might not be a
 
 Preservation capacity is the amount of capacity (number of drives) that is reserved on a pool to support potential drive failures. When a pool is created, the system automatically reserves a default amount of preservation capacity depending on the number of drives in the pool. If you have created volumes on all available usable capacity, you cannot increase preservation capacity without adding capacity to the pool by either adding drives or deleting volumes.
 
-You can change the preservation capacity from *Pools and volume groups*. Select the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
+You can change the preservation capacity from *Pools and volume groups*. Locate the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
 
 [NOTE]
 ====

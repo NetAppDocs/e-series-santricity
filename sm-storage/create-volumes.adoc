@@ -61,8 +61,8 @@ Select a workload to customize the storage array configuration for a specific ap
 
 This task describes how to create volumes for an existing workload.
 
-* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add/Edit Volumes dialog box.
+* _When you are creating volumes using an application-specific workload_, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add Volumes page.
+* _When you are creating volumes using "Other"_ applications (or applications without specific volume creation support), you manually specify the volume configuration using the Add Volumes page.
 
 .Steps
 
@@ -78,7 +78,6 @@ Select one of the "Other" entries if the application you intend to use on this s
 . If your workload is associated with a supported application type, enter the information requested; otherwise, go to <<Step 3: Add volumes>>.
 
 == Step 3: Add volumes
-System Manager may suggest a volume configuration based on the application or workload you selected. This volume configuration is optimized based on the type of application the workload supports. You can accept the recommended volume configuration or you can edit it as needed. If you selected one of the "Other" applications, you must manually specify the volumes and characteristics you want to create.
 
 .Before you begin
 
@@ -118,14 +117,11 @@ A pool or volume group can contain both secure-capable and non-secure-capable dr
 
 .About this task
 
-You create volumes from pools or volume groups. The Add/Edit Volumes dialog box shows all eligible pools and volume groups on the storage array. For each eligible pool and volume group, the number of drives available and the total free capacity appears.
-
-For some application-specific workloads, each eligible pool or volume group shows the proposed capacity based on the suggested volume configuration and shows the remaining free capacity in GiB. For other workloads, the proposed capacity appears as you add volumes to a pool or volume group and specify the reported capacity.
+You create volumes from pools or volume groups. The Add Volumes page shows all eligible pools and volume groups on the storage array. For each eligible pool and volume group, the number of drives available and the total free capacity appears.
 
 .Steps
 
-. Choose one of these actions based on whether you selected Other or an application-specific workload:
- ** *Other* -- Click *Add new volume* in each pool or volume group that you want to use to create one or more volumes.
+. Click *Add new volume* in each pool or volume group that you want to use to create one or more volumes.
 +
 .Field details
 [%collapsible]

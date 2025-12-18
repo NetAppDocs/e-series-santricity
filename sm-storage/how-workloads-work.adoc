@@ -26,9 +26,9 @@ You can create two types of workloads: Application-specific and Other.
  ** Video Surveillance applications
  ** VMware ESXi™ (for volumes to be used with Virtual Machine File System)
 +
-You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
+You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add Volumes page.
 
-* *Other* (or applications without specific volume creation support). Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if the system does not have built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add/Edit Volumes dialog box.
+* *Other* (or applications without specific volume creation support). Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if the system does not have built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add Volumes page.
 
 == Application and workload views
 
