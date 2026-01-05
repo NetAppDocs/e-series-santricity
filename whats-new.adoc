@@ -4,13 +4,24 @@ permalink: whats-new.html
 keywords: whats new, new features, SANtricity 12.00
 summary: New features in SANtricity OS.
 ---
-= What's new in SANtricity OS 12.00
+= What's new in SANtricity OS 12.x0
 :experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 12.00.
+The following table describes new features in SANtricity System Manager 12.x0.
+
+== New features in Version 12.x0
+
+[cols="35h,~",options="header"]
+|===
+|New feature |Description
+a|New storage system models – EF80 and EF50 all-flash storage systems
+a|This release introduces the EF80 and EF50 all-NVMe-flash storage systems. The EF80 and EF50 supports 24 NVME SSD drives and a single host interface card (HIC) per controller. The supported NVMe over Fabrics host interfaces include NVMe over IB, NVMe over RoCE, and NVMe over FC. The supported SCSI interfaces include 32Gb FC, 25Gb iSCSI, IB over iSER, and IB over SRP. 
+
+High-capacity NVMe SSD drives of 30TB or 60TB sizes are also supported with the EF80 and EF30. The EF80 and EF30 is compatible for Dynamic Disk Pool use only with no legacy RAID support.
+|===
 
 == New features in Version 12.00
 

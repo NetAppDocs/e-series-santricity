@@ -33,7 +33,7 @@ Also be sure to meet the following requirements for storage arrays:
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+Synchronous mirroring is not available on the EF80, EF50, EF600/EF600C, or EF300/EF300C storage system.
 ====
 
 == What do I need to know before creating a mirrored pair?
@@ -51,7 +51,7 @@ Before creating a mirrored pair, follow these guidelines.
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+Synchronous mirroring is not available on the EF80, EF50,  EF600/EF600C, or EF300/EF300C storage system.
 ====
 
 == Why would I change this percentage?
