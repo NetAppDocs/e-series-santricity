@@ -83,9 +83,9 @@ Indicates if Data Assurance (DA) is available for this pool candidate. DA checks
 DA is enabled if all drives are DA-capable. DA may be disabled after the volume is created by selecting menu:Storage[Volumes > ellipsis icon > Disable Data Assurance].
 
 a|
-Resource Provisioning Capable (EF300 and EF600 only)
+Resource Provisioning Capable (EF80, EF50, EF300 and EF600 only)
 a|
-Shows if Resource Provisioning is available for this pool candidate. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+Shows if Resource Provisioning is available for this pool candidate. Resource Provisioning is a feature available in the EF80, EF50, EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 a|
 Shelf Loss Protection
 a|

@@ -141,7 +141,7 @@ Shows whether the Data Assurance (DA) feature is enabled (Yes) or not (No). Data
 a|
 DULBE capable
 a|
-Indicates whether the option for Deallocated or Unwritten Logical Block Error (DULBE) is enabled (Yes) or not (No). DULBE is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+Indicates whether the option for Deallocated or Unwritten Logical Block Error (DULBE) is enabled (Yes) or not (No). DULBE is an option on NVMe drives that allows the EF80, EF50, EF300, or EF600 storage array to support resource-provisioned volumes.
 |===
 ====
 . Click *Close*.

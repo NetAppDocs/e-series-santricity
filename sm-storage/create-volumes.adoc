@@ -85,8 +85,8 @@ System Manager may suggest a volume configuration based on the application or wo
 * The pools or volume groups must have sufficient free capacity.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF600, EF600C, and E5700 series)
- ** 1,024 volumes (EF300 and EF300C)
+ ** 2,048 volumes (EF80, EF600, EF600C, and E5700 series)
+ ** 1,024 volumes (EF50, EF300, and EF300C)
  ** 512 volumes (E4000 and E2800 series)
 * To create a Data Assurance (DA)-enabled volume, the host connection you are planning to use must support DA.
 +
@@ -187,9 +187,9 @@ a|
 
 DA increases data integrity across the entire storage system. DA enables the storage array to check for errors that might occur as data is transferred through the controllers down to the drives. Using DA for the new volume ensures that any errors are detected.
 a|
-Resource provisioned (EF300 and EF600 only)
+Resource provisioned (EF80, EF50, EF300, and EF600 only)
 a|
-*Yes* appears next to "Resource provisioned" only if the drives support this option. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+*Yes* appears next to "Resource provisioned" only if the drives support this option. Resource Provisioning is a feature available in the EF80, EF50, EF300, and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 |===
 ====
 
@@ -220,7 +220,7 @@ Volume Type
 a|
 Volume type indicates the type of volume that was created for an application-specific workload.
 a|
-Volume Block Size (EF300 and EF600 only)
+Volume Block Size (EF80, EF50, EF300, and EF600 only)
 a|
 Shows the block sizes that can be created for the volume:
 
@@ -258,9 +258,9 @@ a|
 
 DA increases data integrity across the entire storage system. DA enables the storage array to check for errors that might occur as data is transferred through the controllers down to the drives. Using DA for the new volume ensures that any errors are detected.
 a|
-Resource provisioned (EF300 and EF600 only)
+Resource provisioned (EF80, EF50, EF300, and EF600 only)
 a|
-*Yes* appears next to "Resource Provisioned" only if the drives support this option. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+*Yes* appears next to "Resource Provisioned" only if the drives support this option. Resource Provisioning is a feature available in the EF80, EF50, EF300, and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 |===
 ====
 
@@ -283,4 +283,4 @@ System Manager creates the new volumes in the selected pools and volume groups, 
 * Perform any operating system modifications necessary on the application host so that the applications can use the volume.
 * Run the operating system-specific utility (available from a third-party vendor), and then run the SMcli command `-identifyDevices` to correlate volume names with host storage array names.
 +
-The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
+The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on EF80, EF50, E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
