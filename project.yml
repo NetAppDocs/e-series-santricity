@@ -290,6 +290,8 @@ sidebar:
             url: "/sm-storage/change-the-settings-for-a-host-cluster.html"
           - title: Change host port identifiers for host
             url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
+          - title: Change the host I/O module protocol
+            url: "sm-storage/io-module-change-protocol.html"  
         - title: Host systems and host clusters FAQ
           url: "/sm-storage/faq-systems-clusters.html"
       - title: Snapshots
