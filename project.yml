@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
   rss_page: "whats-new.html"
   versions:
-    - version-number: "12.00"
+    - version-number: "12.0"
       url: /e-series-santricity
     - version-number: "11.9"
       url: /e-series-santricity-119
@@ -16,7 +16,7 @@ settings:
       url: /e-series-santricity-118
 sidebar:
   entries:
-  - title: SANtricity software 12.00 docs
+  - title: SANtricity software 12.0 docs
     url: "/index.html"
   - title: Release notes
     entries:
@@ -291,7 +291,7 @@ sidebar:
           - title: Change host port identifiers for host
             url: "/sm-storage/change-host-port-identifiers-for-a-host.html"
           - title: Change the host I/O module protocol
-            url: "sm-storage/io-module-change-protocol.html"  
+            url: "/sm-storage/io-module-change-protocol.html"  
         - title: Host systems and host clusters FAQ
           url: "/sm-storage/faq-systems-clusters.html"
       - title: Snapshots
