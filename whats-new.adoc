@@ -23,7 +23,7 @@ a|This release introduces the EF80 and EF50 all-NVMe-flash storage systems. The 
 High-capacity NVMe SSD drives of 30TB or 60TB sizes are also supported with the EF80 and EF30. The EF80 and EF30 is compatible for Dynamic Disk Pool use only with no legacy RAID support.
 a|New user interface for SANtricity System Manager
 a|For the new EF80 and EF50 controllers, the SANtricity System Manager user interface has been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
-+
+
 NOTE: The new user interface is currently available only for the EF80 and EF50 storage systems with the SANtricity 12.0 release. If you are using SANtricity 11.9 or older, please refer to link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html[SANtricity System Manager 11.9] for instructions on using the legacy user interface. 
 |===
 
