@@ -18,7 +18,9 @@ For each operation listed on the Operations in Progress page, a percentage of co
 .Steps
 
 . From the left panel, select menu:Storage[Operations in Progress].
+
 +
+
 The Operations in Progress page appears.
 
 . If desired, use the links in the Actions column to stop or change priority for an operation.

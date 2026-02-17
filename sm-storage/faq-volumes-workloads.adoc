@@ -33,17 +33,6 @@ By consolidating free capacity, you can create additional volumes from the maxim
 
 If you want to use a specific free capacity area rather than the largest free capacity area, use the Command Line Interface (CLI).
 
-* *Application-specific* -- When you are creating volumes using an application-specific workload, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. Volume characteristics like I/O type, segment size, controller ownership, and read and write cache are automatically recommended and optimized for workloads that are created for the following application types.
-
- ** Microsoft® SQL Server™
- ** Microsoft® Exchange Server™
- ** Video surveillance applications
- ** VMware ESXi™ (for volumes to be used with Virtual Machine File System)
-+
-You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-
-* *Other* (or applications without specific volume creation support) -- Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if there is no built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add/Edit Volumes dialog box.
-
 == Why aren't these volumes associated with a workload?
 
 Volumes are not associated with a workload if they have been created using the command line interface (CLI) or if they have been migrated (imported/exported) from a different storage array.
