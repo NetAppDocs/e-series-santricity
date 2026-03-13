@@ -14,6 +14,8 @@ The following table describes new features in SANtricity System Manager 12.0.
 
 == New features in Version 12.0
 
+NOTE: The SANtricity OS 12.0 release is only compatible with the new EF80 and EF50 all-flash storage systems. If you are using SANtricity OS 11.9 or older, please refer to link:known-issues.html[Known issues] for a list of new features in previous releases.
+
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
@@ -21,6 +23,7 @@ a|New storage system models – EF80 and EF50 all-flash storage systems
 a|This release introduces the EF80 and EF50 all-NVMe-flash storage systems. The EF80 and EF50 supports 24 NVME SSD drives and a single host interface card (HIC) per controller. The supported NVMe over Fabrics host interfaces include NVMe over RoCE, NVMe over IB for EF80, and NVMe over FC for EF50. The supported SCSI interfaces include Fibre Channel. 
 
 High-capacity NVMe SSD drives of 30TB or 60TB sizes are also supported with the EF80 and EF30. The EF80 and EF30 is compatible for Dynamic Disk Pool use only with no legacy RAID support.
+
 a|New user interface for SANtricity System Manager
 a|For the new EF80 and EF50 controllers, the SANtricity System Manager user interface has been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
 
@@ -28,6 +31,13 @@ NOTE: The new user interface is currently available only for the EF80 and EF50 s
 
 a|Subject Alternative Names (SANs) for Server certificate now only permits Letters, digits, and hyphen characters
 a|When creating or editing a Server certificate in SANtricity System Manager or Unified Manager, the Subject Alternative Names (SANs) field now only permits letters, digits, and hyphen characters. This change enhances security and ensures compatibility with industry standards for SSL/TLS certificates.
+
+a|Dynamic Disk Pools segment size now defaults to 32K for SSD and NVMe-based systems
+a|For Dynamic Disk Pools on SSD and NVMe-based systems, the default segment size has been changed to 32K. Previously, the dynamic disk pools default segment size was fixed at 128K for these systems. This change optimizes performance for workloads that involve a mix of small and large I/O operations. 
+
+a|Script editor now available in SANtricity System Manager
+a|A new script editor is now available within the SANtricity System Manager. The Script editor allows you to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk. The Script editor provides syntax checking and command execution capabilities for managing your storage system. For more information, see link:sm-support/use-script-editor.html[Using the Script editor^].
+
 
 |===
 
