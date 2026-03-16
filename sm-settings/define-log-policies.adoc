@@ -22,7 +22,7 @@ This task describes how to change the audit log settings, which include the poli
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Audit Log* tab.
 . Select *View/Edit Settings*.
 +

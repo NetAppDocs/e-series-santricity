@@ -16,7 +16,7 @@ This operation regenerates the keys used to sign the tokens. Once the keys are r
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Access Tokens* tab.
 . Select *Revoke All Access Tokens*.
 . In the dialog box, click *Yes*.

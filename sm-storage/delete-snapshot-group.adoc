@@ -18,9 +18,9 @@ When a snapshot group is deleted, all snapshot images in the group also are dele
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
-. Select the snapshot group that you want to delete, and then click menu:Uncommon Tasks[Delete snapshot group].
+. Select the snapshot group that you want to delete, and then click the menu:ellipsis icon[Delete].
 +
 The Confirm Delete Snapshot Group dialog box appears.
 

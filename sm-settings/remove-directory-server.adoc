@@ -22,7 +22,7 @@ After you complete this task, any active user sessions are terminated. Only your
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Directory Services* tab.
 . From the list, select the directory server you want to delete.
 . Click *Remove*.

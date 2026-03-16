@@ -14,10 +14,10 @@ You can change the name, host operating system type, and associated host cluster
 
 .Steps
 
-. Select menu:Storage[Hosts].
-. Select the host that you want to edit, and then click *View/Edit Settings*.
+. From the left panel, select menu:Storage[Hosts].
+. Select the host that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-A dialog box appears that shows the current host settings.
+A window appears that shows the current host settings.
 
 . If it is not already selected, click the *Properties* tab.
 . Change the settings as appropriate.

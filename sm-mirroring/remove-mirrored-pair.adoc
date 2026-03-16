@@ -22,7 +22,7 @@ Review the following information about orphaned mirrored pairs:
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirrored Pair* tab.
 +
 The Mirrored Pairs table appears and displays all the mirrored pairs associated with the storage array.

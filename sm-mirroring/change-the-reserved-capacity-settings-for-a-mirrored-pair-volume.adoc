@@ -14,9 +14,9 @@ You can change the settings for a mirrored pair volume to adjust the percentage 
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Select the *Reserved Capacity* tab.
-. Select the mirrored pair volume that you want to edit, and then click *View/Edit Settings*.
+. Select the mirrored pair volume that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
 The Mirrored Pair Volume Reserved Capacity Settings dialog box appears.
 

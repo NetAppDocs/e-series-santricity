@@ -14,7 +14,7 @@ You can edit the server address used for receiving syslog alerts.
 
 .Steps
 
-. Select menu:Settings[Alerts].
+. From the left panel, select menu:Settings[Alerts].
 . Select the *Syslog* tab.
 . From the table, select a syslog server address, and then click the *Edit* (pencil) icon from on the far right.
 +

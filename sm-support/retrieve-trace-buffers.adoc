@@ -23,7 +23,7 @@ Perform this operation only when instructed to do so by technical support.
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Retrieve Trace Buffers*.
 . Select the check box next to each controller for which you want to retrieve trace buffers.
 +

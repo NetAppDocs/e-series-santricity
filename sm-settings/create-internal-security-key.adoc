@@ -33,7 +33,7 @@ The pass phrase for Drive Security is independent from the storage array's Admin
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Create Internal Key*.
 +
 If you have not yet generated a security key, the Create Security Key dialog box opens.

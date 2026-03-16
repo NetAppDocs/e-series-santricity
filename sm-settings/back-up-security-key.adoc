@@ -18,7 +18,7 @@ This task describes how to back up a security key you previously created. During
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Back Up Key*.
 +
 The Back Up Security Key dialog box opens.

@@ -18,7 +18,7 @@ In this task, you disable external key management and download a new backup copy
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Disable External Key Management*.
 +
 The Disable External Key Management dialog box opens.

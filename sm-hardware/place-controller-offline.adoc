@@ -25,7 +25,7 @@ Do not place a controller offline unless you are instructed to do so by the Reco
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.

@@ -18,5 +18,5 @@ Performance graphs shown on the Home page and on the Performance page initially 
 
 .Steps
 
-. Select menu:Preferences[Set preferences].
-. In the drop-down list, select either *5 minutes*, *1 hour*, *8 hours*, *1 day*, or *7 days*, and confirm that you want to perform the operation.
+. Click the *User Settings* icon in the upper-right corner of the window. 
+. In the Default performance graphs time range to show drop-down list, select either *5 minutes*, *1 hour*, *8 hours*, *1 day*, or *7 days*, and confirm that you want to perform the operation.

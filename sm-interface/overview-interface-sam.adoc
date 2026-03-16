@@ -14,15 +14,11 @@ SANtricity System Manager is a web-based interface that allows you to manage a s
 == Home page
 The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.
 
-The dashboard view comprises four summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
+The dashboard view comprises three summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
 
 [cols="25h,~",options="header"]
 |===
 | Area| Description
-a|
-Notifications
-a|
-The Notifications area displays problem notifications that indicate the status of the storage array and its components. In addition, this portlet displays automated alerts that can help you troubleshoot issues before it affects other areas of your storage environment.
 a|
 Performance
 a|
@@ -37,28 +33,14 @@ a|
 The Storage Hierarchy area provides an organized view of the various hardware components and storage objects managed by your storage array. Click the drop-down arrow to perform a certain action on that hardware component or storage object.
 |===
 
+== Notifications area
+The Notifications area is available through the bell icon in the upper corner of the window. The Notifications area displays problem notifications that indicate the status of the storage array and its components. In addition, this section displays automated alerts that can help you troubleshoot issues before it affects other areas of your storage environment.
+
 == Interface settings
 You can change display preferences and other settings from the main interface.
 
-[cols="25h,~",options="header"]
-|===
-| Setting| Description
-a|
-Display preferences
-a|
-Change capacity values and timeframe from the Preferences drop-down in the upper right corner of the interface.
-a|
-Session timeouts
-a|
-Configure timeouts so that users' inactive sessions are disconnected after a specified time.
-a|
-Help
-a|
-Access Help documentation and other resources from the drop-down in the upper right corner of the interface.
-|===
-
 == User logins and passwords
-The current user logged into the system is shown in the upper right of the interface.
+The current user logged into the system is shown in the user settings.
 
 For further information on users and passwords, see:
 

@@ -25,7 +25,7 @@ You should only perform this task when instructed by a Recovery Guru operation o
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Collect Configuration Data*.
 . In the dialog box, click *Collect*.
 +

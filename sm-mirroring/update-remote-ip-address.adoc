@@ -18,7 +18,7 @@ Both the local storage array and the remote storage array must be configured for
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select the *Mirror Consistency Groups* tab.
 +
 The Mirror Consistency Group table displays all the mirror consistency groups associated with the storage array.

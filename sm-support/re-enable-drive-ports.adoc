@@ -14,7 +14,7 @@ You can indicate to the controller that corrective action has been taken to reco
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Re-enable Drive Ports*, and confirm that you want to perform the operation.
 +
 This option appears only when the storage array has disabled drive ports.

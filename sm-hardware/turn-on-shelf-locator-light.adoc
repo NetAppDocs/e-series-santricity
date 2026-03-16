@@ -13,7 +13,10 @@ To find the physical location of a shelf shown on the Hardware page, you can tur
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
+. If the graphic shows the drives, click the *Controllers & Components* tab.
++
+The graphic changes to show the controllers instead of the drives.
 . Select the drop-down list for the Controller Shelf or Drive Shelf, and then select *Turn on locator light*.
 +
 The locator light for the shelf turns on.

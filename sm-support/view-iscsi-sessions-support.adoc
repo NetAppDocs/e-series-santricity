@@ -14,7 +14,7 @@ You can view detailed information about the iSCSI connections to your storage ar
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *View/End iSCSI Sessions*.
 +
 A list of the current iSCSI sessions appears.

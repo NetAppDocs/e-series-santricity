@@ -16,7 +16,7 @@ A snapshot volume that is converted to read-write accessible contains its own re
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.

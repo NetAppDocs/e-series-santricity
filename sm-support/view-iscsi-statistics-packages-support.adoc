@@ -20,7 +20,7 @@ NOTE: Types of statistics displayed within System Manager is based on the statis
 
 * *Ethernet MAC statistics* -- Provides statistics for the media access control (MAC). MAC also provides an addressing mechanism called the physical address or the MAC address. The MAC address is a unique address that is assigned to each network adapter. The MAC address helps deliver data packets to a destination within the subnetwork.
 * *Ethernet TCP/IP statistics* -- Provides statistics for the TCP/IP, which is the Transmission Control Protocol (TCP) and Internet Protocol (IP) for the iSCSI device. With TCP, applications on networked hosts can create connections to one another, over which they can exchange data in packets. The IP is a data-oriented protocol that communicates data across a packet-switched inter-network. The IPv4 statistics and the IPv6 statistics are shown separately. 
-* *Ethernet Kernel statistics* -- Provides statistics for the platform kernel drivers of the iSCSI device. The kernel statistics displays similar network data as the TCP/IP statistics option. However, the kernel statistics data is collected from the platform kernel drivers instead of directly from the iSCSI hardware.  
+* *Ethernet Kernel statistics* -- Provides statistics for the platform kernel drivers of the iSCSI device. The kernel statistics displays similar network data as the TCP/IP statistics option. However, the kernel statistics data is collected from the platform kernel drivers instead of directly from the iSCSI hardware.
 * *Local Target/Initiator (Protocol) statistics* -- Shows statistics for the iSCSI target, which provides block level access to its storage media, and shows the iSCSI statistics for the storage array when used as an initiator in asynchronous mirroring operations.
 * *DCBX Operational States statistics* -- Displays the operational states of the various Data Center Bridging Exchange (DCBX) features.
 * *LLDP TLV statistics* -- Displays the Link Layer Discovery Protocol (LLDP) Type Length Value (TLV) statistics.
@@ -30,7 +30,7 @@ You can view each of these statistics as raw statistics or as baseline statistic
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *View iSCSI Statistics Packages*.
 . Click a tab to view the different sets of statistics.
 . To set the baseline, click *Set new baseline*.

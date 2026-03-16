@@ -24,7 +24,7 @@ You can add standard volumes or thin volumes to the snapshot consistency group. 
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Consistency Groups* tab.
 +
 The table appears and displays all the snapshot consistency groups associated with the storage array.

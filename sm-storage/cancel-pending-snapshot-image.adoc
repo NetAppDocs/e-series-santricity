@@ -21,7 +21,7 @@ A snapshot image is in a Pending state due to the following concurrent condition
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
-. Select the snapshot group for which you want to cancel a pending snapshot image, and then click menu:Uncommon Tasks[Cancel pending snapshot image].
+. Select the snapshot group for which you want to cancel a pending snapshot image, and then click the menu:ellipsis icon[Cancel pending snapshot image].
 . Click *Yes* to confirm that you want to cancel the pending snapshot image.

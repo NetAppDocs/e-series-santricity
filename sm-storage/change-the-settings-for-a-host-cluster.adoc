@@ -14,10 +14,10 @@ You can change the host cluster name, or add or remove hosts in a host cluster.
 
 .Steps
 
-. Select menu:Storage[Hosts].
-. Select the host cluster you want to edit, and then click *View/Edit Settings*.
+. From the left panel, select menu:Storage[Hosts].
+. Select the host cluster you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-A dialog box appears that shows the current host cluster settings.
+A window appears that shows the current host cluster settings.
 
 . Change the settings for the host cluster as appropriate.
 +

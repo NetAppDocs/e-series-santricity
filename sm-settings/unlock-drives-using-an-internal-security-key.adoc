@@ -40,7 +40,7 @@ If other secure-enabled drives are installed in the new storage array, they migh
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Unlock Secure Drives*.
 +
 The Unlock Secure Drives dialog box opens. Any drives that require a security key are shown in the table.

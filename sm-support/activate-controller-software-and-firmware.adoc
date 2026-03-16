@@ -28,7 +28,7 @@ You cannot stop the activation process after it starts.
 
 .Steps
 
-. Select menu:Support[Upgrade Center].
+. From the left panel, select menu:Support[Upgrade Center].
 . In the area labeled SANtricity OS Controller Software upgrade, click *Activate*, and confirm that you want to perform the operation.
 +
 You can cancel the operation during the pre-upgrade health check, but not during activating.

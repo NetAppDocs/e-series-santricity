@@ -23,7 +23,7 @@ To use a fully qualified domain name, you must configure a DNS server on both co
 
 .Steps
 
-. Select menu:Settings[Alerts].
+. From the left panel, select menu:Settings[Alerts].
 . Select the *Email* tab.
 . Select *Configure Mail Server*.
 +

@@ -19,7 +19,7 @@ If you previously configured a directory server in Access Management, you can ch
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Directory Services* tab.
 . If more than one server is defined, select the server you want to edit from the table.
 . Select *View/Edit Settings*.

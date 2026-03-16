@@ -24,7 +24,7 @@ The NVMe over InfiniBand settings and functions appear only if your storage arra
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *NVMe over InfiniBand settings*, select *Configure NVMe over InfiniBand ports*.
 . Select the controller with the NVMe over InfiniBand port you want to configure. Click *Next*.
 . Select the HIC port you want to configure from the drop-down list, and then enter the IP address.

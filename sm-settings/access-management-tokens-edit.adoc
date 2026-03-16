@@ -14,7 +14,7 @@ You can edit settings for access tokens, which includes the expiration times and
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Access Tokens* tab.
 . Select *View/Edit Access Token Settings*.
 . In the dialog box, you can perform one or both of these tasks:

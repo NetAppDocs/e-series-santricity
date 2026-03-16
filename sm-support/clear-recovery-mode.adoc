@@ -34,7 +34,7 @@ You cannot cancel the Clear Recovery Mode operation after it starts. Clearing re
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *Clear Recovery Mode*, and confirm that you want to perform this operation.
 +
 This option appears only if the storage array is in recovery mode.

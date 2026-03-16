@@ -23,7 +23,7 @@ Importing certificates from the Trusted tab might be necessary if you want to al
 
 .Steps
 
-. Select menu:Settings[Certificates].
+. From the left panel, select menu:Settings[Certificates].
 . From the Trusted tab, select *Import*.
 +
 A dialog box opens for importing the trusted certificate files.

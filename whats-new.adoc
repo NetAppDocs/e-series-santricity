@@ -1,68 +1,43 @@
 ---
 sidebar: sidebar
 permalink: whats-new.html
-keywords: whats new, new features, SANtricity 11.90
+keywords: whats new, new features, SANtricity 12.0
 summary: New features in SANtricity OS.
 ---
-= What's new in SANtricity OS 11.90
+= What's new in SANtricity OS 12.0
 :experimental:
 :icons: font
 :imagesdir: ./media/
 
 [.lead]
-The following table describes new features in SANtricity System Manager 11.9.
+The following table describes new features in SANtricity System Manager 12.0.
 
-== New features in Version 11.90R5
- 
-This version contains only defect fixes and no new features. For more information on the changes in this release, please refer to the E-Series SANtricity OS 11.90R5 README.
+== New features in Version 12.0
 
-== New features in Version 11.90R4
-
-This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the E-Series SANtricity OS 11.90R4 README.
-
-== New features in Version 11.90R3
+NOTE: The SANtricity OS 12.0 release is only compatible with the new EF80 and EF50 all-flash storage systems. If you are using SANtricity OS 11.9 or older, please refer to link:known-issues.html[Known issues] for a list of new features in previous releases.
 
 [cols="35h,~",options="header"]
 |===
 |New feature |Description
-a|SANtricity OS Support for IOM12C and  DCM3
-a|Support for IOM12C and DCM3 SAS-3 shelves is now available for controller firmware 11.90R3 or above. The IOM12C and DCM3 shelves are replacements for the IOM12B and DCM2 shelves.   
-|===
+a|New storage system models – EF80 and EF50 all-flash storage systems
+a|This release introduces the EF80 and EF50 all-NVMe-flash storage systems. The EF80 and EF50 supports 24 NVME SSD drives and a single host interface card (HIC) per controller. The supported NVMe over Fabrics host interfaces include NVMe over RoCE, NVMe over IB for EF80, and NVMe over FC for EF50. The supported SCSI interfaces include Fibre Channel. 
 
-== New features in Version 11.90R2
- 
-This version contains only minor changes and no new features. For more information on the changes in this release, please refer to the https://library.netapp.com/ecm/ecm_download_file/ECMLP3334464[E-Series 11.90 Release Notes^].
+High-capacity NVMe SSD drives of 30TB or 60TB sizes are also supported with the EF80 and EF30. The EF80 and EF30 is compatible for Dynamic Disk Pool use only with no legacy RAID support.
 
-== New features in Version 11.90R1
+a|New user interface for SANtricity System Manager
+a|For the new EF80 and EF50 controllers, the SANtricity System Manager user interface has been redesigned to provide a more modern look and feel. The new interface includes a left-panel navigation and enhanced usability to streamline management tasks.
 
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
-a|New storage system models – EF300C and EF600C
-a|This release introduces the EF300C and EF600C all flash NVMe storage systems. The EF300C and EF600C are high-capacity flash versions of the existing EF300 and EF600 storage systems. High-capacity NVMe SSD drives of 30TB or 60TB sizes are supported with the EF300C and EF600C. The EF300C/EF600C is compatible for Dynamic Disk Pool use only with no legacy RAID support. 
-a|Support for 12Gb SAS interfaces on EF4000
-a|The E4000 controller now supports 12Gb SAS host interface cards.   
-|===
+NOTE: The new user interface is currently available only for the EF80 and EF50 storage systems with the SANtricity 12.0 release. If you are using SANtricity 11.9 or older, please refer to link:https://docs.netapp.com/us-en/e-series-santricity-119/system-manager/index.html[SANtricity System Manager 11.9] for instructions on using the legacy user interface. 
 
-== New features in Version 11.90
+a|Subject Alternative Names (SANs) for Server certificate now only permits Letters, digits, and hyphen characters
+a|When creating or editing a Server certificate in SANtricity System Manager or Unified Manager, the Subject Alternative Names (SANs) field now only permits letters, digits, and hyphen characters. This change enhances security and ensures compatibility with industry standards for SSL/TLS certificates.
 
-[cols="35h,~",options="header"]
-|===
-|New feature |Description
+a|Dynamic Disk Pools segment size now defaults to 32K for SSD and NVMe-based systems
+a|For Dynamic Disk Pools on SSD and NVMe-based systems, the default segment size has been changed to 32K. Previously, the dynamic disk pools default segment size was fixed at 128K for these systems. This change optimizes performance for workloads that involve a mix of small and large I/O operations. 
 
-a|New storage system model – E4000
-a|This release introduces the E4000 low-cost storage system. The E4000 supports 12 and 60 drives and a single host interface card (HIC) per controller. For the initial release, supported host interface cards include iSCSI and Fibre Channel. E4000 storage systems and other E-Series storage systems can be viewed and managed in Unified Manager.
+a|Script editor now available in SANtricity System Manager
+a|A new script editor is now available within the SANtricity System Manager. The Script editor allows you to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk. The Script editor provides syntax checking and command execution capabilities for managing your storage system. For more information, see link:sm-support/use-script-editor.html[Using the Script editor^].
 
-a|Increased capacity for Dynamic Disk Pools 
-a|The capacity for Dynamic Disk Pools (DDP) has been increased to 12 PB whenever the capacity of each of the individual drives within the pool is greater than 23 TB in size. If the individual drive capacity is less than 23 TB in size, the DDP capacity is 6 PB.
 
-a|Default media scan settings increased
-a|The default media scan rate has been increased to 120 days.
-
-a|Private key now accepted for External Key Management 
-a|Certificate signing request (CSR) file generated externally through private and public key pairs can now be imported through System Manager.
-
-a|Login lockout feature now available for Web Services  
-a|Configurable through the REST API only, a new login lockout setting is now available for embedded and proxy Web Services.
 |===
 

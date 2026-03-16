@@ -23,7 +23,7 @@ You can view each of these statistics as raw statistics or as baseline statistic
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *View NVMe over Fabrics Statistics*.
 . To set the baseline, click *Set new baseline*.
 +

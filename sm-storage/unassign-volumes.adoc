@@ -21,8 +21,8 @@ Keep these guidelines in mind when you unassign a volume:
 
 .Steps
 
-. Select menu:Storage[Hosts].
-. Select the host or host cluster that you want to edit, and then click *Unassign Volumes*.
+. From the left panel, select menu:Storage[Hosts].
+. Select the host or host cluster that you want to edit, and then click the menu:ellipsis icon[Unassign Volumes].
 +
 A dialog box appears that shows all the volumes that are currently assigned.
 

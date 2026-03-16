@@ -33,7 +33,7 @@ You might need to install additional trusted CA certificates if any of the follo
 
 .Steps
 
-. Select *Certificate Management*.
+. From the left panel, select menu:Settings[Certificates].
 . Select the *Trusted* tab.
 +
 This page shows all certificates reported for the storage arrays.

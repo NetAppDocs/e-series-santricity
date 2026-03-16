@@ -21,7 +21,7 @@ Two different tests are run:
 
 .Steps
 
-. Select menu:Storage[Synchronous Mirroring].
+. SFrom the left panel, select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that you want to test, and then select *Test Communication*.
 . Review the information displayed in the Results window, and, if necessary, follow the corrective action indicated.
 +

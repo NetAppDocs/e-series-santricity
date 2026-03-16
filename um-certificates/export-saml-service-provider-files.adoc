@@ -23,7 +23,7 @@ In this task, you export metadata from the controller. The IdP needs this metada
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *SAML* tab.
 . Select *Export*.
 +

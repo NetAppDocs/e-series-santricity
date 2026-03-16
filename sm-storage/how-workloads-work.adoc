@@ -11,28 +11,15 @@ summary: "When creating a volume, you select a workload to customize the storage
 [.lead]
 When creating a volume, you select a workload to customize the storage array configuration for a specific application.
 
-A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. 
 
-During volume creation, the system prompts you to answer questions about a workload's use. For example, if you are creating volumes for Microsoft Exchange, you are asked how many mailboxes you need, what your average mailbox capacity requirements are, and how many copies of the database you want. The system uses this information to create an optimal volume configuration for you, which can be edited as needed. Optionally, you can skip this step in the volume creation sequence.
+== Creating a workload
 
-== Types of workloads
-
-You can create two types of workloads: Application-specific and Other.
-
-* *Application-specific*. When you are creating volumes using an application-specific workload, the system may recommend an optimized volume configuration to minimize contention between application workload I/O and other traffic from your application instance. Volume characteristics like I/O type, segment size, controller ownership, and read and write cache are automatically recommended and optimized for workloads that are created for the following application types.
-
- ** Microsoft® SQL Server™
- ** Microsoft® Exchange Server™
- ** Video Surveillance applications
- ** VMware ESXi™ (for volumes to be used with Virtual Machine File System)
-+
-You can review the recommended volume configuration and edit, add, or delete the system-recommended volumes and characteristics using the Add/Edit Volumes dialog box.
-
-* *Other* (or applications without specific volume creation support). Other workloads use a volume configuration that you must manually specify when you want to create a workload that is not associated with a specific application, or if the system does not have built-in optimization for the application you intend to use on the storage array. You must manually specify the volume configuration using the Add/Edit Volumes dialog box.
+You must manually specify when you want to create a workload that is not associated with a specific application. You must also manually specify the volume configuration using the Add Volumes page.
 
 == Application and workload views
 
 To view applications and workloads, launch SANtricity System Manager. From that interface, you can view information associated with an application-specific workload in a couple of different ways:
 
-* You can select the *Applications & Workloads* tab in the Volumes tile to view the storage array's volumes grouped by workload and the application type the workload is associated with.
-* You can select the *Applications & Workloads* tab in the Performance tile to view performance metrics (latency, IOPS, and MBs) for logical objects. The objects are grouped by application and associated workload. By collecting this performance data at regular intervals, you can establish baseline measurements and analyze trends, which can help as you investigate problems related to I/O performance.
+* You can select the *Applications and workloads* tab in the Volumes page to view the storage array's volumes grouped by workload and the application type the workload is associated with.
+* You can select the *Applications and workloads* tab in the Performance page to view performance metrics (latency, IOPS, and MBs) for logical objects. The objects are grouped by application and associated workload. By collecting this performance data at regular intervals, you can establish baseline measurements and analyze trends, which can help as you investigate problems related to I/O performance.

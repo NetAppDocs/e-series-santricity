@@ -17,7 +17,7 @@ The access volume is used in the following instance:
 +
 [NOTE]
 ====
-In-band management using the Access volume is not available for E4000, EF600/EF600C, or EF300/EF300C storage systems.
+In-band management using the Access volume is not available for EF80, EF50, E4000, EF600/EF600C, or EF300/EF300C storage systems.
 ====
 
 An access volume is automatically created the first time you assign a volume to a host. For example, if you assign Volume_1 and Volume_2 to a host, when you view results of that assignment, you see three volumes (Volume_1, Volume_2, and Access).

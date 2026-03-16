@@ -17,7 +17,7 @@ You can locate single drives or multiple drives shown on the Hardware page.
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . To locate one or more drives, do one of the following:
  ** *Single drive* -- From the shelf graphic, find the drive you want to physically locate in the array. (If the graphic shows the controllers, click the *Drives* tab.) Click the drive to display its context menu, and then select *Turn on locator light*.
 +

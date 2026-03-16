@@ -14,7 +14,7 @@ You can view the event log, which provides a historical record of events that ha
 
 .Steps
 
-. Select menu:Support[Event Log].
+. From the left panel, select menu:Support[Event Log].
 +
 The Event Log page appears.
 +

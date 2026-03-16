@@ -20,9 +20,9 @@ If you previously configured SAML for Access Management, you can change the role
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *SAML* tab.
-. Select *Role Mapping*.
+. Select *Map System Manager roles*.
 +
 The Role Mapping dialog box opens.
 

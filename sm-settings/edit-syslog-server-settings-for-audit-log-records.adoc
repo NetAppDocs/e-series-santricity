@@ -20,7 +20,7 @@ You can change the settings for the syslog server used for archiving audit logs,
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . From the Audit Log tab, select *Configure Syslog Servers*.
 +
 Configured syslog servers are displayed on the page.

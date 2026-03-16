@@ -18,7 +18,7 @@ You can either demote the primary volume to the secondary role or promote the se
 
 .Steps
 
-. Select menu:Storage[Synchronous Mirroring].
+. From the left panel, select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that contains the volumes for which you want to change the role, and then select menu:More[Change Role].
 +
 The system displays a confirmation.

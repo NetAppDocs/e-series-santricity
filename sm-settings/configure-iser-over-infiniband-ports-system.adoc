@@ -19,8 +19,8 @@ If your controller includes an iSER over InfiniBand port, you can configure the 
 
 .Steps
 
-. Select menu:Settings[System].
-. Under *iSER over InfiniBand settings*, select *Configure iSER over InfiniBand ports*.
+. From the left panel, select menu:Settings[System].
+. Under *iSER settings*, select *Configure iSER over InfiniBand ports*.
 . Click the controller with the iSER over InfiniBand port you want to configure. Click *Next*.
 . In the drop-down list, select the HIC port you want to configure, and then enter the IP address of the host.
 . Click *Finish*.

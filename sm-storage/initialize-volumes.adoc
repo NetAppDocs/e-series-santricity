@@ -40,8 +40,8 @@ This topic applies only to standard volumes created from pools or volume groups.
 
 .Steps
 
-. Select menu:Storage[Volumes].
-. Select any volume, and then select menu:More[Initialize volumes].
+. From the left panel, select menu:Storage[Volumes].
+. Click the menu:ellipsis icon[Initialize volumes].
 +
 The Initialize Volumes dialog box appears. All volumes on the storage array appear in this dialog box.
 
@@ -54,4 +54,4 @@ System Manager performs the following actions:
 * Erases all data from the volumes that were initialized.
 * Clears the block indices, which causes unwritten blocks to be read as if they are zero-filled (the volume appears to be completely empty).
 
-Select menu:Home[View Operations in Progress] to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
+Select menu:Storage[Operations in Progress] to view the progress of the initialize operation that is currently running for the selected volume. This operation can be lengthy and could affect system performance.
