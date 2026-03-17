@@ -16,7 +16,7 @@ settings:
       url: /e-series-santricity-118
 sidebar:
   entries:
-  - title: SANtricity software 12.0 docs
+  - title: SANtricity software 12.00 docs
     url: "/index.html"
   - title: Release notes
     entries:
