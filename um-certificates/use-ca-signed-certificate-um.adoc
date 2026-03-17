@@ -30,7 +30,7 @@ Alternatively, you can generate a CSR file using a tool such as OpenSSL and skip
 
 .Steps
 
-. Select *Certificate Management*.
+. From the left panel, select menu:Settings[Certificates].
 . From the Management tab, select *Complete CSR*.
 . Enter the following information, and then click *Next*:
  ** *Organization* -- The full, legal name of your company or organization. Include suffixes, such as Inc. or Corp.
@@ -79,7 +79,7 @@ After you receive signed certificates from the Certificate Authority (CA), impor
 
 .Steps
 
-. Select *Certificate Management*.
+. From the left panel, select menu:Settings[Certificates].
 . From the Management tab, select *Import*.
 +
 A dialog box opens for importing the certificate files.

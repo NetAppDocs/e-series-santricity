@@ -29,7 +29,7 @@ If the snapshot volume or snapshot consistency group snapshot volume is part of 
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 System Manager displays all the snapshot volumes associated with the storage array.

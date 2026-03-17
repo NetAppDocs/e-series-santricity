@@ -33,7 +33,7 @@ These actions include RAID 5 writes and RAID 6 writes that would have succeeded 
 
 .Steps
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
 . Select *View/Clear Unreadable Sectors*.
 . To save the unreadable sectors log:
  .. In the first column of the table, you can either select individual volumes for which you want to save the unreadable sectors log (click the check box next to each volume) or select all volumes (select the check box in the table header).

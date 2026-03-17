@@ -28,7 +28,7 @@ If you want to disable a premium feature, you must use the Disable Storage Array
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Add-ons*, select *Enable Premium Feature*.
 +
 The Enable a Premium Feature dialog box opens.

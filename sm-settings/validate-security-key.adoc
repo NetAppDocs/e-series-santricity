@@ -18,7 +18,7 @@ This task describes how to validate the security key you previously created. Thi
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *Security key management*, select *Validate Key*.
 +
 The Validate Security Key dialog box opens.

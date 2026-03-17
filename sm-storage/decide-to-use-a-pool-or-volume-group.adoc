@@ -230,7 +230,7 @@ Yes
 a|
 Yes
 a|
-Capacity expansion (add capacity)
+Capacity expansion (Add capacity)
 a|
 Yes
 a|

@@ -37,7 +37,7 @@ You must select the member volumes to be rolled back.
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Images* tab.
 . Select the snapshot consistency group snapshot image, and then select menu:Rollback[Start].
 +
@@ -60,7 +60,7 @@ The Increase Reserved Capacity dialog box appears.
 
 . Use the spinner box to adjust the capacity percentage, and then click *Increase*.
 +
-If free capacity does not exist on the pool or volume group that contains the storage object you selected and the storage array has Unassigned Capacity, you can add capacity. You can create a new pool or volume group and retry this operation using the new free capacity on that pool or volume group.
+If free capacity does not exist on the pool or volume group that contains the storage object you selected and the storage array has Unassigned Capacity, you can Add capacity. You can create a new pool or volume group and retry this operation using the new free capacity on that pool or volume group.
 
 . Click *Next*, and go to <<Step 3: Edit priority>>.
 +
@@ -88,6 +88,6 @@ System Manager performs the following actions:
 
 .After you finish
 
-Select menu:Home[View Operations in Progress] to view the progress of the rollback operation.
+Select menu:Storage[Operations in Progress] to view the progress of the rollback operation.
 
 If the rollback operation is not successful, the operation pauses. You can resume the paused operation and, if still unsuccessful, follow the Recovery Guru procedure to correct the problem or contact technical support.

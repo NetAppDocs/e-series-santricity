@@ -29,13 +29,13 @@ Keep in mind the following:
 
 You can launch the Pool Auto-Configuration dialog box using any of the following methods:
 
-* When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears on the Home page in the Notification area. Click *View Pool Auto-Configuration* to launch the dialog box.
+* When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears in the Notifications area (bell icon at the top of the window). Click *View Pool Auto-Configuration* to launch the dialog box.
 * You can also launch the Pool Auto-Configuration dialog box from the Pools and Volume Groups page as described in the following task.
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select menu:More[Launch pool auto-configuration].
+. From the left panel, select menu:Storage[Pools and volume groups].
+. Click the menu:ellipsis icon[Launch pool auto-configuration].
 +
 The results table lists new pools, existing pools with drives added, or both. A new pool is named with a sequential number by default.
 +
@@ -46,8 +46,7 @@ System Manager performs the following tasks:
  ** Adds the drives to an existing pool if a pool is already defined in the storage array, and you add new drives of the same drive type to the pool.
  ** Adds the drives of the same drive type to the existing pool, and use the other drive types to create different pools if the new drives are of different drive types.
 
-. To change the name of a new pool, click the *Edit* icon (the pencil).
-. To view additional characteristics of the pool, position the cursor over or touch the *Details* icon (the page).
+. To view additional characteristics of the pool, click the displayed pool name.
 +
 Information about the drive type, security capability, data assurance (DA) capability, shelf loss protection, and drawer loss protection appears.
 +

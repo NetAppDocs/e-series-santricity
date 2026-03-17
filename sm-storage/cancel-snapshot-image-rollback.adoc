@@ -23,7 +23,7 @@ If the snapshot group on which the snapshot image resides has one or more snapsh
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Click the *Snapshot Images* tab.
 . Select the active or paused rollback, and then select menu:Rollback[Cancel].
 +

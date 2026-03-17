@@ -37,8 +37,7 @@ Caution
 |===
 System Manager displays these icons in various locations.
 
-* The Notifications area on the Home page displays the failed icon and a message.
-* The Home page icon in the navigation area displays the failed icon.
+* Notifications area (bell icon at the top of the window)
 * On the Components page, the graphics for drives and controllers display the failed icon.
 
 == Alerts and LEDs

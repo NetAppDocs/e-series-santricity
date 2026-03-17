@@ -20,7 +20,7 @@ Deleting a base volume automatically deletes any associated snapshot volume or c
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Select the *Snapshot Volumes* tab.
 +
 System Manager displays all the snapshot volumes associated with the storage array.

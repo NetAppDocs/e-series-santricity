@@ -21,7 +21,7 @@ This task deletes the current management certificate from the host system where 
 
 .Steps
 
-. Select *Settings > Certificates*.
+. From the left panel, select menu:Settings[Certificates].
 . Select the *Array Management* tab, then select *Reset*.
 +
 A Confirm Reset Management Certificate dialog box opens.

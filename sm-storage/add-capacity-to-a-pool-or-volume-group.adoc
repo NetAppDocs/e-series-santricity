@@ -21,8 +21,8 @@ The expansion causes additional free capacity to be included in the pool or volu
 * The pool or volume group must be in an Optimal status.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF600 and E5700 series)
- ** 1,024 volumes (EF300)
+ ** 2,048 volumes (EF80, EF600, and E5700 series)
+ ** 1,024 volumes (EF50 and EF300)
  ** 512 volumes (E4000 and E2800 series)
 * If the pool or volume group contains all secure-capable drives, add only drives that are secure-capable to continue to use the encryption abilities of the secure-capable drives.
 +
@@ -39,17 +39,17 @@ With the addition of drives, your preservation capacity may need to be increased
 
 [NOTE]
 ====
-Avoid using drives that are Data Assurance (DA) capable to add capacity to a pool or volume group that is not DA capable. The pool or volume group cannot take advantage of the capabilities of the DA-capable drive. Consider using drives that are not DA capable in this situation.
+Avoid using drives that are Data Assurance (DA) capable to Add capacity to a pool or volume group that is not DA capable. The pool or volume group cannot take advantage of the capabilities of the DA-capable drive. Consider using drives that are not DA capable in this situation.
 ====
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
-. Select the pool or volume group to which you want to add drives, and then click *Add Capacity*.
+. From the left panel, select menu:Storage[Pools and volume groups].
+. Select the pool or volume group to which you want to add drives, and then click the menu:ellipsis icon[Add capacity].
 +
-The Add Capacity dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
+The Add capacity dialog box appears. Only the unassigned drives that are compatible with the pool or volume group appear.
 
-. Under *Select drives to add capacity...*, select one or more drives that you want to add to the existing pool or volume group.
+. Under *Select drives to Add capacity...*, select one or more drives that you want to add to the existing pool or volume group.
 +
 The controller firmware arranges the unassigned drives with the best options listed at the top. The total free capacity that is added to the pool or volume group appears below the list in *Total capacity selected*.
 +
@@ -90,12 +90,12 @@ DA Capable
 a|
 Indicates whether the drive is Data Assurance (DA) capable.
 
-** Using drives that are not Data Assurance (DA) capable to add capacity to a DA-capable pool or volume group is not recommended. The pool or volume group no longer has DA capabilities, and you no longer have the option to enable DA on newly created volumes within the pool or volume group.
-** Using drives that are Data Assurance (DA) capable to add capacity to a pool or volume group that is non DA-capable is not recommended, because that pool or volume group cannot take advantage of the capabilities of the DA-capable drive (the drive attributes do not match). Consider using drives that are not DA-capable in this situation.
+** Using drives that are not Data Assurance (DA) capable to Add capacity to a DA-capable pool or volume group is not recommended. The pool or volume group no longer has DA capabilities, and you no longer have the option to enable DA on newly created volumes within the pool or volume group.
+** Using drives that are Data Assurance (DA) capable to Add capacity to a pool or volume group that is non DA-capable is not recommended, because that pool or volume group cannot take advantage of the capabilities of the DA-capable drive (the drive attributes do not match). Consider using drives that are not DA-capable in this situation.
 a|
 DULBE capable
 a|
-Indicates whether the drive has the option for Deallocated or Unwritten Logical Block Error (DULBE). DULBE is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+Indicates whether the drive has the option for Deallocated or Unwritten Logical Block Error (DULBE). DULBE is an option on NVMe drives that allows the EF80, EF50, EF300, or EF600 storage array to support resource-provisioned volumes.
 |===
 ====
 

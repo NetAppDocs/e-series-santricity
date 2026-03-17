@@ -23,7 +23,7 @@ When you deactivate asynchronous mirroring, no mirror activity can occur on the 
 
 .Steps
 
-. Select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Storage[Asynchronous Mirroring].
 . Select menu:Uncommon Tasks[Deactivate].
 +
 The system displays a confirmation.

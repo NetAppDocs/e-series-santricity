@@ -28,7 +28,7 @@ NOTE: CSR files generated externally through private and public key pairs can be
 
 .Steps
 
-. Select menu:Settings[Certificates].
+. From the left panel, select menu:Settings[Certificates].
 . From the Key Management tab, select *Complete CSR*.
 . Enter the following information:
   ** *Common name* -- A name that identifies the client. It is common practice to match what is in the common name with the KMS server’s requirements for client certificate naming conventions. The common name typically helps the KMS identify the client’s certificate when it is presented during a handshake.
@@ -62,7 +62,7 @@ For more information about the server certificate, consult the documentation for
 
 .Steps
 
-. Select menu:Settings[Certificates].
+. From the left panel, select menu:Settings[Certificates].
 . From the Key Management tab, select *Import*.
 +
 A dialog box opens for importing the certificate files.

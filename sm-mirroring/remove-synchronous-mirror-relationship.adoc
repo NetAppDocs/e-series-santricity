@@ -21,7 +21,7 @@ You can also remove a mirrored pair to correct an orphaned mirrored pair state. 
 
 .Steps
 
-. Select menu:Storage[Synchronous Mirroring].
+. From the left panel, select menu:Storage[Synchronous Mirroring].
 . Select the mirrored pair that you want to remove, and then select the menu:Uncommon Tasks[Remove].
 +
 The Remove Mirror Relationship dialog box appears.

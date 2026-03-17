@@ -23,7 +23,7 @@ The NVMe over InfiniBand settings and functions appear only if your storage arra
 
 .Steps
 
-. Select *Hardware*.
+. From the left panel, select *Hardware*.
 . If the graphic shows the drives, click the *Controllers & Components* tab.
 +
 The graphic changes to show the controllers instead of the drives.

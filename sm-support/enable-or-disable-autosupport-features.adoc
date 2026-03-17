@@ -28,7 +28,7 @@ The AutoSupport feature is made up of three individual features that you enable 
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *Enable/Disable AutoSupport Features*.
 . Select the check boxes next to the AutoSupport features that you want to enable.
 +

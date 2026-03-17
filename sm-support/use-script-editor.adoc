@@ -1,0 +1,175 @@
+---
+permalink: sm-support/use-script-editor.html
+sidebar: sidebar
+keywords: SANtricity, System Manager, E-Series, script editor, script file, execute script
+summary: "Use the Script editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk."
+---
+
+= Using the Script editor
+:experimental:
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Use the Script editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk.
+
+.Before you begin
+The Script editor communicates with the storage array to enable script syntax checking and command execution. Script commands typed into the Script editor are generally run on the storage array. 
+
+The Script editor provides two views in the window:
+
+* Editor pane – Provides an area for inputting or editing script commands.
+* Output pane – Shows verification or execution results.
+A splitter bar divides the window between editor pane and output pane.
+* The Script editor does not support commands requiring input files, such as controller firmware, NVSRAM, or drive firmware upgrades.
+* The Script editor supports commands that generate output files.
+* There are a few commands that require execution to happen at the client (client-side commands). 
+** The only supported client-side commands for this release are `on error stop` and `on error continue`.
+** The script editor generates an error if you attempt to run any other client-side commands. 
+
+== Open the Script editor
+
+.Steps
+
+. From the left panel, select menu:Support[Script editor].
++
+The following table lists the file options available in the Script editor:
++
+.Field details
+[%collapsible]
+====
+
+[cols="25h,~",options="header"]
+|===
+| Task| Action
+a|
+Open a new script
+a|
+.. Click *Load script file* to upload an existing script file to the Script editor.
++
+The Script editor opens the selected script file in the editor pane.
+a|
+Verify the script command syntax
+a|
+.. Click *Syntax check* to verify the syntax of the current script in the editor pane.
++
+The Script editor parses the statements in the script file, one line at a
+time, and verifies that they have the correct syntax. Any syntax errors appear in
+the output pane, which report the line number of the error and a description of
+the error.
++ 
+If the Script editor encounters a syntax error, no further syntax
+verification is performed on the script.
++ 
+Fix any syntax errors, and rerun *Syntax Check* to validate the error correction and to check the remainder of the statements in the script.
+a|
+Execute script
+a|
+.. Click *Execute Script* to run the current script in the editor pane.
++
+The Script editor initiates a syntax check operation, then for each script command from the input file, a command execution is run on the storage array controller. 
++ 
+If the Script editor encounters a syntax error, it stops execution and displays an error message.
++ 
+Fix the error, and rerun *Syntax check* to validate the error correction.
++
+NOTE: If an execution error occurs, the script might not continue to execute
+depending on the included `On Error` script statement. The `On Error Stop`
+statement stops the script if an execution error is encountered. The `On Error
+Continue` statement lets the script continue even after an execution error is
+encountered. This statement is the default setting.
+a|
+Edit an existing script
+a|
+.. Click *Load script file* to upload an existing script file to the Script editor.
+.. In the editor pane, make any necessary changes to the script.
+a|
+Save the script to a local file
+a|
+.. Click *Save script file* to download the changes in the script pane as a new script file. 
+a|
+Clear the text in the editor pane of the Script editor
+a|
+.. Click *Clear editor* to clear the text in the editor pane.
+a|
+Save the output results to a local file
+a|
+.. Click *Save results* to download the contents of the output pane as a new file.
+|===
+====
+
+=== Write scripts in the Script editor
+
+.Before you begin
+When you use the Script editor to write script commands, make sure you follow these guidelines:
+* End all statements with a semicolon (;).
+* Separate each base command and its associated primary parameters and secondary parameters with a space.
+* Parameters are case-insensitive when entered into the Script editor.
+* Place each statement on a separate line.
+* Add comments to your scripts to make it easier for you and future users to understand the purpose of the command statements.
+
+.Steps
+. Surround multi-line comments with the characters `/*` and `*/`. 
++
+If the script engine does not find both a beginning comment notation and an ending comment notation, an error message appears, and the script execution is terminated.
+. Start single-line comments with two forward slashes (`//`) and end with an end-of-line character, which you can insert by
+pressing *Enter*. 
++
+If the script engine does not find an end-of-line character in the script after processing a comment, an error
+message appears, and the script execution is terminated.
++ 
+This error commonly occurs when a comment is placed at the end of a script, and you have forgotten to press *Enter*.
+. Use the `show` statement to embed comments in a script that will appear in the editor pane during script execution. 
++
+The `show` statement is useful for debugging scripts.
++
+Including a `show setting controller mode` statement in your script results in the following line appearing in the
+output pane when this line is processed during script execution:
++
+----
+setting controller mode
+----
+
+=== Interpret script execution results
+
+During script execution, messages appear in the output pane starting with:
+----
+Executing script...
+----
+
+If an error occurs during the parse phase, the error appears in the output pane, which provides the line number and the column
+number and a description of the syntax error. The following is an example of a syntax error message. 
+
+If you type the following statement in a script:
+
+`set controller[a] mod = passive;`
+
+The output pane displays the resulting syntax error as follows:
+----
+Encountered "mod" at line 2, column 19
+Was expecting one of...
+"mode"...
+"availability"...
+"NVSRAMbyte"...
+----
+
+If an error occurs during the execution of a script, a message appears in the output pane, states that the command failed and
+reports a description of the error. 
+
+For example, if you type the following statement in a script:
+
+`set volume [three] userLabel="OneOne";`
+
+The resulting error appears in the following output pane. The command could not be sent to the storage array because it was in
+an Unresponsive state.
+----
+Unable to change the volume user label using the Set Volume command at line 1
+Error - 1 - Could not communicate with the storage array to complete this request.
+----
+
+NOTE: Certain execution errors, including the inability to communicate with the storage array, always cause script
+execution to halt. In these cases, execution stops even if you use the `On Error Continue` statement.
+
+.Results
+
+After executing a script, review the output pane to check for success or errors.

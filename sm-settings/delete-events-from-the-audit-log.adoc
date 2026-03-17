@@ -18,7 +18,7 @@ You must be logged in with a user profile that includes Security admin permissio
 
 .Steps
 
-. Select menu:Settings[Access Management].
+. From the left panel, select menu:Settings[Access Management].
 . Select the *Audit Log* tab.
 . Select *Delete*.
 +

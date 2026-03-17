@@ -16,7 +16,7 @@ Disable the AutoSupport maintenance window to allow automatic ticket creation on
 
 .Steps
 
-. Select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
 . Select *Disable AutoSupport Maintenance window*.
 . Enter the email address to receive a confirmation that the disable maintenance window request has been processed.
 +

@@ -16,11 +16,11 @@ During the creation of a snapshot group, reserved capacity is created to store t
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
-. Select the snapshot group that you want to edit, and then click *View/Edit Settings*.
+. Select the snapshot group that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-The Snapshot Group Settings dialog box appears.
+The Edit snapshot group settings window appears.
 
 . Change the settings for the snapshot group as appropriate.
 +
@@ -38,17 +38,13 @@ Name
 a|
 The name of the snapshot group. Specifying a name for the snapshot group is required.
 a|
-Auto-deletion
+Snapshot image auto-deletion
 a|
 A setting that keeps the total number of snapshot images in the group at or below a user-defined maximum. When this option is enabled, System Manager automatically deletes the oldest snapshot image in the group any time a new snapshot is created, to comply with the maximum number of snapshot images allowed for the group.
 a|
 Snapshot image limit
 a|
 A configurable value that specifies the maximum number of snapshot images allowed for a snapshot group.
-a|
-Snapshot schedule
-a|
-If Yes, a schedule is set for automatically creating snapshots.
 2+a|
 *Reserved capacity settings*
 a|
@@ -64,16 +60,6 @@ You can choose one of the following policies:
 
 ** *Purge oldest snapshot image* -- System Manager automatically purges the oldest snapshot image in the snapshot group, which releases the snapshot image reserved capacity for reuse within the group.
 ** *Reject writes to base volume* -- When the reserved capacity reaches its maximum defined percentage, System Manager rejects any I/O write request to the base volume that triggered the reserved capacity access.
-2+a|
-*Associated objects*
-a|
-Base volume
-a|
-The name of the base volume used for the group. A base volume is the source from which a snapshot image is created. It can be a thick or thin volume and is typically assigned to a host. The base volume can reside in either a volume group or disk pool.
-a|
-Snapshot images
-a|
-The number of images created from this group. A snapshot image is a logical copy of volume data, captured at a particular point-in-time. Like a restore point, snapshot images allow you to roll back to a known good data set. Although the host can access the snapshot image, it cannot directly read or write to it.
 |===
 ====
 

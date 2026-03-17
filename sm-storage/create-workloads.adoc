@@ -18,10 +18,10 @@ A workload is a storage object that supports an application. You can define one 
 
 .Steps
 
-. Select menu:Storage[Volumes].
+. From the left panel, select menu:Storage[Volumes].
 . Select menu:Create[Workload].
 +
-The Create Application Workload dialog box appears.
+The Create Application Workload page appears.
 
 . Use the drop-down list to select the type of application that you want to create the workload for and then type a workload name.
 . Click *Create*.

@@ -32,7 +32,7 @@ The iSCSI settings and functions only display on the Settings page if your stora
 
 .Steps
 
-. Select menu:Settings[System].
+. From the left panel, select menu:Settings[System].
 . Under *iSCSI settings*, click *View/Edit Target Discovery Settings*.
 +
 The Target Discovery Settings dialog box appears. Below the *Enable iSNS server*... field, the dialog box indicates if the controller is already registered.

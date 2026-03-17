@@ -13,8 +13,8 @@ The Recovery Guru is a component of SANtricity System Manager that diagnoses sto
 
 .Steps
 
-. Select *Home*.
-. Click the link labeled *Recover from _n_ problems* in the center-top of the window.
+. From the left panel, select *Home*.
+. Click the *Bell* icon and then click the link labeled *Recover from _n_ problems* in the center-top of the window.
 +
 The Recovery Guru dialog box appears.
 
@@ -32,6 +32,6 @@ If all of the problems have been corrected, the storage array icon eventually tr
 
 . *Optional:* To save the Recovery Guru information to a file, click the *Save* icon.
 +
-The file is saved in the Downloads folder for your browser with the name `recovery-guru-failure-yyyy-mm-dd-hh-mm-ss-mmm.html`.
+The file is saved in the Downloads folder for your browser with the name `recoveryGuru-failureName-arrayName-yyyy-mm-dd-hh-mm-ss.html`.
 
-. To print the Recovery Guru information, click the *Print* icon.
+

@@ -147,7 +147,7 @@ A drive shelf, also called an expansion shelf, contains a set of drives and two 
 a|
 DULBE
 a|
-Deallocated or Unwritten Logical Block Error (DULBE) is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+Deallocated or Unwritten Logical Block Error (DULBE) is an option on NVMe drives that allows the EF80, EF50, EF300/EF300C or EF600/EF600C storage array to support resource-provisioned volumes.
 a|
 FDE drives
 a|

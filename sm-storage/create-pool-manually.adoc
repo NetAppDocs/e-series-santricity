@@ -23,7 +23,7 @@ A pool provides the logical storage capacity necessary from which you can create
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click menu:Create[Pool].
 +
 The Create Pool dialog box appears.
@@ -80,12 +80,12 @@ DA Capable
 a|
 Indicates if Data Assurance (DA) is available for this pool candidate. DA checks for and corrects errors that might occur as data is transferred through the controllers down to the drives.
 
-DA is enabled if all drives are DA-capable. DA may be disabled after the volume is created by selecting menu:Storage[Volumes > View/Edit Settings > Advanced > Permanently disable data assurance]. If DA is disabled on a volume, it cannot be re-enabled.
+DA is enabled if all drives are DA-capable. DA may be disabled after the volume is created by selecting menu:Storage[Volumes > ellipsis icon > Disable Data Assurance].
 
 a|
-Resource Provisioning Capable (EF300 and EF600 only)
+Resource Provisioning Capable (EF80, EF50, EF300 and EF600 only)
 a|
-Shows if Resource Provisioning is available for this pool candidate. Resource Provisioning is a feature available in the EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
+Shows if Resource Provisioning is available for this pool candidate. Resource Provisioning is a feature available in the EF80, EF50, EF300 and EF600 storage arrays, which allows volumes to be put in use immediately with no background initialization process.
 a|
 Shelf Loss Protection
 a|

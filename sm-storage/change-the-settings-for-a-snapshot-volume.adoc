@@ -14,7 +14,7 @@ You can change the settings for a snapshot volume or snapshot consistency group 
 
 .Steps
 
-. Select menu:Storage[Snapshots].
+. From the left panel, select menu:Storage[Snapshots].
 . Click the *Snapshot Volumes* tab.
 . Select the snapshot volume that you want to change, and then click *View/Edit Settings*.
 +

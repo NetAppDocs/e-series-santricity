@@ -18,11 +18,11 @@ Changing the reserved capacity settings for an individual member volume also cha
 
 .Steps
 
-. Select menu:Storage[Pools & Volume Groups].
+. From the left panel, select menu:Storage[Pools and volume groups].
 . Click the *Reserved Capacity* tab.
-. Select the consistency group member volume that you want to edit, and then click *View/Edit Settings*.
+. Select the consistency group member volume that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
-The Member Volume Reserved Capacity Settings dialog box appears.
+The Edit consistency group member volume window appears.
 
 . Change the reserved capacity settings for the member volume as appropriate.
 +
@@ -34,9 +34,9 @@ The Member Volume Reserved Capacity Settings dialog box appears.
 |===
 | Setting| Description
 a|
-Alert me when...
+Reserved capacity full alert threshold
 a|
-Use the spinner box to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a member volume is nearing full.
+Use the bar to adjust the percentage point at which System Manager sends an alert notification when the reserved capacity for a member volume is nearing full.
 
 When the reserved capacity for the member volume exceeds the specified threshold, System Manager sends an alert, allowing you time to increase reserved capacity or to delete unnecessary objects.
 

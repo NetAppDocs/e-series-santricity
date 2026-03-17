@@ -16,8 +16,8 @@ Preferences are stored in the browser's local storage so all users can have thei
 
 .Steps
 
-. Select menu:Preferences[Set preferences].
-. Click the radio button for either *Gibibytes* or *Tebibytes*, and confirm that you want to perform the operation.
+. Click the *User Settings* icon in the upper-right corner of the window. 
+. In the Display capacity values in drop-down list, select either either *Gibibytes* or *Tebibytes*.
 +
 See the following table for abbreviations and values.
 +
