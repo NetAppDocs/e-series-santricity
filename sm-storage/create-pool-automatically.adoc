@@ -29,7 +29,7 @@ Keep in mind the following:
 
 You can launch the Pool Auto-Configuration dialog box using any of the following methods:
 
-* When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears on the Home page in the Notification area. Click *View Pool Auto-Configuration* to launch the dialog box.
+* When unassigned capacity is detected, the Pool Auto-Configuration recommendation appears in the Notifications area (bell icon at the top of the window). Click *View Pool Auto-Configuration* to launch the dialog box.
 * You can also launch the Pool Auto-Configuration dialog box from the Pools and Volume Groups page as described in the following task.
 
 .Steps

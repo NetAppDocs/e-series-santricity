@@ -29,15 +29,13 @@ You can configure hosts later, once you are done with the setup. You can create 
 
 == How does identifying applications help me manage my storage array?
 
-When you identify applications, SANtricity System Manager automatically recommends a volume configuration that optimizes storage based on application type.
-
-Optimizing volumes by application can make data storage operations more efficient. Characteristics such as I/O type, segment size, controller ownership, and read and write cache are included in the volume configuration. In addition, you can view performance data by application and by workload to assess the latency, IOPS, and MiB/s of applications and their associated workloads.
+You can view performance data by application and by workload to assess the latency, IOPS, and MiB/s of applications and their associated workloads to optimize performance. Characteristics such as I/O type, segment size, controller ownership, and read and write cache are included in the volume configuration.
 
 == What is a workload?
 
 For some applications in your network, such as SQL Server or Exchange, you can define a workload that optimizes storage for that application.
 
-A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application. For some applications, the system configures the workload to contain volumes with similar underlying volume characteristics. These volume characteristics are optimized based on the type of application the workload supports. For example, if you create a workload that supports a Microsoft SQL Server application and then subsequently create volumes for that workload, the underlying volume characteristics are optimized to support Microsoft SQL Server.
+A workload is a storage object that supports an application. You can define one or more workloads, or instances, per application.
 
 During volume creation, the system prompts you to answer questions about a workload's use. For example, if you are creating volumes for Microsoft Exchange, you are asked how many mailboxes you need, what your average mailbox capacity requirements are, and how many copies of the database you want. The system uses this information to create an optimal volume configuration for you, which can be edited as needed.
 

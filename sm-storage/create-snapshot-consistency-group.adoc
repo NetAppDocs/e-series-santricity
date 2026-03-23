@@ -35,7 +35,7 @@ The member volumes must be Optimal.
 +
 The Create Snapshot Consistency Group dialog box appears.
 
-. Select the volume(s) to be added as member volumes to the snapshot consistency group.
+. Locate the volume(s) to be added as member volumes to the snapshot consistency group.
 . Click *Next*, and go to <<Step 2: Reserve capacity for snapshot consistency group>>.
 
 == Step 2: Reserve capacity for snapshot consistency group
