@@ -15,7 +15,7 @@ A workload is a storage object that supports an application. You can define one 
 
 == Creating a workload
 
-You must manually specify when you want to create a workload that is not associated with a specific application. You must manually specify the volume configuration using the Add Volumes page.
+You must manually specify when you want to create a workload that is not associated with a specific application. You must also manually specify the volume configuration using the Add Volumes page.
 
 == Application and workload views
 

@@ -11,4 +11,4 @@ summary: "In SANtricity System Manager, you can create volumes by following thes
 [.lead]
 In SANtricity System Manager, you can create volumes by following these steps.
 
-image::../media/sam1130-flw-volumes-create.gif["Create volumes workflow"]
+image::../media/sam12-flw-volumes-create.svg["Create volumes workflow"]

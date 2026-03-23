@@ -21,8 +21,8 @@ The expansion causes additional free capacity to be included in the pool or volu
 * The pool or volume group must be in an Optimal status.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF600 and E5700 series)
- ** 1,024 volumes (EF300)
+ ** 2,048 volumes (EF80, EF600, and E5700 series)
+ ** 1,024 volumes (EF50 and EF300)
  ** 512 volumes (E4000 and E2800 series)
 * If the pool or volume group contains all secure-capable drives, add only drives that are secure-capable to continue to use the encryption abilities of the secure-capable drives.
 +
@@ -95,7 +95,7 @@ Indicates whether the drive is Data Assurance (DA) capable.
 a|
 DULBE capable
 a|
-Indicates whether the drive has the option for Deallocated or Unwritten Logical Block Error (DULBE). DULBE is an option on NVMe drives that allows the EF300 or EF600 storage array to support resource-provisioned volumes.
+Indicates whether the drive has the option for Deallocated or Unwritten Logical Block Error (DULBE). DULBE is an option on NVMe drives that allows the EF80, EF50, EF300, or EF600 storage array to support resource-provisioned volumes.
 |===
 ====
 

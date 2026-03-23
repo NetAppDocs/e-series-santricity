@@ -77,7 +77,7 @@ Mirroring is configured in the SANtricity Unified Manager interface.
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage array.
+Synchronous mirroring is not available on the EF80, EF50, EF600/EF600C or EF300/EF300C storage array.
 ====
 
 
@@ -99,7 +99,7 @@ Follow these guidelines before you create a mirror consistency group.
 
 [NOTE]
 ====
-Synchronous mirroring is not available on the EF600/EF600C or EF300/EF300C storage system.
+Synchronous mirroring is not available on the EF80, EF50,  EF600/EF600C or EF300/EF300C storage system.
 ====
 
 You create a consistency group in Unified Manager in the Create Mirrored Pairs wizard.

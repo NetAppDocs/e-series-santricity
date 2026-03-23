@@ -4,17 +4,17 @@
 a|
 Google Chrome
 a|
-89
+120
 a|
 Mozilla Firefox
 a|
-80
+120
 a|
 Safari
 a|
-14
+16
 a|
 Microsoft Edge
 a|
-90
+120
 |===
