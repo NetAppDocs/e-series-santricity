@@ -17,7 +17,7 @@ You can configure SANtricity System Manager for some general array settings and 
 Array settings include:
 
 * link:cache-settings-and-performance.html[Cache settings and performance]
-* link:automatic-load-balancing-overview.html"[Automatic load balancing]
+* link:automatic-load-balancing-overview.html[Automatic load balancing]
 * link:how-add-on-features-work.html[Add-on features]
 * link:overview-drive-security.html[Drive security]
 
