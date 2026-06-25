@@ -8,11 +8,11 @@ settings:
     harmony_enabled: true
   rss_page: "whats-new.html"
   versions:
-    - version-number: "12.0"
+    - version-number: "12.0x"
       url: /e-series-santricity
-    - version-number: "11.9"
+    - version-number: "11.9x"
       url: /e-series-santricity-119
-    - version-number: "11.8"
+    - version-number: "11.8x"
       url: /e-series-santricity-118
 sidebar:
   entries:

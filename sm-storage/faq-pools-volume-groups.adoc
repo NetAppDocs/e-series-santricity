@@ -454,7 +454,7 @@ When a pool is created, a recommended optimization capacity is generated that pr
 
 [NOTE]
 ====
-The Additional Optimization Capacity slider is only available for EF600 and EF300 storage systems.
+The Additional Optimization Capacity slider is only available for EF80, EF50, EF600, and EF300 storage systems.
 ====
 
 == What is optimization capacity for volume groups?
@@ -467,7 +467,7 @@ When a volume group is created, a recommended optimization capacity is generated
 
 [NOTE]
 ====
-The Additional Optimization Capacity slider is only available for EF600 and EF300 storage systems.
+The Additional Optimization Capacity slider is only available for EF80, EF50, EF600, and EF300 storage systems.
 ====
 
 == What is resource provisioning capable?
