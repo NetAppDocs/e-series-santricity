@@ -20,45 +20,30 @@ You can set the CHAP secret for the initiators (iSCSI hosts) either before or af
 
 .About this task
 
-You can select one of the following authentication methods:
+You can enable CHAP authentication and then specify the Target CHAP secret for one-way authentication, or you can specify both the Initiator CHAP secret for two-way authentication between the controller and the iSCSI hosts.
 
-* *One-way authentication* -- Use this setting to allow the controller to authenticate the identity of the iSCSI hosts (uni-directional authentication).
-* *Two-way authentication* -- Use this setting to allow both the controller and the iSCSI hosts to perform authentication (bi-directional authentication). This setting provides a second level of security by enabling the controller to authenticate the identity of the iSCSI hosts; and in turn, the iSCSI hosts to authenticate the identity of the controller.
+One-way authentication allow the controller to authenticate the identity of the iSCSI hosts (uni-directional authentication).
 
-[NOTE]
-====
-The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
-====
+Two-way authentication allow both the controller and the iSCSI hosts to perform authentication (bi-directional authentication). This option provides a second level of security by enabling the controller to authenticate the identity of the iSCSI hosts; and in turn, the iSCSI hosts to authenticate the identity of the controller.
 
 .Steps
 
 . From the left panel, select menu:Settings[System].
 . Under iSCSI Settings, click *Configure Authentication*.
 +
-The Configure Authentication dialog box appears, which shows the currently set method. It also shows if any hosts have CHAP secrets configured.
+The Configure Authentication window appears.
 
-. Select one of the following:
- ** *No authentication* -- If you do not want the controller to authenticate the identity of iSCSI hosts, select this option and click *Finish*. The dialog box closes, and you are done with configuration.
- ** *One-way authentication* -- To allow the controller to authenticate the identity of the iSCSI hosts, select this option and click *Next* to display the Configure Target CHAP dialog box.
- ** *Two-way authentication* -- To allow both the controller and the iSCSI hosts to perform authentication, select this option and click *Next* to display the Configure Target CHAP dialog box.
-. For one-way or two-way authentication, enter or confirm the CHAP secret for the controller (the target). The CHAP secret must be between 12 and 57 printable ASCII characters.
-+
-[NOTE]
-====
-If the CHAP secret for the controller was configured previously, the characters in the field are masked. If necessary, you can replace the existing characters (new characters are not masked).
-====
+. Check the *Enable Chap Authentication* box to enable authentication.
++ 
+If you do not want to enable CHAP authentication, leave the box unchecked.
 
-. Do one of the following:
- ** If you are configuring _one-way_ authentication, click *Finish*. The dialog box closes, and you are done with configuration.
- ** If you are configuring _two-way_ authentication, click *Next* to display the Configure Initiator CHAP dialog box.
-. For two-way authentication, enter or confirm a CHAP secret for any of the iSCSI hosts (the initiators), which can be between 12 and 57 printable ASCII characters. If you do not want to configure two-way authentication for a particular host, leave the Initiator CHAP Secret field blank.
-+
-[NOTE]
-====
-If the CHAP secret for a host was configured previously, the characters in the field are masked. If necessary, you can replace the existing characters (new characters are not masked).
-====
+. If you enabled one-way authentication, enter the *Target CHAP secret* for authentication of the initiators that connect to the target. The CHAP secret must be between 12 and 57 printable ASCII characters.
++ 
+Under the Confirm target CHAP secret field, re-enter the same CHAP secret to confirm it.
 
-. Click *Finish*.
+. If you want to enable two-way authentication between the controller and the iSCSI hosts, enter the *Initiator CHAP secret* for authentication of the controller by the initiators. The CHAP secret must be between 12 and 57 printable ASCII characters.
+
+. Click *Save*.
 
 .Results
 
