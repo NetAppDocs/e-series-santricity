@@ -41,12 +41,12 @@ This operation _does not_ save these settings:
 .Steps
 
 . From the left panel, select menu:Settings[System].
-. Select *Save Storage Array Configuration*.
+. Select *Save storage array configuration*.
 . Select the items of the configuration that you want to save:
  ** Storage array settings
  ** Volume configuration
  ** Host configuration
- ** Host-to-volume assignments
+ ** Host-to-volume assignments (requires volume and host configuration)
 
 +
 [NOTE]

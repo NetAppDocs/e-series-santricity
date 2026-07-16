@@ -28,8 +28,8 @@ You cannot stop the activation process after it starts.
 
 .Steps
 
-. From the left panel, select menu:Support[Upgrade Center].
-. In the area labeled SANtricity OS Controller Software upgrade, click *Activate*, and confirm that you want to perform the operation.
+. From the left panel, select menu:Support[Upgrade center].
+. In the area labeled SANtricity OS software upgrade, click *Activate staged upgrade*, and confirm that you want to perform the operation.
 +
 You can cancel the operation during the pre-upgrade health check, but not during activating.
 +
@@ -37,12 +37,12 @@ The pre-upgrade health check begins. If the pre-upgrade health check passes, the
 +
 On successful completion of the pre-upgrade health check, activation occurs. The time it takes to activate depends on your storage array configuration and the components that you are activating.
 
-. *Optional:* To see a list of what was upgraded, click *Save Log*.
+. *Optional:* To see a list of what was upgraded, click *Save log*.
 +
 The file is saved in the Downloads folder for your browser with the name `drive_upgrade_log-timestamp.txt`.
 
 .After you finish
 
 * Verify that all components appear on the Hardware page.
-* Verify the new software and firmware versions by checking the Software and Firmware Inventory dialog box (go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*).
+* Verify the new software and firmware versions by checking the software and firmware inventory page (go to menu:Support[Upgrade center], and then click the link for *software and firmware inventory*).
 * If you upgraded controller NVSRAM, any custom settings that you have applied to the existing NVSRAM are lost during the process of activation. You need to apply the custom settings to the NVSRAM again after the process of activation is complete.

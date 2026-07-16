@@ -20,8 +20,7 @@ For SANtricity versions 11.74 and later, you can also configure multifactor auth
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
+. From the left panel, select menu:Hardware[Controllers and components].
 +
 The graphic changes to show the controllers instead of the drives.
 
@@ -31,7 +30,7 @@ The controller's context menu appears.
 
 . Select *Configure remote login (SSH)*. (For SANtricity versions 11.73 and earlier, this menu item is *Change remote login*.)
 +
-The dialog box opens for enabling remote login.
+The Configure remote login (SSH) page opens.
 
 . Select the *Enable remote login* checkbox.
 +
@@ -41,11 +40,11 @@ This setting provides remote login with three options for authorization:
 * *Either SSH key or password*. For this option, proceed to the next step.
 * *Both password and SSH key*. For this option, select the *Require authorized public key and password for remote login* checkbox and proceed to the next step.
 
-. Populate the *Authorized public key* field. This field contains a list of authorized public keys, in the format of the OpenSSH *authorized_keys* file.
+. Populate the *Authorized public keys* field. This field contains a list of authorized public keys, in the format of the OpenSSH *authorized_keys* file.
 +
-When populating the *Authorized public key* field, be aware of the following guidelines:
+When populating the *Authorized public keys* field, be aware of the following guidelines:
 
- * The *Authorized public key* field applies to both controllers and only needs to be configured on the first controller.
+ * The *Authorized public keys* field applies to both controllers and only needs to be configured on the first controller.
  * The *authorized_keys* file should contain only one key per line. Lines starting with # and empty lines are ignored. For more information about the file format, see link:https://www.ssh.com/academy/ssh/authorized-keys-openssh[Configuring Authorized Keys for OpenSSH^].
  * An *authorized_keys* file should look similar to the following example:
 +
@@ -58,6 +57,6 @@ AAAAB3NzaC1yc2EAAAADAQABAAABAQDJlG20rYTk4ok+xFjkPHYp/R0LfJqEYDLXA5AJ49w3DvAWLrUg
 
 . For duplex systems, you can enable remote login on the second controller by following the steps above. If you are configuring the option for both a password and SSH key, be sure to select the *Require authorized public key and password for remote login* checkbox again.
 
-. After technical support is finished troubleshooting, you can disable remote login by returning to the Configure Remote Login dialog box and de-selecting the *Enable remote login* checkbox. If remote login is enabled on a second controller, a confirmation dialog opens and allows you to disable remote login on the second one as well.
+. After technical support is finished troubleshooting, you can disable remote login by returning to the Configure remote login (SSH) page and de-selecting the *Enable remote login* checkbox. If remote login is enabled on a second controller, a confirmation dialog opens and allows you to disable remote login on the second one as well.
 +
 Disabling remote login terminates any current SSH sessions and rejects any new login requests.

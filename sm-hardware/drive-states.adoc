@@ -53,11 +53,11 @@ Assigned
 a|
 The drive is a member of a pool or volume group.
 a|
-In-use hot spare
+Hot spare in use
 a|
 The drive is currently being used as a replacement for a drive that has failed. Hot spares are used only in volume groups, not pools.
 a|
-Standby hot spare
+Hot spare standby
 a|
 The drive is ready to be used as a replacement for a drive that has failed. Hot spares are used only in volume groups, not pools.
 a|
@@ -76,7 +76,7 @@ Failed
 a|
 The drive is not working. The data on the drive is not available.
 a|
-Impending Failure
+Impending failure
 a|
 It has been detected that the drive could fail soon. The data on the drive is still available.
 a|

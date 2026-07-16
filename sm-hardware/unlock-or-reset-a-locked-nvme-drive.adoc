@@ -14,7 +14,7 @@ If you insert one or more locked NVMe or FIPS drives into a storage array, you c
 
 .Before you begin
 
-* For the Unlock option, make sure the security key file (with an extension of `.slk`) is available on the management client (the system with a browser used for accessing System Manager). You must also know the pass phrase associated with the key.
+* For the Unlock option, make sure the security key file (with an extension of `.slk`) is available on the management client (the system with a browser used for accessing System Manager). You must also know the passphrase associated with the key.
 * For the Reset option, you must find the PSID on each drive you want to reset. To locate the PSID, physically remove the drive and locate the PSID string (32 characters maximum) on the drive's label, and then reinstall the drive.
 
 .About this task
@@ -30,11 +30,7 @@ You can access the Unlock feature from either the Hardware page or from menu:Set
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
-
+. From the left panel, select menu:Hardware[Drives].
 . Select the NVMe or FIPS drive you want to unlock or reset.
 +
 The drive's context menu opens.
@@ -49,8 +45,8 @@ During a Reset operation, all data is erased. Only perform a Reset if you do not
 ====
 
 . Do one of the following:
- .. *Unlock*: In the *Unlock Secure Drive* dialog box, click *Browse*, and then select the security key file that corresponds to the drive you want to unlock. Next, enter the pass phrase, and then click *Unlock*.
- .. *Reset*: In the *Reset Locked Drive* dialog box, enter the PSID string in the field, and then type `RESET` to confirm. Click *Reset*.
+ .. *Unlock*: On the *Unlock secure drives* page, select the security key file that corresponds to the drive you want to unlock. Next, enter the passphrase, and then click *Unlock*.
+ .. *Reset*: In the *Reset locked drive* dialog box, enter the PSID string in the field, and then type `RESET` to confirm. Click *Reset*.
 +
 For an Unlock operation, you only need to perform this operation once to unlock all the NVMe or FIPS drives. For a Reset operation, you must individually select each drive you want to reset.
 

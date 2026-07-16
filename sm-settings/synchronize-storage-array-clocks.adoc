@@ -29,11 +29,9 @@ After synchronization, you might notice that performance statistics are lost or 
 .Steps
 
 . From the left panel, select menu:Settings[System].
-. Under *General*, click *Synchronize Storage Array Clocks*.
+. Under *General*, click *Synchronize storage array clocks*.
 +
-The Synchronize Storage Array Clocks dialog box opens. It shows
-the current date and time for the controller(s) and the computer used as the
-management client.
+The Synchronize storage array clocks dialog box opens. It shows the current date and time for the controller(s) and the computer used as the management client.
 +
 [NOTE]
 ====

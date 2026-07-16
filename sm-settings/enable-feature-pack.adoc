@@ -33,12 +33,12 @@ This task describes how to use System Manager to enable a feature pack. When you
 .Steps
 
 . From the left panel, select menu:Settings[System].
-. Under *Add-ons*, select *Change Feature Pack*.
+. Under *Add-ons*, select *Change feature pack*.
 . Click *Browse*, and then select the key file.
 +
 The file name is displayed in the dialog box.
 
-. Type `change` in the field.
+. Type `CHANGE` in the field.
 . Click *Change*.
 +
 The feature pack migration begins and the controllers reboot. Unwritten cache data is deleted, which ensures no I/O activity. Both controllers automatically reboot for the new feature pack to take effect. The storage array returns to a responsive state after the reboot is complete.

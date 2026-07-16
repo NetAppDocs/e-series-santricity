@@ -507,8 +507,6 @@ sidebar:
               url: "/sm-hardware/view-hardware-components.html"
             - title: Show or hide component status
               url: "/sm-hardware/show-or-hide-component-status.html"
-            - title: Switch between front and back views
-              url: "/sm-hardware/switch-between-front-and-back-views.html"
             - title: Change view order of shelves
               url: "/sm-hardware/change-view-order-of-shelves.html"
             - title: Turn on shelf locator light

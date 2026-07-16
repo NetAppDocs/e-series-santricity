@@ -17,84 +17,25 @@ The performance graphs show historical data as well as live data currently being
 
 *Home page view*
 
-The Home page contains a graph showing storage array level performance. You can select limited metrics from this view, or you can click *View Performance Details* to select all the available metrics.
+The Home page contains a graph showing storage array level performance. You can select limited metrics from this view, or you can click *View Performance Details* to go to menu:Storage[Performance] and select all the available metrics.
 
 *Detailed view*
 
-The graphs available from the detailed performance view are arranged under three tabs:
+The graphs available from the Performance page are based on your selections:
 
-* *Logical View* -- Displays performance data for logical objects grouped by volume groups and pools. Logical objects include volume groups, pools, and volumes.
-* *Physical View* -- Displays performance data for the controller, host channels, drive channels, and drives.
-* *Applications and workloads View* -- Displays a list of logical objects (volumes) grouped by the application types and workloads you have defined.
+* *Object types* -- Selects the categories of objects to include (for example, Storage array, Controllers, Pools and volume groups, Applications, Workloads, Volumes, Channels, and Drives).
+* *Objects* -- Selects up to five specific objects for the selected object types.
 
 .Steps
 
-. Select *Home*.
-. To select an array-level view, click the IOPS, MiB/s, or CPU button.
-. To see more details, click *View Performance Details*.
-. Select *Logical View* tab, *Physical View* tab, or *Applications and workloads View* tab.
+. Select menu:Storage[Performance].
+. Use *Object types* and *Objects* to select the data you want to display. You can select up to five objects; use the search field in the *Objects* list to find object names or partial names.
 +
-Depending on the object type, different graphs appear in each tab.
-+
-[cols="25h,~",options="header"]
-|===
-| View tabs| Performance data displayed for each object type
-a|
-Logical View
-a|
- ** *Storage array*: IOPS, MiB/s
- ** *Pools*: Latency, IOPS, MiB/s
- ** *Volume groups*: Latency, IOPS, MiB/s
- ** *Volumes*: Latency, IOPS, MiB/s
-a|
-Physical View
-a|
- ** *Controllers*: IOPS, MiB/s, CPU, Headroom
- ** *Host channels*: Latency, IOPS, MiB/s, Headroom
- ** *Drive channels*: Latency, IOPS, MiB/s
- ** *Drives*: Latency, IOPS, MiB/s
-a|
-Applications and workloads View
-a|
- ** *Storage array*: IOPS, MiB/s
- ** *Applications*: Latency, IOPS, MiB/s
- ** *Workloads*: Latency, IOPS, MiB/s
- ** *Volumes*: Latency, IOPS, MiB/s
-|===
+Not all metrics are available for every object type. Storage arrays and controllers do not report latency, only controllers report CPU utilization, and only controllers and channels report headroom.
 
-. Use the options to view the objects and information you need.
-+
-.Options
-[%collapsible]
-====
-[cols="25h,~" options="header"]
-
-|===
-| Options for viewing objects| Description
-a|
-Expand a drawer to see the list of objects.
-a|
-_Navigation drawers_ contain storage objects, such as pools, volume groups, and drives.
-
-Click the drawer to view the list of objects in the drawer.
-a|
-Select objects to view.
-a|
-Select the check box to the left of each object to choose the performance data you want to view.
-a|
-Use Filter to find object names or partial names.
-a|
-In the Filter box, enter the name or a partial name of objects to list just those objects in the drawer.
-a|
-Click *Refresh Graphs* after selecting objects.
-a|
-After selecting objects from the drawers, select *Refresh Graphs* to view graphical data for the items you have selected.
-a|
-Hide or show graph
-a|
-Select the graph title to hide or show the graph.
-|===
-====
+. Use *Time range* to select the period you want to display.
+. Click *Refresh*.
+. *Optional:* On an individual graph, use *Compare* to overlay another metric type for the same objects.
 
 . As needed, use the additional options for viewing performance data.
 +
@@ -106,11 +47,11 @@ Select the graph title to hide or show the graph.
 |===
 | Option| Description
 a|
-Time frame
+Time range
 a|
 Select the length of time you want to view (5 minutes, 1 hour, 8 hours, 1 day, 7 days, or 30 days). The default is 1 hour.
 
-NOTE: Loading performance data for a 30-day time frame can take several minutes. Do not navigate away from the web page, refresh the web page, or close the browser while data is loading.
+NOTE: Loading performance data for a 30-day time range can take several minutes. Do not navigate away from the web page, refresh the web page, or close the browser while data is loading.
 
 a|
 Data point details

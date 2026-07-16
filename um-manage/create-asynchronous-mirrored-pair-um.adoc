@@ -54,7 +54,7 @@ To select an existing group, make sure *An existing mirror consistency group* is
 To create a new group, do the following:
 
 .. Select *A new mirror consistency group*, and then click *Next*.
-.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 30 characters and may not contain spaces.
+.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 60 characters and may not contain spaces.
 .. Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
 +
 [NOTE]

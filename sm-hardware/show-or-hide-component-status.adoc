@@ -13,12 +13,8 @@ You can display status descriptions for drives, controllers, fans, and power sup
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. To see either the back or front components:
- ** If you want to see the controller and power/fan canister components, but the drives are displayed, click the *Controllers & Components* tab.
- ** If you want to see the drives, but the controller and power/fan canister components are displayed, click the *Drives* tab.
+. From the left panel, select either menu:Hardware[Drives] or menu:Hardware[Controllers and components], depending on which components you want to see.
 . To view or hide pop-over status descriptions:
  ** If you want to see a pop-over description of the status icons, click *Show status icon details* at the upper right of the shelf view (select the check box).
  ** To hide the pop-over descriptions, click *Show status icon details* again (clear the check box).
 . If you want to see full status details, select the component in the shelf view, and then select *View settings*.
-. If you want to view the descriptions of the colored components, select *Legend*.

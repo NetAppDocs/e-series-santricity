@@ -13,7 +13,7 @@ summary: "This FAQ can help if you're just looking for a quick answer to a quest
 This FAQ can help if you're just looking for a quick answer to a question.
 
 == How do I interpret NVMe over Fabrics statistics?
-The View NVMe over Fabrics Statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.
+The View NVMe over Fabrics statistics dialog box displays statistics for the NVMe subsystem and the RDMA interface. All statistics are read-only, and cannot be set.
 
 * *NVMe Subsystem statistics* -- Shows statistics for the NVMe controller and its queue. The NVMe controller provides an access path between a host and the namespaces in the storage array. You can review the NVMe subsystem statistics for such items as connection failures, resets, and shutdowns. For more information about these statistics, click *View legend for table headings*.
 * *RDMA Interface statistics* -- Provides statistics for all NVMe over Fabrics ports on the RDMA interface, which includes performance statistics and link error information associated with each switch port. This tab only appears when NVMe over Fabrics ports are available. For more information about the statistics, click *View legend for table headings*.
@@ -36,22 +36,21 @@ a|
 Configure NVMe over InfiniBand ports
 a|
 
-. Select *Hardware*.
-. Select the *Controllers & Components* tab.
+. Select menu:Hardware[Controllers and components].
 . Select a controller.
 . Select *Configure NVMe over InfiniBand ports*.
 
 or
 
 . Select menu:Settings[System].
-. Scroll down to *NVMe over InfiniBand settings*, and then select *Configure NVMe over InfiniBand Ports*.
+. Scroll down to *NVMe over InfiniBand settings*, and then select *Configure NVMe over InfiniBand ports*.
 
 a|
 View NVMe over InfiniBand statistics
 a|
 
 . Select menu:Settings[System].
-. Scroll down to *NVMe over InfiniBand settings*, and then select *View NVMe over Fabrics Statistics*.
+. Scroll down to *NVMe over InfiniBand settings*, and then select *View NVMe over Fabrics statistics*.
 
 |===
 
@@ -80,14 +79,14 @@ a|
 or
 
 . Select menu:Settings[System].
-. Scroll down to *NVMe over RoCE settings*, and then select *Configure NVMe over RoCE Ports*.
+. Scroll down to *NVMe over RoCE settings*, and then select *Configure NVMe over RoCE ports*.
 
 a|
 View NVMe over Fabrics statistics
 a|
 
 . Select menu:Settings[System].
-. Scroll down to *NVMe over RoCE settings*, and then select *View NVMe over Fabrics Statistics*.
+. Scroll down to *NVMe over RoCE settings*, and then select *View NVMe over Fabrics statistics*.
 
 |===
 

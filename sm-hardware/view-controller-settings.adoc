@@ -13,19 +13,13 @@ You can view information about a controller, such as the status of the host inte
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
-+
-The graphic changes to show the controllers instead of the drives.
-
+. From the left panel, select menu:Hardware[Controllers and components].
 . Do one of the following actions to display the controller settings:
  ** Click the controller to display the context menu, and then select *View settings*.
  ** Select the controller icon (next to the *Shelf* drop-down list). For duplex configurations, select either *Controller A* or *Controller B* from the dialog box, and then click *Next*.
 +
-The Controller Settings dialog box opens.
-. Select the tabs to move between property settings.
-+
-Some tabs have a link for *Show more settings* at the top right.
+The Controller settings sliding menu opens.
+. Review the sections to move between controller property settings.
 +
 .Field details
 [%collapsible]
@@ -33,38 +27,52 @@ Some tabs have a link for *Show more settings* at the top right.
 
 [cols="25h,~",options="header"]
 |===
-| Tab| Description
+| Section| Description
 a|
-Base
+Details
 a|
-Shows the controller status, model name, replacement part number, current firmware version, and the non-volatile static random access memory (NVSRAM) version.
+Shows the controller status, date/time, model name, and replacement part number.
 a|
-Cache
+Current configuration
 a|
-Shows the cache settings of the controller, which include the data cache, processor cache, and the cache backup device. The cache backup device is used to back up data in the cache if you lose power to the controller. Status can be Optimal, Failed, Removed, Unknown, Write Protected, or Incompatible.
+Shows the current firmware version and NVRAM version.
 a|
-Host Interfaces
+Data cache
 a|
-Shows the host interface information and the link status of each port. The host interface is the connection between the controller and the host, such as Fibre Channel or iSCSI.
-
-NOTE: The host interface card (HIC) location is either in the baseboard or in a slot (bay). "Baseboard" indicates that the HIC ports are built into the controller. "Slot" ports are on the optional HIC.
-
+Shows data cache totals.
 a|
-Drive Interfaces
+Data cache modules
 a|
-Shows the drive interface information and the link status of each port. The drive interface is the connection between the controller and the drives, such as SAS.
+Shows cache module location, status, and capacity.
 a|
-Management Ports
+Processor cache
 a|
-Shows the management port details, such as the host name used to access the controller and whether a remote login has been enabled. The management port connects the controller and the management client, which is where a browser is installed for accessing System Manager.
+Shows processor cache totals.
 a|
-DNS / NTP
+Cache backup devices
 a|
-Shows the addressing method and IP addresses for the DNS server and the NTP server, if these servers have been configured in System Manager.
-
-Domain Name System (DNS) is a naming system for devices connected to the Internet or a private network. The DNS server maintains a directory of domain names and translates them to Internet Protocol (IP) addresses.
-
-Network Time Protocol (NTP) is a networking protocol for clock synchronization between computer systems in data networks.
+Shows cache backup device location, status, and capacity.
+a|
+Host interfaces
+a|
+Shows host interface information and link status for each port.
+a|
+Drive interfaces
+a|
+Shows drive interface information and link status for each port.
+a|
+Management port settings
+a|
+Shows management port details, including controller hostname, remote login, and IP network settings.
+a|
+Domain name system (DNS) server settings
+a|
+Shows DNS configuration, primary DNS server, and backup DNS server.
+a|
+Network time protocol (NTP) server settings
+a|
+Shows NTP service and NTP server configuration details.
 |===
 ====
+
 . Click *Close*.
