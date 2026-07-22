@@ -14,8 +14,7 @@ Change the settings for a snapshot consistency group when you want to change its
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Click the *Snapshot Consistency Groups* tab.
+. From the left panel, select menu:Snapshots[Snapshot consistency groups].
 . Select the snapshot consistency group that you want to edit, and then click *View/Edit Settings*.
 +
 The Snapshot Consistency Group Setting dialog box appears.

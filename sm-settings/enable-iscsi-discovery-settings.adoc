@@ -27,12 +27,12 @@ You can enable the following settings related to iSCSI discovery:
 
 [NOTE]
 ====
-The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
+The iSCSI settings and functions only display on the System page if your storage array supports iSCSI.
 ====
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Under *iSCSI settings*, click *Configure target discovery settings*.
 +
 The Configure iSCSI target discovery settings page appears. Below the *Enable iSNS server*... field, the page indicates if the controller is already registered.

@@ -12,12 +12,12 @@ summary: "You can monitor thin volumes for space and generate appropriate alerts
 [.lead]
 You can monitor thin volumes for space and generate appropriate alerts to prevent out-of-capacity conditions.
 
-Thin-provisioned environments can allocate more logical space than they have underlying physical storage. You can select menu:Storage[Volumes > Thin Volume Monitoring] tab to monitor how much growth your thin volumes have before they reach the allocated capacity maximum limit.
+Thin-provisioned environments can allocate more logical space than they have underlying physical storage. You can select menu:Storage[Thin volume monitoring] to monitor how much growth your thin volumes have before they reach the allocated capacity maximum limit.
 
 You can use the Thin Monitoring view to perform the following actions:
 
 * Define the limit that restricts the allocated capacity to which a thin volume can automatically expand.
-* Set the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the maximum allocated capacity limit.
+* Set the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area, available through the bell icon in the upper corner of the window, when a thin volume is near the maximum allocated capacity limit.
 
 To increase capacity for a thin volume, increase its reported capacity.
 

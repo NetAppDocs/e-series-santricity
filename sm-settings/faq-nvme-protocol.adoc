@@ -42,21 +42,21 @@ a|
 
 or
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *NVMe over InfiniBand settings*, and then select *Configure NVMe over InfiniBand ports*.
 
 a|
 View NVMe over InfiniBand statistics
 a|
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *NVMe over InfiniBand settings*, and then select *View NVMe over Fabrics statistics*.
 
 |===
 
 == What else do I need to do to configure or diagnose NVMe over RoCE?
 
-You can configure and manage NVMe over RoCE from the Hardware and Settings pages.
+You can configure and manage NVMe over RoCE from the Hardware and System pages.
 
 [NOTE]
 ====
@@ -78,14 +78,14 @@ a|
 
 or
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *NVMe over RoCE settings*, and then select *Configure NVMe over RoCE ports*.
 
 a|
 View NVMe over Fabrics statistics
 a|
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *NVMe over RoCE settings*, and then select *View NVMe over Fabrics statistics*.
 
 |===

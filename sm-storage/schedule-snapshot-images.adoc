@@ -32,9 +32,7 @@ You also can create a snapshot schedule at the same time you create a snapshot i
 +
 Select the object (volume or snapshot consistency group) for this snapshot schedule, and then select menu:Copy Services[Create snapshot schedule].
 
- ** From the left panel, select menu:Storage[Snapshots].
-+
-Select the *Snapsshot schedules* tab, and then click *Create*.
+ ** From the left panel, select menu:Snapshots[Snapshot schedules], and then click *Create*.
 . Select the object (volume or snapshot consistency group) for this snapshot schedule, and then click *Next*.
 +
 The Create Snapshot Schedule dialog box appears.

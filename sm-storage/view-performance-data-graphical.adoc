@@ -15,9 +15,9 @@ You can view graphical performance data for logical objects, physical objects, a
 
 The performance graphs show historical data as well as live data currently being captured. A vertical line on the graph, labeled Live updating, distinguishes historical data from live data.
 
-*Home page view*
+*Dashboard view*
 
-The Home page contains a graph showing storage array level performance. You can select limited metrics from this view, or you can click *View Performance Details* to go to menu:Storage[Performance] and select all the available metrics.
+The Dashboard contains a graph showing storage array level performance. You can select limited metrics from this view, or you can click *View Performance Details* to go to menu:Monitoring[Performance] and select all the available metrics.
 
 *Detailed view*
 
@@ -28,7 +28,7 @@ The graphs available from the Performance page are based on your selections:
 
 .Steps
 
-. Select menu:Storage[Performance].
+. Select menu:Monitoring[Performance].
 . Use *Object types* and *Objects* to select the data you want to display. You can select up to five objects; use the search field in the *Objects* list to find object names or partial names.
 +
 Not all metrics are available for every object type. Storage arrays and controllers do not report latency, only controllers report CPU utilization, and only controllers and channels report headroom.

@@ -12,7 +12,7 @@ summary: "For thin volumes capable of allocating space on demand, you can change
 [.lead]
 For thin volumes capable of allocating space on demand, you can change the limit that restricts the allocated capacity to which a thin volume can automatically expand.
 
-You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area on the Home page when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
+You also can change the percentage point at which an alert (warning threshold exceeded) is sent to the Notifications area, available through the bell icon in the upper corner of the window, when a thin volume is near the allocated capacity limit. You can choose to enable or disable this alert notification.
 
 [NOTE]
 ====
@@ -25,10 +25,9 @@ When changing a thin volume's allocated capacity limit and warning threshold, yo
 
 .Steps
 
-. From the left panel, select menu:Storage[Volumes].
-. Select the *Thin Volume Monitoring* tab.
+. From the left panel, select menu:Storage[Thin volume monitoring].
 +
-The Thin Volume Monitoring view appears.
+The Thin volume monitoring view appears.
 
 . Select the thin volume that you want to change, and then select *Change Limit*.
 +
@@ -51,7 +50,7 @@ a|
 Alert me when...
 (warning threshold)
 a|
-Select the check box if you want the system to generate an alert when a thin volume is near the allocated capacity limit. The alert is sent to the Notifications area on the Home page. This threshold is a percentage of the volume's reported capacity size.
+Select the check box if you want the system to generate an alert when a thin volume is near the allocated capacity limit. The alert is sent to the Notifications area, available through the bell icon in the upper corner of the window. This threshold is a percentage of the volume's reported capacity size.
 
 Clear the check box to disable the warning threshold alert notification.
 |===

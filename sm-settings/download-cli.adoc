@@ -20,7 +20,7 @@ A Java Runtime Environment (JRE), version 8 and above, must be available on the 
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Under *Add-ons*, select *Download command line interface*.
 +
 The ZIP package downloads to the browser.

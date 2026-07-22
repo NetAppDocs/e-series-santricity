@@ -16,7 +16,7 @@ Use the Setup wizard to configure your storage array, including hardware, hosts,
 
 When you open System Manager for the first time, the Setup wizard launches. The Setup wizard prompts you to perform basic configuration tasks, such as naming your storage array, configuring your hosts, selecting applications, and creating pools of storage.
 
-NOTE: Before continuing with the initial setup, go to the Upgrade Center (menu:Support[Upgrade Center]) and make sure your SANtricity OS software is up-to-date. If needed, upgrade to the latest version and refresh your browser to continue the setup. For more information, see link:../sm-support/overview-upgrade-center.html[Upgrade Center overview].
+NOTE: Before continuing with the initial setup, go to the Upgrade center (menu:Support[Upgrade center]) and make sure your SANtricity OS software is up-to-date. If needed, upgrade to the latest version and refresh your browser to continue the setup. For more information, see link:../sm-support/overview-upgrade-center.html[Upgrade Center overview].
 
 If you cancel the wizard, you cannot manually relaunch it. The wizard automatically relaunches when you open System Manager or refresh your browser and _at least one_ of the following conditions is met:
 

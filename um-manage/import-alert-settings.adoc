@@ -14,8 +14,8 @@ You can import alert configurations from one storage array to other storage arra
 
 .Before you begin
 
-* Alerts are configured in System Manager for the storage array you want to use as the source (menu:Settings[Alerts]).
-* The existing configuration for the target storage arrays are backed up in System Manager (menu:Settings[System > Save Storage Array Configuration]).
+* Alerts are configured in System Manager for the storage array you want to use as the source.
+* The existing configuration for the target storage arrays are backed up in System Manager (menu:System[Save storage array configuration]).
 
 .About this task
 

@@ -18,8 +18,7 @@ You must be logged in with a user profile that includes Security admin permissio
 
 .Steps
 
-. From the left panel, select menu:Settings[Access Management].
-. Select the **Audit Log** tab.
+. From the left panel, select menu:Monitoring[Audit log].
 +
 Audit log activity appears in tabular format, which includes the following columns of information:
 
@@ -30,7 +29,7 @@ Audit log activity appears in tabular format, which includes the following colum
  ** *Client IP Address* -- IP address of the client associated with the event.
  ** *Source* -- Logging source associated with the event, which can be System Manager, CLI, Web Services, or Support Shell.
  ** *Description* -- Additional information about the event, if applicable.
-. Use the selections on the Audit Log page to view and manage events.
+. Use the selections on the Audit log page to view and manage events.
 +
 .Selection details
 [%collapsible]

@@ -22,7 +22,7 @@ You Add capacity to a volume by selecting menu:Storage[Volumes] from the left pa
 
 * Add unassigned capacity (in the form of unused drives) to the pool or volume group of the volume. Use this option when no free capacity exists in the pool or volume group.
 +
-You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and Volume Groups > Add capacity].
+You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and volume groups > Add capacity].
 +
 If free capacity is not available in the pool or volume group, you cannot increase the capacity of the volume. You must increase the size of the pool or volume group first or delete unused volumes.
 

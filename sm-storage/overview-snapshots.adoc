@@ -24,7 +24,7 @@ Learn more:
 * link:snapshot-volumes.html[Snapshot volumes]
 
 == How do I create snapshots?
-You can manually create a snapshot image from a base volume or snapshot consistency group. This procedure is available from menu:Storage[Snapshots].
+You can manually create a snapshot image from a base volume or snapshot consistency group. This procedure is available from menu:Snapshots[Snapshot images].
 
 Learn more:
 
@@ -36,7 +36,7 @@ Learn more:
 * link:create-snapshot-volume.html[Create a snapshot volume]
 
 == How do I roll back data from a snapshot?
-A _rollback_ is the process of returning data in a base volume to a previous point in time. You can roll back snapshot data from menu:Storage[Snapshots].
+A _rollback_ is the process of returning data in a base volume to a previous point in time. You can roll back snapshot data from menu:Snapshots[Snapshot images].
 
 Learn more:
 

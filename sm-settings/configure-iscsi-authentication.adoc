@@ -28,7 +28,7 @@ Two-way authentication allow both the controller and the iSCSI hosts to perform 
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Under *iSCSI settings*, click *Configure iSCSI authentication*.
 +
 The Configure Authentication window appears.

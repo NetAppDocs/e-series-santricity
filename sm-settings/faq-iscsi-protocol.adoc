@@ -58,14 +58,14 @@ a|
 
 or
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand ports*.
 
 a|
 View iSER over InfiniBand statistics
 a|
 
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand statistics*.
 
 |===
@@ -87,7 +87,7 @@ The iSCSI settings are only available if your storage array supports iSCSI.
 a|
 Manage iSCSI settings
 a|
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSCSI settings* to view all the management functions.
 a|
 Configure iSCSI ports
@@ -99,7 +99,7 @@ a|
 a|
 Set the host CHAP secret
 a|
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSCSI settings*, and then select *Configure iSCSI/iSER over InfiniBand authentication*.
 
 or
@@ -117,22 +117,22 @@ or
 a|
 View or end iSCSI sessions
 a|
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSCSI settings*, and then select *View/end iSCSI sessions*.
 
 or
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. Select menu:Support[Diagnostics].
 . Select *View/end iSCSI sessions*.
 a|
 View iSCSI statistics
 a|
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSCSI settings*, and then select *View iSCSI statistics*.
 
 or
 
-. Select menu:Support[Support Center > Diagnostics] tab.
+. Select menu:Support[Diagnostics].
 . Select *View iSCSI statistics*.
 |===
 

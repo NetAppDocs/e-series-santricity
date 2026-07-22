@@ -19,8 +19,7 @@ You can save a certificate for a key management server to your local machine.
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates].
-. Select the *Key Management* tab.
+. From the left panel, select menu:Certificates[Key management certificates].
 . From the table, select the certificate you want to export, and then click *Export*.
 +
 A Save dialog box opens.

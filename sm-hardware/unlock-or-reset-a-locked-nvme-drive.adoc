@@ -23,10 +23,10 @@ This task describes how to unlock data in NVMe or FIPS drives by importing a sec
 
 [NOTE]
 ====
-If the drive was locked using an external key management server, select menu:Settings[System > Security key management] in System Manager to configure external key management and unlock the drive.
+If the drive was locked using an external key management server, select menu:System[Security key management] in System Manager to configure external key management and unlock the drive.
 ====
 
-You can access the Unlock feature from either the Hardware page or from menu:Settings[System > Security key management]. The task below provides instructions from the Hardware page.
+You can access the Unlock feature from either the Hardware page or from menu:System[Security key management]. The task below provides instructions from the Hardware page.
 
 .Steps
 

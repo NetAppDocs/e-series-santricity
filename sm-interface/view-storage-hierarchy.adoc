@@ -11,7 +11,7 @@ summary: "The Storage Hierarchy on the main interface provides an organized view
 [.lead]
 The Storage Hierarchy on the main interface provides an organized view of the various hardware components and storage objects managed by your storage array.
 
-To view the storage hierarchy, go to the Home page and click the drop-down arrow on a storage array component or storage object. A storage array consists of a collection of both physical components and logical components.
+To view the storage hierarchy, go to the Dashboard and click the drop-down arrow on a storage array component or storage object. A storage array consists of a collection of both physical components and logical components.
 
 == Physical components
 

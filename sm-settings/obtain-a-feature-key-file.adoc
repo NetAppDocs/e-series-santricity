@@ -23,7 +23,7 @@ This task describes how to gather required information for the feature, and then
 .Steps
 
 . In System Manager, locate and record the chassis serial number. From the left panel, go to menu:Support[Support center] and scroll down to *View top storage array properties* to view the chassis serial number.
-. In System Manager, locate the feature enable identifier. From the left panel, go to menu:Settings[System], and then scroll down to *Add-ons*. Look for the *Feature enable identifier*. Record the number for the feature enable identifier.
+. In System Manager, locate the feature enable identifier. From the left panel, select *System*, and then scroll down to *Add-ons*. Look for the *Feature enable identifier*. Record the number for the feature enable identifier.
 . Locate and record the code for feature activation. For features packs, this code is provided in the appropriate instructions for performing the conversion.
 +
 For premium features, you can access the activation code from the Support site, as follows:

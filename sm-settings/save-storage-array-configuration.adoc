@@ -40,7 +40,7 @@ This operation _does not_ save these settings:
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Select *Save storage array configuration*.
 . Select the items of the configuration that you want to save:
  ** Storage array settings

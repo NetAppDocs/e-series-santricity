@@ -11,8 +11,8 @@ summary: 'You navigate the main interface to access System Manager features and 
 [.lead]
 SANtricity System Manager is a web-based interface that allows you to manage a storage array in a single view.
 
-== Home page
-The Home page provides a dashboard view for the daily management of your storage array. When you log into System Manager, the Home page is the first screen displayed.
+== Dashboard
+The Dashboard provides a summary view for the daily management of your storage array. When you log into System Manager, the Dashboard is the first screen displayed.
 
 The dashboard view comprises three summary areas that contain key information about the state and health of your storage array. You can find more information from the summary area.
 

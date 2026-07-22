@@ -14,8 +14,8 @@ You can import a directory services configuration from one storage array to othe
 
 .Before you begin
 
-* Directory services are configured in System Manager for the storage array you want to use as the source (menu:Settings[Access Management]).
-* The existing configuration for the target storage arrays are backed up in System Manager (menu:Settings[System > Save Storage Array Configuration]).
+* Directory services are configured in System Manager for the storage array you want to use as the source (menu:Authentication[Directory services]).
+* The existing configuration for the target storage arrays are backed up in System Manager (menu:System[Save storage array configuration]).
 
 .About this task
 

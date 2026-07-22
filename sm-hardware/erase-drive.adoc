@@ -54,7 +54,7 @@ Be sure you want to continue with this operation. Once you click Yes in the next
 . In the Erase drives estimated completion time dialog box, click *Erase* to continue with the erase operation.
 
 .Results
-The Erase operation might take several minutes or several hours. You can view the status in menu:Storage[Operations in progress]. When the Erase operation completes, the drives are available for use in another volume group or disk pool, or in another storage array.
+The Erase operation might take several minutes or several hours. You can view the status in menu:Monitoring[Operations in progress]. When the Erase operation completes, the drives are available for use in another volume group or disk pool, or in another storage array.
 
 .After you finish
 If you want to use the drive again, you must initialize it first. To do this, select *Initialize* from the drive's context menu.

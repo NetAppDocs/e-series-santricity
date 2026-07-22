@@ -36,7 +36,7 @@ In this task, you define the IP address of the key management server and the por
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Under *Security key management*, select *Create External Key*.
 +
 [NOTE]

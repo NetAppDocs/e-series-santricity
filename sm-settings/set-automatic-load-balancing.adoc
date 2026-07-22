@@ -26,7 +26,7 @@ You might want to disable Automatic Load Balancing on your storage array for the
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 .. Scroll down to *Additional settings*, and then click *Configure automatic load balancing*.
 +
 The text below this option indicates whether the feature is currently enabled or disabled.
