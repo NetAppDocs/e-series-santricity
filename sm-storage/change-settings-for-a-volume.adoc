@@ -37,7 +37,7 @@ The Edit Volume Settings window appears, showing the configuration settings for 
 a|
 Name
 a|
-Displays the name of the volume. Change the name of a volume when the current name is no longer meaningful or applicable.
+Displays the name of the volume. Change the name of a volume when the current name is no longer meaningful or applicable. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Host
 a|

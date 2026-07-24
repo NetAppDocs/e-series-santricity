@@ -30,7 +30,7 @@ The Enable/Disable Session Timeout dialog box opens.
 
 . Use the spinner controls to increase or decrease the time in minutes.
 +
-The minimum timeout you can set for System Manager is 15 minutes.
+The minimum timeout you can set for System Manager is 10 minutes.
 +
 [NOTE]
 ====

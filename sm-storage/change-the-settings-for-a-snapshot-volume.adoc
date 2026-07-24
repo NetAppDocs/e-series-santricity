@@ -33,7 +33,7 @@ The Snapshot Volume Settings dialog box appears.
 a|
 Name
 a|
-You can change the name for the snapshot volume.
+You can change the name for the snapshot volume. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Assigned to
 a|

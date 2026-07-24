@@ -27,6 +27,8 @@ The expansion causes additional free capacity to be included in the pool or volu
 * If the pool or volume group contains all secure-capable drives, add only drives that are secure-capable to continue to use the encryption abilities of the secure-capable drives.
 +
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
+* The capacity of the drives you add must be equal to or greater than the capacity of the smallest drive in the pool or volume group. 
+* The PCIe speed and QLC drive type of the drives you add must match the existing drives in the pool or volume group. 
 
 .About this task
 
