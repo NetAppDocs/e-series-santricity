@@ -28,6 +28,8 @@ Review these guidelines before you create a volume group:
 ** If you select RAID 5, you must add a minimum of three drives to create the volume group.
 ** If you select RAID 6, you must add a minimum of five drives to create the volume group.
 
+NOTE: Mixing FDE and FIPS drives within the same storage array is not supported. All secure-capable drives in the system must be of the same type.
+
 .Steps
 
 . From the left panel, select menu:Storage[Pools and volume groups].
@@ -90,7 +92,6 @@ Indicates whether this volume group candidate is comprised entirely of secure-ca
  ** If you want to create an FDE-only volume group, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only volume group, look for *Yes - FIPS* or *Yes - FIPS (Mixed)*. "Mixed" indicates a mixture of 140-2 and 140-3 level drives. If you use a mixture of these levels, be aware that the volume group will then operate at the lower level of security (140-2).
  ** You can create a volume group comprised of drives that might or might not be secure-capable or are a mix of security levels. If the drives in the volume group include drives that are not secure-capable, you cannot make the volume group secure.
 
-NOTE: Mixing FDE and FIPS drives within the same storage array is not supported. All secure-capable drives in the system must be of the same type.
 a|
 Enable Security?
 a|
