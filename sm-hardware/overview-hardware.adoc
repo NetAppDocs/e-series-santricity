@@ -26,7 +26,7 @@ Learn more:
 * link:hardware-terminology.html[Hardware terminology]
 
 == How do I view hardware components?
-Go to the Hardware page, which provides a graphical depiction of the storage array's physical components. You can switch between the front and back views of the array shelves by selecting either the *Drives* or *Controllers* tab from the upper right of the shelf view.
+Go to the Hardware page, which provides a graphical depiction of the storage array's physical components. You can switch between the front and back views of the array shelves by selecting either the *Drives* or *Controllers and components* tab from the upper right of the shelf view.
 
 Learn more:
 

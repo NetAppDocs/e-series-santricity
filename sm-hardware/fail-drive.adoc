@@ -22,11 +22,7 @@ System Manager monitors the drives in the storage array. When it detects that a 
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
-
+. From the left panel, select menu:Hardware[Drives].
 . Click the drive that you want to fail.
 +
 The drive's context menu appears.

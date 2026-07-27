@@ -36,8 +36,7 @@ This task describes how to define MIB variables for SNMP traps. These variables 
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 . Select *Configure SNMP MIB Variables*.
 +
 The Configure SNMP MIB Variables dialog box opens.

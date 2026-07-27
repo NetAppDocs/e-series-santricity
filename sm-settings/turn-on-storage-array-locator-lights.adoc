@@ -14,12 +14,12 @@ To find the physical location of a storage array in a cabinet, you can turn on i
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
-. Under *General*, click *Turn on Storage Array Locator Lights*.
+. From the left panel, select *System*.
+. Under *General*, click *Turn on storage array locator lights*.
 +
-The Turn On Storage Array Locator Lights dialog box opens, and the corresponding storage array's locator lights turn on.
+The Turn on locator lights dialog box opens, and the corresponding storage array's locator lights turn on.
 
-. When you have physically located the storage array, return to the dialog box and select *Turn Off*.
+. When you have physically located the storage array, return to the dialog box and select *Turn off*.
 
 .Results
 

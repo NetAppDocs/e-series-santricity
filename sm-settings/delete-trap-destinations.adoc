@@ -14,15 +14,14 @@ You can delete a trap destination address so that the storage array's event moni
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
 The trap destination addresses appear in the table.
 
 . Select a trap destination, and then click *Delete* in the upper right of the page.
 . Confirm the operation, and then click *Delete*.
 +
-The destination address no longer appears on the Alerts page.
+The destination address no longer appears on the SNMP alerts page.
 
 .Results
 

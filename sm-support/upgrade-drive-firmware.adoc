@@ -22,11 +22,11 @@ You can upgrade your drives firmware to make sure you have all the latest featur
 
 .Steps
 
-. From the left panel, select menu:Support[Upgrade Center].
+. From the left panel, select menu:Support[Upgrade center].
 . Download the new files from the Support site to your management client.
-. Under Drive Firmware upgrade, click *Begin Upgrade*.
+. Under Drive firmware upgrade, click *Begin drive firmware upgrade*.
 +
-A dialog box appears, which lists the drive firmware files currently in use.
+The Upgrade drive firmware page appears, which lists the drive firmware files currently in use.
 
 . Extract (unzip) the files you downloaded from the Support site.
 . Click *Browse*, and select the new drive firmware files that you downloaded from the Support site.
@@ -37,15 +37,16 @@ You can select up to four drive firmware files, one at a time. If more than one 
 
 . Click *Next*.
 +
-The *Select Drives* dialog box appears, which lists the drives that you can upgrade with the selected files.
+The *Select drives* step appears, which lists the drives that you can upgrade with the selected files.
 +
 Only drives that are compatible appear.
 +
 The selected firmware for the drive appears in the Proposed Firmware information area. If you must change the firmware, click *Back* to return to the previous dialog.
 
 . Select the type of upgrade you want to perform:
- ** *Online (default)* -- Shows the drives that can support a firmware download _while the storage array is processing I/O_. You do not have to stop I/O to the associated volumes using these drives when you select this upgrade method. These drives are upgraded one at a time while the storage array is processing I/O to those drives.
- ** *Offline (parallel)* -- Shows the drives that can support a firmware download _only while all I/O activity is stopped_ on any volumes that use the drives. You must stop all I/O activity on any volumes that use the drives you are upgrading when you select this upgrade method. Drives that do not have redundancy must be processed as an offline operation. This requirement includes any drive associated with SSD cache, a RAID 0 volume group, or any pool or volume group that is degraded. The offline (parallel) upgrade is typically faster than the online (default) method.
+ ** *Upgrade all drives online* -- Shows the drives that can support a firmware download _while the storage array is processing I/O_. You do not have to stop I/O to the associated volumes using these drives when you select this upgrade method. These drives are upgraded one at a time while the storage array is processing I/O to those drives.
+ ** *Upgrade all drives offline (parallel)* -- Shows the drives that can support a firmware download _only while all I/O activity is stopped_ on any volumes that use the drives. You must stop all I/O activity on any volumes that use the drives you are upgrading when you select this upgrade method. Drives that do not have redundancy must be processed as an offline operation. This requirement includes any drive associated with SSD cache, a RAID 0 volume group, or any pool or volume group that is degraded. The offline (parallel) upgrade is typically faster than the online method.
+
 . In the first column of the table, select the drive or drives you want to upgrade.
 . Click *Start*, and confirm that you want to perform the operation.
 +
@@ -56,7 +57,7 @@ If you need to stop the upgrade, click *Stop*. Any firmware downloads currently 
 Stopping the drive firmware upgrade might result in data loss or unavailable drives.
 ====
 
-. *Optional:* To see a list of what was upgraded, click *Save Log*.
+. *Optional:* To see a list of what was upgraded, click *Save log*.
 +
 The file is saved in the Downloads folder for your browser with the name `drive_upgrade_log-timestamp.txt`.
 

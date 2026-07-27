@@ -2,7 +2,7 @@
 permalink: sm-settings/view-imported-certificates.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, imported, certificate, information,
-summary: "From the Certificates page, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array."
+summary: "From the Certificates category, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array."
 ---
 = View imported certificate information in SANtricity System Manager
 :experimental:
@@ -10,7 +10,7 @@ summary: "From the Certificates page, you can view the certificate type, issuing
 :imagesdir: ../media/
 
 [.lead]
-From the Certificates page, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array.
+From the Certificates category, you can view the certificate type, issuing authority, and the valid date range of certificates for the storage array.
 
 .Before you begin
 
@@ -18,18 +18,18 @@ You must be logged in with a user profile that includes Security admin permissio
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates].
-. Select one of the tabs to view information about the certificates.
+. From the left panel, select *Certificates*.
+. Select one of the following pages to view information about the certificates.
 +
 [cols="25h,~",options="header"]
 |===
-| Tab| Description
+| Page| Description
 a|
-Array Management
+menu:Certificates[Array management certificates]
 a|
 View information about the CA-signed certificates imported for each controller, including the root file, intermediate file(s), and the server file(s).
 a|
-Trusted
+menu:Certificates[Trusted certificates]
 a|
 View information about all other types of certificates imported for the controllers.     Use the filter field under *Show certificates that are...* to view either user-installed or pre-installed certificates.
 
@@ -37,7 +37,7 @@ View information about all other types of certificates imported for the controll
  ** *Pre-installed* -- Self-signed certificates included with the storage array.
 
 a|
-Key Management
+menu:Certificates[Key management certificates]
 a|
 View information about the CA-signed certificates imported for an external key management server.
 |===

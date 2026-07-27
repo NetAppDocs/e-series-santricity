@@ -27,7 +27,7 @@ When you enable resource provisioning for existing volume groups and pools, all 
 
 When you disable resource provisioning for existing volume groups or pools, a background operation rewrites all the logical blocks in every volume. Existing data remains intact. The writes will map or provision the blocks on the drives associated with the volume group or pool.
 
-NOTE: For new volume groups and pools, you can enable or disable resource provisioning from menu:Settings[System > Additional Settings > Enable/Disable Resource-Provisioned Volumes].
+NOTE: For new volume groups and pools, you can enable or disable resource provisioning from menu:System[Additional settings > Configure resource-provisioned volumes].
 
 .Steps
 

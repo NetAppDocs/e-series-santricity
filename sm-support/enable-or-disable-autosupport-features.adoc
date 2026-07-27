@@ -28,7 +28,7 @@ The AutoSupport feature is made up of three individual features that you enable 
 
 .Steps
 
-. From the left panel, select menu:Support[Support Center > AutoSupport] tab.
+. From the left panel, select menu:Support[AutoSupport].
 . Select *Enable/Disable AutoSupport Features*.
 . Select the check boxes next to the AutoSupport features that you want to enable.
 +
@@ -36,4 +36,4 @@ The features depend on each other as indicated by the indentation of the items i
 
 . Click *Save*.
 +
-If you disable AutoSupport, a notification appears on the Home page. You can dismiss the notification by clicking *Ignore*.
+If you disable AutoSupport, a notification appears in the Notifications area, available through the bell icon in the upper corner of the window. You can dismiss the notification by clicking *Ignore*.

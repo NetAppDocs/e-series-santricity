@@ -19,7 +19,7 @@ Learn more:
 
 * link:autosupport-feature-overview.html[AutoSupport feature overview]
 * link:overview-event-log.html[Event log overview]
-* link:overview-upgrade-center.html[Upgrade Center overview]
+* link:overview-upgrade-center.html[Upgrade center overview]
 
 == How do I contact technical support?
-From the main page, click menu:Support[Support Center > Support Resources tab]. The technical support contact information is listed in the upper right of the interface.
+From the main page, click menu:Support[Support resources]. The technical support contact information is listed in the upper right of the interface.

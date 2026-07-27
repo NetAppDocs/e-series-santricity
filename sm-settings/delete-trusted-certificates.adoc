@@ -28,8 +28,7 @@ This task describes how to delete user-installed certificates. The pre-installed
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates].
-. Select the *Trusted* tab.
+. From the left panel, select menu:Certificates[Trusted certificates].
 +
 The table shows the storage array's trusted certificates.
 

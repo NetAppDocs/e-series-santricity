@@ -68,7 +68,7 @@ A volume is created from the capacity available in a pool or a volume group. A v
 a|
 Volume name
 a|
-A volume name is a string of characters assigned to the volume when it is created. You can either accept the default name or provide a more descriptive name indicating the type of data stored in the volume.
+A volume name is a string of characters assigned to the volume when it is created. You can either accept the default name or provide a more descriptive name indicating the type of data stored in the volume. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Volume group
 a|

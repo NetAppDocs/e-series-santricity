@@ -20,8 +20,7 @@ You cannot delete a snapshot image if it is not the oldest snapshot image for th
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Click the *Snapshot Images* tab.
+. From the left panel, select menu:Snapshots[Snapshot images].
 . Select the snapshot image that you want to delete, and confirm that you want to perform the operation.
 +
 If you selected a snapshot image of a snapshot consistency group, select each member volume that you want to delete, and confirm that you want to perform the operation.

@@ -23,18 +23,14 @@ Do not use port 2 on either controller. Port 2 is reserved for use by technical 
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
-+
-The graphic changes to show the controllers instead of the drives.
-
+. From the left panel, select menu:Hardware[Controllers and components].
 . Click the controller with the management port you want to configure.
 +
 The controller's context menu appears.
 
 . Select *Configure management ports*.
 +
-The Configure Management Ports dialog box opens.
+The Configure management ports page opens.
 
 . Make sure port 1 is displayed, and then click *Next*.
 . Select the configuration port settings, and then click *Next*.
@@ -56,7 +52,7 @@ a|
 Select one or both options to enable support for IPv4 and IPv6 networks.
 |===
 ====
-If you select *Enable IPv4*, a dialog box opens for selecting IPv4 settings after you click *Next*. If you select *Enable IPv6*, a dialog box opens for selecting IPv6 settings after you click *Next*. If you select both options, the dialog box for IPv4 settings opens first, and then after you click *Next*, the dialog box for IPv6 settings opens.
+If you select *Enable IPv4*, the *Configure IPv4* step appears after you click *Next*. If you select *Enable IPv6*, the *Configure IPv6* step appears after you click *Next*. If you select both options, the *Configure IPv4* step appears first, and then after you click *Next*, the *Configure IPv6* step appears.
 
 . Configure the IPv4 and/or IPv6 settings, either automatically or manually.
 +
@@ -84,5 +80,4 @@ NOTE: If you change the IP address configuration, you lose the management path t
 . Click *Finish*.
 
 .Results
-
-The management port configuration is displayed in the controller settings, Management Ports tab.
+The management port configuration is displayed in the controller settings, *Management port settings* section.

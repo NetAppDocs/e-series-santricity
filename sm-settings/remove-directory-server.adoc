@@ -2,7 +2,7 @@
 permalink: sm-settings/remove-directory-server.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, remove, directory, server,
-summary: "To break the connection between a directory server and the storage array, you can remove the server information from the Access Management page. You might want to perform this task if you configured a new server, and then want to remove the old one."
+summary: "To break the connection between a directory server and the storage array, you can remove the server information from the Directory services page. You might want to perform this task if you configured a new server, and then want to remove the old one."
 ---
 = Remove directory server in SANtricity System Manager
 :experimental:
@@ -10,7 +10,7 @@ summary: "To break the connection between a directory server and the storage arr
 :imagesdir: ../media/
 
 [.lead]
-To break the connection between a directory server and the storage array, you can remove the server information from the Access Management page. You might want to perform this task if you configured a new server, and then want to remove the old one.
+To break the connection between a directory server and the storage array, you can remove the server information from the Directory services page. You might want to perform this task if you configured a new server, and then want to remove the old one.
 
 .Before you begin
 
@@ -22,8 +22,7 @@ After you complete this task, any active user sessions are terminated. Only your
 
 .Steps
 
-. From the left panel, select menu:Settings[Access Management].
-. Select the *Directory Services* tab.
+. From the left panel, select menu:Authentication[Directory services].
 . From the list, select the directory server you want to delete.
 . Click *Remove*.
 +

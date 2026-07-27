@@ -27,7 +27,7 @@ You can run four different tests:
 
 .Steps
 
-. From the left panel, select menu:Storage[Asynchronous Mirroring].
+. From the left panel, select menu:Mirroring[Asynchronous mirror consistency groups].
 . Select the *Mirror Consistency Groups* tab, and then select the mirror consistency group that you want to test.
 . Select *Test Communication*.
 +

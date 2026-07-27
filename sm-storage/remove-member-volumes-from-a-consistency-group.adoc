@@ -18,8 +18,7 @@ When you remove a member volume from a snapshot consistency group, System Manage
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Click the *Snapshot Consistency Groups* tab.
+. From the left panel, select menu:Snapshots[Snapshot consistency groups].
 . Expand the snapshot consistency group you want to modify by selecting the plus (+) sign next to it.
 . Select the member volume that you want to remove, and then click *Remove*.
 . Confirm that you want to perform the operation, and then click *Remove*.

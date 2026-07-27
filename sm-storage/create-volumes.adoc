@@ -134,7 +134,7 @@ You create volumes from pools or volume groups. The Add Volumes page shows all e
 a|
 Volume Name
 a|
-A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume.
+A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Reported Capacity
 a|
@@ -202,7 +202,7 @@ a|
 a|
 Volume Name
 a|
-A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume.
+A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Reported Capacity
 a|
@@ -279,4 +279,4 @@ System Manager creates the new volumes in the selected pools and volume groups, 
 * Perform any operating system modifications necessary on the application host so that the applications can use the volume.
 * Run the operating system-specific utility (available from a third-party vendor), and then run the SMcli command `-identifyDevices` to correlate volume names with host storage array names.
 +
-The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on EF80, EF50, E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *Settings* > *System* and *Add-ons* > *Command Line Interface* .
+The SMcli is available directly through the SANtricity System Manager. This downloadable version of the SMcli is available on EF80, EF50, E4000, EF600, EF600C, EF300, EF300C, E5700, EF570, E2800, and EF280 controllers. To download the SMcli within the SANtricity System Manager, select *System* and *Add-ons* > *Download command line interface* .

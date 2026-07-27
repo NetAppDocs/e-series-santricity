@@ -31,10 +31,7 @@ Hot spares can also be assigned from the Initial Setup wizard. You can determine
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
+. From the left panel, select menu:Hardware[Drives].
 
 . Select an unassigned drive (shown in gray) that you want to use as a hot spare.
 +

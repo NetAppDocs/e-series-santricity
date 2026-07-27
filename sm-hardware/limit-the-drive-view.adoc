@@ -17,12 +17,12 @@ The drive filters can limit the view to only certain types of physical drives (f
 
 [NOTE]
 ====
-If all drives share the same physical attributes, the *Show drives that are...* filter field does not appear. If all drives share the same logical attributes, the *Anywhere in the storage array* filter field does not appear.
+If all drives share the same physical attributes, the *Show drives that are...* filter field does not appear. If all drives share the same logical attributes, logical location options do not appear in the filter field.
 ====
 
 .Steps
 
-. From the left panel, select *Hardware*.
+. From the left panel, select menu:Hardware[Drives].
 . In the first filter field (under *Show drives that are...*), click the drop-down arrow to display the available drive types and security attributes.
 +
 Drive types might include:
@@ -43,7 +43,7 @@ If any of these attributes are the same for all drives, they are not shown in th
 +
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
 +
-. In the second filter box, click the drop-down arrow to display the available logical locations for the drives.
+. In the same filter field, click the drop-down arrow to display the available logical locations for the drives.
 +
 [NOTE]
 ====
@@ -60,6 +60,6 @@ Logical locations might include:
 +
 When you select an option from the field, the drives that do not match your filter criteria are grayed out in the graphic view.
 
-. Optionally, you can select *Turn on locator lights* at the far right of the filter fields to turn on the locator lights for the displayed drives.
+. Optionally, you can select *turn on locator lights* at the far right of the filter field to turn on the locator lights for the displayed drives.
 +
 This action helps you physically locate the drives in the storage array.

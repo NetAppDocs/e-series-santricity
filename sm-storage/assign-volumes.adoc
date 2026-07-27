@@ -19,7 +19,7 @@ Keep these guidelines in mind when you assign volumes to hosts:
 * You can assign a volume to only one host or host cluster at a time.
 * Assigned volumes are shared between controllers in the storage array.
 * The same logical unit number (LUN) cannot be used twice by a host or a host cluster to access a volume. You must use a unique LUN.
-* For new volume groups, if you wait until all volumes are created and initialized before you assign them to a host, the volume initialization time is reduced. Keep in mind that once a volume associated with the volume group is mapped, _all_ volumes will revert to the slower initialization. You can check the initialization progress from menu:Home[Operations in Progress].
+* For new volume groups, if you wait until all volumes are created and initialized before you assign them to a host, the volume initialization time is reduced. Keep in mind that once a volume associated with the volume group is mapped, _all_ volumes will revert to the slower initialization. You can check the initialization progress from menu:Monitoring[Operations in progress].
 
 Assigning a volume fails under these conditions:
 

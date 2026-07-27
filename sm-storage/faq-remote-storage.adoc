@@ -60,7 +60,7 @@ Before you create the remote storage import, you must complete the following act
 
 * Ensure that each controller of the local E-Series storage system has an iSCSI connection to the remote storage system.
 * On your local E-Series storage system, create a target volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume, has a block size that matches the source volume, and is not mapped. See link:create-volumes.html[Create volumes].
-* Set up the local E-Series storage system as a host on the remote system using its iSCSI Qualified Name (IQN). You can view the IQN from menu:Settings[System > iSCSI settings > Target IQN]. Also, be sure to set the appropriate host type based on the system being used.
+* Set up the local E-Series storage system as a host on the remote system using its iSCSI Qualified Name (IQN). You can view the IQN from menu:System[iSCSI settings > Target IQN]. Also, be sure to set the appropriate host type based on the system being used.
 * Stop all I/Os, unmount any file systems, and remove any assignments to hosts or applications for the selected volume on the remote storage system.
 * Assign the volume to the remote storage system to the newly created local E-Series storage system host.
 * Gather the following information from the remote storage system so that the import can be created:

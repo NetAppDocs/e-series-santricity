@@ -32,7 +32,7 @@ Learn more:
 
 == How do I configure authentication?
 
-The storage array is pre-configured to use local user roles, which are an implementation of RBAC capabilities. If you want to configure a different method, go to menu:Settings[Access Management].
+The storage array is pre-configured to use local user roles, which are an implementation of RBAC capabilities. If you want to configure a different method, go to menu:Authentication[].
 
 Learn more:
 

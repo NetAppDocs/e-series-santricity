@@ -41,7 +41,7 @@ During volume creation, the system prompts you to answer questions about a workl
 
 == How do I configure the delivery method for AutoSupport?
 
-To access configuration tasks for AutoSupport delivery methods, go to menu:Support[Support Center], and then click the *AutoSupport* tab.
+To access configuration tasks for AutoSupport delivery methods, go to menu:Support[AutoSupport].
 
 The following protocols are supported: HTTPS and SMTP.
 

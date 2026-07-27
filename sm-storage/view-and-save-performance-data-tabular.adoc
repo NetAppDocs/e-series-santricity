@@ -13,21 +13,18 @@ You can view and save performance graphs data in tabular format. This allows you
 
 .Steps
 
-. From any performance data graph, click *Launch table view*.
+. From the Performance page, click *Go to table view*.
 +
 A table appears that lists all the performance data for the selected objects.
 
-. Use the object selection pull-down and the filter as needed.
+. Use *Object types* and *Time range* to select the data you want to display, and then click *Refresh*.
 . Click the *Show/Hide Columns* button to select the columns you want to include in the table.
 +
 You can click each check box to select or deselect an item.
 
-. Select *Export* at the bottom of the screen to save the tabular view to a file of comma-separated values (CSV).
-+
-The Export Table dialog box appears, indicating the number of rows to be exported and the file format of the export (comma-separated values, or CSV format).
-
-. Click *Export* to proceed with the download, or click *Cancel*.
+. Select *Export to CSV* from the table menu to save the tabular view to a file of comma-separated values (CSV).
 +
 Depending on your browser settings, the file is either saved, or you are prompted to choose a name and location for the file.
 +
-The default file name format is `performanceStatistics-yyyy-mm-dd_hh-mm-ss.csv`, which includes the date and time when the file was exported.
+The default file name format is `performanceStatistics-<storage array name>-yyyy-mm-dd_hh-mm-ss.csv`, which includes the storage array name and the date and time when the file was exported.
+

@@ -27,8 +27,7 @@ Select either a snapshot image of a base volume or a snapshot consistency group.
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Select the *Snapshot Volumes* tab.
+. From the left panel, select menu:Snapshots[Snapshot volumes].
 . Select *Create*.
 +
 The Create Snapshot Volume dialog box appears.
@@ -128,7 +127,7 @@ You can add the volume to solid-state disk (SSD) cache as a way to improve read-
 a|
 Name
 a|
-Specify the name for the snapshot volume.
+Specify the name for the snapshot volume. Volume names can have a maximum length of 60 characters. The name must be unique.
 a|
 Enable SSD Cache
 a|

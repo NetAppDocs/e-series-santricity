@@ -21,7 +21,7 @@ Learn more:
 * link:alerts-terminology.html[Alerts terminology]
 
 == How do I configure alerts?
-You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuration is available from menu:Settings[Alerts].
+You can configure alerts to be sent as a message to one or more email addresses, as an SNMP trap to an SNMP server, or as a message to a syslog server. Alert configuration is available from menu:Alerts[].
 
 Learn more:
 

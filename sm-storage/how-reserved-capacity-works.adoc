@@ -45,7 +45,7 @@ An orphaned reserved capacity volume is a volume that is no longer storing data 
 
 Because orphaned reserved capacity volumes are not accessed by any host, they are candidates for reclamation. Manually delete the orphaned reserved capacity volume so you can use its capacity for other operations.
 
-System Manager alerts you of orphaned reserved capacity volumes with a "Reclaim unused capacity" message in the Notifications area on the Home page. You can click *Reclaim unused capacity* to display the Reclaim Unused Capacity dialog box, where you can delete the orphaned reserved capacity volume.
+System Manager alerts you of orphaned reserved capacity volumes with a "Reclaim unused capacity" message in the Notifications area, available through the bell icon in the upper corner of the window. You can click *Reclaim unused capacity* to display the Reclaim Unused Capacity dialog box, where you can delete the orphaned reserved capacity volume.
 
 == Characteristics of reserved capacity
 
