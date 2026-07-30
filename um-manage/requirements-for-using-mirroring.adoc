@@ -52,6 +52,12 @@ NOTE: E4000 controllers do not support iSCSI mirroring.
  ** VLAN: Both local and remote systems must have the same VLAN setting to communicate
  ** iSCSI listening port
  ** Jumbo frames
+
+[NOTE]
+==== 
+Use of Jumbo Frames is recommended for improved CPU performance and throughput.
+====
+
  ** Ethernet priority
 
 [NOTE]
