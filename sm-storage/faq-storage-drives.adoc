@@ -18,7 +18,7 @@ Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups. The
 
 If a drive fails in the storage array, the hot spare drive is automatically substituted for the failed drive without requiring a physical swap. If the hot spare drive is available when a drive fails, the controller uses redundancy data to reconstruct the data from the failed drive to the hot spare drive.
 
-A hot spare drive is not dedicated to a specific volume group. Instead, you can use a hot spare drive for any failed drive in the storage array with the same capacity or smaller capacity. A hot spare drive must be of the same media type (HDD or SSD) as the drives that it is protecting.
+A hot spare drive is not dedicated to a specific volume group. Instead, you can use a hot spare drive for any failed drive in the storage array with the same capacity or smaller capacity. A hot spare drive must be of the same media type (HDD or SSD) as the drives that it is protecting. On EF80 and EF50 systems, the hot spare must also match the drive type (TLC or QLC) — TLC drives can only spare to TLC drives, and QLC drives can only spare to QLC drives.
 
 [NOTE]
 ====

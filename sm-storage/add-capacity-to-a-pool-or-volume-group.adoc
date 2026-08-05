@@ -17,7 +17,7 @@ The expansion causes additional free capacity to be included in the pool or volu
 .Before you begin
 
 * Drives must be in an Optimal status.
-* Drives must have the same drive type (HDD or SSD).
+* Drives must have the same drive type (HDD or SSD). For EF80 and EF50 systems, TLC and QLC NVMe SSD drives can coexist in the same storage array but cannot be mixed within the same pool or volume group.
 * The pool or volume group must be in an Optimal status.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
@@ -28,7 +28,7 @@ The expansion causes additional free capacity to be included in the pool or volu
 +
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 * The capacity of the drives you add must be equal to or greater than the capacity of the smallest drive in the pool or volume group. 
-* The PCIe speed and QLC drive type of the drives you add must match the existing drives in the pool or volume group. 
+* The PCIe speed and drive type (TLC or QLC) of the drives you add must match the existing drives in the pool or volume group. TLC and QLC drives cannot be mixed within the same pool or volume group.
 
 .About this task
 
