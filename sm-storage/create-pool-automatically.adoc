@@ -48,7 +48,7 @@ System Manager performs the following tasks:
 
 [NOTE]
 ====
-On EF80 and EF50 systems, TLC and QLC NVMe SSD drives are treated as separate drive types. System Manager creates distinct pools for TLC and QLC drives and does not mix them in the same pool. Minimum pool size is 6 drives for TLC and 12 drives for QLC.
+On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are treated as separate drive types. System Manager creates distinct pools for Performance and Capacity drives and does not mix them in the same pool. Minimum pool size is 6 drives for Performance and 12 drives for Capacity.
 ====
 
 . To view additional characteristics of the pool, click the displayed pool name.

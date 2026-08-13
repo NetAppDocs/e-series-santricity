@@ -19,7 +19,7 @@ Before importing a storage configuration from one storage array to another, revi
 
 == Controllers
 
-* The controller type can be different between the source and target arrays (for example, importing from an E2800 to an E5700), but the RBOD enclosure type must be identical.
+* The controller type can be different between the source and target arrays (for example, importing from an EF300 to an EF80), but the RBOD enclosure type must be identical.
 * The HICs, including the DA capabilities of the host, must be identical between the source and target arrays.
 * Importing from a duplex to simplex configuration is not supported; however, importing from simplex to duplex is allowed.
 * FDE settings are not included in the import process.

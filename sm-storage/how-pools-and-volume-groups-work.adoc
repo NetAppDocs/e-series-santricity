@@ -38,11 +38,11 @@ Pools function as another RAID level, virtualizing the underlying RAID architect
 
 === Drive matching
 
-You can choose from either HDD or SSDs for use in pools; however, as with volume groups, all drives in the pool must use the same technology. The controllers automatically select which drives to include, so you must make sure that you have a sufficient number of drives for the technology you choose. On EF80 and EF50 systems, TLC and QLC NVMe SSD drives are treated as separate drive types; they can coexist in the same storage array but must be in separate pools.
+You can choose from either HDD or SSDs for use in pools; however, as with volume groups, all drives in the pool must use the same technology. The controllers automatically select which drives to include, so you must make sure that you have a sufficient number of drives for the technology you choose. On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are treated as separate drive types; they can coexist in the same storage array but must be in separate pools.
 
 === Managing failed drives
 
-Pools have a minimum capacity of 11 drives; however, one drive's worth of capacity is reserved for spare capacity in the event of a drive failure. This spare capacity is called "`preservation capacity.`" On EF80 and EF50 systems, TLC pools require a minimum of 6 drives and QLC pools require a minimum of 12 drives. For QLC-DDP pools, RAID1-DDP protection is used up to 10 drives, then transitions to RAID6-DDP at 11 or more drives, with a minimum QLC-DDP pool size of 8 drives.
+Pools have a minimum capacity of 11 drives; however, one drive's worth of capacity is reserved for spare capacity in the event of a drive failure. This spare capacity is called "`preservation capacity.`" On EF80 and EF50 systems, Performance pools require a minimum of 6 drives and Capacity pools require a minimum of 12 drives. For Capacity-DDP pools, RAID1-DDP protection is used up to 10 drives, then transitions to RAID6-DDP at 11 or more drives, with a minimum Capacity-DDP pool size of 8 drives.
 
 When pools are created, a certain amount of capacity is preserved for emergency use. This capacity is expressed in terms of a number of drives in System Manager, but the actual implementation is spread across the entire pool of drives. The default amount of capacity that is preserved is based on the number of drives in the pool.
 
@@ -58,7 +58,7 @@ When you create a volume group, controllers automatically select the drives to i
 
 You must match the drives in the volume group for size and performance. If there are smaller and larger drives in the volume group, all drives are recognized as the smallest capacity size. If there are slower and faster drives in the volume group, all drives are recognized at the slowest speed. These factors affect the performance and overall capacity of the storage system.
 
-You cannot mix different drive technologies (HDD and SSD drives). On EF80 and EF50 systems, TLC and QLC NVMe SSD drives are different drive types and cannot be mixed within the same volume group; minimum drive counts are 6 for TLC and 12 for QLC. RAID 3, 5, and 6 are limited to a maximum of 30 drives. RAID 1 and RAID 10 uses mirroring, so these volume groups must have an even number of disks.
+You cannot mix different drive technologies (HDD and SSD drives). On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are different drive types and cannot be mixed within the same volume group; minimum drive counts are 6 for Performance and 12 for Capacity. RAID 3, 5, and 6 are limited to a maximum of 30 drives. RAID 1 and RAID 10 uses mirroring, so these volume groups must have an even number of disks.
 
 === Managing failed drives
 
