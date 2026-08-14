@@ -134,7 +134,9 @@ You create volumes from pools or volume groups. The Add Volumes page shows all e
 a|
 Volume Name
 a|
-A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Volume names can have a maximum length of 60 characters. The name must be unique.
+A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Standard and thin volume names can have a maximum length of 60 characters. Only standard and thin volumes can have names longer than 30 characters. The name must be unique.
+
+NOTE: Downgrades to SANtricity OS software version 11.90 or earlier is not supported if standard or thin volumes exist with names greater than 30 characters. If you plan to downgrade to SANtricity OS software version 11.90 or earlier, change the names of any standard or thin volumes that have names greater than 30 characters before downgrading.
 a|
 Reported Capacity
 a|
@@ -202,7 +204,9 @@ a|
 a|
 Volume Name
 a|
-A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Volume names can have a maximum length of 60 characters. The name must be unique.
+A volume is assigned a default name by System Manager during the volume creation sequence. You can either accept the default name or provide a more descriptive one indicating the type of data stored in the volume. Standard and thin volume names can have a maximum length of 60 characters. The name must be unique. Only standard and thin volumes can have names longer than 30 characters. 
+
+NOTE: Downgrades to SANtricity OS software version 11.90 or earlier is not supported if standard or thin volumes exist with names greater than 30 characters. If you plan to downgrade to SANtricity OS software version 11.90 or earlier, change the names of any standard or thin volumes that have names greater than 30 characters before downgrading.
 a|
 Reported Capacity
 a|
