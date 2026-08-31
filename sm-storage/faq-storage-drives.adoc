@@ -43,6 +43,6 @@ The data from the original drive is copied or reconstructed onto the replacement
 
 You can view drive reconstruction status from the Operations in progress dashboard.
 
-Under the left panel, click menu:Monitoring[Operations in progress].
+From the left panel, select menu:Monitoring[Operations in progress].
 
 Depending on the drive, the full reconstruction might take a considerable amount of time. If a volume ownership has changed, a full reconstruction might take place instead of the rapid reconstruction.
