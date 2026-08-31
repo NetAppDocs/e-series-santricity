@@ -46,6 +46,11 @@ System Manager performs the following tasks:
  ** Adds the drives to an existing pool if a pool is already defined in the storage array, and you add new drives of the same drive type to the pool.
  ** Adds the drives of the same drive type to the existing pool, and use the other drive types to create different pools if the new drives are of different drive types.
 
+[NOTE]
+====
+On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are treated as separate drive types. System Manager creates distinct pools for Performance and Capacity drives and does not mix them in the same pool. Minimum pool size is 6 drives for Performance and 12 drives for Capacity.
+====
+
 . To view additional characteristics of the pool, click the displayed pool name.
 +
 Information about the drive type, security capability, data assurance (DA) capability, shelf loss protection, and drawer loss protection appears.

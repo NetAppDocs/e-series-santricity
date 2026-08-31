@@ -17,18 +17,18 @@ The expansion causes additional free capacity to be included in the pool or volu
 .Before you begin
 
 * Drives must be in an Optimal status.
-* Drives must have the same drive type (HDD or SSD).
+* Drives must have the same drive type (HDD or SSD). For EF80 and EF50 systems, Performance and Capacity NVMe SSD drives can coexist in the same storage array but cannot be mixed within the same pool or volume group.
 * The pool or volume group must be in an Optimal status.
 * The maximum number of volumes allowed in a volume group is 256.
 * The maximum number of volumes allowed in a pool depends on the storage system model:
- ** 2,048 volumes (EF80, EF600, and E5700 series)
+ ** 2,048 volumes (EF80, EF600, and EF600C)
  ** 1,024 volumes (EF50 and EF300)
- ** 512 volumes (E4000 and E2800 series)
+ ** 512 volumes (E4000)
 * If the pool or volume group contains all secure-capable drives, add only drives that are secure-capable to continue to use the encryption abilities of the secure-capable drives.
 +
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 * The capacity of the drives you add must be equal to or greater than the capacity of the smallest drive in the pool or volume group. 
-* The PCIe speed and QLC drive type of the drives you add must match the existing drives in the pool or volume group. 
+* The PCIe speed and drive type (Performance or Capacity) of the drives you add must match the existing drives in the pool or volume group. Performance and Capacity drives cannot be mixed within the same pool or volume group.
 
 .About this task
 

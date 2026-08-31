@@ -2,7 +2,7 @@
 permalink: sm-hardware/controller-states.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, controller, states,
-summary: "You can place a controller into three different states: online, offline, and service mode."
+summary: "You can place a controller into three different states. Online, offline, and service mode."
 ---
 = Learn about controller states in SANtricity System Manager
 :icons: font
