@@ -58,7 +58,7 @@ When you create a volume group, controllers automatically select the drives to i
 
 You must match the drives in the volume group for size and performance. If there are smaller and larger drives in the volume group, all drives are recognized as the smallest capacity size. If there are slower and faster drives in the volume group, all drives are recognized at the slowest speed. These factors affect the performance and overall capacity of the storage system.
 
-You cannot mix different drive technologies (HDD and SSD drives). On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are different drive types and cannot be mixed within the same volume group; minimum drive counts are 6 for Performance and 12 for Capacity. RAID 3, 5, and 6 are limited to a maximum of 30 drives. RAID 1 and RAID 10 uses mirroring, so these volume groups must have an even number of disks.
+You cannot mix different drive technologies (HDD and SSD drives). On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are different drive types and cannot be mixed within the same volume group; minimum drive counts are 6 for Performance and 12 for Capacity. RAID 3, 5, and 6 are limited to a maximum of 30 drives. RAID 1 and RAID 10 use mirroring, so these volume groups must have an even number of disks.
 
 === Managing failed drives
 
