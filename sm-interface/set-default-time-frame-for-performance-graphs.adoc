@@ -14,7 +14,7 @@ You can change the default time frame shown by the performance graphs.
 
 .About this task
 
-Performance graphs shown on the Home page and on the Performance page initially show a time frame of 1 hour. Preferences are stored in the browser's local storage so all users can have their own settings.
+Performance graphs shown on the Dashboard and on the Performance page initially show a time frame of 1 hour. Preferences are stored in the browser's local storage so all users can have their own settings.
 
 .Steps
 

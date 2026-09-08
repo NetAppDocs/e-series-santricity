@@ -26,12 +26,11 @@ During this task, you can configure an OCSP server or use the server specified i
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates].
-. Select the *Trusted* tab.
+. From the left panel, select menu:Certificates[Trusted certificates].
 +
 [NOTE]
 ====
-You can also enable revocation checking from the *Key Management* tab.
+You can also enable revocation checking from the *Key management certificates* page.
 ====
 
 . Click *Uncommon Tasks*, and then select *Enable Revocation Checking* from the drop-down menu.

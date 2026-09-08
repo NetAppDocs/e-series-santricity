@@ -20,7 +20,7 @@ A shelf is a component that contains the hardware for the storage array (control
 
 Shelves are available in three sizes for housing up to 12, 24, or 60 drives. Each shelf includes an ID number, which is assigned by the controller firmware. The ID appears on the upper left of the shelf view.
 
-The shelf view on the Hardware page shows the front or back components. You can switch between the two views by selecting either the *Drives* or *Controller* tabs from the upper right of the shelf view. You can also select *Show all front* or *Show all back* from the bottom of the page. The front and back views show the following:
+The shelf view on the Hardware page shows the front or back components. You can switch between the two views by selecting either the *Drives* or *Controllers and components* tabs from the upper right of the shelf view. You can also select *Show all front* or *Show all back* from the bottom of the page. The front and back views show the following:
 
 * *Front components* -- Drives and empty drive bays.
 * *Back components* -- Controllers and power/fan canisters (for controller shelves) or the IOMs and power/fan canisters (for drive shelves).

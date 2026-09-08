@@ -47,7 +47,7 @@ Perform this operation only when instructed to do so by technical support.
 .Steps
 
 . If your storage array contains only one controller or you do not have a multipath driver installed, stop I/O activity to the storage array to prevent application errors. If your storage array has two controllers and you have a multipath driver installed, you do not need to stop I/O activity.
-. From the left panel, select menu:Support[Upgrade Center].
+. From the left panel, select menu:Support[Upgrade center].
 . Download the new file from the Support site to your management client.
  .. Click *NetApp Support* to launch the Support web site.
  .. On the Support web site, click the *Downloads* tab, and then select *Downloads*.
@@ -59,33 +59,33 @@ Perform this operation only when instructed to do so by technical support.
 ====
 Digitally signed firmware is required in version 8.42 and above. If you attempt to download unsigned firmware, an error is displayed and the download is aborted.
 ====
-. If you do NOT want to upgrade the IOM firmware at this time, click *Suspend IOM Auto-Synchronization*.
+. If you need to change the IOM firmware behavior at this time, click *Configure IOM auto-synchronization*.
 +
 If you have a storage array with a single controller, the IOM firmware is not upgraded.
 
-. Under SANtricity OS Software upgrade, click *Begin Upgrade*.
+. Under SANtricity OS software upgrade, click *Begin SANtricity OS software upgrade*.
 +
-The Upgrade SANtricity OS Software dialog box appears.
+The Upgrade SANtricity OS software page appears.
 
 . Select one or more files to begin the upgrade process:
- .. Select the SANtricity OS Software file by clicking *Browse* and navigating to the OS software file you downloaded from the Support web site.
+ .. Select the SANtricity OS software file by clicking *Browse* and navigating to the OS software file you downloaded from the Support web site.
  .. Select the Controller NVSRAM file by clicking *Browse* and navigating to the NVSRAM file that you downloaded from the Support site. Controller NVSRAM files have a filename similar to `N2800-830000-000.dlp`.
 
 +
 These actions occur:
  ** By default, only the files that are compatible with the current storage array configuration appear.
  ** When you select a file for upgrade, the file's name and size appear.
-. *Optional:* If you selected a SANtricity OS Software file to upgrade, you can transfer the files to the controller without activating them by selecting the *Transfer files now, but do not upgrade (activate upgrade later)* check box.
+. *Optional:* If you selected a SANtricity OS software file to upgrade, you can transfer the files to the controller without activating them by selecting the *Transfer files now, but do not start the upgrade (activate later)* check box.
 . Click *Start*, and confirm that you want to perform the operation.
 +
 You can cancel the operation during the pre-upgrade health check, but not during transferring or activating.
 
-. *Optional:* To see a list of what was upgraded, click *Save Log*.
+. *Optional:* To see a list of what was upgraded, click *Save log*.
 +
 The file is saved in the Downloads folder for your browser with the name `drive_upgrade_log-timestamp.txt`.
 
 .After you finish
 
 * Verify that all components appear on the Hardware page.
-* Verify the new software and firmware versions by checking the Software and Firmware Inventory dialog box (go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*).
+* Verify the new software and firmware versions by checking the software and firmware inventory page (go to menu:Support[Upgrade center], and then click the link for *software and firmware inventory*).
 * If you upgraded controller NVSRAM, any custom settings that you have applied to the existing NVSRAM are lost during the process of activation. You need to apply the custom settings to the NVSRAM again after the process of activation is complete.

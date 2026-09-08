@@ -17,7 +17,7 @@ For each operation listed on the Operations in Progress page, a percentage of co
 
 .Steps
 
-. From the left panel, select menu:Storage[Operations in Progress].
+. From the left panel, select menu:Monitoring[Operations in progress].
 
 +
 
@@ -34,7 +34,7 @@ You can stop a volume copy operation or change its priority.
 
 . Once a volume copy operation is complete, you can select *Clear* to remove it from the list.
 +
-At the top of the Home page, an informational message and yellow wrench icon appear when an operation is complete. This message includes a link that allows you to clear the operation from the Operations in Progress page.
+An informational message and yellow wrench icon appear in the Notifications area, available through the bell icon in the upper corner of the window, when an operation is complete. This message includes a link that allows you to clear the operation from the Operations in Progress page.
 
 Operations that appear on the Operations in Progress page include the following:
 

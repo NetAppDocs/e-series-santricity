@@ -25,7 +25,7 @@ Internal keys are maintained and "`hidden`" in a non-accessible location on the 
 
 . Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 . Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
-. Create an internal security key, which involves defining an identifier and a pass phrase. The identifier is a string that is associated with the security key, and is stored on the controller and on all drives associated with the key. The pass phrase is used to encrypt the security key for backup purposes. To create an internal key, go to menu:Settings[System > Security key management > Create Internal Key].
+. Create an internal security key, which involves defining an identifier and a pass phrase. The identifier is a string that is associated with the security key, and is stored on the controller and on all drives associated with the key. The pass phrase is used to encrypt the security key for backup purposes. To create an internal key, go to menu:System[Create internal security key].
 
 The security key is stored on the controller in a hidden, non-accessible location. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.
 
@@ -36,11 +36,11 @@ External keys are maintained on a separate key management server, using a Key Ma
 . Install secure-capable drives in the storage array. These drives can be Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives.
 . Make sure the Drive Security feature is enabled. If necessary, contact your storage vendor for instructions on enabling the Drive Security feature.
 . Obtain a signed, client certificate file. A client certificate validates the storage array's controllers, so the key management server can trust their KMIP requests.
- .. First, you complete and download a client Certificate Signing Request (CSR). Go to menu:Settings[Certificates > Key Management > Complete CSR].
+ .. First, you complete and download a client Certificate Signing Request (CSR). Go to menu:Certificates[Key management certificates], and then select *Complete CSR*.
  .. Next, you request a signed client certificate from a CA that is trusted by the key management server. (You can also create and download a client certificate from the key management server using the CSR file.)
  .. Once you have a client certificate file, copy that file to the host where you are accessing System Manager.
  .. Alternatively, you can generate a certificate signing request externally using a private and public key pair.
 . Retrieve a certificate file from the key management server, and then copy that file to the host where you are accessing System Manager. A key management server certificate validates the key management server, so the storage array can trust its IP address. You can use a root, intermediate, or server certificate for the key management server.
-. Create an external key, which involves defining the IP address of the key management server and the port number used for KMIP communications. During this process, you also load certificate files. To create an external key, go to menu:Settings[System > Security key management > Create External Key].
+. Create an external key, which involves defining the IP address of the key management server and the port number used for KMIP communications. During this process, you also load certificate files. To create an external key, go to menu:System[Create external security key].
 
 The system connects to the key management server with the credentials you entered. You can then create secure-enabled volume groups or pools, or you can enable security on existing volume groups and pools.

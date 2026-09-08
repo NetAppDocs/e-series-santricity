@@ -32,22 +32,18 @@ You do not need to configure NTP on both controllers; however, doing so improves
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
-+
-The graphic changes to show the controllers instead of the drives.
-
+. From the left panel, select menu:Hardware[Controllers and components].
 . Click the controller you want to configure.
 +
 The controller's context menu appears.
 
 . Select *Configure NTP server*.
 +
-The Configure Network Time Protocol (NTP) Server dialog box opens.
+The Configure network time protocol (NTP) server page opens.
 
-. Select *I want to enable NTP on Controller* (*A* or *B*).
+. Select the *Enable NTP* checkbox.
 +
-Additional selections appear in the dialog box.
+Additional selections appear on the page.
 
 . Select one of the following options:
  ** *Automatically obtain NTP server addresses from DHCP server* -- The detected NTP server addresses are shown.
@@ -62,5 +58,4 @@ If the storage array is set to use a static NTP address, no NTP servers appear.
 . Click *Save*.
 
 .Results
-
-The NTP server configuration is displayed in the controller settings, *DNS / NTP* tab.
+The NTP server configuration is displayed in the controller settings, *Network time protocol (NTP) server settings* section.

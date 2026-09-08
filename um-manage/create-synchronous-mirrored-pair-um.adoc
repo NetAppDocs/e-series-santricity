@@ -91,7 +91,7 @@ In this step, you select the settings that determine how data is synchronized af
 +
 The synchronization priority determines how much of the system resources are used to complete initial synchronization and the resynchronization operation after a communication interruption as compared to service I/O requests.
 +
-The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by going to System Manager and selecting menu:Storage[Synchronous Mirroring > More > Edit Settings].
+The priority set on this dialog applies to both the primary volume and the secondary volume. You can modify the rate on the primary volume at a later time by going to System Manager and selecting menu:Mirroring[Synchronous mirroring > ellipsis icon > Edit Settings].
 +
 There are five synchronization priority rates:
 
@@ -107,7 +107,7 @@ If the synchronization priority is set to the lowest rate, I/O activity is prior
  ** *Manual* (the recommended option) -- Select this option to require synchronization to be manually resumed after communication is restored to a mirrored pair. This option provides the best opportunity for recovering data.
  ** *Automatic* -- Select this option to start resynchronization automatically after communication is restored to a mirrored pair.
 +
-To manually resume synchronization, go to System Manager and select menu:Storage[Synchronous Mirroring], highlight the mirrored pair in the table, and select *Resume* under *More*.
+To manually resume synchronization, go to System Manager and select menu:Mirroring[Synchronous mirroring], highlight the mirrored pair in the table, and select *Resume* under *More*.
 . Click *Finish* to complete the synchronous mirroring sequence.
 
 .Results
@@ -126,4 +126,4 @@ The capacity of each volume is 128 MiB. However, if the volumes are placed in a 
 
 .After you finish
 
-Go to System Manager and menu:Storage[Operations in Progress] to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.
+Go to System Manager and menu:Monitoring[Operations in progress] to view the progress of the synchronous mirroring operation. This operation can be lengthy and could affect system performance.

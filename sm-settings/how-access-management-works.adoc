@@ -20,7 +20,7 @@ Configuration and user authentication works as follows:
 For first-time login, the username `admin` is automatically displayed and cannot be changed. The `admin` user has full access to all functions in the system.
 ====
 
-. The administrator navigates to Access Management in the user interface. The storage array is pre-configured to use local user roles, which are an implementation of RBAC (role-based access control) capabilities.
+. The administrator navigates to Authentication in the user interface. The storage array is pre-configured to use local user roles, which are an implementation of RBAC (role-based access control) capabilities.
 . The administrator configures one or more of the following authentication methods:
  ** *Local user roles* -- Authentication is managed through RBAC capabilities enforced in the storage array. Local user roles include pre-defined user profiles and roles with specific access permissions. Administrators can use these local user roles as the single method of authentication, or use them in combination with a directory service. No configuration is necessary, other than setting passwords for users.
  ** *Directory services* -- Authentication is managed through an LDAP (Lightweight Directory Access Protocol) server and directory service, such as Microsoft's Active Directory. An administrator connects to the LDAP server, and then maps the LDAP users to the local user roles embedded in the storage array.

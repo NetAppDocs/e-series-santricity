@@ -10,7 +10,7 @@ summary: "Use the Upgrade Center to download the latest software and firmware an
 :imagesdir: ../media/
 
 [.lead]
-Use the Upgrade Center to download the latest software and firmware and to upgrade your controllers and drives.
+Use the Upgrade center to download the latest software and firmware and to upgrade your controllers and drives.
 
 == Controller upgrade overview
 You can upgrade your storage array's software and firmware for all the latest features and bug fixes.
@@ -29,7 +29,7 @@ image::../media/sam1130-dwg-upgrade-firmware-locations.gif["Upgrade firmware loc
 
 ^1^ Controller shelf; ^2^ Drive shelf; ^3^ Software, controller firmware, controller NVSRAM, supervisor software; ^4^ Drive firmware; ^5^ IOM firmware; ^6^ Drive firmware
 
-You can view your current software and firmware versions in the Software and Firmware Inventory dialog box. Go to menu:Support[Upgrade Center], and then click the link for *Software and Firmware Inventory*.
+You can view your current software and firmware versions on the software and firmware inventory page. Go to menu:Support[Upgrade center], and then click the link for *software and firmware inventory*.
 
 As part of the upgrade process, the host's multipath/failover driver and/or HBA driver might also need to be upgraded so the host can interact with the controllers correctly. To determine if this is the case, see the https://imt.netapp.com/matrix/#welcome[Netapp Interoperability Matrix Tool^].
 

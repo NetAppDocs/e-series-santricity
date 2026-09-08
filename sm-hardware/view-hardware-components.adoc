@@ -22,7 +22,7 @@ The Hardware page provides sorting and filtering functions that make it easier t
 a|
 Drives, controllers, and components views
 a|
-To switch between front and back shelf views, select either *Drives* or *Controllers & Components* from the far right (the link that appears depends on the current view). The *Drives* view shows drives and any empty drive bays. The *Controllers & Components* view shows the controllers, and any IOM (ESM) modules, power/fan canisters, or empty controller bays. At the bottom of the page, you can also select *Show all drives*.
+To switch between drive and controller shelf views, select menu:Hardware[Drives] or menu:Hardware[Controllers and components] from the left panel. The *Drives* view shows drives and any empty drive bays. The *Controllers and components* view shows the controllers, and any IOM (ESM) modules, power/fan canisters, or empty controller bays. On the Drives view, you can also select *Show all drives*.
 a|
 Drive view filters
 a|

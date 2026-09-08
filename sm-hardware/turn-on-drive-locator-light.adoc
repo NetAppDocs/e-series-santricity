@@ -17,10 +17,10 @@ You can locate single drives or multiple drives shown on the Hardware page.
 
 .Steps
 
-. From the left panel, select *Hardware*.
+. From the left panel, select menu:Hardware[Drives].
 . To locate one or more drives, do one of the following:
- ** *Single drive* -- From the shelf graphic, find the drive you want to physically locate in the array. (If the graphic shows the controllers, click the *Drives* tab.) Click the drive to display its context menu, and then select *Turn on locator light*.
+  ** *Single drive* -- From the shelf graphic, find the drive you want to physically locate in the array. Click the drive to display its context menu, and then select *Turn on locator light*.
 +
 The drive's locator light turns on. When you have physically located the drive, return to the dialog and select *Turn off*.
 
- ** *Multiple drives* -- In the filter fields, select a physical drive type from the left drop-down list and a logical drive type from the right drop-down list. The number of drives matching your criteria is shown on the far right of the fields. Next, you can either click *Turn on locator lights* or select *Locate all filtered drives* from the context menu. When you have physically located the drives, return to the dialog and select *Turn off*.
+ ** *Multiple drives* -- In the filter field, select a physical drive type and a logical drive type. The number of drives matching your criteria is shown on the far right of the field. Next, click *turn on locator lights*. When you have physically located the drives, return to the dialog and select *Turn off*.

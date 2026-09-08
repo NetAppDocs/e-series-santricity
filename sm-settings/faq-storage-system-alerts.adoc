@@ -22,7 +22,7 @@ For storage arrays managed with SANtricity System Manager, you configure alerts 
 
 In addition to email alerts, you can configure alerts to be sent by Simple Network Management Protocol (SNMP) traps or by syslog messages.
 
-To configure SNMP or syslog alerts, go to menu:Settings[Alerts].
+To configure SNMP or syslog alerts, go to menu:Alerts[].
 
 == Why are timestamps inconsistent between the array and alerts?
 

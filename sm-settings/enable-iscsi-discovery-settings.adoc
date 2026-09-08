@@ -27,25 +27,25 @@ You can enable the following settings related to iSCSI discovery:
 
 [NOTE]
 ====
-The iSCSI settings and functions only display on the Settings page if your storage array supports iSCSI.
+The iSCSI settings and functions only display on the System page if your storage array supports iSCSI.
 ====
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
-. Under *iSCSI settings*, click *View/Edit Target Discovery Settings*.
+. From the left panel, select *System*.
+. Under *iSCSI settings*, click *Configure target discovery settings*.
 +
-The Target Discovery Settings dialog box appears. Below the *Enable iSNS server*... field, the dialog box indicates if the controller is already registered.
+The Configure iSCSI target discovery settings page appears. Below the *Enable iSNS server*... field, the page indicates if the controller is already registered.
 
 . To register the controller, select *Enable iSNS server to register my target*, and then select one of the following:
- ** *Automatically obtain configuration from DHCP server* -- Select this option if you want to configure the iSNS server using a Dynamic Host Configuration Protocol (DHCP) server. Be aware that if you use this option, all iSCSI ports on the controller must be configured to use DHCP as well. If necessary, update your controller iSCSI port settings to enable this option.
+ ** *Obtain IPv4 server address automatically from DHCP server* -- Select this option if you want to configure the iSNS server using a Dynamic Host Configuration Protocol (DHCP) server. Be aware that if you use this option, all iSCSI ports on the controller must be configured to use DHCP as well. If necessary, update your controller iSCSI port settings to enable this option.
 +
 [NOTE]
 ====
 For the DHCP server to provide the iSNS server address, you must configure the DHCP server to use Option 43 -- "`Vendor Specific Information.`" This option needs to contain the iSNS server IPv4 address in data bytes 0xa-0xd (10-13).
 ====
 
- ** *Manually specify static configuration* -- Select this option if you want to enter a static IP address for the iSNS server. (If desired, you can cut and paste addresses into the fields.) In the field, enter either an IPv4 address or an IPv6 address. If you configured both, IPv4 is the default. Also enter a TCP listening port (use the default of 3205 or enter a value between 49152 and 65535).
+ ** *Manually specify IPv4 server address* -- Select this option if you want to enter a static IP address for the iSNS server. (If desired, you can cut and paste addresses into the fields.) In the field, enter either an IPv4 address or an IPv6 address. If you configured both, IPv4 is the default. Also enter a TCP listening port (use the default of 3205 or enter a value between 49152 and 65535).
 . To allow the storage array to participate in unnamed discovery sessions, select *Enable unnamed discovery sessions*.
  ** When enabled, iSCSI initiators are not required to specify the target IQN to retrieve the controller's information.
  ** When disabled, discovery sessions are prevented unless the initiator provides the target IQN. Disabling unnamed discovery sessions provides added security.

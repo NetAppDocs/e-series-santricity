@@ -28,7 +28,7 @@ If you do not configure iSNS, the iSCSI host can send the Send Targets command d
 
 == How do I interpret iSER over InfiniBand statistics?
 
-The View iSER over InfiniBand Statistics dialog box displays local target (protocol) statistics and iSER over InfiniBand (IB) interface statistics. All statistics are read-only, and cannot be set.
+The View iSER over InfiniBand statistics dialog box displays local target (protocol) statistics and iSER over InfiniBand (IB) interface statistics. All statistics are read-only, and cannot be set.
 
 * *Local Target (Protocol) statistics* -- Provides statistics for the iSER over InfiniBand target, which shows block-level access to its storage media.
 * *iSER over InfiniBand Interface statistics* -- Provides statistics for all iSER over InfiniBand ports on the InfiniBand interface, which includes performance statistics and link error information associated with each switch port.
@@ -52,22 +52,21 @@ a|
 Configure iSER over InfiniBand ports
 a|
 
-. Select *Hardware*.
-. Select the *Controllers & Components* tab.
+. Select menu:Hardware[Controllers and components].
 . Select a controller.
 . Select *Configure iSER over InfiniBand ports*.
 
 or
 
-. Select menu:Settings[System].
-. Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand Ports*.
+. Select *System*.
+. Scroll down to *iSER over InfiniBand settings*, and then select *Configure iSER over InfiniBand ports*.
 
 a|
 View iSER over InfiniBand statistics
 a|
 
-. Select menu:Settings[System].
-. Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand Statistics*.
+. Select *System*.
+. Scroll down to *iSER over InfiniBand settings*, and then select *View iSER over InfiniBand statistics*.
 
 |===
 
@@ -88,7 +87,7 @@ The iSCSI settings are only available if your storage array supports iSCSI.
 a|
 Manage iSCSI settings
 a|
-. Select menu:Settings[System].
+. Select *System*.
 . Scroll down to *iSCSI settings* to view all the management functions.
 a|
 Configure iSCSI ports
@@ -100,8 +99,8 @@ a|
 a|
 Set the host CHAP secret
 a|
-. Select menu:Settings[System].
-. Scroll down to *iSCSI settings*, and then select *Configure Authentication*.
+. Select *System*.
+. Scroll down to *iSCSI settings*, and then select *Configure iSCSI/iSER over InfiniBand authentication*.
 
 or
 
@@ -118,23 +117,23 @@ or
 a|
 View or end iSCSI sessions
 a|
-. Select menu:Settings[System].
-. Scroll down to *iSCSI settings*, and then select *View/End iSCSI Sessions*.
+. Select *System*.
+. Scroll down to *iSCSI settings*, and then select *View/end iSCSI sessions*.
 
 or
 
-. Select menu:Support[Support Center > Diagnostics] tab.
-. Select *View/End iSCSI Sessions*.
+. Select menu:Support[Diagnostics].
+. Select *View/end iSCSI sessions*.
 a|
 View iSCSI statistics
 a|
-. Select menu:Settings[System].
-. Scroll down to *iSCSI settings*, and then select *View iSCSI Statistics Packages*.
+. Select *System*.
+. Scroll down to *iSCSI settings*, and then select *View iSCSI statistics*.
 
 or
 
-. Select menu:Support[Support Center > Diagnostics] tab.
-. Select *View iSCSI Statistics Packages*.
+. Select menu:Support[Diagnostics].
+. Select *View iSCSI statistics*.
 |===
 
 

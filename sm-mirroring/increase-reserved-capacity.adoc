@@ -40,8 +40,7 @@ You cannot increase reserved capacity for a snapshot volume that is read-only. O
 
 .Steps
 
-. From the left panel, select menu:Storage[Pools and volume groups].
-. Select the *Reserved Capacity* tab.
+. From the left panel, select menu:Storage[Reserved capacity].
 . Select the storage object for which you want to increase reserved capacity, and then click the menu:ellipsis icon[Increase reserved capacity].
 +
 The Increase Reserved Capacity page appears.

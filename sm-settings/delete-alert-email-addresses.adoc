@@ -14,8 +14,7 @@ You can remove the previously defined mail server so that alerts are no longer s
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *Email* tab.
+. From the left panel, select menu:Alerts[Email alerts].
 . From the table, do one of the following:
  ** To remove a mail server so that alerts are no longer sent to the email addresses, select the row for the mail server.
  ** To remove an email address so that alerts are no longer sent to this address, select the row for the email address you want to delete.

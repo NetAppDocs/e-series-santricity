@@ -54,7 +54,7 @@ To select an existing group, make sure *An existing mirror consistency group* is
 To create a new group, do the following:
 
 .. Select *A new mirror consistency group*, and then click *Next*.
-.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 30 characters and may not contain spaces.
+.. Enter a unique name that best describes the data on the volumes that will be mirrored between the two storage arrays. A name can only consist of letters, numbers, and the special characters underscore (_), dash (-), and the hash sign (#). A name may not exceed 60 characters and may not contain spaces.
 .. Select the remote storage array on which you want to establish a mirror relationship with the local storage array.
 +
 [NOTE]
@@ -63,7 +63,7 @@ If your remote storage array is password protected, the system prompts for a pas
 ====
 
 .. Choose whether you want to synchronize the mirrored pairs manually or automatically:
-*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to menu:Storage[Asynchronous Mirroring], select the group from the *Mirror Consistency Groups* tab, and then select menu:More[Manually resynchronize].
+*** *Manual* -- Select this option to manually start synchronization for all mirrored pairs within this group. Note that when you want to perform a resynchronization later, you must launch System Manager for the primary storage array, and then go to menu:Mirroring[Asynchronous mirror consistency groups], select the group, and then select menu:More[Manually resynchronize].
 *** *Automatic* -- Select the desired interval in *Minutes*, *Hours*, or *Days*, from the beginning of the previous update to the beginning of the next update. For example, if the synchronization interval is set at 30 minutes, and the synchronization process starts at 4:00 p.m., the next process starts at 4:30 p.m.
 .. Select the desired alert settings:
 *** For manual synchronizations, specify the threshold (defined by the percentage of the capacity remaining) for when you receive alerts.

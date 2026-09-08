@@ -24,7 +24,7 @@ You cannot change the RAID level of a pool using the System Manager interface. S
 .Steps
 
 . From the left panel, select menu:Storage[Pools and volume groups].
-. Select the pool that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
+. Locate the pool that you want to edit, and then click the menu:ellipsis icon[Edit Settings].
 +
 The Edit pool Setting window appears.
 
@@ -46,7 +46,7 @@ Capacity alerts
 a|
 You can send alert notifications when the free capacity in a pool reaches or exceeds a specified threshold. When the data stored in the pool exceeds the specified threshold, System Manager sends a message, allowing you time to add more storage space or to delete unnecessary objects.
 
-Alerts are shown in the Notifications area on the Dashboard and can be sent from the server to administrators by email and SNMP trap messages.
+Alerts are shown in the Notifications area, available through the bell icon in the upper corner of the window, and can be sent from the server to administrators by email and SNMP trap messages.
 
 You can define the following capacity alerts:
 

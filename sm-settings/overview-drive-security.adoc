@@ -23,7 +23,7 @@ Learn more:
 * link:drive-security-terminology.html[Drive Security terminology]
 
 == How do I configure key management?
-To implement Drive Security, you must have either FDE drives or FIPS drives installed in the array. To configure key management for these drives, you go to menu:Settings[System > Security key management] where you can create either an internal key from the controller's persistent memory or an external key from a key management server. Finally, you enable Drive Security for pools and volume groups by selecting "secure-capable" in the volume settings.
+To implement Drive Security, you must have either FDE drives or FIPS drives installed in the array. To configure key management for these drives, you go to menu:System[Security key management] where you can create either an internal key from the controller's persistent memory or an external key from a key management server. Finally, you enable Drive Security for pools and volume groups by selecting "secure-capable" in the volume settings.
 
 Learn more:
 

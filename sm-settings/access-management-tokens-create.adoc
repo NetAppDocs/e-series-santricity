@@ -16,8 +16,7 @@ NOTE: Tokens do not have passwords, so you must manage them carefully.
 
 .Steps
 
-. From the left panel, select menu:Settings[Access Management].
-. Select the *Access Tokens* tab.
+. From the left panel, select menu:Authentication[Access tokens].
 . Select *View/Edit Access Token Settings*. In the dialog box, make sure that the *Enable access tokens* checkbox is selected. Click *Save* to close out the dialog box.
 . Select *Create Access Token*.
 . In the dialog box, select the duration for the token to be valid.

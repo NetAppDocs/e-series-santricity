@@ -27,18 +27,13 @@ If you already configured the storage array's management ports with Dynamic Host
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
-+
-The graphic changes to show the controllers instead of the drives.
-
-. Select the controller to configure.
+. From the left panel, select menu:Hardware[Controllers and components].
 +
 The controller's context menu appears.
 
 . Select *Configure DNS server*.
 +
-The Configure Domain Name System (DNS) Server dialog box opens.
+The Configure domain name system (DNS) server page opens.
 
 . Select one of the following options:
  ** *Automatically obtain DNS server addresses from DHCP server* -- The detected DNS server addresses are shown.
@@ -53,5 +48,4 @@ If the storage array is set to use a static DNS address, no DNS servers appear.
 . Repeat these steps for the other controller.
 
 .Results
-
-The DNS configuration is displayed in the controller settings, *DNS / NTP* tab.
+The DNS configuration is displayed in the controller settings, *Domain name system (DNS) server settings* section.

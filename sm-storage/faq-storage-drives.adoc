@@ -18,7 +18,7 @@ Hot spares act as standby drives in RAID 1, RAID 5, or RAID 6 volume groups. The
 
 If a drive fails in the storage array, the hot spare drive is automatically substituted for the failed drive without requiring a physical swap. If the hot spare drive is available when a drive fails, the controller uses redundancy data to reconstruct the data from the failed drive to the hot spare drive.
 
-A hot spare drive is not dedicated to a specific volume group. Instead, you can use a hot spare drive for any failed drive in the storage array with the same capacity or smaller capacity. A hot spare drive must be of the same media type (HDD or SSD) as the drives that it is protecting.
+A hot spare drive is not dedicated to a specific volume group. Instead, you can use a hot spare drive for any failed drive in the storage array with the same capacity or smaller capacity. A hot spare drive must be of the same media type (HDD or SSD) as the drives that it is protecting. On EF80 and EF50 systems, hot spare drives must also match the Capacity drive type.
 
 [NOTE]
 ====
@@ -41,8 +41,8 @@ The data from the original drive is copied or reconstructed onto the replacement
 
 == Where can I view the status of a drive undergoing reconstruction?
 
-You can view drive reconstruction status from the Operations in Progress dashboard.
+You can view drive reconstruction status from the Operations in progress dashboard.
 
-Under the Storage menu from the left panel, click the *Operations in Progress* link in the upper right.
+From the left panel, select menu:Monitoring[Operations in progress].
 
 Depending on the drive, the full reconstruction might take a considerable amount of time. If a volume ownership has changed, a full reconstruction might take place instead of the rapid reconstruction.

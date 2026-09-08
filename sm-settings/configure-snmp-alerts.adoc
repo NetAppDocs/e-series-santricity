@@ -33,10 +33,9 @@ This task describes how to identify the SNMP server for trap destinations, and t
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
-On first-time setup, the SNMP tab displays "Configure Communities/Users."
+On first-time setup, the page displays "Configure Communities/Users."
 
 . Select *Configure Communities/Users*.
 +
@@ -54,7 +53,7 @@ Depending on your selection, the Configure Communities dialog box or the Configu
   *** *Authentication credentials* -- Select an authentication protocol, which ensures the identity of users. Next, enter an authentication password, which is required when the authentication protocol is set or changed. The password must be between 8 and 128 characters long.
   *** *Privacy credentials* -- Select a privacy protocol, which is used to encrypt the contents of messages. Next, enter a privacy password, which is required when the privacy protocol is set or changed. The password must be between 8 and 128 characters long.
 When you are done, click *Add*, and then click *Close*.
-. From the Alerts page with the SNMP tab selected, click *Add Trap Destinations*.
+. Click *Add Trap Destinations*.
 +
 The Add Trap Destinations dialog box opens.
 
@@ -62,7 +61,7 @@ The Add Trap Destinations dialog box opens.
  ** *Trap Destination* -- Enter an IPv4 or IPv6 address of the server running an SNMP service.
  ** *Community name or User name* -- From the drop-down, select the community name (SNMPv2c) or user name (SNMPv3) for this trap destination. (If you defined only one, the name already appears in this field.)
  ** *Send Authentication Failure Trap* -- Select this option (the checkbox) if you want to alert the trap destination whenever an SNMP request is rejected because of an unrecognized community name or user name.
-After you click *Add*, the trap destinations and associated names appear in the *SNMP* tab of the *Alerts* page.
+After you click *Add*, the trap destinations and associated names appear on the *SNMP alerts* page.
 . To make sure a trap is valid, select a trap destination from the table, and then click *Test Trap Destination* to send a test trap to the configured address.
 
 .Results

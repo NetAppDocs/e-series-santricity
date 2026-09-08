@@ -14,8 +14,7 @@ You can change the settings for a snapshot volume or snapshot consistency group 
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Click the *Snapshot Volumes* tab.
+. From the left panel, select menu:Snapshots[Snapshot volumes].
 . Select the snapshot volume that you want to change, and then click *View/Edit Settings*.
 +
 The Snapshot Volume Settings dialog box appears.
@@ -34,7 +33,7 @@ The Snapshot Volume Settings dialog box appears.
 a|
 Name
 a|
-You can change the name for the snapshot volume.
+You can change the name for the snapshot volume. Volume names can have a maximum length of 30 characters. The name must be unique.
 a|
 Assigned to
 a|

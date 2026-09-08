@@ -26,7 +26,7 @@ On the local E-Series storage system:
 
 . Ensure that each controller has an iSCSI connection to the remote storage system. With this connection, the local E-Series system acts as an iSCSI initiator that can be set up as a host on the remote system.
 . Create a destination volume for the import operation. Ensure that the volume has a capacity that is equal to or greater than the source volume on the remote storage system, has a matching block size, and is not mapped. See link:create-volumes.html[Create volumes].
-. Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: menu:Settings[System > iSCSI settings > Target IQN].
+. Gather the iSCSI Qualified Name (IQN) for the local E-Series system from its System Manager interface. The IQN will be used later for setting up the local E-Series system as a host on the remote storage system. In System Manager, go to: menu:System[iSCSI settings > Target IQN].
 
 On the remote storage system:
 

@@ -16,7 +16,7 @@ You can gather various types of inventory, status, and performance data about yo
 ++ ++
 [NOTE]
 ====
-If the AutoSupport feature is enabled, you can also collect this data by going to the *AutoSupport* tab and selecting *Send AutoSupport Dispatch*.
+If the AutoSupport feature is enabled, you can also collect this data by going to menu:Support[AutoSupport] and selecting *Send AutoSupport Dispatch*.
 ====
 
 You can run only one collection operation at a time. If you try to start another operation, you receive an error message.
@@ -28,7 +28,7 @@ Perform this operation only when instructed to do so by technical support.
 
 .Steps
 
-. From the left panel, select menu:Support[Support Center > Diagnostics] tab.
+. From the left panel, select menu:Support[Diagnostics].
 . Select *Collect Support Data*.
 . Click *Collect*.
 +

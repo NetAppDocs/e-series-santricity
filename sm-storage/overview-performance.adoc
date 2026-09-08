@@ -20,7 +20,7 @@ Learn more:
 * link:performance-terminology.html[Performance terms]
 
 == How can I view performance data?
-Performance data is available from the Home page and from the Storage page.
+Performance data is available from the Dashboard and from the Monitoring > Performance page.
 
 Learn more:
 

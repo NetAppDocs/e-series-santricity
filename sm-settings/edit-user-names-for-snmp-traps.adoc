@@ -18,8 +18,7 @@ A user must be created for the SNMPv3 trap.
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
 The trap destinations and user names appear in the table.
 
@@ -33,4 +32,4 @@ The trap destinations and user names appear in the table.
 
 .Results
 
-The SNMP tab of the Alerts page displays the updated settings.
+The SNMP alerts page displays the updated settings.

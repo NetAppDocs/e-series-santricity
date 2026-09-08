@@ -26,7 +26,7 @@ To use a fully qualified domain name, you must configure a DNS server on both co
 
 .About this task
 
-This task describes how to configure the mail server, enter email addresses for the sender and recipients, and test all the email addresses entered from the Alerts page.
+This task describes how to configure the mail server, enter email addresses for the sender and recipients, and test all the email addresses entered from the Email alerts page.
 
 [NOTE]
 ====
@@ -35,10 +35,9 @@ Email alerts can also be configured from the Initial Setup wizard.
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *Email* tab.
+. From the left panel, select menu:Alerts[Email alerts].
 +
-If an email server is not yet configured, the Email tab displays "Configure Mail Server."
+If an email server is not yet configured, the page displays "Configure Mail Server."
 
 . Select *Configure Mail Server*.
 +
@@ -57,14 +56,14 @@ To use a fully qualified domain name, you must configure a DNS server on both co
  ** *User name and password* -- If needed, enter a user name and password for authentication with the outgoing sender and the mail server.
  ** *Include contact information in email* -- To include the sender's contact information with the alert message, select this option, and then enter a name and phone number.
 +
-After you click *Save*, the email addresses appear in the Email tab of the Alerts page.
+After you click *Save*, the email addresses appear on the Email alerts page.
 . Select *Add Emails*.
 +
 The Add Emails dialog box opens.
 
 . Enter one or more email addresses for the alert recipients, and then click *Add*.
 +
-The email addresses appear on the Alerts page.
+The email addresses appear on the Email alerts page.
 
 . If you want to make sure the email addresses are valid, click *Test All Emails* to send test messages to the recipients.
 

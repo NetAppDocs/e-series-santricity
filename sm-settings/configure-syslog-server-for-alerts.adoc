@@ -23,10 +23,9 @@ This task describes how to enter the address and port for the syslog server, and
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *Syslog* tab.
+. From the left panel, select menu:Alerts[Syslog alerts].
 +
-If a syslog server is not yet defined, the Alerts page displays "Add Syslog Servers."
+If a syslog server is not yet defined, the page displays "Add Syslog Servers."
 
 . Click *Add Syslog Servers*.
 +

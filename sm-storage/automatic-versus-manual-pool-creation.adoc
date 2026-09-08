@@ -20,7 +20,7 @@ Automatic pool creation occurs when one of these conditions is true:
 * Pools do not exist in the storage array, and there are enough similar drives to create a new pool.
 * New drives are added to a storage array that has at least one pool.
 
-Each drive in a pool must be of the same drive type (HDD or SSD) and have similar capacity. System Manager will prompt you to complete the following tasks:
+Each drive in a pool must be of the same drive type (HDD or SSD) and have similar capacity. On EF80 and EF50 systems, Performance and Capacity NVMe SSD drives are treated as distinct drive types; System Manager creates separate pools for each type when both are present. System Manager will prompt you to complete the following tasks:
 
 * Create a single pool if there are a sufficient number of drives of those types.
 * Create multiple pools if the unassigned capacity consists of different drive types.

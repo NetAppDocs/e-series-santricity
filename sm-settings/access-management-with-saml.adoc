@@ -22,7 +22,7 @@ SAML configuration works as follows:
 The `admin` user has full access to all functions in System Manager.
 ====
 
-. The administrator goes to the *SAML* tab under Access Management.
+. The administrator goes to the *SAML* page under Authentication.
 . An administrator configures communications with the Identity Provider (IdP). An IdP is an external system used to request credentials from a user and determine if the user is successfully authenticated. To configure communications with the storage array, the administrator downloads the IdP metadata file from the IdP system, and then uses System Manager to upload the file to the storage array.
 . An administrator establishes a trust relationship between the Service Provider and the IdP. A Service Provider controls user authorization; in this case, the controller in the storage array acts as the Service Provider. To configure communications, the administrator uses System Manager to export a Service Provider metadata file for each controller. From the IdP system, the administrator then imports those metadata files to the IdP.
 +

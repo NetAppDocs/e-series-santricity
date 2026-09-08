@@ -44,7 +44,7 @@ A Copy Volume operation overwrites data on the target volume and fails all snaps
 .Steps
 
 . From the left panel, select menu:Storage[Volumes].
-. Select the volume that you want to use as the source for the Copy Volume operation, and then click the menu:ellipsis icon[Copy volume].
+. Locate the volume that you want to use as the source for the Copy Volume operation, and then click the menu:ellipsis icon[Copy volume].
 +
 The Copy Volume window appears.
 
@@ -87,8 +87,8 @@ The longer a storage object is active, the larger the reserved capacity should b
 
 .Results
 
-System Manager copies all data from the source volume to the target volume. After the Copy Volume operation is complete, the target volume automatically becomes read-only to the hosts.
+System Manager copies all data from the source volume to the target volume.
 
 .After you finish
 
-Select menu:Storage[Operations in Progress] to view the progress of the Copy Volume operation. This operation can be lengthy and could affect system performance.
+Select menu:Monitoring[Operations in progress] to view the progress of the Copy Volume operation. This operation can be lengthy and could affect system performance.

@@ -29,7 +29,7 @@ Prepare to change the protocol on the host I/O modules by verifying the current 
 
 . If you do not know the current protocol on the host I/O modules in your storage system, verify it using SANtricity System Manager.
 
-.. Select *Settings* > *System*.
+.. Select *System*.
 .. In the *Additional Settings* section, click *Change host I/O protocol* to open that page.
 .. See the default protocol displayed in the *Host I/O Protocol* field.
 +
@@ -89,7 +89,7 @@ NV icon and NV Caching Active LED on the controller
 +
 
 . Confirm operations on the controllers have completed in SANtricity System Manager:
-.. Select *Storage* > *Operations in progress* to see the Overview screen. 
+.. Select *Monitoring* > *Operations in progress* to see the Overview screen. 
 .. Wait for all operations to complete and the Overview screen displays *No operations currently in progress*, before continuing to the next step.
 
 . Delete all defined hosts from the storage system. 
@@ -102,7 +102,7 @@ Using SANtricity System Manager, change the protocol on the host I/O modules, wa
 
 .Steps
 
-. Select *Settings* > *System*.
+. Select *System*.
 . In the *Additional Settings* section, click *Change host I/O protocol* to open that page.
 . In the *Host I/O Protocol* field, click the drop-down menu and choose the protocol you want to use.
 +

@@ -24,7 +24,7 @@ The advantages of SSDs over hard drives include:
 
 == Identifying SSDs
 
-From the Hardware page, you can locate the SSDs in the front-shelf view. Look for drive bays that display a lightning bolt icon, which indicates an SSD is installed.
+From the Hardware > Drives page, you can locate the SSDs in the front-shelf view. Look for drive bays that display a lightning bolt icon, which indicates an SSD is installed.
 
 == Volume groups
 
