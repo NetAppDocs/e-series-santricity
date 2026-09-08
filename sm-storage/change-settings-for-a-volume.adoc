@@ -39,7 +39,7 @@ Name
 a|
 Displays the name of the volume. Change the name of a volume when the current name is no longer meaningful or applicable. Standard and thin volumes names can have a maximum length of 60 characters. Only standard and thin volumes can have names longer than 30 characters. The name must be unique.
 
-NOTE: Downgrades to SANtricity OS software version 11.90 or earlier is not supported if standard or thin volumes exist with names greater than 30 characters. If you plan to downgrade to SANtricity OS software version 11.90 or earlier, change the names of any standard or thin volumes that have names greater than 30 characters before downgrading.
+NOTE: Downgrading to SANtricity OS software version 11.90 or earlier is not supported if standard or thin volumes exist with names greater than 30 characters. If you plan to downgrade to SANtricity OS software version 11.90 or earlier, change the names of any standard or thin volumes that have names greater than 30 characters before downgrading.
 
 a|
 Host
