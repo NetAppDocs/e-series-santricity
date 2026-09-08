@@ -14,26 +14,16 @@ You can change the storage array name that appears in the title bar of SANtricit
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
-. Under *General*, look for the *Name:* field.
+. From the left panel, select *System*.
+. Under *General*, click *Edit storage array name*.
 +
-If a storage array name has not been defined, this field displays "Unknown."
+The Edit storage array name dialog box appears.
 
-. Click the *Edit* (pencil) icon next to the storage array name.
-+
-The field becomes editable.
-
-. Enter a new name.
+. Enter a new name in the *Name* field.
 +
 A name can contain letters, numbers, and the special characters underscore (_), dash (-), and hash sign (#). A name cannot contain spaces. A name can have a maximum length of 30 characters. The name must be unique.
 
-. Click the *Save* (check mark) icon.
-+
-[NOTE]
-====
-If you want to close the editable field without making changes, click the *Cancel* (X) icon.
-====
+. Click *Save*.
 
 .Results
-
 The new name appears in the title bar of SANtricity System Manager.

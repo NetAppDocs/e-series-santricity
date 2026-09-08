@@ -27,7 +27,7 @@ For example, if you are connecting eight different hosts to the storage array, a
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Scroll down to *Additional Settings*, and then click *Change Default Host Operating System Type*.
 . Select the host operating system type that you want to use as the default.
 . Click *Change*.

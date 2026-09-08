@@ -22,8 +22,7 @@ This operation deletes all the snapshot images or schedules associated with the 
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Select the *Snapshot Consistency Groups* tab.
+. From the left panel, select menu:Snapshots[Snapshot consistency groups].
 . Select the snapshot consistency group that you want to delete, and then select menu:Uncommon Tasks[Delete].
 +
 The Confirm Delete Snapshot Consistency Group dialog box appears.

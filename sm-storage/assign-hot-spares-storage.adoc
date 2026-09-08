@@ -16,7 +16,7 @@ You can assign a hot spare as a standby drive for additional data protection in 
 * RAID 1, RAID 5, or RAID 6 volume groups must be created. (Hot spares cannot be used for pools. Instead, a pool uses spare capacity within each drive for its data protection.)
 * A drive that meets the following criteria must be available:
  ** Unassigned, with Optimal status.
- ** Same media type as the drives in the volume group (for example, SSDs).
+ ** Same media type and drive type as the drives in the volume group (for example, SSDs). On EF80 and EF50 systems, hot spare drives must also match the Capacity drive type.
  ** Same interface type as the drives in the volume group (for example, SAS).
  ** Capacity equal to or larger than the used capacity of the drives in the volume group.
 
@@ -31,10 +31,7 @@ Hot spares can also be assigned from the Initial Setup wizard. You can determine
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
+. From the left panel, select menu:Hardware[Drives].
 
 . Select an unassigned drive (shown in gray) that you want to use as a hot spare.
 +

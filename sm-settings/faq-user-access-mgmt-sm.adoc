@@ -22,7 +22,7 @@ Login errors to System Manager might occur for one of these reasons:
 * You have insufficient privileges.
 * The directory server (if configured) might be unavailable. If this is the case, try logging in with a local user role.
 * You attempted to log in unsuccessfully multiple times, which triggered the lockout mode. Wait 10 minutes to re-login.
-* A lockout condition was triggered and your audit log might be full. Go to Access Management and delete old events from the audit log.
+* A lockout condition was triggered and your audit log might be full. Go to Monitoring > Audit log and delete old events from the audit log.
 * SAML authentication is enabled. Refresh your browser to log in.
 
 Login errors to a remote storage array for mirroring tasks might occur for one of these reasons:
@@ -157,4 +157,4 @@ Before configuring a syslog server, keep the following guidelines in mind.
 
 If you configured a syslog server with a TLS protocol, the server cannot receive messages if the certificate becomes invalid for any reason. An error message about the invalid certificate is posted to the audit log.
 
-To resolve this issue, you must first fix the certificate for the syslog server. Once a valid certificate chain is in place, go to menu:Settings[Audit Log > Configure Syslog Servers > Test All].
+To resolve this issue, you must first fix the certificate for the syslog server. Once a valid certificate chain is in place, go to menu:Monitoring[Audit log > Configure Syslog Servers > Test All].

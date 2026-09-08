@@ -23,7 +23,7 @@ Disabling host connectivity reporting also disables automatic load balancing, wh
 
 .Steps
 
-. From the left panel, select menu:Settings[System].
+. From the left panel, select *System*.
 . Scroll down to *Additional Settings*, and then click *Enable/Disable Host Connectivity Reporting*.
 +
 The text below this option indicates whether it is currently enabled or disabled.

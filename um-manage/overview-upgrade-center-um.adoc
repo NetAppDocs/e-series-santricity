@@ -39,7 +39,7 @@ You can activate the upgrade immediately or stage it for a later time. You might
 * *Time of day* -- Activating the software can take a long time, so you might want to wait until I/O loads are lighter. Depending on the I/O load and cache size, a controller upgrade can typically take between 15 to 25 minutes to complete. The controllers reboot and fail over during activation so performance might be lower than usual until the upgrade completes.
 * *Type of package* -- You might want to test the new software and firmware on one storage array before upgrading the files on other storage arrays.
 
-To activate staged software, go to menu:Support[Upgrade Center] and click *Activate* in the area labeled SANtricity OS Controller Software upgrade.
+To activate staged software, go to menu:Support[Upgrade center] and click *Activate* in the area labeled SANtricity OS Controller Software upgrade.
 
 === Health check
 

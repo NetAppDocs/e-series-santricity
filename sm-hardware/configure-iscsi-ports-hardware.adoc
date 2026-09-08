@@ -23,11 +23,7 @@ The iSCSI settings and functions only appear if your storage array supports iSCS
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the drives, click the *Controllers & Components* tab.
-+
-The graphic changes to show the controllers instead of the drives.
-
+. From the left panel, select menu:Hardware[Controllers and components].
 . Click the controller with the iSCSI ports you want to configure.
 +
 The controller's context menu appears.
@@ -54,7 +50,7 @@ To see all port settings, click the *Show more port settings* link on the right 
 |===
 | Port Setting| Description
 a|
-Configured ethernet port speed (Appears only for certain types of Host Interface Cards)
+Configured Ethernet port speed (Appears only for certain types of Host Interface Cards)
 a|
 Select the speed that matches the speed capability of the SFP on the port.
 a|
@@ -109,11 +105,11 @@ Manually specify static configuration
 a|
 Select this option, and then enter a static address in the fields. (If desired, you can cut and paste addresses into the fields.) For IPv4, include the network subnet mask and gateway. For IPv6, include the routable IP address and router IP address.
 a|
-Enable VLAN support     (Available by clicking *Show more settings*.)
+Enable VLAN support (Available by clicking *Show more settings*.)
 a|
 Select this option to enable a VLAN and enter its ID. A VLAN is a logical network that behaves like it is physically separate from other physical and virtual local area networks (LANs) supported by the same switches, the same routers, or both.
 a|
-Enable ethernet priority    (Available by clicking *Show more settings*.)
+Enable Ethernet priority (Available by clicking *Show more settings*.)
 a|
 Select this option to enable the parameter that determines the priority of accessing the network. Use the slider to select a priority between 1 (lowest) and 7 (highest).
 

@@ -16,7 +16,7 @@ A pool provides the logical storage capacity necessary from which you can create
 
 .Before you begin
 
-* You must have a minimum of 11 drives with the same drive type (HDD or SSD).
+* You must have a minimum number of drives of the same type. For EF80 and EF50 systems, the minimum is 6 drives for Performance pools or 12 drives for Capacity pools; in mixed Performance and Capacity arrays, Capacity requires a minimum of 12 drives and Performance requires a minimum of 2 drives. For all other systems, the minimum is 11 drives.
 * Shelf loss protection requires that the drives comprising the pool are located in at least six different drive shelves and there are no more than two drives in a single drive shelf.
 * Drawer loss protection requires that the drives comprising the pool are located in at least five different drawers and the pool includes an equal number of drive shelves from each drawer.
 * When configuring an EF600 or EF300 storage array, make sure each controller has access to an equal number of drives in the first 12 slots and an equal number of drives in the last 12 slots. This configuration helps the controllers use both drive-side PCIe buses more effectively. Currently System Manager allows for drive selection under the Advanced feature when creating a volume group. For pool creation, it is recommended to use all drives in the storage array.
@@ -33,7 +33,7 @@ The Create Pool dialog box appears.
 +
 The results table lists all the possible pools that you can create.
 
-. Select the pool candidate that you want to use based on the following characteristics, and then click *Create*.
+. Locate the pool candidate that you want to use based on the following characteristics, and then click *Create*.
 +
 [cols="25h,~",options="header"]
 |===
@@ -67,6 +67,8 @@ Indicates whether this pool candidate is comprised entirely of secure-capable dr
 ** You can protect your pool with Drive Security, but all drives must be secure-capable to use this feature.
 ** If you want to create an FDE-only pool, look for *Yes - FDE* in the Secure-Capable column. If you want to create a FIPS-only pool, look for *Yes - FIPS* or *Yes - FIPS (Mixed)*. "Mixed" indicates a mixture of 140-2 and 140-3 level drives. If you use a mixture of these levels, be aware that the pool will then operate at the lower level of security (140-2).
 ** You can create a pool comprised of drives that may or may not be secure-capable or are a mix of security levels. If the drives in the pool include drives that are not secure-capable, you cannot make the pool secure.
+
+NOTE: Mixing FDE and FIPS drives within the same storage array is not supported. All secure-capable drives in the system must be of the same type.
 a|
 Enable Security?
 a|

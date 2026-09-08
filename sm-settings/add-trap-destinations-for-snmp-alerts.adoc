@@ -29,8 +29,7 @@ If you do not have the MIB file, you can obtain it from the NetApp Support site:
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
 The currently defined trap destinations appear in the table.
 

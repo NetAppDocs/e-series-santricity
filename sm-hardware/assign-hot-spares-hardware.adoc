@@ -31,25 +31,21 @@ Hot spares can also be assigned from the Initial Setup wizard. You can determine
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
-
+. From the left panel, select menu:Hardware[Drives].
 . Select an unassigned drive (shown in gray) that you want to use as a hot spare.
 +
 The drive's context menu opens.
 
 . Select *Assign hot spare*.
 +
-If the drive is secure-enabled, the Secure Erase Drive? dialog box opens. To use a secure-enabled drive as a hot spare, you must first perform a Secure Erase operation to remove all its data and reset its security attributes.
+If the drive is secure-enabled, the Secure erase drive dialog box opens. To use a secure-enabled drive as a hot spare, you must first perform a Secure Erase operation to remove all its data and reset its security attributes.
 +
 [CAUTION]
 ====
 *Possible loss of data* -- Make sure that you have selected the correct drive. After completing the Secure Erase operation, you cannot recover any of the data.
 ====
 +
-If the drive is *not* secure-enabled, the Confirm Assign Hot Spare Drive dialog box opens.
+If the drive is *not* secure-enabled, the Assign hot spare drive dialog box opens.
 
 . Review the text in the dialog box, and then confirm the operation.
 +

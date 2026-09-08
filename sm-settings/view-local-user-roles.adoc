@@ -2,7 +2,7 @@
 permalink: sm-settings/view-local-user-roles.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, view, local, user, roles,
-summary: "From the Local User Roles tab, you can view the mappings of the user profiles to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the storage array."
+summary: "From the Local user roles page, you can view the mappings of the user profiles to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the storage array."
 ---
 = View local user roles in SANtricity System Manager
 :experimental:
@@ -10,7 +10,7 @@ summary: "From the Local User Roles tab, you can view the mappings of the user p
 :imagesdir: ../media/
 
 [.lead]
-From the Local User Roles tab, you can view the mappings of the user profiles to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the storage array.
+From the Local user roles page, you can view the mappings of the user profiles to the default roles. These mappings are part of the RBAC (role-based access controls) enforced in the storage array.
 
 .Before you begin
 
@@ -22,8 +22,7 @@ The user profiles and mappings cannot be changed. Only passwords can be modified
 
 .Steps
 
-. From the left panel, select menu:Settings[Access Management].
-. Select the *Local User Roles* tab.
+. From the left panel, select menu:Authentication[Local user roles].
 +
 The user profiles are shown in the table:
 

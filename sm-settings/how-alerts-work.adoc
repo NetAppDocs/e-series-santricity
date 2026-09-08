@@ -18,12 +18,12 @@ The alerts process works as follows:
  ** *Email* -- Messages are sent to email addresses.
  ** *SNMP* -- SNMP traps are sent to an SNMP server.
  ** *Syslog* -- Messages are sent to a syslog server.
-. When the storage array's event monitor detects an issue, it writes information about that issue to the event log (available from menu:Support[Event Log]). For example, issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller.
+. When the storage array's event monitor detects an issue, it writes information about that issue to the event log (available from menu:Monitoring[Event log]). For example, issues can include such events as a battery failure, a component moving from Optimal to Offline, or redundancy errors in the controller.
 . If the event monitor determines that the event is "alertable," it then sends a notification using the configured alerting methods (email, SNMP, and/or syslog). All Critical events are considered "alertable," along with some Warning and Informational events.
 
 == Alerts configuration
 
-You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To access the Alerts page, go to menu:Settings[Alerts] from the left panel.
+You can configure alerts from the Initial Setup wizard (for email alerts only) or from the Alerts page. To access the Alerts page, go to menu:Alerts[] from the left panel.
 
 == Alerts information
 

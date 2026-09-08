@@ -18,8 +18,7 @@ A community name must be created.
 
 .Steps
 
-. From the left panel, select menu:Setting[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
 The trap destinations and community names appear in the table.
 
@@ -28,4 +27,4 @@ The trap destinations and community names appear in the table.
 
 .Results
 
-The SNMP tab of the Alerts page displays the updated community name.
+The SNMP alerts page displays the updated community name.

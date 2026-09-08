@@ -52,6 +52,12 @@ NOTE: E4000 controllers do not support iSCSI mirroring.
  ** VLAN: Both local and remote systems must have the same VLAN setting to communicate
  ** iSCSI listening port
  ** Jumbo frames
+
+[NOTE]
+==== 
+Use of Jumbo Frames is recommended for improved CPU performance and throughput.
+====
+
  ** Ethernet priority
 
 [NOTE]
@@ -72,7 +78,7 @@ NOTE: For EF600 and EF300 controllers, the primary and secondary volumes of an a
  ** If the primary volume is FIPS capable, the secondary volume must be FIPS capable.
  ** If the primary volume is FDE capable, the secondary volume must be FDE capable.
  ** If the primary volume is not using Drive Security, the secondary volume must not be using Drive Security.
- * Primary and secondary volumes must not have Resource Partitioning enabled.
+ * Primary and secondary volumes must not have Resource Provisioning enabled.
 
 == Reserved capacity
 

@@ -80,6 +80,6 @@ For a thin volume, if the maximum reported capacity of 256 TiB has been reached,
 
 The system automatically expands the allocated capacity based on the allocated capacity limit. The allocated capacity limit allows you to limit the thin volume's automatic growth below the reported capacity. When the amount of data written gets close to the allocated capacity, you can change the allocated capacity limit.
 
-To change the allocated capacity limit, select menu:Storage[Volumes > Thin Volume Monitoring tab > Change Limit].
+To change the allocated capacity limit, select menu:Storage[Thin volume monitoring > Change Limit].
 
 Because System Manager does not allocate the full capacity when it creates a thin volume, insufficient free capacity might exist in the pool. Insufficient space can block writes to the pool, not only for the thin volumes, but also for other operations that require capacity from the pool (for example, snapshot images or snapshot volumes). However, you can still perform read operations from the pool. If this situation occurs, you receive an alert threshold warning.

@@ -8,7 +8,7 @@ settings:
     harmony_enabled: true
   rss_page: "whats-new.html"
   versions:
-    - version-number: "12.0x"
+    - version-number: "12.1x"
       url: /e-series-santricity
     - version-number: "11.9x"
       url: /e-series-santricity-119
@@ -16,7 +16,7 @@ settings:
       url: /e-series-santricity-118
 sidebar:
   entries:
-  - title: SANtricity software 12.00 docs
+  - title: SANtricity software 12.10 docs
     url: "/index.html"
   - title: Release notes
     entries:
@@ -507,8 +507,6 @@ sidebar:
               url: "/sm-hardware/view-hardware-components.html"
             - title: Show or hide component status
               url: "/sm-hardware/show-or-hide-component-status.html"
-            - title: Switch between front and back views
-              url: "/sm-hardware/switch-between-front-and-back-views.html"
             - title: Change view order of shelves
               url: "/sm-hardware/change-view-order-of-shelves.html"
             - title: Turn on shelf locator light

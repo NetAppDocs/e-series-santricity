@@ -21,11 +21,7 @@ You cannot unassign a hot spare that is currently taking over for a failed drive
 
 .Steps
 
-. From the left panel, select *Hardware*.
-. If the graphic shows the controllers, click the *Drives* tab.
-+
-The graphic changes to show the drives instead of the controllers.
-
+. From the left panel, select menu:Hardware[Drives].
 . Select the hot spare drive (displayed in pink) that you want to unassign.
 +
 If there are diagonal lines through the pink drive bay, the hot spare is currently in use and cannot be unassigned.

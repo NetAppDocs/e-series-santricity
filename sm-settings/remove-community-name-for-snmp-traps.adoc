@@ -14,10 +14,9 @@ You can remove a community name for SNMPv2c traps.
 
 .Steps
 
-. From the left panel, select menu:Settings[Alerts].
-. Select the *SNMP* tab.
+. From the left panel, select menu:Alerts[SNMP alerts].
 +
-The trap destinations and community names appear on the *Alerts* page.
+The trap destinations and community names appear on the *SNMP alerts* page.
 
 . Select *Configure Communities*.
 +
@@ -31,4 +30,4 @@ If trap destinations are associated with this community name, the Confirm Remove
 
 .Results
 
-The community name and its associated trap destination are removed from the Alerts page.
+The community name and its associated trap destination are removed from the SNMP alerts page.

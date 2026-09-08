@@ -2,7 +2,7 @@
 permalink: sm-storage/actions-you-can-perform-on-volumes.html
 sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, volumes
-summary: "You can perform a number of different actions on a volume: increasing capacity, deleting, copying, initializing, redistributing, changing ownership, changing cache settings, and changing media scan settings."
+summary: "You can perform a number of different actions on a volume. Increasing capacity, deleting, copying, initializing, redistributing, changing ownership, changing cache settings, and changing media scan settings."
 ---
 = Actions you can perform on volumes in SANtricity System Manager
 :experimental:
@@ -22,7 +22,7 @@ You Add capacity to a volume by selecting menu:Storage[Volumes] from the left pa
 
 * Add unassigned capacity (in the form of unused drives) to the pool or volume group of the volume. Use this option when no free capacity exists in the pool or volume group.
 +
-You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and Volume Groups > Add capacity].
+You add unassigned capacity to the pool or volume group by selecting menu:Storage[Pools and volume groups > Add capacity].
 +
 If free capacity is not available in the pool or volume group, you cannot increase the capacity of the volume. You must increase the size of the pool or volume group first or delete unused volumes.
 
@@ -54,7 +54,7 @@ You can redistribute volumes by selecting menu:Storage[Volumes > ellipsis icon >
 
 == Change volume ownership
 
-Changing the ownership of a volume changes the preferred controller ownership of the volume. The preferred controller owner of a volume is listed under menu:Storage[Volumes > ellipsis icon > Edit settings].
+Changing the ownership of a volume changes the preferred controller ownership of the volume. The preferred controller owner of a volume is listed under menu:Storage[Volumes > ellipsis icon > View settings].
 
 You can change the ownership of a volume by selecting menu:Storage[Volumes > ellipsis icon > Change volume ownership].
 
@@ -98,7 +98,7 @@ Media scans detect and repair media errors on disk blocks that are infrequently 
 
 Media scans run continuously at a constant rate based on the capacity to be scanned and the scan duration. Background scans may be temporarily suspended by a higher priority background task (for example, reconstruction), but will resume at the same constant rate.
 
-You can enable and set the duration over which the media scan runs by selecting menu:Storage[Volumes > More > Change media scan settings].
+You can enable and set the duration over which the media scan runs by selecting menu:Storage[Volumes > ellipsis icon > Change media scan settings].
 
 A volume is scanned only when the media scan option is enabled for the storage array and for that volume. If redundancy check is also enabled for that volume, redundancy information in the volume will be checked for consistency with data, provided that the volume has redundancy. Media scan with redundancy check is enabled by default for each volume when it is created.
 

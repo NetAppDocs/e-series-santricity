@@ -28,8 +28,7 @@ If the snapshot volume or snapshot consistency group snapshot volume is part of 
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Select the *Snapshot Volumes* tab.
+. From the left panel, select menu:Snapshots[Snapshot volumes].
 +
 The Snapshot Volumes table appears and displays all the snapshot volumes associated with the storage array.
 

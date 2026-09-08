@@ -28,7 +28,7 @@ If a volume group has free capacity areas, the volume group graph contains a lin
 
 By consolidating free capacity, you can create additional volumes from the maximum amount of free capacity in a volume group. You can consolidate the existing free capacity on a selected volume group using one of the following methods:
 
-* When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears on the Home page in the Notification area. Click the *Consolidate free capacity* link to launch the dialog box.
+* When at least one free capacity area is detected for a volume group, the "Consolidate free capacity" recommendation appears in the Notifications area, available through the bell icon in the upper corner of the window. Click the *Consolidate free capacity* link to launch the dialog box.
 * You can also menu:Storage[Pools and volume groups] from the left panel and then select the menu:ellipsis icon[Consolidate volume group free capacity] to launch the dialog box.
 
 If you want to use a specific free capacity area rather than the largest free capacity area, use the Command Line Interface (CLI).

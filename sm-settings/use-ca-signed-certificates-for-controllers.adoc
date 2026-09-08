@@ -36,8 +36,7 @@ Alternatively, you can generate a CSR file using a tool such as OpenSSL and can 
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates].
-. From the Array Management tab, select *Complete CSR*.
+. From the left panel, select menu:Certificates[Array management certificates], and then select *Complete CSR*.
 +
 [NOTE]
 ====
@@ -101,8 +100,7 @@ After you receive signed certificates from the Certificate Authority (CA), impor
 
 .Steps
 
-. From the left panel, select menu:Settings[Certificates]
-. From the Array Management tab, select *Import*.
+. From the left panel, select menu:Certificates[Array management certificates], and then select *Import*.
 +
 A dialog box opens for importing the certificate file(s).
 

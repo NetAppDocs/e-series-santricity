@@ -79,13 +79,13 @@ To manually create a pool: Select *Storage*, and then select *Pools and volume g
 
 * If there are multiple pools of the same drive type, a message appears indicating that System Manager cannot recommend the drives for a pool automatically. However, you can manually add the drives to an existing pool.
 +
-To manually add drives to an existing pool: From the Pools and volume groups page, select the pool, and then click *Add capacity*.
+To manually add drives to an existing pool: From the Pools and volume groups page, locate the pool, and then click *Add capacity*.
 
 == Why are capacity alerts important?
 
 Capacity alerts indicate when to add drives to a pool. A pool needs sufficient free capacity to successfully perform storage array operations. You can prevent interruptions to these operations by configuring SANtricity System Manager to send alerts when the free capacity of a pool reaches or exceeds a specified percentage.
 
-You set this percentage when you create a pool using either the *Pool auto-configuration* option or the *Create pool* option. If you choose the automatic option, default settings automatically determine when you receive alert notifications. If you choose to manually create the pool, you can determine the alert notification settings; or if you prefer, you can accept the default settings. You can adjust these settings later in menu:Settings[Alerts].
+You set this percentage when you create a pool using either the *Pool auto-configuration* option or the *Create pool* option. If you choose the automatic option, default settings automatically determine when you receive alert notifications. If you choose to manually create the pool, you can determine the alert notification settings; or if you prefer, you can accept the default settings. You can adjust these settings later from menu:Storage[Pools and volume groups]. Select the pool, click the menu:ellipsis icon[Edit settings], and then update the *Capacity alert settings*.
 
 [NOTE]
 ====
@@ -98,7 +98,7 @@ If you have created volumes on all available usable capacity, you might not be a
 
 Preservation capacity is the amount of capacity (number of drives) that is reserved on a pool to support potential drive failures. When a pool is created, the system automatically reserves a default amount of preservation capacity depending on the number of drives in the pool. If you have created volumes on all available usable capacity, you cannot increase preservation capacity without adding capacity to the pool by either adding drives or deleting volumes.
 
-You can change the preservation capacity from *Pools and volume groups*. Select the pool that you want to edit. Click the menu:ellipsis icon[Edit Settings], and then select the *Settings* tab.
+You can change the preservation capacity from *Pools and volume groups*. Select the pool that you want to edit. Click *View/Edit Settings*, and then select the *Settings* tab.
 
 [NOTE]
 ====
@@ -109,7 +109,7 @@ Preservation capacity is specified as a number of drives, even though the actual
 
 SANtricity System Manager sets limits for how many drives you can remove from a pool.
 
-* You cannot reduce the number of drives in a pool to be less than 11 drives.
+* You cannot reduce the number of drives in a pool below the minimum threshold. For EF80 and EF50 systems, the minimum is 6 drives for Performance pools and 12 drives for Capacity pools. For all other systems, the minimum is 11 drives.
 * You cannot remove drives if there is not enough free capacity in the pool to contain the data from the removed drives when that data is redistributed to the remaining drives in the pool.
 * You can remove a maximum of 60 drives at a time. If you select more than 60 drives, the Remove Drives option is disabled. If you need to remove more than 60 drives, repeat the Remove Drives operation.
 
@@ -130,6 +130,7 @@ Drives are not eligible for any of the following reasons:
  ** Hard Disk Drives (HDDs) with Solid State Disks (SSDs)
  ** NVMe with SAS drives
  ** Drives with 512-byte and 4KiB volume block sizes
+ ** Performance and Capacity NVMe SSD drives (EF80 and EF50 systems only)
 * If a pool or volume group contains all secure-capable drives, non-secure-capable drives are not listed.
 * If a pool or volume group contains all Federal Information Processing Standards (FIPS) drives, non-FIPS drives are not listed.
 * If a pool or volume group contains all Data Assurance (DA)-capable drives and there is at least one DA-enabled volume in the pool or volume group, a drive that is not DA capable is not eligible, so it cannot be added to that pool or volume group. However, if there is no DA-enabled volume in the pool or volume group, a drive that is not DA capable can be added to that pool or volume group. If you decide to mix these drives, keep in mind that you cannot create any DA-enabled volumes.

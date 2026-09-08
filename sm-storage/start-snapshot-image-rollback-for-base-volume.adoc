@@ -31,8 +31,7 @@ The host can immediately access the new rolled-back base volume, but the existin
 
 .Steps
 
-. From the left panel, select menu:Storage[Snapshots].
-. Select the *Snapshot Images* tab.
+. From the left panel, select menu:Snapshots[Snapshot images].
 . Select the snapshot image, and then select menu:Rollback[Start].
 +
 The Confirm Start Rollback dialog box appears.
@@ -58,6 +57,6 @@ System Manager performs the following actions:
 
 .After you finish
 
-Select menu:Storage[Operations in Progress] to view the progress of the rollback operation.
+Select menu:Monitoring[Operations in progress] to view the progress of the rollback operation.
 
 If the rollback operation is not successful, the operation pauses. You can resume the paused operation and, if still unsuccessful, follow the Recovery Guru procedure to correct the problem or contact technical support.
