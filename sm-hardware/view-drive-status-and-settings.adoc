@@ -22,7 +22,7 @@ The drive's context menu opens.
 +
 The Drive settings panel opens.
 
-. . To see all settings, scroll through the Drive settings panel.
+. To see all settings, scroll through the Drive settings panel.
 +
 .Field details
 [%collapsible]
