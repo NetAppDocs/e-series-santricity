@@ -33,7 +33,7 @@ Two-way authentication allow both the controller and the iSCSI hosts to perform 
 +
 The Configure Authentication window appears.
 
-. Check the *Enable Chap Authentication* box to enable authentication.
+. Select the *Enable CHAP authentication* checkbox to enable authentication.
 + 
 If you do not want to enable CHAP authentication, leave the box unchecked.
 
