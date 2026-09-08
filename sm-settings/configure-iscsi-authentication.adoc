@@ -24,7 +24,7 @@ You can enable CHAP authentication and then specify the Target CHAP secret for o
 
 One-way authentication allow the controller to authenticate the identity of the iSCSI hosts (uni-directional authentication).
 
-Two-way authentication allow both the controller and the iSCSI hosts to perform authentication (bi-directional authentication). This option provides a second level of security by enabling the controller to authenticate the identity of the iSCSI hosts; and in turn, the iSCSI hosts to authenticate the identity of the controller.
+Two-way authentication allows both the controller and the iSCSI hosts to perform authentication (bi-directional authentication). This option provides a second level of security by enabling the controller to authenticate the identity of the iSCSI hosts; and in turn, the iSCSI hosts to authenticate the identity of the controller.
 
 .Steps
 
