@@ -48,6 +48,78 @@ When pools are created, a certain amount of capacity is preserved for emergency 
 
 After the pool is created, you can change the preservation capacity value to more or less capacity, or even set it to no preservation capacity (0 drive's worth). The maximum amount of capacity that can be preserved (expressed as a number of drives) is 10, but the capacity that is available might be less, based on the total number of drives in the pool.
 
+=== Maximum capacity
+
+The maximum Dynamic Disk Pool (DDP) capacity supported per storage array depends on the controller model and the SANtricity OS version installed.
+
+.Maximum Dynamic Disk Pool (DDP) capacity per array (PiB)
+[cols="8*",options="header"]
+|===
+|SANtricity OS version |E280x |E5700 |EF300 |EF600 |E4000 |EF50 |EF80
+
+|SANtricity 11.90 R6 and below
+|6
+|6
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+|6
+| _*Not applicable_
+| _*Not applicable_
+
+|SANtricity 11.90 R7
+|6
+|8
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+a|
+* 16 (NVMe shelf)
+* 8 (SAS expansion shelf)
+|6
+| _*Not applicable_
+| _*Not applicable_
+
+|SANtricity 12.00 GA
+| _*Not applicable_
+| _*Not applicable_
+| _*Not applicable_
+| _*Not applicable_
+| _*Not applicable_
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+
+|Raider.1 and above
+| _*Not applicable_
+| _*Not applicable_
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+a|
+* 16 (NVMe shelf)
+* 8 (SAS expansion shelf)
+|6
+a|
+* 12 (NVMe shelf)
+* 6 (SAS expansion shelf)
+a|
+* 16 (NVMe shelf)
+* 8 (SAS expansion shelf)
+
+8+a|
+[NOTE]
+====
+For cells with two numbers, the first number is for the NVMe shelf and the second number is for SAS expansion shelves. The SAS and NVMe max DDP capacities are not additive. DDP capacity in the base tray subtracts from maximum capacity in the SAS expansion shelves and vice versa.
+====
+|===
+
 == Volume groups
 
 Volume groups define how capacity is allotted in the storage system to volumes. Disk drives are organized into RAID groups and volumes reside across the drives in a RAID group. Therefore, volume group configuration settings identify which drives are part of the group and what RAID level is used.
