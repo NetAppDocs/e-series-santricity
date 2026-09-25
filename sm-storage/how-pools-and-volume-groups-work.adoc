@@ -53,61 +53,61 @@ After the pool is created, you can change the preservation capacity value to mor
 The maximum Dynamic Disk Pool (DDP) capacity supported per storage array depends on the controller model and the SANtricity OS version installed.
 
 .Maximum Dynamic Disk Pool (DDP) capacity per array (PiB)
-[cols="8*",options="header"]
+[cols="18,13,13,10,13,13,10,10",options="header"]
 |===
-|SANtricity OS version |E280x |E5700 |EF300 |EF600 |E4000 |EF50 |EF80
+|OS version |EF50 |EF80 |E4000 |EF300 |EF600 |E280x |E5700
 
-|SANtricity 11.90 R6 and below
-|6
+|11.90 R6 and below
+|_Not applicable_
+|_Not applicable_
 |6
 a|
-* 12 (NVMe shelf)
-* 6 (SAS expansion shelf)
+* 12 (NVMe)
+* 6 (SAS)
 a|
-* 12 (NVMe shelf)
-* 6 (SAS expansion shelf)
+* 12 (NVMe)
+* 6 (SAS)
 |6
-| _*Not applicable_
-| _*Not applicable_
+|6
 
-|SANtricity 11.90 R7
+|11.90 R7
+|_Not applicable_
+|_Not applicable_
+|6
+a|
+* 12 (NVMe)
+* 6 (SAS)
+a|
+* 16 (NVMe)
+* 8 (SAS)
 |6
 |8
-a|
-* 12 (NVMe shelf)
-* 6 (SAS expansion shelf)
-a|
-* 16 (NVMe shelf)
-* 8 (SAS expansion shelf)
-|6
-| _*Not applicable_
-| _*Not applicable_
 
-|SANtricity 12.00 GA
-| _*Not applicable_
-| _*Not applicable_
-| _*Not applicable_
-| _*Not applicable_
-| _*Not applicable_
+|12.00 GA
 |12
 |12
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
 
-|SANtricity 12.10 and above
-| _*Not applicable_
-| _*Not applicable_
+|12.10 and above
 a|
-* 12 (NVMe shelf)
-* 6 (SAS expansion shelf)
+* 12 (NVMe)
+* 6 (SAS)
 a|
-* 16 (NVMe shelf)
-* 8 (SAS expansion shelf)
+* 16 (NVMe)
+* 8 (SAS)
 |6
 a|
-* 12 (NVMe shelf)
-* 6 (SAS expansion shelf)
+* 12 (NVMe)
+* 6 (SAS)
 a|
-* 16 (NVMe shelf)
-* 8 (SAS expansion shelf)
+* 16 (NVMe)
+* 8 (SAS)
+|_Not applicable_
+|_Not applicable_
 
 8+a|
 [NOTE]
