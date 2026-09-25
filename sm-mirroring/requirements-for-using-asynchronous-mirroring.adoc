@@ -60,7 +60,7 @@ iSCSI ports are configured at the array level on a port-by-port basis. Intercont
 +
 [NOTE]
 ====
-Use of Jumbo Frames is recommended for improved CPU performance and throughput and functional stability.
+Use of Jumbo Frames is recommended for improved CPU performance, throughput, and functional stability.
 ====
 
  ** Ethernet priority
