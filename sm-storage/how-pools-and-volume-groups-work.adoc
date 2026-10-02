@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, pools, volume group,
 summary: "To provision storage, you create either a pool or volume group that will contain the Hard Disk Drives (HDD) or Solid State Disk (SSD) drives that you want to use in your storage array."
 ---
-= How pools and volume groups workin SANtricity software
+= How pools and volume groups work in SANtricity software
 :icons: font
 :imagesdir: ../media/
 
@@ -47,6 +47,74 @@ Pools have a minimum capacity of 11 drives; however, one drive's worth of capaci
 When pools are created, a certain amount of capacity is preserved for emergency use. This capacity is expressed in terms of a number of drives in System Manager, but the actual implementation is spread across the entire pool of drives. The default amount of capacity that is preserved is based on the number of drives in the pool.
 
 After the pool is created, you can change the preservation capacity value to more or less capacity, or even set it to no preservation capacity (0 drive's worth). The maximum amount of capacity that can be preserved (expressed as a number of drives) is 10, but the capacity that is available might be less, based on the total number of drives in the pool.
+
+=== Maximum capacity
+
+The maximum Dynamic Disk Pool (DDP) capacity supported per storage array depends on the controller model and the SANtricity OS version installed.
+
+.Maximum Dynamic Disk Pool (DDP) capacity per array (PiB)
+[cols="18,13,13,10,13,13,10,10",options="header"]
+|===
+|OS version |EF50 |EF80 |E4000 |EF300 |EF600 |E280x |E5700
+
+|11.90 R6 and below
+|_Not applicable_
+|_Not applicable_
+|6
+a|
+* 12 (NVMe)
+* 6 (SAS)
+a|
+* 12 (NVMe)
+* 6 (SAS)
+|6
+|6
+
+|11.90 R7
+|_Not applicable_
+|_Not applicable_
+|6
+a|
+* 12 (NVMe)
+* 6 (SAS)
+a|
+* 16 (NVMe)
+* 8 (SAS)
+|6
+|8
+
+|12.00 GA
+|12
+|12
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
+|_Not applicable_
+
+|12.10 and above
+a|
+* 12 (NVMe)
+* 6 (SAS)
+a|
+* 16 (NVMe)
+* 8 (SAS)
+|6
+a|
+* 12 (NVMe)
+* 6 (SAS)
+a|
+* 16 (NVMe)
+* 8 (SAS)
+|_Not applicable_
+|_Not applicable_
+
+8+a|
+[NOTE]
+====
+For cells with two numbers, the first number is for the NVMe shelf and the second number is for SAS expansion shelves. The SAS and NVMe max DDP capacities are not additive. DDP capacity in the base tray subtracts from maximum capacity in the SAS expansion shelves and vice versa.
+====
+|===
 
 == Volume groups
 
