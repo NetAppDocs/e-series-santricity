@@ -18,7 +18,7 @@ Learn more:
 
 * link:considerations-for-discovering-arrays.html[Considerations for discovering arrays]
 * link:discover-multiple-arrays.html[Discover multiple storage arrays]
-* link:discover-single-array.html[Discover single array]
+* link:discover-single-array.html[Discover a single storage array]
 
 == How do I manage arrays?
 After you discover arrays, go to the *Manage - All* page. From this page, you can scroll through a list of discovered storage arrays in your network, view their status, and perform operations on a single array or on a group of arrays.
@@ -29,4 +29,4 @@ Learn more:
 
 * link:launch-considerations.html[Considerations for accessing System Manager]
 * link:launch-system-manager.html[Manage an individual storage array]
-* link:storage-array-status.html[View storage array status]
+* link:storage-array-status.html[Storage array status]

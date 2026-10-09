@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, ca-signed, certificates
 summary: "You can obtain and import CA-signed certificates for secure access to the management system hosting Unified Manager."
 ---
-= Use CA-signed certificates for the management system
+= Use CA-signed certificates for SANtricity Unified Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

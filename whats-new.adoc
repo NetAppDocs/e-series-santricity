@@ -70,7 +70,7 @@ a|Dynamic Disk Pools segment size now defaults to 32K for SSD and NVMe-based sys
 a|For Dynamic Disk Pools on SSD and NVMe-based systems, the default segment size has been changed to 32K. Previously, the dynamic disk pools default segment size was fixed at 128K for these systems. This change optimizes performance for workloads that involve a mix of small and large I/O operations. 
 
 a|Script editor now available in SANtricity System Manager
-a|A new script editor is now available within the SANtricity System Manager. The Script editor allows you to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk. The Script editor provides syntax checking and command execution capabilities for managing your storage system. For more information, see link:sm-support/use-script-editor.html[Using the Script editor^].
+a|A new script editor is now available within the SANtricity System Manager. The Script editor allows you to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk. The Script editor provides syntax checking and command execution capabilities for managing your storage system. For more information, see link:sm-support/use-script-editor.html[Use the Script editor in SANtricity System Manager^].
 
 
 |===
