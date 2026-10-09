@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= SANtricity System Manager 12.10
+= Hardware components in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 
