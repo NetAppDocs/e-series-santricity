@@ -10,7 +10,6 @@ summary: You can change the protocol on the host I/O modules for your controller
 :imagesdir: ../media/
 
 [.lead]
-
 You can change the protocol on the host I/O modules for your controllers when you need a different protocol on your existing I/O modules, as part of an I/O module upgrade, or when the default protocol on new controllers part of a new storage system installation or controller upgrade is not the protocol you want.
 
 .About this task
