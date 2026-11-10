@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: santricity, system, manager,
 summary: "SANtricity System Manager 12.10"
 ---
-= Learn about SANtricity System Manager
+= SANtricity System Manager 12.10
 :icons: font
 :imagesdir: ../media/
 

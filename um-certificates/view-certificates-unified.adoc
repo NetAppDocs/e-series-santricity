@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, view certificates
 summary: "You can view summary information for a certificate, which includes the organization using the certificate, the authority that issued the certificate, the period of validity, and the fingerprints (unique identifiers)."
 ---
-= View certificates in SANtricity Unified Manager
+= View certificates
 :icons: font
 :imagesdir: ../media/
 

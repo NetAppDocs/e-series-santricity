@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, resolve, untrusted, certificates
 summary: "Untrusted certificates occur when a storage array attempts to establish a secure connection to SANtricity Unified Manager, but the connection fails to confirm as secure."
 ---
-= Resolve untrusted certificates in SANtricity Unified Manager
+= Resolve untrusted certificates
 :experimental:
 :icons: font
 :imagesdir: ../media/

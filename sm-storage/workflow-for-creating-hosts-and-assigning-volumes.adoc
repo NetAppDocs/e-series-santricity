@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, host, creation, volume, assignment
 summary: "The following figure illustrates how to configure host access."
 ---
-= Host creation and volume assignment workflow in SANtricity System Manager
+= How host creation and volume assignment works in SANtricity System Manager
 :icons: font
 :imagesdir: ../media/
 

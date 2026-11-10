@@ -29,7 +29,7 @@ You configure asynchronous or synchronous mirroring in Unified Manager, and then
 
 Learn more:
 
-* link:mirroring-configuration-workflow.html[Mirroring configuration workflows]
+* link:mirroring-configuration-workflow.html[Mirroring configuration workflow]
 * link:requirements-for-using-mirroring.html[Requirements for using mirroring]
 * link:create-asynchronous-mirrored-pair-um.html[Create asynchronous mirrored pair]
 * link:create-synchronous-mirrored-pair-um.html[Create synchronous mirrored pair]

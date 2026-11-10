@@ -5,7 +5,7 @@ keywords: SANtricity, System Manager, E-Series, script editor, script file, exec
 summary: "Use the Script editor to create or edit a script file, save a script file to the local disk of the storage management station, or load a script file from disk."
 ---
 
-= Use the Script editor in SANtricity System Manager
+= Using the Script editor
 :experimental:
 :icons: font
 :imagesdir: ../media/
