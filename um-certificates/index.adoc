@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords:
 summary: ''
 ---
-= SANtricity Unified Manager 8
+= Learn about certificate management in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 
