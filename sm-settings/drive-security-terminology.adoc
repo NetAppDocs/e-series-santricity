@@ -43,6 +43,8 @@ a|
 Secure-capable drives
 a|
 Secure-capable drives can be either Full Disk Encryption (FDE) drives or Federal Information Processing Standard (FIPS) drives, which encrypt data during writes and decrypt data during reads. These drives are considered secure-_capable_ because they can be used for additional security using the Drive Security feature. If the Drive Security feature is enabled for volume groups and pools used with these drives, the drives become secure-_enabled_.
+
+NOTE: Mixing FDE and FIPS drives within the same storage array is not supported. All secure-capable drives in the system must be of the same type.
 a|
 Secure-enabled drives
 a|

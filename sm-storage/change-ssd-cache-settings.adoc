@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, ssd, cache, settings
 summary: "You can edit the settings of the SSD Cache. Current settings for the SSD cache are accessible through the View settings option."
 ---
-= Change the SSD cache settings in SANtricity System Manager
+= Change the SSD Cache settings in SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/

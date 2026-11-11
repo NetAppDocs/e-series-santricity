@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, workflow, mirroring, asynchronously,
 summary: "You configure asynchronous mirroring using the following workflow."
 ---
-= Asynchronous mirroring workflow for SANtricity software
+= Mirror a volume asynchronously in SANtricity software
 :icons: font
 :imagesdir: ../media/
 

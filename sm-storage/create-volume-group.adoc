@@ -28,6 +28,8 @@ Review these guidelines before you create a volume group:
 ** If you select RAID 5, you must add a minimum of three drives to create the volume group.
 ** If you select RAID 6, you must add a minimum of five drives to create the volume group.
 
+NOTE: Mixing FDE and FIPS drives within the same storage array is not supported. All secure-capable drives in the system must be of the same type.
+
 .Steps
 
 . From the left panel, select menu:Storage[Pools and volume groups].

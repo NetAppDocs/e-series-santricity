@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: 
 summary: "This FAQ can help if you're just looking for a quick answer to a question."
 ---
-= Asynchronous mirroring FAQ for SANtricity System Manager
+= Async mirroring FAQ for SANtricity System Manager
 :experimental:
 :icons: font
 :imagesdir: ../media/
