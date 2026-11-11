@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, Unified Manager, E-Series, reset, management, certificates
 summary: "You can revert the management certificate to the original, factory self-signed state."
 ---
-= Reset management certificates
+= Reset management certificates in SANtricity Unified Manager
 :icons: font
 :imagesdir: ../media/
 
